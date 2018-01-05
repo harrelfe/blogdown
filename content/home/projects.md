@@ -34,7 +34,7 @@ filter_default = 0
 
 [[filter]]
   name = "Bayes"
-  tag = "bayes"
+  tag = ".bayes"
 
 +++
 
