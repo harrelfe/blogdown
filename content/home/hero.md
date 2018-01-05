@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15
 
-title = "Academic"
+title = "Statistical Thinking"
 
 # Order that this section will appear in.
 weight = 3
