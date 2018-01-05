@@ -1,9 +1,8 @@
 +++
 title = "New Year Goals"
-date = 2017-12-29T10:36:00Z
-updated = 2018-01-02T07:45:43Z
-blogimport = true
-type = "oldPost"
+date = 2017-12-29
+updated = 2018-01-02
+draft = false
 [author]
 	name = "Frank Harrell"
 	uri = "https://www.blogger.com/profile/15263496257600444093"
