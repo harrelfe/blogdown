@@ -1,5 +1,5 @@
 +++
-title = "All Publications"
+title = ""
 date = "2018-01-05"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -14,11 +14,11 @@ authors = ["FE Harrell"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["0"]
+# publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
-publication = "All publications"
-publication_short = "All pubs"
+publication = ""
+#publication_short = "All pubs"
 
 # Abstract and optional shortened version.
 abstract = ""
@@ -35,19 +35,19 @@ selected = true
 #projects = ["example-external-project"]
 
 # Links (optional).
-url_pdf = ""
-url_preprint = ""
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
+#url_pdf = ""
+#url_preprint = ""
+#url_code = "#"
+#url_dataset = "#"
+#url_project = "#"
+#url_slides = "#"
+#url_video = "#"
+#url_poster = "#"
+#url_source = "#"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://citeulike.org/user/harrelfe/author/Harrell"}]
+url_custom = [{name = "citeulike.org", url = "http://citeulike.org/user/harrelfe/author/Harrell"}]
 
 # Does the content use math formatting?
 math = false
