@@ -1,22 +1,22 @@
 +++
-date = 2017-01-01T00:00:00  # Schedule page publish date.
+date = 2018-01-01T00:00:00  # Schedule page publish date.
 
-title = "Example Talk"
-time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+title = "Why Bayes for Clinical Trials?"
+time_start = 2017-11-16T00:00:00
+time_end = 2017-11-16T00:00:00
 abstract = ""
 abstract_short = ""
-event = "Academic Theme Conference"
-event_url = "https://example.org"
-location = "London, United Kingdom"
+event = "UNC Department of Biostatistics"
+#event_url = "https://example.org"
+location = "Chapel Hill, NC"
 
 # Is this a selected talk? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
+# projects = [""]
 
 # Links (optional).
 url_pdf = ""
@@ -37,5 +37,3 @@ image = "headers/bubbles-wide.jpg"
 caption = "My caption :smile:"
 
 +++
-
-Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
