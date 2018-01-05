@@ -3,6 +3,7 @@ title = "New Year Goals"
 date = 2017-12-29
 updated = 2018-01-02
 draft = false
+tags = []
 [author]
 	name = "Frank Harrell"
 	uri = "https://www.blogger.com/profile/15263496257600444093"
