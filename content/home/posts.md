@@ -9,7 +9,7 @@ title = "Recent Posts"
 subtitle = ""
 
 # Order that this section will appear in.   Original value 40
-weight = 3
+weight = 5
 
 # Filter posts by tag.
 #  By default, show all recent posts.
