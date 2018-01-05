@@ -15,14 +15,5 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+I teach the BIOS7330 _Regression Modeling Strategies_ in the Biostatistics Graduate Program at Vanderbilt University in the fall semester.  I teach a 4-day version of this course each May at Vanderbilt.  Registration information for the short course may be found [here](http://biostat.mc.vanderbilt.edu/RmS).
 
-I am a teaching instructor for the following courses at University X:
-
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
