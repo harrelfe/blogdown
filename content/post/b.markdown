@@ -2,7 +2,7 @@
 title: 'test Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
 date: '2017-10-09'
-slug: bayes-seq
+slug: tbayes-seq
 tags:
   - bayes
   - sequential
