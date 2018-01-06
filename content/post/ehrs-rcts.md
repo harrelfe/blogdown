@@ -37,7 +37,7 @@ confounding by indication, incomplete data, and unreliable data, first
 consider a nearly ideal observational treatment study then consider an
 ideal RCT. First, consider a potentially optimal observational cohort
 design that has some possibility of providing an accurate treatment
-outcome comparison. Suppose that an investigator has obtained \$2M in
+outcome comparison. Suppose that an investigator has obtained $2M in
 funding to hire trained research nurses to collect data completely and
 accurately, and she has gone to the trouble of asking five expert
 clinicians in the disease/treatment area to each independently list the
