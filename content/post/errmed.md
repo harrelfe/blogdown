@@ -4,8 +4,6 @@ date = 2017-04-08T08:36:00Z
 updated = 2017-12-02T08:29:12Z
 tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change scores", "RCT", "personalized medicine", "responder analysis", "hypothesis testing", "medical literature"]
 [author]
-	name = "Frank Harrell"
-	uri = "https://www.blogger.com/profile/15263496257600444093"
 +++
 
 1.  [Misinterpretation of P-values and Main Study Results](#pval)
@@ -84,9 +82,9 @@ among the paper's authors.  I'll be commenting on papers in which I
 encounter statistical modeling, validation, or interpretation problems.
 
 
+<a name="pval"></a>
 ### Misinterpretation of P-values and of Main Study Results
 
-<a name="pval"></a>
 One of the most problematic examples I've seen is in the March 2017
 paper [Levosimendan in Patients with Left Ventricular Dysfunction
 Undergoing Cardiac
@@ -206,7 +204,8 @@ from an "insignificant" p-value. Other thoughts concerning the ORBITA
 trial may be found
 [here](http://www.fharrell.com/2017/11/statistical-criticism-is-easy-i-need-to.html).
 
-### Dichotomania <a name="catg"></a>
+<a name="catg"></a>
+### Dichotomania
 
 Dichotomania, as discussed by [Stephen
 Senn](https://www.researchgate.net/profile/Stephen_Senn/publication/221689734_Dichotomania_an_obsessive_compulsive_disorder_that_is_badly_affecting_the_quality_of_analysis_of_pharmaceutical_trials/links/0fcfd5109734cb6268000000.pdf?origin=publication_list),
@@ -279,7 +278,8 @@ When a clinical trial's response variable is one that is arbitrary,
 loses information and power, is difficult to interpret, and means
 different things for different patients, expect trouble.
 
-### Change from Baseline <a name="change"></a>
+<a name="change"></a>
+### Change from Baseline 
 
 Many authors and pharmaceutical clinical trialists make the mistake of
 analyzing change from baseline instead of making the raw follow-up
@@ -478,7 +478,7 @@ An analysis that would have answered my questions would have been to
     i.e., a smooth 3-D relationship between baseline T, 6m T, and log
     hazard, allowing for interaction, and restricting the 3-D surface to
     be smooth. See for example [BBR Figure
-    4.23](http://www.fharrell.com/p/blog-page.html). One can do this by
+    4.23](http://www.fharrell.com/links). One can do this by
     using restricted cubic splines in both T's and by computing
     cross-products of these terms for the interactions. By fitting a
     flexible smooth surface, the data would be able to speak for
@@ -510,7 +510,8 @@ the original markers. They will also continue to be surprised that other
 researchers find different "cutpoints", not realizing that when things
 don't exist, people will forever argue about their manifestations.
 
-### Improper Subgrouping <a name="subgroup"></a>
+<a name="subgroup"></a>
+### Improper Subgrouping 
 
 The JAMA Internal Medicine Paper [Effect of Statin Treatment vs Usual
 Care on Primary Cardiovascular Prevention Among Older
@@ -539,7 +540,8 @@ to have a linearly increasing (in age) enrollment function that reaches
 a probability of 1.0 at 65y. Assuming that something magic happens at
 age 65 with regard to cholesterol reduction is undoubtedly a mistake.
 
-### Serial Data and Response Trajectories <a name="serial"></a>
+<a name="serial"></a>
+### Serial Data and Response Trajectories 
 
 Serial data (aka longitudinal data) with multiple follow-up assessments
 per patient presents special challenges and opportunities. My preferred
