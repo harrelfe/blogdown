@@ -3,26 +3,18 @@ title = "EHRs and RCTs:  Outcome Prediction vs. Optimal Treatment Selection"
 date = 2017-06-01T14:18:00Z
 updated = 2017-07-17T06:42:04Z
 tags = ["prediction", "generalizability", "drug-evaluation", "evidence", "subgroup", "EHR", "design", "medicine", "inference", "big-data", "RCT", "personalized medicine"]
-blogimport = true 
-type = "oldPost"
-[author]
-	name = "Frank Harrell"
-	uri = "https://www.blogger.com/profile/15263496257600444093"
 +++
 
 
 <div align="center">
-
-Frank Harrell\
-Professor of Biostatistics\
-Vanderbilt University School of Medicine\
-\
-Laura Lazzeroni\
+Frank Harrell<br>
+Professor of Biostatistics<br>
+Vanderbilt University School of Medicine<br><br>
+Laura Lazzeroni<br>
 Professor of Psychiatry and, by courtesy, of Medicine (Cardiovascular
-Medicine) and of Biomedical Data Science\
-Stanford University School of Medicine\
+Medicine) and of Biomedical Data Science<br>
+Stanford University School of Medicine<br>
 [**Revised July 17, 2017**]{style="font-size: 70%;"}
-
 </div>
 
 It is often said that randomized clinical trials (RCTs) are the gold
@@ -80,7 +72,7 @@ accurate and relevant baseline data capture. Study inclusion criteria
 allowed for a wide range of age and severity of disease. The endpoint is
 time until a devastating clinical event. The treatment B:treatment A
 covariate-adjusted hazard ratio is 0.8 with 0.95 credible interval of
-\[0.65, 0.93\]. The authors, avoiding unreliable subgroup analysis,
+[0.65, 0.93]. The authors, avoiding unreliable subgroup analysis,
 perform a careful but comprehensive assessment of interaction between
 patient types and treatment effect, finding no evidence for
 heterogeneity of treatment effect (HTE). The hazard ratio of 0.8 is
@@ -104,7 +96,7 @@ HTE, and because treatment conditions are unrepresentative. Without HTE,
 precision medicine would have no basis. But evidence of substantial HTE
 has yet to be generally established and its existence in particular
 cases can be an artifact of the outcome scale used for the analysis. See
-[this](http://www.fharrell.com/2017/01/randomized-clinical-trials-do-not-mimic.html)
+[this]({{< relref "rct-mimic" >}})
 for more about the first two complaints about RCTs. Regarding (1),
 researchers too often forget that measurement or sample bias does not
 diminish no matter how large the sample size. Often, large sample sizes
@@ -144,8 +136,7 @@ accurately as would be the case in the RCT. This is unlikely, and so in
 reality the results presented below are optimistic for the performance
 of the EHR.
 
-[![](https://2.bp.blogspot.com/-zSGx9OiXWH0/WUwehdXfzLI/AAAAAAAAJsY/uNFhbNvp0VwCgOI1AdQvDgpQU99iKjxCQCLcBGAs/s400/mse.png){width="500"
-height="375"}](https://2.bp.blogspot.com/-zSGx9OiXWH0/WUwehdXfzLI/AAAAAAAAJsY/uNFhbNvp0VwCgOI1AdQvDgpQU99iKjxCQCLcBGAs/s1600/mse.png)
+{{< figure src="/img/mse.png" width="80%" >}}
 
 EHR studies have the potential to provide far larger sample sizes than
 RCTs, but note that an RCT with a total sample size of 64 subjects is as
@@ -163,7 +154,7 @@ that while an EHR-based statistical test for any treatment difference
 will have excellent power for large n, this comes at the expense of
 being far from preserving the type I error, which is essentially 1.0 due
 to the estimation bias causing the two-sample statistical test to be
-biased, .
+biased.
 
 Interestingly, bias decreases the benefits achieved by larger sample
 sizes to the extent that, in contrast to an unbiased RCT, the mean
@@ -234,9 +225,8 @@ the following steps:
     characteristics (i.e., whether heterogeneity of treatment effect
     exists on the relative scale). One possible strategy, using fully
     specified interaction tests adjusted for all main effects, is in
-    *[Biostatistics for Biomedical
-    Research](http://biostat.mc.vanderbilt.edu/ClinStat)* in the
-    Analysis of Covariance chapter.
+    *[Biostatistics for Biomedical Research](http://fharrell.com/links)*
+		in the  Analysis of Covariance chapter.
 -   Develop a predictive model from complete, accurate observational
     data, and perform strong interval validation using the bootstrap to
     verify absolute calibration accuracy. Use this model to handle risk
@@ -251,11 +241,10 @@ the following steps:
     benefit for an individual patient. See the second figure below whose
     bottom axis is the difference between two logistic regression
     models. (Both figures are from
-    [BBR](http://www.fharrell.com/p/blog-page.html) Chapter 13)
+    [BBR](http://fharrell.com/links) Chapter 13)
 -   For more about such strategies, see Stephen Senn's
     [presentation](https://www.slideshare.net/StephenSenn1/real-world-modified).
 
-[![](https://3.bp.blogspot.com/-yAY1ywPyu-g/WTBoTF59TFI/AAAAAAAAJj4/SABvbBe0cLkDoa-u__cXOGk-O9_oMt-DwCLcB/s400/hr.png){width="400"
-height="400"}](https://3.bp.blogspot.com/-yAY1ywPyu-g/WTBoTF59TFI/AAAAAAAAJj4/SABvbBe0cLkDoa-u__cXOGk-O9_oMt-DwCLcB/s1600/hr.png)
-[![](https://2.bp.blogspot.com/-3FsCQSnmPOI/WTBoafP-7xI/AAAAAAAAJj8/y6keBXrKzt8LxpZvDm094MxR8KBPfEivACLcB/s400/nom.png){width="400"
-height="400"}](https://2.bp.blogspot.com/-3FsCQSnmPOI/WTBoafP-7xI/AAAAAAAAJj8/y6keBXrKzt8LxpZvDm094MxR8KBPfEivACLcB/s1600/nom.png)
+{{< figure src="/img/hr-vs-surv.png" width="90%" >}}
+
+{{< figure src="/img/gusto-nomogram.png" width="90%" >}}
