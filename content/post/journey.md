@@ -2,7 +2,7 @@
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19T10:23:00Z
 updated = 2017-12-30T08:53:33Z
-tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug evaluation", "principles", "evidence", "hypothesis testing"]
+tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing"]
 +++
 
 <small>

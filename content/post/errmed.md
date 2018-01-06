@@ -2,7 +2,7 @@
 title = "Statistical Errors in the Medical Literature"
 date = 2017-04-08T08:36:00Z
 updated = 2017-12-02T08:29:12Z
-tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change scores", "RCT", "personalized medicine", "responder analysis", "hypothesis testing", "medical literature"]
+tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change-scores", "RCT", "personalized-medicine", "responder-analysis", "hypothesis-testing", "medical-literature"]
 [author]
 +++
 
