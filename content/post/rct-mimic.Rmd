@@ -1,0 +1,111 @@
+---
+title: "Randomized Clinical Trials Do Not Mimic Clinical Practice, Thank Goodness"
+author: "Frank Harrell"
+date: '2017-01-27'
+slug: rct-mimic
+tags:
+- generalizability
+- design
+- medicine
+- RCT
+- drug-evaluation
+- personalized-medicine
+- evidence
+categories: []
+---
+Randomized clinical trials (RCT) have long been held as the gold standard for
+generating evidence about the effectiveness of medical and surgical
+treatments, and for good reason.  But I commonly hear clinicians lament
+that the results of RCTs are not generalizable to medical practice,
+primarily for two reasons:
+
+1.  Patients in clinical practice are different from those enrolled in
+    RCTs
+2.  Drug adherence in clinical practice is likely to be lower than that
+    achieved in RCTs, resulting in lower efficacy.
+
+Point 2 is hard to debate because RCTs are run under protocol and
+research personnel are watching and asking about patients' adherence
+(but more about this below).  But point 1 is a misplaced worry in the
+majority of trials.  The explanation requires getting to the heart of
+what RCTs are really intended to do: provide evidence for **relative**
+treatment effectiveness.  There are some trials that provide evidence
+for both relative and absolute effectiveness.   This is especially true
+when the efficacy measure employed is absolute as in measuring blood
+pressure reduction due to a new treatment.  But many trials use binary
+or time-to-event endpoints and the resulting efficacy measure is on a
+relative scale such as the odds ratio or hazard ratio.
+
+RCTs of even drastically different patients can provide estimates of
+relative treatment benefit on odds or hazard ratio scales that are
+highly transportable.  This is most readily seen in subgroup analyses
+provided by the trials themselves - so called forest plots that
+demonstrate remarkable constancy of relative treatment benefit.  When an
+effect ratio is applied to a population with a much different risk
+profile, that relative effect can still fully apply.  It is only likely
+that the absolute treatment benefit will change, and it is easy to
+estimate the absolute benefit (e.g., risk difference) for a patient
+given the relative benefit and the absolute baseline risk for the
+subject.   This is covered in detail in [Biostatistics for Biomedical
+Research](http://fharrell.com/links), Section 13.6.  See also Stephen Senn's excellent [presentation](https://www.slideshare.net/StephenSenn1/real-world-modified).
+
+Clinical practice provides anecdotal evidence that biases clinicians.
+ What a clinician sees in her practice is patient i on treatment A and
+patient j on treatment B.  She may remember how patient i fared in
+comparison to patient j, not appreciate confounding by indication, and
+suppose this provides a valid estimate of the difference in
+effectiveness in treatment A vs. B.  But the real therapeutic question
+is how does the outcome of a patient were she given treatment A compare
+to her outcome were she given treatment B.  The gold standard design is
+thus the randomized crossover design, when the treatment is short
+acting.  Stephen Senn eloquently
+[writes](http://onlinelibrary.wiley.com/doi/10.1002/sim.6739/abstract) about
+how a 6-period 2-treatment crossover study can even do what proponents
+of personalized medicine mistakenly think they can do with a
+parallel-group randomized trial: estimate treatment effectiveness for
+individual patients.
+
+For clinical practice to provide the evidence really needed, the
+clinician would have to see patients and assign treatments using one of
+the top four approaches listed in the hierarchy of evidence below.
+Entries are in the order of strongest evidence requiring the least
+assumptions to the weakest evidence. Note that crossover studies, when
+feasible, even surpass randomized studies of matched identical twins in
+the quality and relevance of information they provide.
+
+Let $P_{i}$ denote patient $i$ and the treatments be denoted by $A$
+and $B$.  Thus $P_{2}^{B}$ represents patient 2 on treatment $B$.
+$\overline{P}_{1}$ represents the average outcome over a sample of
+patients from which patient 1 was selected.
+
+| Design | Patients Compared 
+-------- | ----------------- 
+6-period crossover | $P_{1}^{A}$ vs $P_{1}^{B}$ (directly measure HTE)
+2-period crossover | $P_{1}^{A}$ vs $P_{1}^{B}$
+RCT in idential twins | $P_{1}^{A}$ vs $P_{1}^{B}$
+$\parallel$ group RCT | $\overline{P}_{1}^{A}$ vs $\overline{P}_{2}^{B}$,  $P_{1}=P_{2}$ on avg
+Observational, good artificial control | $\overline{P}_{1}^{A}$ vs  $\overline{P}_{2}^{B}$, $P_{1}=P_{2}$ hopefully on avg
+Observational, poor artificial control | $\overline{P}_{1}^{A}$ vs $\overline{P}_{2}^{B}$, $P_{1}\neq P_{2}$ on avg
+Real-world physician practice | $P_{1}^{A}$ vs $P_{2}^{B}$
+
+The best experimental designs yield the best evidence a clinician needs
+to answer the "what if" therapeutic question for the one patient in
+front of her.
+
+Regarding adherence, proponents of "real world" evidence advocate for
+estimating treatment effects in the context of making treatment
+adherence low as in clinical practice. This would result in lower
+efficacy and the abandonment of many treatments. It is hard to argue
+that a treatment should not be available for a potentially adherent
+patient because her fellow patients were poor adherers. Note that an RCT
+is the best hope for estimating efficacy as a function of adherence,
+through for example an instrumental variable analysis (the randomization
+assignment is a truly valid instrument). Much more needs to be said
+about how to handle treatment adherence and what should be the target
+adherence in an RCT, but overall it is a good thing that RCTs do not
+mimic clinical practice.  We are entering a new era of pragmatic
+clinical trials.  Pragmatic trials are worthy of in-depth discussion,
+but it is not a stretch to say that the chief advantage of pragmatic
+trials is not that they provide results that are more relevant to
+clinical practice but that they are cheaper and faster than traditional
+randomized trials.
