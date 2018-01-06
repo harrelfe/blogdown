@@ -14,7 +14,7 @@ Laura Lazzeroni<br>
 Professor of Psychiatry and, by courtesy, of Medicine (Cardiovascular
 Medicine) and of Biomedical Data Science<br>
 Stanford University School of Medicine<br>
-[**Revised July 17, 2017**]{style="font-size: 70%;"}
+<small>Revised July 17, 2017</small>
 </div>
 
 It is often said that randomized clinical trials (RCTs) are the gold
