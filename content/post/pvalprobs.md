@@ -22,7 +22,7 @@ effectiveness or does one condition on the available data?  Type I error
 conditions on the treatment having no effect and does not entertain the
 possibility that the treatment actually worsens the patients' outcomes.
  Can one quantify evidence for making a wrong decision if one assumes
-that all conclusions of non-zero effect are wrong up front because H~0~
+that all conclusions of non-zero effect are wrong up front because H<sub>0</sub>
 was assumed to be true?  Aren't useful error probabilities the ones that
 are not based on assumptions about what we are assessing but rather just
 on the data available to us?
@@ -81,7 +81,7 @@ never.
 ### Update 2017-01-19
 
 Though believed to be true by many non-statisticians, p-values are not
-the probability that H~0~ is true, and to turn them into such
+the probability that H<sub>0</sub> is true, and to turn them into such
 probabilities requires Bayes' rule.  If you are going to use Bayes' rule
 you might as well formulate the problem as a full Bayesian model.  This
 has many benefits, not the least of them being that you can select an
@@ -89,10 +89,10 @@ appropriate prior distribution and you will get exact inference.
  Attempts by several authors to convert p-values to probabilities of
 interest (just as sensitivity and specificity are converted to
 probability of disease once one knows the prevalence of disease) have
-taken the prior to be discontinuous, putting a high probability on H~0~
+taken the prior to be discontinuous, putting a high probability on H<sub>0</sub>
 being exactly true.  In my view it is much more sensible to believe that
-there is no discontinuity in the prior at the point represented by H~0~,
-encapsulating prior knowledge instead by saying that values near H~0~
+there is no discontinuity in the prior at the point represented by H<sub>0</sub>,
+encapsulating prior knowledge instead by saying that values near H<sub>0</sub>
 are more likely if no relevant prior information is available.
 
 Returning to the non-relevance of type I error as discussed above, and
@@ -105,14 +105,14 @@ colleague [Jeffrey
 Blume](http://www.citeulike.org/user/harrelfe/author/Blume), once an
 experiment is done the probability that positive evidence is misleading
 is **not** type I error.  And what exactly does "error" mean in "type I
-error?"  It is the probability of rejecting H~0~ when H~0~ is exactly
+error?"  It is the probability of rejecting H<sub>0</sub> when H<sub>0</sub> is exactly
 true, just as the p-value is the probability of obtaining data more
-impressive than that observed given H~0~ is true.  Are these really
+impressive than that observed given H<sub>0</sub> is true.  Are these really
 error probabilities?  Perhaps ... if you have been misled earlier into
 believing that we should base conclusions on how unlikely the observed
-data would have been observed under H~0~.  Part of the problem is in the
-loaded word "reject."  Rejecting H~0~ by seeing data that are unlikely
-if H~0~ is true is perhaps the real error.
+data would have been observed under H<sub>0</sub>.  Part of the problem is in the
+loaded word "reject."  Rejecting H<sub>0</sub> by seeing data that are unlikely
+if H<sub>0</sub> is true is perhaps the real error.
 
 The "error quantification" truly needed is the probability that a
 treatment doesn't work given all the current evidence, which as stated

@@ -187,4 +187,5 @@ also a compound assertion such as "A lowers blood pressure by at least
 
 ------
 More recommended reading:
-* William Briggs' [Everything Wrong With P-values Under One Roof](http://wmbriggs.com/post/9338)
+
+*   William Briggs' [Everything Wrong With P-values Under One Roof](http://wmbriggs.com/post/9338)
