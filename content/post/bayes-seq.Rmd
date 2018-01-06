@@ -1,18 +1,13 @@
 ---
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using
   Bayesian Posterior Probabilities as Often as Desired'
-author: Frank Harrell
+author: 'Frank Harrell'
 date: '2017-10-09'
 slug: bayes-seq
-categories: []
 tags:
   - bayes
   - sequential
   - RCT
-output: 
-  html_document: 
-    toc: yes
-    toc_depth: 3
 ---
 
 <div align="center"><span style="font-size:80%;">
