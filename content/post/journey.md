@@ -5,8 +5,7 @@ updated = 2017-12-30T08:53:33Z
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug evaluation", "principles", "evidence", "hypothesis testing"]
 +++
 
-<div style="text-align: center;">
-
+<small>
 Type I error for smoke detector: probability of alarm given no fire=0.05<br>
 Bayesian: probability of fire given current air data
 
@@ -17,7 +16,7 @@ inferno
 Advantage of actionable evidence quantification:<br>
 Set the alarm to trigger when the posterior probability of a fire
 exceeds 0.02 while at home and at 0.01 while away
-</div>
+</small>
 
 If I had been taught Bayesian modeling before being taught the
 frequentist paradigm, I'm sure I would have always been a Bayesian.  I
