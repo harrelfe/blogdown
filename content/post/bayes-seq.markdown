@@ -166,11 +166,65 @@ true unknown μ.
 
 Simulations were run in R and used functions in the R Hmisc and rms
 package. The results are below. Feel free to take the code and alter it
-to run any simulations you'd like.
+to run any simulations you'd  like.
 
-```{r setup}
+
+```r
 require(rms)
-knitrSet(lang='markdown',w=7,h=5,echo=TRUE,fig.path='png/')
+```
+
+```
+## Loading required package: rms
+```
+
+```
+## Loading required package: Hmisc
+```
+
+```
+## Loading required package: lattice
+```
+
+```
+## Loading required package: survival
+```
+
+```
+## Loading required package: Formula
+```
+
+```
+## Loading required package: ggplot2
+```
+
+```
+## 
+## Attaching package: 'Hmisc'
+```
+
+```
+## The following objects are masked from 'package:base':
+## 
+##     format.pval, units
+```
+
+```
+## Loading required package: SparseM
+```
+
+```
+## 
+## Attaching package: 'SparseM'
+```
+
+```
+## The following object is masked from 'package:base':
+## 
+##     backsolve
+```
+
+```r
+# knitrSet(lang='markdown',w=7,h=5,echo=TRUE) not allowed in blogdown
 gmu  <- htmlGreek('mu')
 half <- htmlSpecial('half')
 geq  <- htmlTranslate('>=')
@@ -178,10 +232,11 @@ knitr::read_chunk('fundefs.r')
 ```
 
 # Specification of Prior
-The prior distribution is skeptical against large values of efficacy, and assumes that detriment is equally likely as benefit of treatment.  The prior favors small effects.  It is a 1:1 mixture of two normal distributes each with mean 0.  The SD of the first distribution is chosen so that P(`r gmu` > 1) = 0.1, and the SD of the second distribution is chosen so that P(`r gmu` > 0.25) = 0.05.  Posterior probabilities upon early stopping would have the same accuracy no matter which prior is chosen as long as the same prior generating `r gmu` is used to generate the data.
+The prior distribution is skeptical against large values of efficacy, and assumes that detriment is equally likely as benefit of treatment.  The prior favors small effects.  It is a 1:1 mixture of two normal distributes each with mean 0.  The SD of the first distribution is chosen so that P(μ > 1) = 0.1, and the SD of the second distribution is chosen so that P(μ > 0.25) = 0.05.  Posterior probabilities upon early stopping would have the same accuracy no matter which prior is chosen as long as the same prior generating μ is used to generate the data.
 
 
-```{r skepprior,bty='l'}
+
+```r
 sd1 <- 1    / qnorm(1 - 0.1)
 sd2 <- 0.25 / qnorm(1 - 0.05)
 wt  <- 0.5   # 1:1 mixture
@@ -190,12 +245,92 @@ x <- seq(-3, 3, length=200)
 plot(x, pdensity(x), type='l', xlab='Efficacy', ylab='Prior Degree of Belief')
 ```
 
+<img src="/post/bayes-seq_files/figure-html/skepprior-1.png" width="672" />
+
 # Sequential Testing Simulation
 
-```{r simseq}
+
+```r
+simseq <- function(N, prior.mu=0, prior.sd, wt, mucut=0, mucutf=0.05,
+                postcut=0.95, postcutf=0.9,
+                ignore=20, nsim=1000) {
+  prior.mu <- rep(prior.mu, length=2)
+  prior.sd <- rep(prior.sd, length=2)
+  sd1 <- prior.sd[1]; sd2 <- prior.sd[2]
+  v1 <- sd1 ^ 2
+  v2 <- sd2 ^ 2
+  j <- 1 : N
+  cmean <- Mu <- PostN <- Post <- Postf <- postfe <- postmean <- numeric(nsim)
+  stopped <- stoppedi <- stoppedf <- stoppedfu <- stopfe <- status <-
+    integer(nsim)
+  notignored <- - (1 : ignore)
+
+  # Derive function to compute posterior mean
+  pmean <- gbayesMixPost(NA, NA, d0=prior.mu[1], d1=prior.mu[2],
+                                 v0=v1, v1=v2, mix=wt, what='postmean')
+  
+  for(i in 1 : nsim) {
+    # See http://stats.stackexchange.com/questions/70855
+    component <- if(wt == 1) 1 else sample(1 : 2, size=1, prob=c(wt, 1. - wt))
+    mu <- prior.mu[component] + rnorm(1) * prior.sd[component]
+    # mu <- rnorm(1, mean=prior.mu, sd=prior.sd) if only 1 component
+    
+    Mu[i] <- mu
+    y  <- rnorm(N, mean=mu, sd=1)
+    ybar <- cumsum(y) / j    # all N means for N sequential analyses
+    pcdf <- gbayesMixPost(ybar, 1. / j,
+                          d0=prior.mu[1], d1=prior.mu[2],
+                          v0=v1, v1=v2, mix=wt, what='cdf')
+    post  <- 1 - pcdf(mucut)
+    PostN[i] <- post[N]
+    postf <- pcdf(mucutf)
+    s <- stopped[i] <-
+      if(max(post) < postcut) N else min(which(post >= postcut))
+    Post[i]  <- post[s]   # posterior at stopping
+    cmean[i] <- ybar[s]   # observed mean at stopping
+    # If want to compute posterior median at stopping:
+    #    pcdfs <- pcdf(mseq, x=ybar[s], v=1. / s)
+    #    postmed[i] <- approx(pcdfs, mseq, xout=0.5, rule=2)$y
+    #    if(abs(postmed[i]) == max(mseq)) stop(paste('program error', i))
+    postmean[i] <- pmean(x=ybar[s], v=1. / s)
+    
+    # Compute stopping time if ignore the first "ignore" looks
+    stoppedi[i] <- if(max(post[notignored]) < postcut) N
+    else
+      ignore + min(which(post[notignored] >= postcut))
+    
+    # Compute stopping time if also allow to stop for futility:
+    # posterior probability mu < 0.05 > 0.9
+    stoppedf[i] <- if(max(post) < postcut & max(postf) < postcutf) N
+    else
+      min(which(post >= postcut | postf >= postcutf))
+    
+    # Compute stopping time for pure futility analysis
+    s <- if(max(postf) < postcutf) N else min(which(postf >= postcutf))
+    Postf[i] <- postf[s]
+    stoppedfu[i] <- s
+
+    ## Another way to do this: find first look that stopped for either
+    ## efficacy or futility.  Record status: 0:not stopped early,
+    ## 1:stopped early for futility, 2:stopped early for efficacy
+    ## Stopping time: stopfe, post prob at stop: postfe
+
+    stp <- post >= postcut | postf >= postcutf
+    s <- stopfe[i] <- if(any(stp)) min(which(stp)) else N
+    status[i] <- if(any(stp)) ifelse(postf[s] >= postcutf, 1, 2) else 0
+    postfe[i] <- if(any(stp)) ifelse(status[i] == 2, post[s],
+                                     postf[s]) else post[N]
+  }
+  list(mu=Mu, post=Post, postn=PostN, postf=Postf,
+       stopped=stopped, stoppedi=stoppedi,
+       stoppedf=stoppedf, stoppedfu=stoppedfu,
+       cmean=cmean, postmean=postmean,
+       postfe=postfe, status=status, stopfe=stopfe)
+}
 ```
 
-```{r simseqrun,cache=TRUE}
+
+```r
 set.seed(1)
 z <- simseq(500, prior.mu=0, prior.sd=c(sd1, sd2), wt=wt, postcut=0.95,
             postcutf=0.9, nsim=50000)
@@ -218,41 +353,56 @@ kf <- status == 1
 
 
 * Run 50,000 <b>different</b> clinical trials (differ on amount of efficacy)
-* For each, generate `r gmu` (true efficacy) from the prior
+* For each, generate μ (true efficacy) from the prior
 * Generate data (n=500) under this truth
-* `r half` of the trials have zero or negative efficacy
+* ½ of the trials have zero or negative efficacy
 * Do analysis after 1, 2, ..., 500 subjects studied
-* Stop the study when 0.95 sure efficacy > 0, i.e., stop the instant the posterior prob. that the unknown mean `r gmu` is positive is `r geq` 0.95
-*   Also stop for futility: the instant P(`r gmu` < 0.05) `r geq` 0.9
+* Stop the study when 0.95 sure efficacy > 0, i.e., stop the instant the posterior prob. that the unknown mean μ is positive is ≥ 0.95
+*   Also stop for futility: the instant P(μ < 0.05) ≥ 0.9
 
-* `r sum(k)` trials stopped early for efficacy
-* `r sum(kf)` trials stopped early for futility
-* `r sum(status == 0)` trials went to completion (n=500)
-* Average posterior prob. of efficacy at stopping for efficacy: `r rmean(postfe[k])`
-* Of trials stopped early for efficacy, proportion with `r gmu` > 0: `r rmean(mu[k] > 0)`
-* Average posterior prob. of futility at stopping for futility: `r rmean(postfe[kf])`
-* Of trials stopped early for futility, proportion with `r gmu` < 0.05: `r rmean(mu[kf] < 0.05)`
+* 20393 trials stopped early for efficacy
+* 28438 trials stopped early for futility
+* 1169 trials went to completion (n=500)
+* Average posterior prob. of efficacy at stopping for efficacy: 0.961
+* Of trials stopped early for efficacy, proportion with μ > 0: 0.960
+* Average posterior prob. of futility at stopping for futility: 0.920
+* Of trials stopped early for futility, proportion with μ < 0.05: 0.923
 
 The simulations took about 25 seconds in total.
 
 # Calibration of Posterior Probabilities of Efficacy for Studies Going to Completion
 
-Above we saw perfect calibration of the probabilities of efficacy and futility upon stopping.  Let's now examine the remaining probabilities, for the `r sum(status == 0)` trials going to completion.  For this we use the same type of nonparametric calibration curve estimation as used for validating risk prediction models.  This curve estimates the relationship between the estimated probability of efficacy (Bayesian posterior probability) and the true probability of efficacy.
+Above we saw perfect calibration of the probabilities of efficacy and futility upon stopping.  Let's now examine the remaining probabilities, for the 1169 trials going to completion.  For this we use the same type of nonparametric calibration curve estimation as used for validating risk prediction models.  This curve estimates the relationship between the estimated probability of efficacy (Bayesian posterior probability) and the true probability of efficacy.
 
-```{r cal}
+
+```r
 k <- status == 0
 pp <- postfe[k]
 truly.efficacious <- mu[k] > 0
 val.prob(pp, truly.efficacious)
 ```
 
-The posterior probabilities of efficacy tended to be between 0.45 (had they been much lower the trial would have been stopped for futility) and 0.95 (the cutoff for stopping for efficacy).  Where there are data, the nonparametric calibration curve estimate is very close to the line of identity.  Had we done even more simulations we would have had many more non-stopped studies and the calibration estimates would be even closer to the ideal.  For example, when the posterior probability of efficacy is 0.6, the true probability that the treatment was effective (`r gmu` actually > 0) is 0.6. 
+<img src="/post/bayes-seq_files/figure-html/cal-1.png" width="672" />
+
+```
+##           Dxy       C (ROC)            R2             D      D:Chi-sq 
+##  4.160899e-01  7.080449e-01  1.422536e-01  1.012220e-01  1.193285e+02 
+##           D:p             U      U:Chi-sq           U:p             Q 
+##            NA  4.903659e-04  2.573238e+00  2.762031e-01  1.007316e-01 
+##         Brier     Intercept         Slope          Emax           E90 
+##  1.735093e-01 -1.881482e-01  1.091834e+00  4.535884e-02  4.352826e-02 
+##          Eavg           S:z           S:p 
+##  1.779552e-02  7.948458e-01  4.267032e-01
+```
+
+The posterior probabilities of efficacy tended to be between 0.45 (had they been much lower the trial would have been stopped for futility) and 0.95 (the cutoff for stopping for efficacy).  Where there are data, the nonparametric calibration curve estimate is very close to the line of identity.  Had we done even more simulations we would have had many more non-stopped studies and the calibration estimates would be even closer to the ideal.  For example, when the posterior probability of efficacy is 0.6, the true probability that the treatment was effective (μ actually > 0) is 0.6. 
 
 # Calibration of Posterior Mean at Stopping for Efficacy
 
-When stopping early because of evidence that `r gmu` > 0, the sample mean will overestimate the true mean.  But with the Bayesian analysis, where the prior favors smaller treatment effects, the posterior mean/median/mode is pulled back by a perfect amount, as shown in the plot below.
+When stopping early because of evidence that μ > 0, the sample mean will overestimate the true mean.  But with the Bayesian analysis, where the prior favors smaller treatment effects, the posterior mean/median/mode is pulled back by a perfect amount, as shown in the plot below.
 
-```{r estmu,bty='l'}
+
+```r
 plot(0, 0, xlab='Estimated Efficacy',
      ylab='True Efficacy', type='n', xlim=c(-2, 4), ylim=c(-2, 4))
 abline(a=0, b=1, col=gray(.9), lwd=4)
@@ -262,11 +412,35 @@ text(2, .4, 'Sample mean')
 text(-1, .8, 'Posterior mean', col='blue')
 ```
 
+<img src="/post/bayes-seq_files/figure-html/estmu-1.png" width="672" />
+
 <!---
 # Useful References
 Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 -->
 
 # Computing Environment
-`r markupSpecs$html$session()`
+<!--html_preserve--><pre>
+ R version 3.4.3 (2017-11-30)
+ Platform: x86_64-pc-linux-gnu (64-bit)
+ Running under: Ubuntu 17.10
+ 
+ Matrix products: default
+ BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+ LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+ 
+ attached base packages:
+ [1] methods   stats     graphics  grDevices utils     datasets  base     
+ 
+ other attached packages:
+ [1] rms_5.1-2       SparseM_1.77    Hmisc_4.1-1     ggplot2_2.2.1  
+ [5] Formula_1.2-2   survival_2.41-3 lattice_0.20-35
+ </pre>
+ To cite R in publication use:
+ <p>R Core Team (2017).
+ <em>R: A Language and Environment for Statistical Computing</em>.
+ R Foundation for Statistical Computing, Vienna, Austria.
+ <a href="https://www.R-project.org/">https://www.R-project.org/</a>. 
+ </p>
+<!--/html_preserve-->
 
