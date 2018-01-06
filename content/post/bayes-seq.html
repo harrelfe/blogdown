@@ -40,7 +40,24 @@ tags:
 <p>The simulations also demonstrated that the posterior mean efficacy at the moment of stopping is perfectly calibrated as an estimator of the true unknown μ.</p>
 <p>Simulations were run in R and used functions in the R Hmisc and rms package. The results are below. Feel free to take the code and alter it to run any simulations you’d like.</p>
 <pre class="r"><code>require(rms)</code></pre>
-<pre class="r"><code>knitrSet(lang=&#39;markdown&#39;,w=7,h=5,echo=TRUE)
+<pre><code>## Loading required package: rms</code></pre>
+<pre><code>## Loading required package: Hmisc</code></pre>
+<pre><code>## Loading required package: lattice</code></pre>
+<pre><code>## Loading required package: survival</code></pre>
+<pre><code>## Loading required package: Formula</code></pre>
+<pre><code>## Loading required package: ggplot2</code></pre>
+<pre><code>## 
+## Attaching package: &#39;Hmisc&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     format.pval, units</code></pre>
+<pre><code>## Loading required package: SparseM</code></pre>
+<pre><code>## 
+## Attaching package: &#39;SparseM&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:base&#39;:
+## 
+##     backsolve</code></pre>
+<pre class="r"><code># knitrSet(lang=&#39;markdown&#39;,w=7,h=5,echo=TRUE) not allowed in blogdown
 gmu  &lt;- htmlGreek(&#39;mu&#39;)
 half &lt;- htmlSpecial(&#39;half&#39;)
 geq  &lt;- htmlTranslate(&#39;&gt;=&#39;)
@@ -55,7 +72,7 @@ wt  &lt;- 0.5   # 1:1 mixture
 pdensity &lt;- function(x) wt * dnorm(x, 0, sd1) + (1 - wt) * dnorm(x, 0, sd2)
 x &lt;- seq(-3, 3, length=200)
 plot(x, pdensity(x), type=&#39;l&#39;, xlab=&#39;Efficacy&#39;, ylab=&#39;Prior Degree of Belief&#39;)</code></pre>
-<p><img src="skepprior-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="/post/bayes-seq_files/figure-html/skepprior-1.png" width="672" /></p>
 </div>
 <div id="sequential-testing-simulation" class="section level1">
 <h1>Sequential Testing Simulation</h1>
@@ -178,15 +195,15 @@ kf &lt;- status == 1</code></pre>
 pp &lt;- postfe[k]
 truly.efficacious &lt;- mu[k] &gt; 0
 val.prob(pp, truly.efficacious)</code></pre>
-<pre><code>          Dxy       C (ROC)            R2             D      D:Chi-sq 
- 4.160899e-01  7.080449e-01  1.422536e-01  1.012220e-01  1.193285e+02 
-          D:p             U      U:Chi-sq           U:p             Q 
-           NA  4.903659e-04  2.573238e+00  2.762031e-01  1.007316e-01 
-        Brier     Intercept         Slope          Emax           E90 
- 1.735093e-01 -1.881482e-01  1.091834e+00  4.535884e-02  4.352826e-02 
-         Eavg           S:z           S:p 
- 1.779552e-02  7.948458e-01  4.267032e-01 </code></pre>
-<p><img src="cal-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="/post/bayes-seq_files/figure-html/cal-1.png" width="672" /></p>
+<pre><code>##           Dxy       C (ROC)            R2             D      D:Chi-sq 
+##  4.160899e-01  7.080449e-01  1.422536e-01  1.012220e-01  1.193285e+02 
+##           D:p             U      U:Chi-sq           U:p             Q 
+##            NA  4.903659e-04  2.573238e+00  2.762031e-01  1.007316e-01 
+##         Brier     Intercept         Slope          Emax           E90 
+##  1.735093e-01 -1.881482e-01  1.091834e+00  4.535884e-02  4.352826e-02 
+##          Eavg           S:z           S:p 
+##  1.779552e-02  7.948458e-01  4.267032e-01</code></pre>
 <p>The posterior probabilities of efficacy tended to be between 0.45 (had they been much lower the trial would have been stopped for futility) and 0.95 (the cutoff for stopping for efficacy). Where there are data, the nonparametric calibration curve estimate is very close to the line of identity. Had we done even more simulations we would have had many more non-stopped studies and the calibration estimates would be even closer to the ideal. For example, when the posterior probability of efficacy is 0.6, the true probability that the treatment was effective (μ actually &gt; 0) is 0.6.</p>
 </div>
 <div id="calibration-of-posterior-mean-at-stopping-for-efficacy" class="section level1">
@@ -199,7 +216,7 @@ lines(supsmu(cmean, mu))
 lines(supsmu(postmean, mu), col=&#39;blue&#39;)
 text(2, .4, &#39;Sample mean&#39;)
 text(-1, .8, &#39;Posterior mean&#39;, col=&#39;blue&#39;)</code></pre>
-<p><img src="estmu-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="/post/bayes-seq_files/figure-html/estmu-1.png" width="672" /></p>
 <!---
 # Useful References
 Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
