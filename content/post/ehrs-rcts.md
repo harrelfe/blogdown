@@ -96,7 +96,7 @@ HTE, and because treatment conditions are unrepresentative. Without HTE,
 precision medicine would have no basis. But evidence of substantial HTE
 has yet to be generally established and its existence in particular
 cases can be an artifact of the outcome scale used for the analysis. See
-[this]({{< relref "rct-mimic.html" >}})
+[this]({{< relref "rct-mimic" >}})
 for more about the first two complaints about RCTs. Regarding (1),
 researchers too often forget that measurement or sample bias does not
 diminish no matter how large the sample size. Often, large sample sizes
