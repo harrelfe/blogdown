@@ -6,11 +6,11 @@ tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "
 +++
 
 <div style="text-align:center"><small>
-*Classification combines prediction and decision making and usurps the
+Classification combines prediction and decision making and usurps the
 decision maker in specifying costs of wrong decisions. The
 classification rule must be reformulated if costs/utilities change.
 Predictions are separate from decisions and can be used by any decision
-maker.*
+maker.
 </small></div>
 
 The field of machine learning arose somewhat independently of the field
