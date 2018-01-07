@@ -2,7 +2,7 @@
 title = "p-values and Type I Errors are Not the Probabilities We Need"
 date = 2017-01-14T08:14:00Z
 updated = 2017-11-28T08:18:44Z
-tags = ["judgment", "inference", "likelihood", "bayes", "multiplicity", "p-values", "prior", "hypothesis-testing"]
+tags = ["judgment", "inference", "likelihood", "bayes", "multiplicity", "p-value", "prior", "hypothesis-testing"]
 +++
 In trying to guard against false conclusions, researchers often attempt to minimize
 the risk of a "false positive" conclusion.  In the field of assessing

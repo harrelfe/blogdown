@@ -4,7 +4,6 @@ date = 2017-01-15T11:51:00Z
 updated = 2017-11-08T08:06:56Z
 tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science"]
 +++
-
 <div style="text-align:center"><small>
 Classification combines prediction and decision making and usurps the
 decision maker in specifying costs of wrong decisions. The
@@ -143,5 +142,3 @@ in machine classification seldom have the background to understand this
 enormously important issue, and choosing an improper accuracy score such
 as proportion classified correctly will result in a bogus model.  This
 will be discussed in a future blog.
-
-

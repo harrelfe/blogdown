@@ -2,6 +2,7 @@
 title = "Statistical Criticism is Easy; I Need to Remember That Real People are Involved"
 date = 2017-11-05T21:07:00Z
 updated = 2017-11-06T07:22:08Z
+tags = ["RCT"]
 +++
 I have been critical of a number of articles, authors, and journals in
 [this]({{< ref "post/errmed.md" >}})
@@ -42,8 +43,8 @@ that many past trials of PCI vs. medical theory were affected by placebo
 effects.
 
 Professor of Cardiology at Imperial College London, a co-author on the
-above paper, and Rasha's mentor, [Darrel
-Francis](https://www.imperial.ac.uk/people/d.francis), elegantly pointed
+above paper, and Rasha's mentor,
+[Darrel Francis](https://www.imperial.ac.uk/people/d.francis), elegantly pointed
 out to me that there is a real person on the receiving end of my
 criticism, and I heartily agree with him that none of us would ever want
 to discourage a clinical researcher from ever conducting her second
@@ -54,15 +55,14 @@ better job of respecting the sincere efforts and hard work of biomedical
 researchers.
 
 I note in passing that I had the honor of being a co-author with Darrel
-on [this
-paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0081699)
+on [this paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0081699)
 of which I am extremely proud.
 
 Dr Francis gave me permission to include his thoughts, which are below.
 After that I list some ideas for making the path to presenting clinical
 research findings a more pleasant journey.
 
-------------------------------------------------------------------------
+------
 
 **As the PI for ORBITA, I apologise for this trial being 40 years late,
 due to a staffing issue. I had to wait for the lead investigator, Rasha
@@ -119,9 +119,8 @@ clinical research and make peer review more objective and productive.
 -   Improve statistical education of researchers, referees, and journal
     editors, and strengthen statistical review for journals.
 -   Until everyone understands the most important statistical concepts,
-    better educate researchers and peer reviewers on [statistical
-    problems to
-    avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist).
+    better educate researchers and peer reviewers on
+		[statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist).
 
 On a final note, I regularly review clinical trial design papers for
 medical journals. I am often shocked at design flaws that authors state

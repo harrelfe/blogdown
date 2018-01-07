@@ -37,6 +37,6 @@ work mainly, or wholly, from circumstantial
 evidence.*
 
 <div style="text-align: right;">
-Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10, 1931.
+Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10, 1931
 </div>
 </small>

@@ -2,7 +2,7 @@
 title = "A Litany of Problems With p-values"
 date = 2017-02-05T08:39:00Z
 updated = 2017-02-05T09:00:02Z
-tags = ["decision-making", "bayes", "multiplicity", "p-values", "hypothesis-testing"]
+tags = ["decision-making", "bayes", "multiplicity", "p-value", "hypothesis-testing"]
 +++
 In my opinion, null hypothesis testing and p-values have done significant harm
 to science.  The purpose of this note is to catalog the many problems
