@@ -15,5 +15,5 @@ weight = 60
 
 +++
 
-I teach the BIOS7330 _Regression Modeling Strategies_ in the Biostatistics Graduate Program at Vanderbilt University in the fall semester.  I teach a 4-day version of this course each May at Vanderbilt.  Registration information for the short course may be found [here](http://biostat.mc.vanderbilt.edu/RmS).
+I teach the BIOS7330 _Regression Modeling Strategies_ course in the Biostatistics Graduate Program at Vanderbilt University in the spring semester.  The course web page is [here](http://biostat.mc.vanderbilt.edu/CourseBios330).  I teach a 4-day version of this course each May at Vanderbilt.  Registration information for the short course may be found [here](http://biostat.mc.vanderbilt.edu/RmS).
 
