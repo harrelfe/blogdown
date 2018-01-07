@@ -166,11 +166,11 @@ true unknown μ.
 
 Simulations were run in R and used functions in the R Hmisc and rms
 package. The results are below. Feel free to take the code and alter it
-to run any simulations you'd  like.
+to run any simulations you'd  like. 
 
 ```{r setup}
 require(rms)
-# knitrSet(lang='markdown',w=7,h=5,echo=TRUE) not allowed in blogdown
+knitrSet(lang='blogdown', echo=TRUE)
 gmu  <- htmlGreek('mu')
 half <- htmlSpecial('half')
 geq  <- htmlTranslate('>=')

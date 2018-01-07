@@ -166,65 +166,15 @@ true unknown μ.
 
 Simulations were run in R and used functions in the R Hmisc and rms
 package. The results are below. Feel free to take the code and alter it
-to run any simulations you'd  like.
+to run any simulations you'd  like. 
 
 
 ```r
 require(rms)
 ```
 
-```
-## Loading required package: rms
-```
-
-```
-## Loading required package: Hmisc
-```
-
-```
-## Loading required package: lattice
-```
-
-```
-## Loading required package: survival
-```
-
-```
-## Loading required package: Formula
-```
-
-```
-## Loading required package: ggplot2
-```
-
-```
-## 
-## Attaching package: 'Hmisc'
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     format.pval, units
-```
-
-```
-## Loading required package: SparseM
-```
-
-```
-## 
-## Attaching package: 'SparseM'
-```
-
-```
-## The following object is masked from 'package:base':
-## 
-##     backsolve
-```
-
 ```r
-# knitrSet(lang='markdown',w=7,h=5,echo=TRUE) not allowed in blogdown
+knitrSet(lang='blogdown', echo=TRUE)
 gmu  <- htmlGreek('mu')
 half <- htmlSpecial('half')
 geq  <- htmlTranslate('>=')
