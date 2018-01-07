@@ -329,21 +329,10 @@ Above we saw perfect calibration of the probabilities of efficacy and futility u
 k <- status == 0
 pp <- postfe[k]
 truly.efficacious <- mu[k] > 0
-val.prob(pp, truly.efficacious)
+v <- val.prob(pp, truly.efficacious)
 ```
 
 <img src="/post/bayes-seq_files/figure-html/cal-1.png" width="672" />
-
-```
-##           Dxy       C (ROC)            R2             D      D:Chi-sq 
-##  4.160899e-01  7.080449e-01  1.422536e-01  1.012220e-01  1.193285e+02 
-##           D:p             U      U:Chi-sq           U:p             Q 
-##            NA  4.903659e-04  2.573238e+00  2.762031e-01  1.007316e-01 
-##         Brier     Intercept         Slope          Emax           E90 
-##  1.735093e-01 -1.881482e-01  1.091834e+00  4.535884e-02  4.352826e-02 
-##          Eavg           S:z           S:p 
-##  1.779552e-02  7.948458e-01  4.267032e-01
-```
 
 The posterior probabilities of efficacy tended to be between 0.45 (had they been much lower the trial would have been stopped for futility) and 0.95 (the cutoff for stopping for efficacy).  Where there are data, the nonparametric calibration curve estimate is very close to the line of identity.  Had we done even more simulations we would have had many more non-stopped studies and the calibration estimates would be even closer to the ideal.  For example, when the posterior probability of efficacy is 0.6, the true probability that the treatment was effective (μ actually > 0) is 0.6. 
 
@@ -383,7 +372,7 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
  [1] methods   stats     graphics  grDevices utils     datasets  base     
  
  other attached packages:
- [1] rms_5.1-2       SparseM_1.77    Hmisc_4.1-1     ggplot2_2.2.1  
+ [1] rms_5.1-2       SparseM_1.77    Hmisc_4.1-2     ggplot2_2.2.1  
  [5] Formula_1.2-2   survival_2.41-3 lattice_0.20-35
  </pre>
  To cite R in publication use:

@@ -243,7 +243,7 @@ Above we saw perfect calibration of the probabilities of efficacy and futility u
 k <- status == 0
 pp <- postfe[k]
 truly.efficacious <- mu[k] > 0
-val.prob(pp, truly.efficacious)
+v <- val.prob(pp, truly.efficacious)
 ```
 
 The posterior probabilities of efficacy tended to be between 0.45 (had they been much lower the trial would have been stopped for futility) and 0.95 (the cutoff for stopping for efficacy).  Where there are data, the nonparametric calibration curve estimate is very close to the line of identity.  Had we done even more simulations we would have had many more non-stopped studies and the calibration estimates would be even closer to the ideal.  For example, when the posterior probability of efficacy is 0.6, the true probability that the treatment was effective (`r gmu` actually > 0) is 0.6. 
