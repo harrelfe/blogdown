@@ -4,7 +4,7 @@ author: "Frank Harrell"
 date: '2017-01-27'
 slug: rct-mimic
 output:
-    html
+    html_document
 tags:
 - generalizability
 - design
