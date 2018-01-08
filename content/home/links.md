@@ -5,13 +5,12 @@ title = "Links"
 subtitle = ""
 date = "2018-01-08T00:00:00"
 weight = 90
-# pandoc -o ../../links.html links.md; edit to remove header
 +++
 # Links to Resources
 
 -   **BBR** : [Biostatistics for Biomedical Research](http://biostat.mc.vanderbilt.edu/tmp/bbr.pdf)             
 -   [Checklist of statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist)
--   [Measuring change](http://biostat.mc.vanderbilt.edu/MeasureChange)
+-   [Measuring change](http://biostat.mc.vanderbilt.edu/MeasureChange) (see also BBR Chapter 14)
 -   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms) web site
 -   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/tmp/course.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
