@@ -10,13 +10,19 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Predictive Modeling",
+    "Predictive Modeling and Model Validation",
+		"Missing Data",
 		"Biomedical Research",
 		"Pharmaceutical Research",
     "Clinical Trials",
     "Bayesian Methods",
 		"Statistical Computing",
-		"Statistical Graphics"
+		"Statistical Graphics",
+		"Cardiology",
+		"Medical Diagnostic Research",
+		"Medical Decision Making",
+		"Learning Health System and Health Services Research",
+		"Teaching"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -43,7 +49,7 @@ weight = 5
 * Written several R packages including [Hmisc](http://biostat.mc.vanderbilt.edu/Hmisc) and [rms](http://biostat.mc.vanderbilt.edu/Rrms)
 * Used R intensively since 1999 and am a member of the [R Foundation](https://www.r-project.org/foundation)
 * Author of [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms), 2nd Edition</a>
-* Statistical knowledge outside the areas of regression modeling strategies and Bayes is in [BBR](http://fharrell.com/links)
+* Statistical knowledge outside the areas of regression modeling strategies and Bayes is in [BBR](#links)
 * Also work in Office of Biostatistics, Center for Drug Evaluation and Research, FDA
 
 **Views expressed here are neither those of Vanderbilt University nor FDA**
