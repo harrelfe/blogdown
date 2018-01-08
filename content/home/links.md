@@ -4,7 +4,8 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-01-08T00:00:00"
-weight = 60
+weight = 90
+# pandoc -o ../../links.html links.md; edit to remove header
 +++
 # Links to Resources
 
