@@ -1,4 +1,11 @@
-+ Links to Resources
+---
+title = "Links"
+date = 2018-01-08
+updated = 2018-01-08
+tags = ["resources"]
+---
+
+# Links to Resources
 
 -   **BBR** : [Biostatistics for Biomedical Research](http://biostat.mc.vanderbilt.edu/tmp/bbr.pdf)             
 -   [Checklist of statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist)
@@ -15,9 +22,9 @@
 -   Frank's [postings](http://stats.stackexchange.com/users/4253) on
     `stackexchange`
 -   Frank's [recommended computing/editing tools](http://biostat.mc.vanderbilt.edu/FHTools)
--   [Andrew Gelman's [blog](http://andrewgelman.com/)
+-   Andrew Gelman's [blog](http://andrewgelman.com/)
 
-++ Discussion Boards
+## Discussion Boards
 
 -   [stats.stackexchange.com](http://stats.stackexchange.com/)
 -   [R](http://stackoverflow.com/questions/tagged/r)
@@ -27,5 +34,5 @@
     automatically if your email ends in `vanderbilt.edu`,
     otherwise you can make a request to join)
 
-++ Information About This Blog
+## Information About This Blog
 -   URL for RSS feed: http://fharrell.com/post/index.xml
