@@ -1,10 +1,11 @@
----
++++
+widget = "custom"
+active = true
 title = "Links"
-date = 2018-01-08
-updated = 2018-01-08
-tags = ["resources"]
----
-
+subtitle = ""
+date = "2018-01-08T00:00:00"
+weight = 90
++++
 # Links to Resources
 
 -   **BBR** : [Biostatistics for Biomedical Research](http://biostat.mc.vanderbilt.edu/tmp/bbr.pdf)             
@@ -35,4 +36,5 @@ tags = ["resources"]
     otherwise you can make a request to join)
 
 ## Information About This Blog
+
 -   URL for RSS feed: http://fharrell.com/post/index.xml
