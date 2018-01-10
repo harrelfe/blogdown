@@ -105,7 +105,7 @@ imagine alternate paths to getting to what is known (as do sens and spec
 when workup bias exists).  p-values and type I errors are
 backwards-information-flow measures, and clinical researchers and
 regulators come to believe that type I error is the error of interest.
- They also very frequently misinterpret p-values.  The p-value is one
+ They also very frequently misinterpret p-values.  Type I error is one
 minus spec, and power is sens.  The posterior probability is exactly
 analogous to the probability of disease.
 

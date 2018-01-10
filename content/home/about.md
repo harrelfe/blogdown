@@ -40,10 +40,10 @@ weight = 5
 
 # Biography
 
-* Professor and founding Chair of Dept. of Biostatistics, Vanderbilt Univ. School of Medicine, Nashville
+* Professor and founding Chair of the Department of Biostatistics, Vanderbilt University School of Medicine, Nashville TN USA
 * PhD in Biostatistics from U. North Carolina
-* Work in biomedical and pharmaceutical research
-* ASA Fellow and received the ASA WJ Dixon Award for Excellence in Statistical Consulting in 2014
+* Extensive work in biomedical and pharmaceutical research
+* ASA Fellow and winner of the ASA WJ Dixon Award for Excellence in Statistical Consulting in 2014
 * [Publications](http://www.citeulike.org/user/harrelfe/author/Harrell)
 * Active on [stats.stackexchange.com](http://stats.stackexchange.com) - see my posts [here](http://stats.stackexchange.com/users/4253)
 * Written several R packages including [Hmisc](http://biostat.mc.vanderbilt.edu/Hmisc) and [rms](http://biostat.mc.vanderbilt.edu/Rrms)
@@ -52,4 +52,4 @@ weight = 5
 * Statistical knowledge outside the areas of regression modeling strategies and Bayes is in [BBR](#links)
 * Also work in Office of Biostatistics, Center for Drug Evaluation and Research, FDA
 
-**Views expressed here are neither those of Vanderbilt University nor FDA**
+**Views expressed here are neither those of Vanderbilt University nor the US FDA**
