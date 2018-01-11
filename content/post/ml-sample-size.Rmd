@@ -1,0 +1,38 @@
+---
+title: How Can Machine Learning be Reliable When the Sample is Adequate for Only One Feature?
+author: Frank Harrell
+date: '2018-01-11'
+slug: ml-sample-size
+categories: []
+tags:
+  - prediction
+  - machine-learning
+  - sample-size
+  - validation
+  - precision
+bibliography: [harrelfe.bib]
+link-citations: true
+---
+The ability to estimate how one continuous variable relates to another continuous variable is basic to the ability to create good predictions.  Correlation coefficients are unitless, but estimating them requires similar sample sizes to estimating parameters we directly use in prediction such as slopes (regression coefficients).  When the shape of the relationship between X and Y is not known to be linear, a little more sample size is needed than if we knew that linearity held so that all we had to estimate was a slope and an intercept.
+
+Consider [BBR Section 8.5.2](http://fharrell.com#links) where it is shown that the sample size needed to estimate a correlation coefficient to within a margin of error as bad as ±0.2 with 0.95 confidence is about 100 subjects, and to achieve a better margin of error of ±0.1 requires about 400 subjects.  Let's reproduce that plot for the "hardest to estimate" case where the true correlation is 0.
+```{r plotprec,fig.cap='<small>Margin for error (length of longer side of asymmetric 0.95 confidence interval) for r in estimating ρ, when ρ=0.  Calculations are based on Fisher z transformation of r.</small>'}
+require(Hmisc)
+knitrSet(lang='blogdown')
+plotCorrPrecision(rho=0, n=seq(10, 1000, length=100), ylim=c(0, .4))
+abline(h=seq(0, .4, by=0.025), v=seq(25, 975, by=25), col=gray(.9))
+```
+
+I have seen many papers in the biomedical research literature in which investigators "turned loose" a machine learning or deep learning algorithm with hundreds of candidate features and a sample size that by the above logic is inadequate had there only been one candidate feature.  How can ML possibly learn how hundreds of predictors combine to predict an outcome when our knowledge of statistics would say this is impossible?  The short answer is that it can't.  Researchers claiming to have developed a useful predictive instrument with ML in the limited sample size case seldom do a rigorous internal validation that demonstrates the relationship between predicted and observed values (i.e., the calibration curve) to be a straight line.   I have worked with a colleague who had previously worked with a ML group who found a predictive signal (high R<sup>2</sup>) with over 1000 candidate features and N=50 subjects.  In trying to check their results on new subjects we appear to be finding an R<sup>2</sup> of zero.
+
+@plo14mod  in their article [Modern modelling techniques are data hungry](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-14-137) estimated that to have a very high chance of rigorously validating, many machine learning algorithms require 200 events per *candidate* feature (they found that logistic regression requires 20 events per candidate features).  So it seems that "big data" methods sometimes create the need for "big data" when traditional statistical methods may not require such huge sample sizes (at least when the dimensionality is not extremely high).  [Note: in higher dimensonal situations it is possible to specify a traditional statistical model for the pre-specified "important" predictors and to add in principal components and other summaries of the remaining features.]  Machine learning algorithms do seem to have unique advantages in high signal:noise ratio situations such as image and sound pattern recognition problems.  Medical diagnosis and outcome prediction problems involve a low signal:noise ratio, i.e., the R<sup>2</sup> are typically low and the outcome variable Y is typically measured with error.
+
+The morals of the story are
+
+*  Beware of claims of good predictive ability for ML algorithms when sample sizes are not huge in relationship to the number of candidate features
+*  For any problem, whether using machine learning or regression, compute the sample size needed to obtain highly reliable predictions with only a single pre-specified predictive feature
+*  If your sample size is not much bigger than this, beware of doing any high-dimensional analysis unless you have very clean data and a high signal:noise ratio
+*  Also remember that when Y is binary, the minimum sample size necessary just to estimate the intercept in a logistic regression model (equivalent to estimating a single proporton) is 96 (see BBR 5.6.3).  So it is impossible with binary Y to accurately estimate P(Y=1 | X) when there are *any* candidate predictors if n < 96 (and n=96 only achives a margin of error of ±0.1 in estimating risk).
+*  When the number of candidate features is huge and the sample size is not, expect the list of "selected" features to be volatile, predictive discrimination to be overstated, and absolute predictive accuracy (calibration curve) to be very problematic
+
+# References
