@@ -360,7 +360,7 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 
 # Computing Environment
 <!--html_preserve--><pre>
- R version 3.4.3 (2017-11-30)
+ R version 3.4.2 (2017-09-28)
  Platform: x86_64-pc-linux-gnu (64-bit)
  Running under: Ubuntu 17.10
  
