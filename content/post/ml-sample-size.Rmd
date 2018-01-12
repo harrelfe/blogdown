@@ -64,7 +64,7 @@ j <- 0
     maxerr[j] <- maxe
   }
 
-par(mar=c(3, 4.5, .5, .5))
+par(mar=c(5, 4.5, .5, .5))
 plot(ns, maxerr, type='l', xlab='N',
      ylab=expression(paste('Average Maximum  ', abs(hat(P) - P))))
 minor.tick()
