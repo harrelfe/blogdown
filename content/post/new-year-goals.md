@@ -4,9 +4,9 @@ date = 2017-12-29
 updated = 2018-01-02
 draft = false
 tags = []
+summary = 'Methodologic goals and wishes for biomedicine for 2018'
 [author]
 	name = "Frank Harrell"
-	uri = "https://www.blogger.com/profile/15263496257600444093"
 +++
 
 Here are some goals related to scientific research and clinical medicine that I'd like to see accomplished in 2018.
