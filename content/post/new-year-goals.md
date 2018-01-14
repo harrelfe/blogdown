@@ -4,7 +4,7 @@ date = 2017-12-29
 updated = 2018-01-02
 draft = false
 tags = []
-summary = 'Methodologic goals and wishes for biomedicine for 2018'
+summary = 'Methodologic goals and wishes for research and clinical practice for 2018'
 [author]
 	name = "Frank Harrell"
 +++
