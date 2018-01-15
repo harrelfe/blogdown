@@ -4,7 +4,7 @@ author: Frank Harrell
 date: '2018-01-11'
 updated: '2018-01-12'
 slug: ml-sample-size
-summary: 'It is easy to compute the sample size N1 needed to reliably estimate how one predictor relates to an outcome.  It is next to impossible for a machine learning algorithm entertaining hundreds of features to yield reliable answers when the sample size < N1.'
+summary: 'It is easy to compute the sample size N<sub>1</sub> needed to reliably estimate how one predictor relates to an outcome.  It is next to impossible for a machine learning algorithm entertaining hundreds of features to yield reliable answers when the sample size < N<sub>1</sub>.'
 categories: []
 tags:
   - prediction
@@ -45,7 +45,7 @@ require(rms)
 # X  = universe of X values if X considered fixed, in random order
 # xp = grid of x values at which to obtain and judge predictions
 sim <- function(assume = c('linear', 'smooth'),
-                X,
+                X, 
                 ns=seq(25, 300, by=25), nsim=1000,
                 xp=seq(-1.5, 1.5, length=200), sigma=1.5,
                 xlim=range(ns)) {
@@ -78,7 +78,6 @@ sim <- function(assume = c('linear', 'smooth'),
         worst <- min(worst, nsuccess)
     }
     if(worst < nsim) cat('Could only run', worst, 'simulations for one sample size\n')
-    par(mar=c(4.5, 5, .25, .25))
     plot(ns, maxerr, type='l', xlab='N', xlim, ylim=c(0.04, 0.2),
          ylab=expression(paste('Average Maximum  ', abs(hat(P) - P))))
     minor.tick()
@@ -97,7 +96,7 @@ set.seed(1)
 errSmooth <- sim(assume='smooth', X=X, ns=seq(50, 300, by=25), xlim=c(25, 300))
 lines(errLinear, col=gray(.8))
 ```
-You can see that the sample size must exceed 300 just to have sufficiency reliability in estimating probabilities just over the range of X of [-1.5, 1.5] when we do not know that the relationship is linear and we allow it to be nonlinear.
+You can see that the sample size must exceed 300 just to have sufficient reliability in estimating probabilities just over the range of X of [-1.5, 1.5] when we do not know that the relationship is linear and we allow it to be nonlinear.
 
 The morals of the story are
 

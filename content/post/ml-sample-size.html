@@ -4,7 +4,7 @@ author: Frank Harrell
 date: '2018-01-11'
 updated: '2018-01-12'
 slug: ml-sample-size
-summary: 'It is easy to compute the sample size N1 needed to reliably estimate how one predictor relates to an outcome.  It is next to impossible for a machine learning algorithm entertaining hundreds of features to yield reliable answers when the sample size < N1.'
+summary: 'It is easy to compute the sample size N<sub>1</sub> needed to reliably estimate how one predictor relates to an outcome.  It is next to impossible for a machine learning algorithm entertaining hundreds of features to yield reliable answers when the sample size < N<sub>1</sub>.'
 categories: []
 tags:
   - prediction
@@ -43,7 +43,7 @@ Figure 1: Margin for error (length of longer side of asymmetric 0.95 confidence 
 <pre class="r"><code># X  = universe of X values if X considered fixed, in random order
 # xp = grid of x values at which to obtain and judge predictions
 sim &lt;- function(assume = c(&#39;linear&#39;, &#39;smooth&#39;),
-                X,
+                X, 
                 ns=seq(25, 300, by=25), nsim=1000,
                 xp=seq(-1.5, 1.5, length=200), sigma=1.5,
                 xlim=range(ns)) {
@@ -76,7 +76,6 @@ sim &lt;- function(assume = c(&#39;linear&#39;, &#39;smooth&#39;),
         worst &lt;- min(worst, nsuccess)
     }
     if(worst &lt; nsim) cat(&#39;Could only run&#39;, worst, &#39;simulations for one sample size\n&#39;)
-    par(mar=c(4.5, 5, .25, .25))
     plot(ns, maxerr, type=&#39;l&#39;, xlab=&#39;N&#39;, xlim, ylim=c(0.04, 0.2),
          ylab=expression(paste(&#39;Average Maximum  &#39;, abs(hat(P) - P))))
     minor.tick()
@@ -86,7 +85,7 @@ sim &lt;- function(assume = c(&#39;linear&#39;, &#39;smooth&#39;),
 set.seed(1)
 X &lt;- rnorm(300, 0, sd=1.5)   # Allows use of same X&#39;s for both simulations
 errLinear &lt;- sim(assume=&#39;linear&#39;, X=X)</code></pre>
-<pre><code>## Could only run 999 simulations for one sample size</code></pre>
+<pre><code>Could only run 999 simulations for one sample size</code></pre>
 <div class="figure"><span id="fig:logisticsim"></span>
 <img src="/post/ml-sample-size_files/figure-html/logisticsim-1.png" alt="Simulated expected maximum error in estimating probabilities for x ∈ [-1.5, 1.5] with a single normally distributed X with mean zero.  The true relationship between X and P(Y=1 | X) is assumed to be logit(Y=1) = X.  The logistic model fits that are repeated in the simulation assume the relationship is linear, but estimates the slope and intercept.  In reality, we wouldn't know that a relationship is linear, and if we allowed it to be nonlinear there would be a bit more variance to the estimated curve, resulting in larger average absolute errors than what are shown in the figure (see below)." width="672" />
 <p class="caption">
@@ -96,7 +95,7 @@ Figure 2: Simulated expected maximum error in estimating probabilities for x ∈
 <p>But wait—the above simulation assumes that we already knew that the relationship was linear. In practice, most relationships are nonlinear but we don’t know the true transformation. Assume the relationship between X and logit(Y=1) is smooth, we can estimate the relationship reliably with a restricted cubic spline function. Here we use 4 knots, which gives rise to the addition of two nonlinear terms to the model for a total of 3 parameters to estimate not counting the intercept. By estimating these parameters we are estimating the smooth transformation of X and by simulating this process repeatedly we are allowing for “transformation uncertainty”.</p>
 <pre class="r"><code>set.seed(1)
 errSmooth &lt;- sim(assume=&#39;smooth&#39;, X=X, ns=seq(50, 300, by=25), xlim=c(25, 300))</code></pre>
-<pre><code>## Could only run 999 simulations for one sample size</code></pre>
+<pre><code>Could only run 999 simulations for one sample size</code></pre>
 <pre class="r"><code>lines(errLinear, col=gray(.8))</code></pre>
 <div class="figure"><span id="fig:simrcs"></span>
 <img src="/post/ml-sample-size_files/figure-html/simrcs-1.png" alt="Estimated mean maximum (over X) absolute errors in estimating P(Y=1) when X is not assumed to predict the logit linearly (black line).  The earlier estimates when linearity was assumed are shown with a gray scale line.  Restricted cubic splines could not be fitted for n=25." width="672" />
@@ -104,7 +103,7 @@ errSmooth &lt;- sim(assume=&#39;smooth&#39;, X=X, ns=seq(50, 300, by=25), xlim=c
 Figure 3: Estimated mean maximum (over X) absolute errors in estimating P(Y=1) when X is not assumed to predict the logit linearly (black line). The earlier estimates when linearity was assumed are shown with a gray scale line. Restricted cubic splines could not be fitted for n=25.
 </p>
 </div>
-<p>You can see that the sample size must exceed 300 just to have sufficiency reliability in estimating probabilities just over the range of X of [-1.5, 1.5] when we do not know that the relationship is linear and we allow it to be nonlinear.</p>
+<p>You can see that the sample size must exceed 300 just to have sufficient reliability in estimating probabilities just over the range of X of [-1.5, 1.5] when we do not know that the relationship is linear and we allow it to be nonlinear.</p>
 <p>The morals of the story are</p>
 <ul>
 <li>Beware of claims of good predictive ability for ML algorithms when sample sizes are not huge in relationship to the number of candidate features</li>
