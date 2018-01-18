@@ -8,11 +8,11 @@ weight = 90
 +++
 # Links to Resources
 
--   **BBR** : [Biostatistics for Biomedical Research](http://fharrell.com/docs/bbr.pdf)             
+-   **BBR** : [Biostatistics for Biomedical Research](http://fharrell.com/doc/bbr.pdf)             
 -   [Checklist of statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist)
 -   [Measuring change](http://biostat.mc.vanderbilt.edu/MeasureChange) (see also BBR Chapter 14)
 -   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms) web site
--   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/tmp/course.pdf) course notes          
+-   **RMS** : [Regression Modeling Strategies](http://fharrell.com/doc/rms.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
 -   Frank's [publications](http://citeulike.org/user/harrelfe/author/Harrell)
 -   Frank's [presentations](http://biostat.mc.vanderbilt.edu/FHHandouts)
