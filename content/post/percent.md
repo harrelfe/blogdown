@@ -1,9 +1,9 @@
 ---
 title: Why I Don't Like Percents
 author: Frank Harrell
-date: '2018-01-14'
+date: '2018-01-19'
 slug: percent
-draft: true
+draft: false
 categories: []
 tags:
   - metrics
@@ -21,11 +21,11 @@ img {
   display: block;
 }
 </style>
-The numbers zero and one are special; zero because it is a minimum or center point for many measurements and because it is the addition identity constant (x + 0 = x), and one because it is the multiplication identity constant and corresponds to units of measurements.  Many important quantities are between 0 and 1, including proportions of a whole and probabilities.  One hundred is not special in the same sense as unity, so percent (per 100) doesn't do anything for me (why not per thousand?).
+The numbers zero and one are special; zero because it is a minimum or center point for many measurements and because it is the addition identity constant (x + 0 = x), and one because it is the multiplication identity constant (x × 1 = x) and corresponds to units of measurements.  Many important quantities are between 0 and 1, including proportions of a whole and probabilities.  One hundred is not special in the same sense as unity, so percent (per 100) doesn't do anything for me (why not per thousand?).
 
 When a quantity doubles, it gets back to its original value by halving.  When in increases by 100% it gets back to its original value by decreasing 50%.  Case almost closed.  Whereas an increase of 33.33% is balanced by a decrease of 25%, an increase by a factor of 4/3 is balanced by a decrease to a factor of 3/4 .  If you put 100 dollars into an account that yields 3% interest annually, you will have 100 * (1.03<sup>10</sup>) or 134 dollars after 10 years.  To get back to your original value you'd have to lose 2.91% per year for 10 years.
 
-I like fractions like 3/4, or the decimal equivalent 0.75.  I like ratios, because they are symmetric.  Chaining together relative increases is simple with ratios.  An increase by a factor of 1.5 followed by an increase by a factor of 1.4 is an increase by a factor of 1.5 * 1.4 or 2.1.  A 50% increase followed by a 40% increase is an increase of 110%.
+I like fractions like 3/4, or the decimal equivalent 0.75.  I like ratios, because they are symmetric.  Chaining together relative increases is simple with ratios.  An increase by a factor of 1.5 followed by an increase by a factor of 1.4 is an increase by a factor of 1.5 * 1.4 or 2.1.  A 50% increase followed by a 40% increase is an increase of 110%.  To get the right answer with percent increase you have to convert back to ratios, do the multiplication, then convert back to percent.
 
 Many numbers that we quote are probabilities, and a probability is formally a number between 0 and 1.  So I don't like "the chance of rain is 10%" but prefer "the chance of rain is 0.1 or 1/10".  When discussing statistical analyses it is especially irksome to see statements such as "significance levels of 5% or power of 90%".  Probabilities are being discussed, so I prefer 0.05 and 0.9.
 
