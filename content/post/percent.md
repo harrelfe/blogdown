@@ -7,7 +7,7 @@ draft: false
 categories: []
 tags:
   - metrics
-summary: "I prefer fractions and ratios over percents.  Here are the reasons."
+summary: 'I prefer fractions and ratios over percents.  Here are the reasons.'
 header:
   caption: ''
   image: 'headers/percent.jpg'
