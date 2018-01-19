@@ -12,6 +12,7 @@ header:
   caption: ''
   image: 'headers/percent.jpg'
 ---
+The numbers zero and one are special; zero because it is a minimum or center point for many measurements and because it is the addition identity constant (x + 0 = x), and one because it is the multiplication identity constant (x × 1 = x) and corresponds to units of measurements.  Many important quantities are between 0 and 1, including proportions of a whole and probabilities.  One hundred is not special in the same sense as unity, so percent (per 100) doesn't do anything for me (why not per thousand?).
 <style>
 img {
   height: auto;
@@ -21,7 +22,6 @@ img {
   display: block;
 }
 </style>
-The numbers zero and one are special; zero because it is a minimum or center point for many measurements and because it is the addition identity constant (x + 0 = x), and one because it is the multiplication identity constant (x × 1 = x) and corresponds to units of measurements.  Many important quantities are between 0 and 1, including proportions of a whole and probabilities.  One hundred is not special in the same sense as unity, so percent (per 100) doesn't do anything for me (why not per thousand?).
 
 When a quantity doubles, it gets back to its original value by halving.  When in increases by 100% it gets back to its original value by decreasing 50%.  Case almost closed.  Whereas an increase of 33.33% is balanced by a decrease of 25%, an increase by a factor of 4/3 is balanced by a decrease to a factor of 3/4 .  If you put 100 dollars into an account that yields 3% interest annually, you will have 100 * (1.03<sup>10</sup>) or 134 dollars after 10 years.  To get back to your original value you'd have to lose 2.91% per year for 10 years.
 
