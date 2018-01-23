@@ -6,6 +6,12 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 +++
 
 <small>
+The difference between Bayesian and frequentist inference in a nutshell:<br>With Bayes you start with a prior distribution for θ and given your data make an inference about the θ-driven process generating your data (whatever that process may be), to quantify evidence for every possible value of θ.  With frequentism, you make assumptions about the process that generated your data, and try to build evidence for what θ is not.
+
+Frequentism is about the data generating process.  Bayes is about the θ generating process.
+</small>
+<hr>
+<small>
 Type I error for smoke detector: probability of alarm given no fire=0.05<br>
 Bayesian: probability of fire given current air data
 
@@ -17,6 +23,7 @@ Advantage of actionable evidence quantification:<br>
 Set the alarm to trigger when the posterior probability of a fire
 exceeds 0.02 while at home and at 0.01 while away
 </small>
+<hr>
 
 If I had been taught Bayesian modeling before being taught the
 frequentist paradigm, I'm sure I would have always been a Bayesian.  I
