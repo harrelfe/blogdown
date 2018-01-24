@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19T10:23:00Z
-updated = 2017-12-30T08:53:33Z
+updated = 2018-01-24
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing"]
 +++
 
@@ -183,12 +183,11 @@ encounter most frequently are:
 
 With new tools such as [Stan](http://mc-stan.org/) and well written
 accessible books such
-as [Kruschke's](http://www.citeulike.org/user/harrelfe/article/14172337) it's
-getting to be easier to be Bayesian each day.  The R
+as [Kruschke's](http://www.citeulike.org/user/harrelfe/article/14172337) and [McElreath's](http://www.citeulike.org/user/harrelfe/article/14255283)
+it's
+getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://www.citeulike.org/search/username?q=tag%3Abayes*+%26%26+tag%3Ateaching-mds&search=Search+library&username=harrelfe).  The R
 [brms](https://cran.r-project.org/web/packages/brms) package, which uses
 Stan, makes a large class of regression models even more accessible.
-
-### Update 2017-12-29
 
 Another reason for moving from frequentism to Bayes is that frequentist
 ideas are so confusing that even expert statisticians frequently
