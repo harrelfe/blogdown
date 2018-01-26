@@ -10,7 +10,9 @@ The difference between Bayesian and frequentist inference in a nutshell:<br>With
 
 Frequentism is about the data generating process.  Bayes is about the θ generating process.
 
-A p-value cannot be computed unless you know how data come to be: the complete experiemental design, that the design was faithfully executed without exception, and fully how data can be regenerated for infinitely many replications (the sampling scheme).  
+A p-value cannot be computed unless you know how data come to be: the complete experiemental design, that the design was faithfully executed without exception, and fully how data can be regenerated for infinitely many replications (the sampling scheme).
+
+Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design and sampling scheme that were **actually used** and would be infinitely replicated to allow the p-value to be computed.
 </small>
 <hr>
 <small>
@@ -106,7 +108,7 @@ probabilities, and that they count not only inefficacy but also harm.
  If P(efficacy)=0.97, P(no effect or harm)=0.03.  This is the
 "regulator's regret", and type I error is not the error of major
 interest (is it really even an 'error'?).  One minus a p-value is P(data
-in general are less extreme than that observed if H0 is true) which is
+in general are less extreme than that observed if H<sub>0</sub> is true) which is
 the probability of an event I'm not that interested in.
 
 The extreme amount of time I spent analyzing data led me to understand
