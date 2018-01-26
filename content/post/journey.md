@@ -5,29 +5,16 @@ updated = 2018-01-24
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing"]
 +++
 
-<small>
-The difference between Bayesian and frequentist inference in a nutshell:<br>With Bayes you start with a prior distribution for θ and given your data make an inference about the θ-driven process generating your data (whatever that process happened to be), to quantify evidence for every possible value of θ.  With frequentism, you make assumptions about the process that generated your data and infinitely many replications of them, and try to build evidence for what θ is not.
+|               |                |
+| ---------:| ----------:|
+|  | <small>**The difference between Bayesian and frequentist inference in a nutshell**:<br>With Bayes you start with a prior distribution for θ and given your data make an inference about the θ-driven process generating your data (whatever that process happened to be), to quantify evidence for every possible value of θ.  With frequentism, you make assumptions about the process that generated your data and infinitely many replications of them, and try to build evidence for what θ is not.</small> |
+|  |  |
+|  | <small>Frequentism is about the data generating process.  Bayes is about the θ generating process.</small> |
+|  |  |
+|  |  <small>Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design, sampling scheme, and data generating process that were **actually used** and would be infinitely replicated to allow p-values and confidence limits to be computed.</small> |
+|  |  |
+|  | <small>Type I error for smoke detector: probability of alarm given no fire=0.05</small><br><small>Bayesian: probability of fire given current air data</small><br><small>Frequentist smoke alarm designed as most research is done: Set the alarm trigger so as to have a 0.8 chance of detecting an inferno</small><br><small>**Advantage of actionable evidence quantification**:</small><br><small>Set the alarm to trigger when the posterior probability of a fire exceeds 0.02 while at home and at 0.01 while away</small> |
 
-Frequentism is about the data generating process.  Bayes is about the θ generating process.
-
-A p-value cannot be computed unless you know how data come to be: the complete experiemental design, that the design was faithfully executed without exception, and fully how data can be regenerated for infinitely many replications (the sampling scheme).
-
-Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design and sampling scheme that were **actually used** and would be infinitely replicated to allow the p-value to be computed.
-</small>
-<hr>
-<small>
-Type I error for smoke detector: probability of alarm given no fire=0.05<br>
-Bayesian: probability of fire given current air data
-
-Frequentist smoke alarm designed as most research is done:<br>
-Set the alarm trigger so as to have a 0.8 chance of detecting an
-inferno
-
-Advantage of actionable evidence quantification:<br>
-Set the alarm to trigger when the posterior probability of a fire
-exceeds 0.02 while at home and at 0.01 while away
-</small>
-<hr>
 
 If I had been taught Bayesian modeling before being taught the
 frequentist paradigm, I'm sure I would have always been a Bayesian.  I
