@@ -6,9 +6,11 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 +++
 
 <small>
-The difference between Bayesian and frequentist inference in a nutshell:<br>With Bayes you start with a prior distribution for θ and given your data make an inference about the θ-driven process generating your data (whatever that process may be), to quantify evidence for every possible value of θ.  With frequentism, you make assumptions about the process that generated your data, and try to build evidence for what θ is not.
+The difference between Bayesian and frequentist inference in a nutshell:<br>With Bayes you start with a prior distribution for θ and given your data make an inference about the θ-driven process generating your data (whatever that process happened to be), to quantify evidence for every possible value of θ.  With frequentism, you make assumptions about the process that generated your data and infinitely many replications of them, and try to build evidence for what θ is not.
 
 Frequentism is about the data generating process.  Bayes is about the θ generating process.
+
+A p-value cannot be computed unless you know how data come to be: the complete experiemental design, that the design was faithfully executed without exception, and fully how data can be regenerated for infinitely many replications (the sampling scheme).  
 </small>
 <hr>
 <small>
@@ -185,7 +187,7 @@ With new tools such as [Stan](http://mc-stan.org/) and well written
 accessible books such
 as [Kruschke's](http://www.citeulike.org/user/harrelfe/article/14172337) and [McElreath's](http://www.citeulike.org/user/harrelfe/article/14255283)
 it's
-getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://www.citeulike.org/search/username?q=tag%3Abayes*+%26%26+tag%3Ateaching-mds&search=Search+library&username=harrelfe).  The R
+getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://www.citeulike.org/search/username?q=tag%3Abayes*+%26%26+tag%3Ateaching*&search=Search+library&username=harrelfe).  The R
 [brms](https://cran.r-project.org/web/packages/brms) package, which uses
 Stan, makes a large class of regression models even more accessible.
 
