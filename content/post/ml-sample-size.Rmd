@@ -25,6 +25,12 @@ where it is shown that the sample size needed to estimate a correlation coeffici
 p.caption {
   font-size: 0.6em;
 }
+pre code {
+  overflow: auto;
+	word-wrap: normal;
+	white-space: pre;
+	}
+	
 </style> 
 
 ```{r setup}

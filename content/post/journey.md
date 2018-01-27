@@ -48,7 +48,8 @@ hypothesis was an artificial construct designed to placate a reviewer
 who believed that an NIH grant's specific aims must include null
 hypotheses.  I saw the contortions that investigators went through to
 achieve this, came to see that questions are more relevant than
-hypotheses, and estimation was even more important than questions.  
+hypotheses, and estimation was even more important than questions.
+
 With Bayes, estimation is emphasized.  I very much like Bayesian
 modeling instead of hypothesis testing.  I saw that a large number of
 clinical trials were incorrectly interpreted when p>0.05 because the
