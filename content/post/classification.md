@@ -1,16 +1,16 @@
 +++
 title = "Classification vs. Prediction"
 date = 2017-01-15T11:51:00Z
-updated = 2017-11-08T08:06:56Z
+updated = 2018-02-02
 tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science"]
 +++
-<div style="text-align:center"><small>
+<p style="text-align:center;font-size:80%;margin:60px;">
 Classification combines prediction and decision making and usurps the
 decision maker in specifying costs of wrong decisions. The
-classification rule must be reformulated if costs/utilities change.
-Predictions are separate from decisions and can be used by any decision
-maker.
-</small></div>
+classification rule must be reformulated if costs/utilities or sampling criteria change.  Predictions are separate from decisions and can be used by any decision maker.
+<br><br>
+Classification is best used with non-stochastic/deterministic outcomes that occur frequently, and not when two individuals with identical inputs can easily have different outcomes.  For the latter, modeling tendencies (i.e., probabilities) is key.
+</p>
 
 The field of machine learning arose somewhat independently of the field
 of statistics.  As a result, machine learning experts tend not to
@@ -74,9 +74,9 @@ exposing it to any number of replicates of attempts to classify an image
 as the letters A, B, ...   The user of such a classifier may not have
 time to consider whether any of the classifications were "close calls."
  And the signal:noise ratio is extremely high. In addition, there is a
-single "right" answer for each character.
+single "right" answer for each character.  This situation is primarily mechanistic or non-stochastic.  Contrast that with forecasting death or disease where two patients with identical known characteristics can easily have different outcomes.
 
-When close calls are possible, probability estimates are called for.
+When close calls are possible, or when there is inherent randomness to the outcomes, probability estimates are called for.
  One beauty of probabilities is that they are their own error measures.
  If the probability of disease is 0.1 and the current decision is not to
 treat the patient, the probability of this being an error is by

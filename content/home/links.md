@@ -38,3 +38,4 @@ weight = 90
 ## Information About This Blog
 
 -   URL for RSS feed: http://fharrell.com/post/index.xml
+-   Blog content [source](https://github.com/harrelfe/blogdown)
