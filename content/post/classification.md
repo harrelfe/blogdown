@@ -4,7 +4,7 @@ date = 2017-01-15T11:51:00Z
 updated = 2018-02-02
 tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science"]
 +++
-<p style="font-size:80%;margin-left:60px;">
+<p class="rquote">
 Classification combines prediction and decision making and usurps the
 decision maker in specifying costs of wrong decisions. The
 classification rule must be reformulated if costs/utilities or sampling criteria change.  Predictions are separate from decisions and can be used by any decision maker.
