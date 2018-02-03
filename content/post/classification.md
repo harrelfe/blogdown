@@ -1,7 +1,7 @@
 +++
 title = "Classification vs. Prediction"
 date = 2017-01-15T11:51:00Z
-updated = 2018-02-02
+updated = 2018-02-03
 tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science"]
 +++
 <p class="rquote">
@@ -123,22 +123,21 @@ balance the frequencies and get some variation that will lead to
 sensible looking classifiers (users of regression models would never
 exclude good data to get an answer).  Then they have to, in some
 ill-defined way, construct the classifier to make up for biasing the
-sample.  It is simply the case that a classifier trained to a 1/1000
+sample.  It is simply the case that a classifier trained to a 1/2
 prevalence situation will not be applicable to a population with a
-vastly different prevalence.  The classifier would have to be re-trained
+1/1000 prevalence.  The classifier would have to be re-trained
 on the new sample, and the patterns detected may change greatly.
  Logistic regression on the other hand elegantly handles this situation
 by either (1) having as predictors the variables that made the
 prevalence so low, or (2) recalibrating the intercept (only) for another
 dataset with much higher prevalence.  Classifiers' extreme dependence on
 prevalence may be enough to make some researchers always use probability
-estimators instead. One could go so far as to say that classifiers
+estimators like logistic regression instead. One could go so far as to say that classifiers
 should not be used at all when there is little variation in the outcome
-variable, and that only tendencies should be modeled.
+variable, and that only tendencies (probabilities) should be modeled.
 
 One of the key elements in choosing a method is having a sensitive
 accuracy scoring rule with the correct statistical properties.  Experts
 in machine classification seldom have the background to understand this
 enormously important issue, and choosing an improper accuracy score such
-as proportion classified correctly will result in a bogus model.  This
-will be discussed in a future blog.
+as proportion classified correctly will result in a bogus model.  This is discussed in detail [here]({{< ref "post/class-damage" >}}).
