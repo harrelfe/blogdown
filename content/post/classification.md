@@ -140,4 +140,4 @@ One of the key elements in choosing a method is having a sensitive
 accuracy scoring rule with the correct statistical properties.  Experts
 in machine classification seldom have the background to understand this
 enormously important issue, and choosing an improper accuracy score such
-as proportion classified correctly will result in a bogus model.  This is discussed in detail [here]({{< ref "post/class-damage" >}}).
+as proportion classified correctly will result in a bogus model.  This is discussed in detail [here]({{< ref "post/class-damage.md" >}}).
