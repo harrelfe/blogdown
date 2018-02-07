@@ -43,3 +43,6 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 [^1]: The authors failed to present a high-resolution validated calibration to demonstrate the absolute predictive accuracy of the model.  They also needlessly dealt with sensitivity and specificity.
 
 [^2]: Hemoglobin, red blood count, mean corpuscular hemoglobin, chloride, and BUN were excluded because their information was redundant once all the other predictors were known.
+
+-----
+See [Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5238707)
