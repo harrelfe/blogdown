@@ -98,3 +98,10 @@ I need your help in refining the approach or discovering completely new
 approaches to coordination of information using the course notes as a
 hub. Please add comments to this post below, or short suggestions to
 `@f2harrell` on `twitter`.
+
+--------
+Resources to investigate:
+
+* [SideComment.js](http://aroc.github.io/side-comments-demo)
+* [Medium](http://medium.com)
+* [genius.it](http://genius.it)
