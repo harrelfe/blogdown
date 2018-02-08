@@ -45,4 +45,8 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 [^2]: Hemoglobin, red blood count, mean corpuscular hemoglobin, chloride, and BUN were excluded because their information was redundant once all the other predictors were known.
 
 -----
-See [Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5238707)
+## References: Guidelines for Reporting Predictive Models
+
+* [TRIPOD Statement](http://annals.org/aim/fullarticle/2088549/transparent-reporting-multivariable-prediction-model-individual-prognosis-diagnosis-tripod-tripod)
+* [TRIPOD Explanation and Elaboration](http://annals.org/aim/fullarticle/2088542/transparent-reporting-multivariable-prediction-model-individual-prognosis-diagnosis-tripod-explanation)
+* [Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5238707)
