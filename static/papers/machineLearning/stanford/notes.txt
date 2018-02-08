@@ -1,0 +1,27 @@
+-------------------- Nigam Shah 2018-01-22
+I think the key assumption is that this (deep learning) is the model that is deployed. It is not. Second, the assumption is that we are recommending palliative care decisions based on the model. (We don’t). And finally, that we care only about the ML metrics (ppv, sensitivity, calibration etc). 
+
+Those three are wrong assumptions. This paper is about the *potential* of using deep learning and went to an IEEE conference. 
+
+The model that runs at SHC is a random forest, is better calibrated, we care about “lead time”, and the intervention is Stephanie talking to the treating physician. 
+
+
+-------------------- Nigam Shah 2018-01-22  nigam@stanford.edu
+
+Thanks for the stimulating conversation! I really enjoyed it, and the ideas you shared. As follow up, below are the additional materials we talked about:
+
+1 - the (rejected) paper examining some of the experiments you suggested (predictions based on variable length of prior record, restricted feature spaces). Please see figure 1. Turns out, given the set up of the problem, we do have situations where we have only one encounter and make a prediction. On the call I said, we need minimum 3 months of prior record, but we have gone lower then that; trying multiple "time zero" choices (incl. day of first encounter).
+
+** note that this paper was rejected because we have that conference paper with a neural net out, and reviewers thought nothing could be learned by exploring simpler, better calibrated models, alternative feature spaces, and prediction times (!). If you have suggestions as to where to send this, I'd be grateful.
+
+2 - the national academy of medicine presentation, that describes our
+(current) thinking about model utility.  https://nam.edu/wp-content/uploads/2017/12/Shah-Nigam-NAM_meeting_Nov_2017.pdf
+
+3 - calibration and auprc of the model that runs nightly at Stanford. Which I now hesitate to write up given the rejection in (1). This model is set up similar to the manuscript but uses only Stanford data.
+
+Inline image 2Inline image 1
+
+4 - paper about the side conversation we had about learning normal ranges of lab-test results from the data. https://www.ncbi.nlm.nih.gov/pubmed/26707631
+
+best regards,
+Nigam.
