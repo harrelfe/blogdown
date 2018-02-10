@@ -40,7 +40,7 @@ function.
 Classification is a *forced choice*.  In marketing where the advertising
 budget is fixed, analysts generally know better than to try to classify
 a potential customer as someone to ignore or someone to spend resources
-on.  They do this by modeling probabilities and creating a *lift curve*,
+on.  Instead, they model probabilities and create a *lift curve*,
 whereby potential customers are sorted in decreasing order of estimated
 probability of purchasing a product.  To get the "biggest bang for the
 buck", the marketer who can afford to advertise to n persons picks the n
