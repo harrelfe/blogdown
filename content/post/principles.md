@@ -25,17 +25,12 @@ here are the ones that guide my practice the most.
 11. Give the client what she needs, not what she wants
 12. Teach the client to want what she needs
 
+-----
 
 <p class="rquote">
-*... the statistician must be instinctively and primarily a logician and a scientist in the broader sense, and only secondarily a user of the specialized statistical techniques.*
+... the statistician must be instinctively and primarily a logician and a scientist in the broader sense, and only secondarily a user of the specialized statistical techniques.
 <br><br>
-*In considering the refinements and
-modifications of the scientific method which particularly apply to the
-work of the statistician, the first point to be emphasized is that the
-statistician is always dealing with probabilities and degrees of
-uncertainty.  He is, in effect, a Sherlock Holmes of figures, who must
-work mainly, or wholly, from circumstantial
-evidence.*
+In considering the refinements and modifications of the scientific method which particularly apply to the work of the statistician, the first point to be emphasized is that the statistician is always dealing with probabilities and degrees of uncertainty.  He is, in effect, a Sherlock Holmes of figures, who must work mainly, or wholly, from circumstantial evidence.
 <br><br>
 Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10, 1931
 </p>
