@@ -177,7 +177,7 @@ With new tools such as [Stan](http://mc-stan.org/) and well written
 accessible books such
 as [Kruschke's](http://www.citeulike.org/user/harrelfe/article/14172337) and [McElreath's](http://www.citeulike.org/user/harrelfe/article/14255283)
 it's
-getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://www.citeulike.org/search/username?q=tag%3Abayes*+%26%26+tag%3Ateaching*&search=Search+library&username=harrelfe).  See also Richard McElreath's [online lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc).  The R
+getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://www.citeulike.org/search/username?q=tag%3Abayes*+%26%26+tag%3Ateaching*&search=Search+library&username=harrelfe).  See also Richard McElreath's [online lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc) and [trialdesign.org](http://trialdesign.org).  The R
 [brms](https://cran.r-project.org/web/packages/brms) package, which uses
 Stan, makes a large class of regression models even more accessible.
 
