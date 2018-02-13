@@ -14,6 +14,7 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  |  <small>Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design, sampling scheme, and data generating process that were **actually used** and would be infinitely replicated to allow p-values and confidence limits to be computed.</small> |
 |  |  |
 |  | <small>Type I error for smoke detector: probability of alarm given no fire=0.05</small><br><small>Bayesian: probability of fire given current air data</small><br><small>Frequentist smoke alarm designed as most research is done: Set the alarm trigger so as to have a 0.8 chance of detecting an inferno</small><br><small>**Advantage of actionable evidence quantification**:</small><br><small>Set the alarm to trigger when the posterior probability of a fire exceeds 0.02 while at home and at 0.01 while away</small> |
+|  | <small>Reject a _specific_ null, and then argue for an _arbitrary_ alternative.  It's pretty remarkable that so few people see how absurd this procedure is. -- [JP de Ruiter](https://twitter.com/JPdeRuiter/status/963481008417988609)
 
 
 If I had been taught Bayesian modeling before being taught the
@@ -179,7 +180,7 @@ as [Kruschke's](http://www.citeulike.org/user/harrelfe/article/14172337) and [Mc
 it's
 getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://www.citeulike.org/search/username?q=tag%3Abayes*+%26%26+tag%3Ateaching*&search=Search+library&username=harrelfe).  See also Richard McElreath's [online lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc) and [trialdesign.org](http://trialdesign.org).  The R
 [brms](https://cran.r-project.org/web/packages/brms) package, which uses
-Stan, makes a large class of regression models even more accessible.
+Stan, makes a large class of regression models even more accessible.  A large number of R scripts illustrating Bayesian analysis are [here](https://github.com/avehtari/BDA_R_demos).
 
 Another reason for moving from frequentism to Bayes is that frequentist
 ideas are so confusing that even expert statisticians frequently
