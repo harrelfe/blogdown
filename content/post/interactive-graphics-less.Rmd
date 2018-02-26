@@ -1,9 +1,12 @@
-+++
-title = "Interactive Statistical Graphics: Showing More By Showing Less"
-date = 2017-02-05T09:43:00Z
-updated = 2017-02-26T06:48:43Z
-tags = ["survival-analysis", "graphics", "r"]
-+++
+---
+title: 'Interactive Statistical Graphics: Showing More By Showing Less'
+tags:
+- survival-analysis
+- graphics
+- r
+date: '2017-02-05'
+updated: '2018-02-25'
+---
 Version 4 of the R [`Hmisc`](http://biostat.mc.vanderbilt.edu/Hmisc) package and version
 5 of the R [`rms`](http://biostat.mc.vanderbilt.edu/Rrms) package
 interfaces with interactive [`plotly`](https://plot.ly/r/) graphics, which
@@ -42,4 +45,13 @@ ties in the data, and I very much like rug plots.
     bimodal distributions and zero blood pressure values for patients
     having a cardiac arrest.
 
-{{< figure src="/img/histboxp.png" width="100%" >}}
+In the `plotly` graphic below, hover over areas of the histogram or over the mean or quantile symbols to show more information.  Click components of the legend to turn off/on various computed quantities.  By default the SD and Gini's mean difference are not shown.  Click on them to show these as horizontal lines just to the right of the category names.
+```{r echo=FALSE}
+require(Hmisc)
+knitrSet(lang='blogdown')
+```
+```{r support}
+require(Hmisc)
+getHdata(support2)
+with(support2, histboxp(x=meanbp, group=dzgroup, sd=TRUE, bins=200))
+```
