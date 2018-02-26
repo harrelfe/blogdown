@@ -353,6 +353,10 @@ text(-1, .8, 'Posterior mean', col='blue')
 
 <img src="/post/bayes-seq_files/figure-html/estmu-1.png" width="672" />
 
+# Example Text to Communicate Study Design Overview to a Sponsor
+
+It is always the case that estimated a single fixed sample size is problematic, because a number of assumptions must be made, and the veracity of those assumptions is not known until the study is completed.  A sequential Bayesian approach allows for a lower expected sample size if some allowance can be made for the possibility that if the study gets to a certain landmark, the results are equivocal, and the study can be extended.  The idea is to compute the (Bayesian) probability of efficacy as often as desired.  The study could be terminated early for futility or harm, and less likely, for efficacy.  Such early termination would save more resources than one would spend to extend a promising but equivocal study, on the average.  The intended sample size would be set.  At that point, if results are equivocal but promising (e.g. Bayesian posterior probability of efficacy is > 0.8), the sponsor would have the option to decide to extend the study by adding more patients, perhaps in blocks of 50.
+
 <!---
 # Useful References
 Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
@@ -372,7 +376,7 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
  [1] methods   stats     graphics  grDevices utils     datasets  base     
  
  other attached packages:
- [1] rms_5.1-2       SparseM_1.77    Hmisc_4.1-2     ggplot2_2.2.1  
+ [1] rms_5.1-3       SparseM_1.77    Hmisc_4.1-2     ggplot2_2.2.1  
  [5] Formula_1.2-2   survival_2.41-3 lattice_0.20-35
  </pre>
  To cite R in publication use:
