@@ -11,6 +11,7 @@ tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "su
 3.  [Problems With Change Scores](#change)
 4.  [Improper Subgrouping](#subgroup)
 5.  [Serial Data and Response Trajectories](#serial)
+6.  [Cluster Analysis](#cluster)
 
 ------------------------------------------------------------------------
 
@@ -676,4 +677,16 @@ trajectory that was associated with the lowest mortality. For a study
 that is almost wholly statistical, it is a shame that modern statistical
 methods appeared to not even be considered. And for heaven's sake
 **analyze the raw diet scales and do not percentile them**.
+
+
+<a name="cluster"><br></a>
+### Cluster Analysis
+
+Emma Ahlqvist et al in [Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables](http://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30051-2) did a cluster analysis of glutamate decarboxylase antibodies, age at diagnosis, BMI, HbA1c, and homoeostatic model assessment 2 estimates of β-cell function and insulin resistance.  They claimed to find five distinct clusters having varying levels of clinical outcomes associated with them.  Such cluster analysis is in fact a statistically forced result that is caused by the clustering algorithms, and the resulting clusters are far less clinically relevant than it appears.  To understand why, consider the following points.  Start by envisioning the clusters as non-overlapping regions such as rectangles, ellipses, or circles.
+
+* There is no clinical reason why the clusters should not overlap.
+* Imagine two non-overlapping large regions sharing a border.  Consider a patient at the outer part of one cluster region and a patient in the other cluster who is close to the first patient.  Though these patients are assigned to different clusters, they may very well be more like each other in every way than they are like patients at the center of their own clusters.
+* Patients within a cluster are far from homogeneous.
+
+Cluster analysis on 6 continuous variables is unlikely to be as useful as flexible continuous regression models using the 6 variables to predict a diagnosis or an outcome.  If the clusters are in fact clinically useful, one should not assign a patient to a cluster and call it a done deal.  The proper way to take into account close calls, distance, and within-cluster patient heterogeneity is to compute the distance each patient is from each cluster center.  If there are in fact five clusters (which is highly debatable), each patient would need to be summarized by 5 continuous distances, and the meaning of each cluster would have to be carefully thought through.
 
