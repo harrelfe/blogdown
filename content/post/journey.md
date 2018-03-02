@@ -231,3 +231,10 @@ problems.
 ------------------------------------------------------------------------
 
 Go [here](https://news.ycombinator.com/item?id=13684429) for discussions about this article that are not on this blog.
+
+--------------------------------------
+## Other Resources
+
+* [Bayesian t-tests](https://vuorre.netlify.com/post/2017/how-to-compare-two-groups-with-robust-bayesian-estimation-using-r-stan-and-brms)
+* [Statistical Rethinking](http://xcelab.net/rm/statistical-rethinking) examples with [R brms](https://osf.io/97t6w)
+

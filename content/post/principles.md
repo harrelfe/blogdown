@@ -1,7 +1,7 @@
 +++
 title = "Fundamental Principles of Statistics"
 date = 2017-01-18T18:33:00Z
-updated = 2017-03-04T12:17:07Z
+updated = 2018-03-02
 tags = ["design", "measurement", "principles"]
 +++
 There are many principles involved in the theory and practice of statistics, but
@@ -12,7 +12,7 @@ here are the ones that guide my practice the most.
 3.  Design experiments to maximize information
 4.  Understand the measurements you are analyzing and don't hesitate to
     question how the underlying information was captured
-5.  Be more interested in questions than in null hypotheses, and be more
+5.  Be more interested in [questions than in null hypotheses](http://clinchem.aaccjnls.org/content/56/7/1080), and be more
     interested in estimation than in answering narrow questions
 6.  Use all information in data during analysis
 7.  Use discovery and estimation procedures not likely to claim that
