@@ -54,4 +54,5 @@ knitrSet(lang='blogdown')
 require(Hmisc)
 getHdata(support2)
 with(support2, histboxp(x=meanbp, group=dzgroup, sd=TRUE, bins=200))
+# try adding symbol='triangle-up-open'
 ```
