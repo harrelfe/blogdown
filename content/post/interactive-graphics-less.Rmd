@@ -1,5 +1,7 @@
 ---
 title: 'Interactive Statistical Graphics: Showing More By Showing Less'
+output:
+    blogdown::html_page
 tags:
 - survival-analysis
 - graphics
