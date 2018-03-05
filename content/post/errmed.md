@@ -1,7 +1,7 @@
 +++
 title = "Statistical Errors in the Medical Literature"
 date = 2017-04-08T08:36:00Z
-updated = 2018-03-03
+updated = 2018-03-05
 tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change-scores", "RCT", "personalized-medicine", "responder-analysis", "hypothesis-testing", "medical-literature"]
 [author]
 +++
@@ -690,8 +690,11 @@ Emma Ahlqvist et al in [Novel subgroups of adult-onset diabetes and their associ
 
 Cluster analysis on 6 continuous variables is unlikely to be as useful as flexible continuous regression models using the 6 variables to predict a diagnosis or an outcome.  If the clusters are in fact clinically useful, one should not assign a patient to a cluster and call it a done deal.  The proper way to take into account close calls, distance, and within-cluster patient heterogeneity is to compute the distance each patient is from each cluster center.  If there are in fact five clusters (which is highly debatable), each patient would need to be summarized by 5 continuous distances from cluster centers, and the meaning of each cluster would have to be carefully thought through.
 
-When clustering is based on a relatively small number of measurements (here, 6) clustering does not result in enough dimensionality reduction (5 distances from cluster centers) to be of much value.  And one could just fit additive spline models on the 6 raw measurements to predict an outcome of interest.  This directly aims at explaining outcome heterogeneity and would be far more useful.
+When clustering is based on a relatively small number of measurements (here, 6) clustering does not result in enough dimensionality reduction (5 distances from cluster centers) to be of much value.  And one could just fit additive spline models on the 6 raw measurements to predict an outcome of interest.  This directly aims at explaining outcome heterogeneity and would be far more useful.  Multivariable regression will also inform the clinician of which continuous predictors are explaining the bulk of the variation in outcomes.  One or two of the six predictors used in clustering may not even be relevant once the other predictors are adjusted for.
 
 If distances are erroneously ignored (as done in the paper at issue), the authors set themselves up for later researchers to find subtypes within each of their clusters.
 
 The cluster analysis by Ahlqvist actually represents a demonstration that adult-onset diabetes should never have been considered an all-or-nothing condition.  The clusters are just making up for past mistakes.  This is discussed more eloquently by Vickers, Basch, and Kattan in [Against Diagnosis](http://annals.org/aim/article-abstract/742079/against-diagnosis).
+
+A simple way to demonstrate the futility of placing patients into discrete clusters and pretending they are homogeneous (i.e., ignoring distance from cluster centers) is to estimate the strength of the relationship between HbA1c and a clinical outcome, within a cluster having the greatest dispersion of HbA1c (as measured by Gini's mean difference for HbA1c or by the standard deviation of the reciprocal of HbA1c).
+
