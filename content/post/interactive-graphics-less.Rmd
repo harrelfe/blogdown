@@ -56,6 +56,5 @@ getHdata(support2)
 with(support2, {
     units(meanbp) <- 'mmHg'
     histboxp(x=meanbp, group=dzgroup, sd=TRUE, bins=200)
-# try adding symbol='triangle-up-open' to histboxp() with Hmisc 4.1.2
 } )
 ```
