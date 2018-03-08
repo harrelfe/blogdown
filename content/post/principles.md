@@ -36,4 +36,4 @@ Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10, 1931
 </p>
 
 -----
-See [this post](/post/improve.research) for related thoughts.
+See [this post](/post/improve-research) for related thoughts.
