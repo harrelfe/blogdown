@@ -1,7 +1,7 @@
 +++
 title = "Fundamental Principles of Statistics"
 date = 2017-01-18T18:33:00Z
-updated = 2018-03-02
+updated = 2018-03-08
 tags = ["design", "measurement", "principles"]
 +++
 There are many principles involved in the theory and practice of statistics, but
@@ -34,3 +34,6 @@ In considering the refinements and modifications of the scientific method which 
 <br><br>
 Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10, 1931
 </p>
+
+-----
+See [this post](/post/improve.research) for related thoughts.

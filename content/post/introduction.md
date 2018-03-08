@@ -78,3 +78,5 @@ item 1 above and items 2 and 4 below.  Complacency in the field of statistics an
 I was interviewed by Kevin Gray in July, 2017 where more of my opinions
 about statistics may be
 [found](http://www.greenbookblog.org/2017/08/02/vital-statistics-you-never-learned-because-theyre-never-taught/).
+
+See [this article](/post/improve-research) for related thoughts.
