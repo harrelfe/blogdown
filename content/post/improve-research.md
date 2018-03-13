@@ -114,6 +114,11 @@ If rigorous internal validation or attempted duplication of results by outsiders
 
 -----
 
+## Some Useful References
+*  [How much does your data exploration overfit? Controlling bias via information usage](https://arxiv.org/abs/1511.05219) by D Russo and J Zou
+
+-----
+
 This article benefited from many thought-provoking discussions with Bert Gunter, who believes that replication and initial exploratory analysis are even more important than I do.  Chris Tong also provided valuable ideas.  Misconceptions are solely mine.
 
 Footnotes:
