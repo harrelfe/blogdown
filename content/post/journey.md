@@ -238,3 +238,4 @@ Go [here](https://news.ycombinator.com/item?id=13684429) for discussions about t
 * [Bayesian t-tests](https://vuorre.netlify.com/post/2017/how-to-compare-two-groups-with-robust-bayesian-estimation-using-r-stan-and-brms)
 * [Statistical Rethinking](http://xcelab.net/rm/statistical-rethinking) examples with [R brms](https://osf.io/97t6w)
 * Michael Clark's [R and Stan](http://m-clark.github.io/documents) example code
+* Stephen Martin's [A foray into Bayesian handling of missing data](http://srmart.in/a-foray-into-bayesian-handling-of-missing-data) with Stan
