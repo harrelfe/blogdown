@@ -2,6 +2,7 @@
 title: 'Improving Research Through Safer Learning from Data'
 author: Frank Harrell
 date: '2018-03-08'
+modified: '2018-03-19'
 draft: false
 slug: improve-research
 categories: []
@@ -62,7 +63,7 @@ Notice the inclusion of _beliefs_ in the original list.  Frequentists operate un
 1. IJ Good showed that all probabilities are subjective because they depend on the knowledge of the observer.   One of his examples is that a card player who knows that a certain card is sticky will know a different probability that the card will be at the top of the deck than will a player who doesn't know that.  
 1. To compute p-values, one **must** know the _intentions_ of the investigator.  Did she intend to study 90 patients and happened to observe 10 bad outcomes, or did she intend to sample patients until 10 outcomes happened?  Did she intend to do an early data look?  Did she actually do an early data look but first wrote an affidavit affirming that she would not take any action as a result of the look?  Did she intend to analyze three dependent variables and was the one reported the one she would have reported even had she looked at the data for all three?  All of these issues factor into computation of a p-value.
 1. The choice of the statistical model is always subjective (more below).
-1. Interpretations are subjective.  Do you multiplicity-adjust a p-value?  Using which of the competing approaches?  What if other studies have results that are inconsistent with the new study?  How do we discount the current p-value for that?
+1. Interpretations are subjective.  Do you multiplicity-adjust a p-value?  Using which of the competing approaches?  What if other studies have results that are inconsistent with the new study?  How do we discount the current p-value for that?  But most importantly, the necessary conversion of a frequentist probability of data given a hypothesis into evidence about the hypothesis is entirely subjective.
 
 Bayesian inference gets criticized for being subjective when in fact its distinguishing feature is that it is stating subjective assumptions clearly.
 
