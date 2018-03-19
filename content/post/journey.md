@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19T10:23:00Z
-updated = 2018-03-15
+updated = 2018-03-19
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing"]
 +++
 
@@ -225,7 +225,7 @@ exclusively on the NHST paradigm."
 Some of the problems with frequentist statistics are the way in which
 its methods are misused, especially with regard to dichotomization.  But
 an approach that is so easy to misuse and which sacrifices direct
-inference in a futile attempt at objectivity still has fundamental
+inference in a [futile attempt at objectivity](/post/improve-research)  still has fundamental
 problems.
 
 ------------------------------------------------------------------------

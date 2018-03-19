@@ -2,7 +2,7 @@
 title: 'Improving Research Through Safer Learning from Data'
 author: Frank Harrell
 date: '2018-03-08'
-modified: '2018-03-19'
+updated: '2018-03-19'
 draft: false
 slug: improve-research
 categories: []
