@@ -93,3 +93,4 @@ of estimated probabilities.
 An excellent discussion with more information may be found
 [here](https://stats.stackexchange.com/questions/312780).
 
+The video of a lecture on medical diagnosis and problems with sensitivity and specificity may be found [here](https://www.youtube.com/watch?v=uULhuuSjBww).
