@@ -11,7 +11,7 @@ rules.  Accuracy scores are used to drive feature selection, parameter
 estimation, and for measuring predictive performance on models derived
 using any optimization algorithm.  For this discussion let Y denote a
 no/yes false/true 0/1 event being predicted, and let Y=0 denote a
-non-event and Y=1 the event occurred.
+non-event and Y=1 the event occurred. 
 
 As discussed [here](https://en.wikipedia.org/wiki/Scoring_rule) and [here](http://psiexp.ss.uci.edu/research/papers/MerkleSteyvers.pdf),
 a *proper accuracy scoring* rule is a metric applied to probability
