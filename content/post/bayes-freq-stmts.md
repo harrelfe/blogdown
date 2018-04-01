@@ -5,10 +5,8 @@ updated = 2018-04-01
 tags = ["reporting", "inference", "p-value", "RCT", "bayes", "drug-evaluation", "evidence", "hypothesis-testing"]
 +++
 <p class="rquote">
-To avoid "false positives" do away with "positive".<br>
-
-A good poker player thinks to herself "The probability I can win with this hand is 0.91" and not "I'm going to win with this hand."<br>
-
+To avoid "false positives" do away with "positive".<br><br>
+A good poker player thinks to herself "The probability I can win with this hand is 0.91" and not "I'm going to win with this hand."<br><br>
 State conclusions honestly, completely deferring judgments and actions to the ultimate decision makers.  Just as it is better to [make predictions than classifications](/post/classification) in prognosis and diagnosis, use the word "probably" liberally, and avoid thinking "the evidence against the null hypothesis is trong so we conclude the treatment works" which open you up to the chance of a false positive.
 </p>
 The following examples are intended to show the advantages of Bayesian reporting of
