@@ -7,7 +7,8 @@ tags = ["reporting", "inference", "p-value", "RCT", "bayes", "drug-evaluation", 
 <p class="rquote">
 To avoid "false positives" do away with "positive".<br><br>
 A good poker player thinks to herself "The probability I can win with this hand is 0.91" and not "I'm going to win with this hand."<br><br>
-State conclusions honestly, completely deferring judgments and actions to the ultimate decision makers.  Just as it is better to [make predictions than classifications](/post/classification) in prognosis and diagnosis, use the word "probably" liberally, and avoid thinking "the evidence against the null hypothesis is trong so we conclude the treatment works" which open you up to the chance of a false positive.
+State conclusions honestly, completely deferring judgments and actions to the ultimate decision makers.  Just as it is better to [make predictions than classifications](/post/classification) in prognosis and diagnosis, use the word "probably" liberally, and avoid thinking "the evidence against the null hypothesis is strong, so we conclude the treatment works" which creates the opportunity of a false positive.<br><br>
+Propagation of uncertainties throughout research, reporting, and implementation will result in better decision making and getting more data when needed.  Imagine a physician saying to a patient "The chance this drug will lower your blood pressure by more than 3mmHg is 0.93."
 </p>
 The following examples are intended to show the advantages of Bayesian reporting of
 treatment efficacy analysis, as well as to provide examples contrasting
