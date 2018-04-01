@@ -1,9 +1,14 @@
 +++
 title = "Bayesian vs. Frequentist Statements About Treatment Efficacy"
-date = 2017-10-04T07:00:00Z
-updated = 2017-10-04T07:00:22Z
+date = 2017-10-04
+updated = 2018-04-01
 tags = ["reporting", "inference", "p-value", "RCT", "bayes", "drug-evaluation", "evidence", "hypothesis-testing"]
 +++
+<p class="rquote">
+To avoid "false positives" do away with "positive".<br><br>
+A good poker player thinks to herself "The probability I can win with this hand is 0.91" and not "I'm going to win with this hand."<br><br>
+State conclusions honestly, completely deferring judgments and actions to the ultimate decision makers.  Just as it is better to [make predictions than classifications](/post/classification) in prognosis and diagnosis, use the word "probably" liberally.
+</p>
 The following examples are intended to show the advantages of Bayesian reporting of
 treatment efficacy analysis, as well as to provide examples contrasting
 with frequentist reporting. As detailed
