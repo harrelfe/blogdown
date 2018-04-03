@@ -82,4 +82,7 @@ Joint Bayesian modeling of multiple endpoints also allows one to uncover interre
 
 Most importantly, Bayesian analysis of clinical trials, when multiple endpoints are involved, allows the results for each endpoint to be properly interpreted marginally.  That is because the prior state of knowledge, which may reasonably be encapsulated into a skeptical prior (i.e., a prior distribution that assumes large treatment effects are unlikely) leads to a posterior probability of efficacy for each endpoint that is straightforwardly interpreted regardless of context.  Because Bayes deals with [forward probabilities](/post/pvalprobs), these posterior probabilities of efficacy are calibrated by their priors.  For example, the skepticism with which we view efficacy of a treatment on endpoint E<sub>2</sub> comes from the data about the E<sub>2</sub> effect and the prior skepticism about the E<sub>2</sub> effect, no matter what the effect on E<sub>1</sub>.  This way of thinking shows clearly the value of trying to learn more from a study by asking multiple questions.  One should not be penalized for curiosity.
 
+### Further Reading
+* [Composite end points in randomized trials: There is no free lunch](https://jamanetwork.com/journals/jama/article-abstract/185214?redirect=true)
+
 ### Footnotes
