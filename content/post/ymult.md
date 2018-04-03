@@ -84,5 +84,6 @@ Most importantly, Bayesian analysis of clinical trials, when multiple endpoints 
 
 ### Further Reading
 * [Composite end points in randomized trials: There is no free lunch](https://jamanetwork.com/journals/jama/article-abstract/185214?redirect=true)
+* [Miscellaneous papers](http://www.citeulike.org/user/harrelfe/tag/multiple-endpoints) on multiple endpoints
 
 ### Footnotes
