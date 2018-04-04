@@ -2,7 +2,7 @@
 title: Musings on Multiple Endpoints in RCTs
 author: Frank Harrell
 date: '2018-03-26'
-updated: '2018-04-04'
+modified: '2018-04-04'
 slug: ymult
 categories: []
 tags:
