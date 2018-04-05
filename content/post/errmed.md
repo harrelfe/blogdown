@@ -1,7 +1,7 @@
 +++
 title = "Statistical Errors in the Medical Literature"
 date = 2017-04-08T08:36:00Z
-updated = 2018-03-05
+updated = 2018-04-04
 tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change-scores", "RCT", "personalized-medicine", "responder-analysis", "hypothesis-testing", "medical-literature"]
 [author]
 +++
@@ -698,3 +698,6 @@ The cluster analysis by Ahlqvist actually represents a demonstration that adult-
 
 A simple way to demonstrate the futility of placing patients into discrete clusters and pretending they are homogeneous (i.e., ignoring distance from cluster centers) is to estimate the strength of the relationship between HbA1c and a clinical outcome, within a cluster having the greatest dispersion of HbA1c (as measured by Gini's mean difference for HbA1c or by the standard deviation of the reciprocal of HbA1c).
 
+### Further Reading
+* [Biostatistics for Biomedical Research](/doc/bbr.pdf)
+* Richard Lehman's [journal reviews](https://blogs.bmj.com/bmj/2018/04/03/richard-lehmans-journal-reviews-3-april-2018)
