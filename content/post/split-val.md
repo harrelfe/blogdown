@@ -1,7 +1,7 @@
 +++
 title = "Split-Sample Model Validation"
-date = 2017-01-23T07:47:00Z
-updated = 2017-01-25T12:18:25Z
+date = 2017-01-23
+updated = 2018-04-13
 tags = ["prediction", "bootstrap", "validation"]
 +++
 Methods used
@@ -12,7 +12,7 @@ bootstrapping.  To be as good as the bootstrap, about 100 repeats of
 10-fold cross-validation are required.
 
 As discussed in more detail in Section 5.3 of [Regression Modeling
-Strategies Course Notes](http://biostat.mc.vanderbilt.edu/rms) and the
+Strategies Course Notes](http://fharrell.com/doc/rms.pdf) and the
 same section of the RMS book, data splitting is an unstable method for
 validating models or classifiers, especially when the number of subjects
 is less than about 20,000 (fewer if signal:noise ratio is high).  This
@@ -61,8 +61,6 @@ likely future performance of a model.  Data splitting only has an
 advantage when the test sample is held by another researcher to ensure
 that the validation is unbiased.
 
-### Update 2017-01-25
-
 Many investigators have been told that they must do an "external"
 validation, and they split the data by time or geographical location.
  They are sometimes surprised that the model developed in one country or
@@ -74,3 +72,7 @@ using the bootstrap, accounting for time and location all along the way.
  The end result is a model that is useful for prediction at times and
 locations that were at least somewhat represented in the original
 dataset, but without assuming that time and location effects are nil.
+
+## Other Resources
+* How to choose between [internal and external validation](/doc/bbr.pdf#nameddest=reg-choose-val)
+
