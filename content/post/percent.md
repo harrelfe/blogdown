@@ -2,6 +2,7 @@
 title: Why I Don't Like Percents
 author: Frank Harrell
 date: '2018-01-19'
+updated: '2018-04-14'
 slug: percent
 draft: false
 categories: []
@@ -42,3 +43,6 @@ We need to achieve clarity by settling on a convention for wording fold-change d
 Many quantities reported in the scientific literature are naturally ratios.  For example, odds ratios and hazard ratios are commonly used.  If the ratio of stroke hazard rates treatment B compared to treatment A is 0.75, I prefer to report "the B:A stroke hazard ratio was 0.75."  There's no need to say that there was a 25% reduction in stroke hazard rate.
 
 Percents have perhaps one good use.  When they represent fractions and we don't care to present but two decimal places of accuracy, i.e., the percents you calculate are all whole numbers, percents may be OK.  But I would still prefer numbers like 0.02, 0.86 and to avoid a symbol (%) when just dealing with numbers.
+
+## Links to Other Resources
+* [What is a percentage difference?](https://www.bmj.com/content/358/bmj.j3663) by TJ Cole and DG Altman
