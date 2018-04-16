@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2018-03-13
+modified = 2018-04-16
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -54,3 +54,5 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 
 ## Other Relevant Articles
 * [Big Data and Machine Learning in Health Care](https://jamanetwork.com/journals/jama/fullarticle/2675024)
+* [UK Parliament AI Report](https://publications.parliament.uk/pa/ld201719/ldselect/ldai/100/10002.htm)
+
