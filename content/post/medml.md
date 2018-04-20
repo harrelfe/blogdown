@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2018-04-16
+modified = 2018-04-20
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -55,4 +55,7 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 ## Other Relevant Articles
 * [Big Data and Machine Learning in Health Care](https://jamanetwork.com/journals/jama/fullarticle/2675024)
 * [UK Parliament AI Report](https://publications.parliament.uk/pa/ld201719/ldselect/ldai/100/10002.htm)
+* [Statistical and Machine Learning forecasting methods: Concerns and ways forward](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194889) by S Markridakis, E Spiliotis, V Assimakopoulos
+     + Excellent discussion of overfitting, measuring accuracy, and lack of rigor in published machine learning studies in financial time series forecasting.  Simple statistical methods outperformed complex machine learning algorithms.  Previous researchers refused to share data.
+
 
