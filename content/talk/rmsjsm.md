@@ -1,14 +1,14 @@
 +++
-date = 2018-01-01T00:00:00  # Schedule page publish date.
+date = 2018-04-29  # Schedule page publish date.
 
-title = "Why Bayes for Clinical Trials?"
-time_start = 2017-11-16T00:00:00
-time_end = 2017-11-16T00:00:00
+title = "Regression Modeling Strategies"
+time_start = 2018-07-29T08:30:00
+time_end = 2018-07-29T17:00:00
 abstract = ""
 abstract_short = ""
-event = "UNC Department of Biostatistics"
-#event_url = "https://example.org"
-location = "Chapel Hill, NC"
+event = "Regression Modeling Strategies Short Course, JSM Biometrics Section Continuing Education"
+event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
+location = "Vancouver, BC"
 
 # Is this a selected talk? (true/false)
 selected = true

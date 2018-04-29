@@ -1,14 +1,14 @@
 +++
-date = 2018-01-01T00:00:00  # Schedule page publish date.
+date = 2018-04-29  # Schedule page publish date.
 
-title = "The Next Generation of Clinical Trial Reporting"
-time_start = 2017-11-16T00:00:00
-time_end = 2017-11-16T00:00:00
+title = "Regression Modeling Strategies"
+time_start = 2018-05-14T09:00:00
+time_end = 2018-05-18T16:00:00
 abstract = ""
 abstract_short = ""
-event = "Visionary Speaker, UNC Department of Biostatistics Clinical Studies Coordinating Center"
-#event_url = "https://example.org"
-location = "Chapel Hill, NC"
+event = "Regression Modeling Strategies Short Course"
+event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
+location = "Nashville, TN"
 
 # Is this a selected talk? (true/false)
 selected = true
