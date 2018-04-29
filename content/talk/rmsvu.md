@@ -6,7 +6,7 @@ time_start = 2018-05-14T09:00:00
 time_end = 2018-05-18T16:00:00
 abstract = ""
 abstract_short = ""
-event = "Regression Modeling Strategies Short Course"
+event = "Regression Modeling Strategies 5-day Short Course"
 event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
 location = "Nashville, TN"
 
