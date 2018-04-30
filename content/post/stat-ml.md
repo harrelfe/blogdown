@@ -1,5 +1,5 @@
 ---
-title: Road Map for Choosing Statistical Modeling vs. Machine Learning
+title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
 updated: ''
