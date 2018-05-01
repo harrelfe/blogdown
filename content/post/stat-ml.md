@@ -54,10 +54,13 @@ Here are some rough guidelines that attempt to help researchers choose between t
 *  One does not care that the model is a "black box"
 
 ## Editorial Comment
-Some readers have [commented on twitter](https://twitter.com/f2harrell/status/990991631900921857) that I've created a false dichotomy of SMs vs. ML.  There is some truth in this claim.  The motivations for my approach to the presentation are
+Some readers have [commented on twitter](https://twitter.com/samfin55/status/991031725189984258) that I've created a false dichotomy of SMs vs. ML.  There is some truth in this claim.  The motivations for my approach to the presentation are
+
 *  to clarify that regression models are **not** ML
 *  to sharpen the discussion by having a somewhat concrete definition of ML as a method without "specialness" of the parameters and that does not make many assumptions about the structure of predictors in relation to the outcome being predicted
 *  to recognize that the bulk of machine learning being done today, especially in biomedical research, seems to be completely uninformed by statistical principles (much to its detriment IMHO), even to the point of many ML users not properly understanding predictive accuracy.  It is impossible to have good predictions that address the problem at hand without a thorough understanding of measures of predictive accuracy and choosing the one to optimize.
+
+See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twitter discussions.
 
 ## Further Reading
 *  [Statistical Modeling: The Two Cultures](http://www2.math.uu.se/~thulin/mm/breiman.pdf) by Leo Breiman <br><small>Note: I very much disagree with Breiman's view that data models are not important.  How would he handle truncated/censored data for example?  I do believe that data models need to be flexible.  This is facilitated by Bayesian modeling.</small>
