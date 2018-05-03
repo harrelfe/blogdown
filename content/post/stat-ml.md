@@ -68,5 +68,6 @@ See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twi
 *  [Statistical Modeling: The Two Cultures](http://www2.math.uu.se/~thulin/mm/breiman.pdf) by Leo Breiman <br><small>Note: I very much disagree with Breiman's view that data models are not important.  How would he handle truncated/censored data for example?  I do believe that data models need to be flexible.  This is facilitated by Bayesian modeling.</small>
 *  [Big Data and Machine Learning in Health Care](https://jamanetwork.com/journals/jama/article-abstract/2675024) by AL Beam and IS Kohane
 *  Harvard Business Review article [Why You're Not Getting Value From Your Data Science](https://hbr.org/2016/12/why-youre-not-getting-value-from-your-data-science), about regression vs. machine learning in business applications
+*  [What's the Difference Between Machine Learning, Statistics, and Data Mining?](http://www.sharpsightlabs.com/blog/difference-machine-learning-statistics-data-mining)
 
 #### Footnotes
