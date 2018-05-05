@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2018-05-02'
+modified: '2018-05-05'
 updated: ''
 slug: stat-ml
 categories: []
@@ -61,6 +61,8 @@ Some readers have [commented on twitter](https://twitter.com/samfin55/status/991
 *  to recognize that the bulk of machine learning being done today, especially in biomedical research, seems to be completely uninformed by statistical principles (much to its detriment IMHO), even to the point of many ML users not properly understanding predictive accuracy.  It is impossible to have good predictions that address the problem at hand without a thorough understanding of measures of predictive accuracy when choosing the measure to optimize.
 
 Some definitions of ML and discussions about the definitions may be found [here](https://www.techemergence.com/what-is-machine-learning), [here](https://machinelearningmastery.com/what-is-machine-learning), and [here](https://stackoverflow.com/questions/2620343).  I like the following definition from [Tom Mitchell](http://www.amazon.com/dp/0070428077?tag=inspiredalgor-20): _The field of machine learning is concerned with the question of how to construct computer programs that automatically improve with experience._
+
+The two fields may also be defined by how their practitioners spend their time. Someone engaged in ML will mainly spend her time choosing algorithms, writing code, specifying tuning parameters, waiting for the algorithm to run on a computer or cluster, and analyzing the accuracy of the resulting predictions.  Someone engaged mainly in SMs will tend to spend time choosing a statistical model family, specifying the model, checking goodness of fit, analyzing accuracy of predictions, and interpreting estimated effects.
 
 See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twitter discussions.
 
