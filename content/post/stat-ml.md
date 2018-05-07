@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2018-05-05'
+modified: '2018-05-06'
 updated: ''
 slug: stat-ml
 categories: []
@@ -56,7 +56,7 @@ Here are some rough guidelines that attempt to help researchers choose between t
 ## Editorial Comment
 Some readers have [commented on twitter](https://twitter.com/samfin55/status/991031725189984258) that I've created a false dichotomy of SMs vs. ML.  There is some truth in this claim.  The motivations for my approach to the presentation are
 
-*  to clarify that regression models are **not** ML
+*  to clarify that regression models are **not** ML^[There is an intersection of ML and regression in neural networks.  See [this article](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.4780140108) for more.]
 *  to sharpen the discussion by having a somewhat concrete definition of ML as a method without "specialness" of the parameters, that does not make many assumptions about the structure of predictors in relation to the outcome being predicted, and that does not explicitly incorporate uncertainty (e.g., probability distributions) into the analysis
 *  to recognize that the bulk of machine learning being done today, especially in biomedical research, seems to be completely uninformed by statistical principles (much to its detriment IMHO), even to the point of many ML users not properly understanding predictive accuracy.  It is impossible to have good predictions that address the problem at hand without a thorough understanding of measures of predictive accuracy when choosing the measure to optimize.
 
