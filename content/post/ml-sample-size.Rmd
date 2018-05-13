@@ -2,7 +2,7 @@
 title: How Can Machine Learning be Reliable When the Sample is Adequate for Only One Feature?
 author: Frank Harrell
 date: '2018-01-11'
-updated: '2018-05-13'
+modified: '2018-05-13'
 slug: ml-sample-size
 summary: 'It is easy to compute the sample size N<sub>1</sub> needed to reliably estimate how one predictor relates to an outcome.  It is next to impossible for a machine learning algorithm entertaining hundreds of features to yield reliable answers when the sample size < N<sub>1</sub>.'
 categories: []
