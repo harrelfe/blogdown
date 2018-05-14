@@ -14,6 +14,7 @@ header:
   caption: ''
   image: ''
 ---
+<center>Drew Levy</center>
 <p class="rquote">
 ... the art of data analysis is about choosing and using multiple tools." [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms), pp. vii
 </p>
