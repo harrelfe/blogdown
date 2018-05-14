@@ -15,7 +15,7 @@ header:
   image: ''
 ---
 <div align="center">
-Drew Levy<br><small><tt>drew@dogoodscience.com</tt></small><br><small><tt>[Linkedin:drewglevy](http://linkedin.com/in/drewglevy)</tt></small><br><small><tt>[DoGoodScience.com](www.DoGoodScience.com)</tt></small>
+Drew Levy<br><small><tt>drew@dogoodscience.com</tt></small><br><small><tt> [Linkedin:drewglevy](http://linkedin.com/in/drewglevy) </tt></small><br><small><tt> [DoGoodScience.com](www.DoGoodScience.com) </tt></small>
 </div>
 
 <p class="rquote">
