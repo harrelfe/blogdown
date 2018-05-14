@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2018-05-09'
+modified: '2018-05-14'
 updated: ''
 slug: stat-ml
 categories: []
@@ -71,6 +71,7 @@ The two fields may also be defined by how their practitioners spend their time. 
 See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twitter discussions.
 
 ## Further Reading
+*  Follow-up Article by Drew Levy: [Navigating Statistical Modeling and Machine Learning](/post/stat-ml2)
 *  [Statistical Modeling: The Two Cultures](http://www2.math.uu.se/~thulin/mm/breiman.pdf) by Leo Breiman <br><small>Note: I very much disagree with Breiman's view that data models are not important.  How would he handle truncated/censored data for example?  I do believe that data models need to be flexible.  This is facilitated by Bayesian modeling.</small>
 *  [Big Data and Machine Learning in Health Care](https://jamanetwork.com/journals/jama/article-abstract/2675024) by AL Beam and IS Kohane
 *  Harvard Business Review article [Why You're Not Getting Value From Your Data Science](https://hbr.org/2016/12/why-youre-not-getting-value-from-your-data-science), about regression vs. machine learning in business applications
