@@ -14,9 +14,9 @@ header:
   caption: ''
   image: ''
 ---
-<div align="center">
-Drew Levy<br><small><tt>drew@dogoodscience.com</tt></small><br><small><tt> [Linkedin:drewglevy](http://linkedin.com/in/drewglevy) </tt></small><br><small><tt> [DoGoodScience.com](www.DoGoodScience.com) </tt></small>
-</div>
+
+Drew Levy<br><small><tt>drew@dogoodscience.com</tt></small><br><small><tt> [Linkedin:drewglevy](http://linkedin.com/in/drewglevy) </tt></small><br><small><tt> [DoGoodScience.com](www.DoGoodScience.com) </tt></small><br><br>
+
 
 <p class="rquote">
 ... the art of data analysis is about choosing and using multiple tools." [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms), pp. vii
