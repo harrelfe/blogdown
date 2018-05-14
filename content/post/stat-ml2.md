@@ -19,7 +19,7 @@ Drew Levy<br><small><tt>drew@dogoodscience.com</tt></small><br><small><tt> [Link
 
 
 <p class="rquote">
-... the art of data analysis is about choosing and using multiple tools<br><a href="http://biostat.mc.vanderbilt.edu/rms">       —Regression Modeling Strategies</a>, pp. vii
+... the art of data analysis is about choosing and using multiple tools.<br><a href="http://biostat.mc.vanderbilt.edu/rms">           —Regression Modeling Strategies</a>, pp. vii
 </p>
 
 Frank Harrell's post, [Road Map for Choosing Between Statistical Modeling and Machine Learning](/post/stat-ml/), does us the favor of providing a contrast of statistical modeling (SM) and machine learning (ML) in terms of fundamental attributes (signal:noise and data requirements, dependence on assumptions and structure, interest in "special" parameters, accounting of uncertainties and predictive accuracy).  This is clarifying perspective.  Despite the prevalent conflation of SM and ML within the rubric of 'data science', Frank's post underscores that SM and ML are different in important ways and the individual considerations in this contrast should assist us in making deliberated decisions about when and how to apply one approach or another.  This cogent set of criteria help us better select tools that are fit-for-purpose and serve our particular ends with the best means.  Getting clarity about what our real ends are might be the harder part.  
