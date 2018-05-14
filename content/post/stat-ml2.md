@@ -1,7 +1,7 @@
 ---
 title: Navigating Statistical Modeling and Machine Learning
-author: Drew Levy<br><small><tt>drew@dogoodscience.com</tt></small><br><small><tt>[Linkedin:drewglevy](http://linkedin.com/in/drewglevy)</tt></small><br><small><tt>[DoGoodScience.com](www.DoGoodScience.com)</tt></small>
-date: '2018-05-13'
+author: Drew Levy
+date: '2018-05-14'
 modified: ''
 slug: stat-ml2
 categories: []
@@ -14,7 +14,10 @@ header:
   caption: ''
   image: ''
 ---
-<center>Drew Levy</center>
+<div align="center">
+Drew Levy<br><small><tt>drew@dogoodscience.com</tt></small><br><small><tt>[Linkedin:drewglevy](http://linkedin.com/in/drewglevy)</tt></small><br><small><tt>[DoGoodScience.com](www.DoGoodScience.com)</tt></small>
+</div>
+
 <p class="rquote">
 ... the art of data analysis is about choosing and using multiple tools." [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms), pp. vii
 </p>
