@@ -1,7 +1,7 @@
 +++
 title = "Classification vs. Prediction"
-date = 2017-01-15T11:51:00Z
-updated = 2018-02-03
+date = 2017-01-15
+modified = 2018-05-19
 tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science"]
 +++
 <p class="rquote">
@@ -9,7 +9,8 @@ Classification combines prediction and decision making and usurps the
 decision maker in specifying costs of wrong decisions. The
 classification rule must be reformulated if costs/utilities or sampling criteria change.  Predictions are separate from decisions and can be used by any decision maker.
 <br><br>
-Classification is best used with non-stochastic/deterministic outcomes that occur frequently, and not when two individuals with identical inputs can easily have different outcomes.  For the latter, modeling tendencies (i.e., probabilities) is key.
+Classification is best used with non-stochastic/deterministic outcomes that occur frequently, and not when two individuals with identical inputs can easily have different outcomes.  For the latter, modeling tendencies (i.e., probabilities) is key.<br><br>
+Classification should be used when outcomes are distinct and predictors are strong enough to provide, for all subjects, a probability near 1.0 for one of the outcomes.
 </p>
 
 The field of machine learning arose somewhat independently of the field
