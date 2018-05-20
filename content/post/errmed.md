@@ -1,7 +1,7 @@
 +++
 title = "Statistical Errors in the Medical Literature"
-date = 2017-04-08T08:36:00Z
-updated = 2018-04-04
+date = 2017-04-08
+modified = 2018-05-20
 tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change-scores", "RCT", "personalized-medicine", "responder-analysis", "hypothesis-testing", "medical-literature"]
 [author]
 +++
@@ -278,6 +278,9 @@ blood pressure of 74mmHg. His example is below:
 When a clinical trial's response variable is one that is arbitrary,
 loses information and power, is difficult to interpret, and means
 different things for different patients, expect trouble.
+
+<a name="pvcs"></a>
+In [Right ventricular dysfunction and long-term risk of sudden cardiac death in patients with and without severe left ventricular dysfunction](http://circep.ahajournals.org/content/11/6/e006091.full), Niyada Naksuk et al. took dichotomania to a high level by completely repeating the analytical mistakes that led to the ventricular arrhythmia suppression hypothesis and the Cardiac Arrhythmia Suppression Trial (CAST).  As detailed [here](http://fharrell.com/doc/bbr.pdf#nameddest=sec:pvcs), there is residual confounding when the analysis merely stratifies on intervals of LVEF and doesn't adjust for continuous LVEF.  Even among patients with LVEF < 0.4, the mean LVEF for those with a high premature ventricular contraction (PVC) frequency is much different than the mean LVEF for patients without this risk factor.  Arrhythmias tended to occur when the myocardium was damaged, and reducing PVCs can't address this irreversible damage.  Naksuk et al. also used an invalid stepwise variable selection algorithm to select their final statistical model.
 
 <a name="change"></a>
 ### Change from Baseline 
