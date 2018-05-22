@@ -1,7 +1,7 @@
 +++
 title = "Bayesian vs. Frequentist Statements About Treatment Efficacy"
 date = 2017-10-04
-updated = 2018-04-01
+modified = 2018-05-21
 tags = ["reporting", "inference", "p-value", "RCT", "bayes", "drug-evaluation", "evidence", "hypothesis-testing"]
 +++
 <p class="rquote">
@@ -56,9 +56,9 @@ Frequentist Statement
 -   Supplemental Information: The observed B-A difference in means was
     4mmHg with a 0.95 confidence interval of [-5, 13]. If this study
     could be indefinitely replicated and the same approach used to
-    compute the confidence interval each time, 0.95 of such varying
+    compute a confidence interval each time, 0.95 of such varying
     confidence intervals would contain the unknown true difference in
-    means.
+    means.  Based on the current study, the probability that the true difference is within [-5, 13] is either zero or one, i.e., we don't really know how to interpret the interval. 
 
 Bayesian Statement
 
