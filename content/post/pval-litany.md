@@ -189,7 +189,7 @@ also a compound assertion such as "A lowers blood pressure by at least
 
 1.  Greenwald, Gonzalez, Harris, and Guthrie's paper [Effect sizes and p values: What should be reported and what should be replicated?](https://faculty.washington.edu/agg/pdf/Gwald_Gonz_Har_Guth_Psychophys_1996.OCR.pdf) nicely describes subtle distortions in the scientific research process caused by the usage of null hypotheses:
 
-<p style="rquote">
+<p class="rquote">
 One of the more important varieties of prejudince against the
 null hypothesis ... comes about as a consequence of researchers
 much more identifying their own theoretical predictions with
