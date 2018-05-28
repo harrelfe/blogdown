@@ -1,7 +1,7 @@
 +++
 title = "A Litany of Problems With p-values"
-date = 2017-02-05T08:39:00Z
-updated = 2017-02-05T09:00:02Z
+date = 2017-02-05
+modified = 2018-05-27
 tags = ["decision-making", "bayes", "multiplicity", "p-value", "hypothesis-testing"]
 +++
 In my opinion, null hypothesis testing and p-values have done significant harm
@@ -184,6 +184,22 @@ also a compound assertion such as "A lowers blood pressure by at least
 1.  Because of B2, large p-values are uninformative and do not assist
     the researcher in decision making (Fisher said that a large p-value
     means "get more data").
+
+### J. Distortion of Scientific Conclusions
+
+1.  Greenwald, Gonzalez, Harris, and Guthrie's paper [Effect sizes and p values: What should be reported and what should be replicated?](https://faculty.washington.edu/agg/pdf/Gwald_Gonz_Har_Guth_Psychophys_1996.OCR.pdf) nicely describes subtle distortions in the scientific research process caused by the usage of null hypotheses:
+
+<p style="rquote">
+One of the more important varieties of prejudince against the
+null hypothesis ... comes about as a consequence of researchers
+much more identifying their own theoretical predictions with
+rejections (rather than with acceptances) of the null hypothesis.  The
+consequence is an ego involvement with rejection of the null
+hypothesis that often leads researchers to interpret null hypothesis
+rejections as valid confirmations of their theoretical beliefs while
+interpreting nonrejections as uninformative and possibly the result of
+flawed mehods.
+</p>
 
 ------
 More recommended reading:
