@@ -12,9 +12,8 @@ tags:
 
 <p class="rquote">
 (In a Bayesian analysis) It is entirely appropriate to collect data
-until a point has been<br>proven or disproven, or until the data collector
-runs out of time, money, or patience.<br>[Edwards, Lindman,
-Savage](http://psycnet.apa.org/doi/10.1037/h0044139) (1963)
+until a point has been proven or disproven, or until the data collector
+runs out of time, money, or patience.<br>— <a href="http://psycnet.apa.org/doi/10.1037/h0044139">Edwards, Lindman, Savage (1963)</a>
 </p>
 
 # Introduction
