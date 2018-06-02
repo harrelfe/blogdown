@@ -8,6 +8,7 @@ draft: false
 categories: []
 tags:
   - metrics
+  - 2018
 summary: 'I prefer fractions and ratios over percents.  Here are the reasons.'
 header:
   caption: ''

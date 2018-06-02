@@ -2,7 +2,7 @@
 title = "Clinicians' Misunderstanding of Probabilities Makes Them Like Backwards Probabilities Such As Sensitivity, Specificity, and Type I Error"
 date = 2017-01-25T06:16:00Z
 updated = 2017-01-25T06:16:46Z
-tags = ["specificity", "probability", "backward-probability", "forward-probability", "p-value", "bayes", "conditioning", "diagnosis", "decision-making", "dichotomization", "medicine", "bioinformatics", "biomarker", "sensitivity", "posterior"]
+tags = ["specificity", "probability", "backward-probability", "forward-probability", "p-value", "bayes", "conditioning", "diagnosis", "decision-making", "dichotomization", "medicine", "bioinformatics", "biomarker", "sensitivity", "posterior", "2017"]
 +++
 Imagine watching a baseball game, seeing the batter get a hit, and hearing the
 announcer say "The chance that the batter is left handed is now 0.2!"  

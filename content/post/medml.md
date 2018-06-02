@@ -2,7 +2,7 @@
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
 modified = 2018-04-20
-tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation"]
+tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
 BD Horne et al wrote an important paper [Exceptional mortality prediction by risk scores from common laboratory tests](http://www.amjmed.com/article/S0002-9343(09)00103-X/pdf) that apparently garnered little attention, perhaps because it used older technology: standard clinical lab tests and logistic regression.  Yet even putting themselves at a significant predictive disadvantage by binning all the continuous lab values into fifths, the authors were able to achieve a validated c-index (AUROC) of 0.87 in predicting death within 30d in a mixed inpatient, outpatient, and emergency department patient population. Their model also predicted 1y and 5y mortality very well, and performed well in a completely independent NHANES cohort[^1].  It also performed very well when evaluated just in outpatients, a group with very low mortality.

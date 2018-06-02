@@ -1,8 +1,8 @@
 +++
 title = "Fundamental Principles of Statistics"
 date = 2017-01-18T18:33:00Z
-updated = 2018-03-08
-tags = ["design", "measurement", "principles"]
+modified = 2018-03-08
+tags = ["design", "measurement", "principles", "2017"]
 +++
 There are many principles involved in the theory and practice of statistics, but
 here are the ones that guide my practice the most.

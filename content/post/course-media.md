@@ -2,7 +2,7 @@
 title = "Integrating Audio, Video, and Discussion Boards with Course Notes"
 date = 2017-08-01T10:12:00Z
 updated = 2017-08-02T06:06:57Z
-tags = ["collaboration", "teaching", "r", "reproducible"]
+tags = ["collaboration", "teaching", "r", "reproducible", "2017"]
 +++
 As a biostatistics teacher I've spent a lot of time thinking about inverting
 the classroom and adding multimedia content. My first thought was to

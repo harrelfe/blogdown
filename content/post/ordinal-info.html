@@ -1,17 +1,20 @@
 ---
-title: Information Gain From Using Ordinal Instead of Binary Outcomes
+title: "Information Gain From Using Ordinal Instead of Binary Outcomes"
 date: '2018-01-28'
-summary: 'This article gives examples of information gained by using ordinal over binary response variables.  This is done by showing that for the same sample size and power, smaller effects can be detected'
-draft: false
-categories: []
+draft: no
+summary: This article gives examples of information gained by using ordinal over binary
+  response variables.  This is done by showing that for the same sample size and power,
+  smaller effects can be detected
 tags:
-  - RCT
-  - design
-  - dichotomization
-  - inference
-  - precision
-  - responder-analysis
-  - sample-size
+- RCT
+- design
+- dichotomization
+- inference
+- precision
+- responder-analysis
+- sample-size
+- 2018
+categories: []
 ---
 
 
@@ -29,7 +32,8 @@ p2 &lt;- plogis(qlogis(0.2) + log(dor))
 n1 &lt;- round(bsamsize(0.2, p2, power=tpower)[&#39;n1&#39;])
 n  &lt;- 2 * n1</code></pre>
 <p>The OR of 0.5 corresponds to an event probability of 0.111 in the second group, and the number of subjects required per group is 347 to achieve a power of 0.9 of detecting OR=0.5.</p>
-<p>Let’s now turn to using an ordinal response variable Y for our study. The proportional odds ordinal logistic model is the most widely used ordinal response model. It includes both the Wilcoxon-Mann-Whitney two-sample rank test and binary logistic regression as special cases. If ties in Y could be broken, the proportional odds assumption satisfied, and the sample size per group were fixed at 347, what odds ratio would be detectable with the same power of 0.9?</p>
+<p>Let’s now turn to using an ordinal response variable Y for our study. The proportional odds ordinal logistic model is the most widely used ordinal response model. It includes both the Wilcoxon-Mann-Whitney two-sample rank test and binary logistic regression as special cases.
+If ties in Y could be broken, the proportional odds assumption satisfied, and the sample size per group were fixed at 347, what odds ratio would be detectable with the same power of 0.9?</p>
 <p>Before proceeding let’s see how close to 0.9 is the power computed using proportional odds model machinery when Y is binary. The vector of cell probabilities needed by the R <code>popower</code> function is the average of the cell probabilities over the two study groups. We write a front-end to <code>popower</code> that computes this average given the odds ratio and the cell probabilities for group 1.</p>
 <pre class="r"><code>popow &lt;- function(p, or, n) {
     # Compute cell probabilities for group 2 using Hmisc::pomodm

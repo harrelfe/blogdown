@@ -1,26 +1,32 @@
 ---
-title: How Can Machine Learning be Reliable When the Sample is Adequate for Only One Feature?
-author: Frank Harrell
+title: How Can Machine Learning be Reliable When the Sample is Adequate for Only One
+  Feature?
+author: "Frank Harrell"
 date: '2018-01-11'
+categories: []
+link-citations: yes
 modified: '2018-05-13'
 slug: ml-sample-size
-summary: 'It is easy to compute the sample size N<sub>1</sub> needed to reliably estimate how one predictor relates to an outcome.  It is next to impossible for a machine learning algorithm entertaining hundreds of features to yield reliable answers when the sample size < N<sub>1</sub>.'
-categories: []
+summary: It is easy to compute the sample size N<sub>1</sub> needed to reliably estimate
+  how one predictor relates to an outcome.  It is next to impossible for a machine
+  learning algorithm entertaining hundreds of features to yield reliable answers when
+  the sample size < N<sub>1</sub>.
 tags:
-  - prediction
-  - machine-learning
-  - sample-size
-  - validation
-  - precision
-  - accuracy-score
-bibliography: [harrelfe.bib]
-link-citations: true
+- prediction
+- machine-learning
+- sample-size
+- validation
+- precision
+- accuracy-score
+- 2018
+bibliography: harrelfe.bib
 ---
 
 
 
 <p>The ability to estimate how one continuous variable relates to another continuous variable is basic to the ability to create good predictions. Correlation coefficients are unitless, but estimating them requires similar sample sizes to estimating parameters we directly use in prediction such as slopes (regression coefficients). When the shape of the relationship between X and Y is not known to be linear, a little more sample size is needed than if we knew that linearity held so that all we had to estimate was a slope and an intercept. This will be addressed later.</p>
-<p>Consider <a href="http://fharrell.com/doc/bbr.pdf#nameddest=sec:corr-n">BBR Section 8.5.2</a> where it is shown that the sample size needed to estimate a correlation coefficient to within a margin of error as bad as ±0.2 with 0.95 confidence is about 100 subjects, and to achieve a better margin of error of ±0.1 requires about 400 subjects. Let’s reproduce that plot for the “hardest to estimate” case where the true correlation is 0.</p>
+<p>Consider <a href="http://fharrell.com/doc/bbr.pdf#nameddest=sec:corr-n">BBR Section 8.5.2</a>
+where it is shown that the sample size needed to estimate a correlation coefficient to within a margin of error as bad as ±0.2 with 0.95 confidence is about 100 subjects, and to achieve a better margin of error of ±0.1 requires about 400 subjects. Let’s reproduce that plot for the “hardest to estimate” case where the true correlation is 0.</p>
 <style>
 p.caption {
   font-size: 0.6em;
@@ -126,7 +132,8 @@ Figure 3: Estimated mean maximum (over X) absolute errors in estimating P(Y=1) w
 <li>For any problem, whether using machine learning or regression, compute the sample size needed to obtain highly reliable predictions with only a single pre-specified predictive feature</li>
 <li>If you are not sure that relationships are simple so that you allow various transformations to be attempted, uncertainty increases and so does the expected absolute predicton error</li>
 <li>If your sample size is not much bigger than the above minimum, beware of doing any high-dimensional analysis unless you have very clean data and a high signal:noise ratio</li>
-<li>Also remember that when Y is binary, the minimum sample size necessary just to estimate the intercept in a logistic regression model (equivalent to estimating a single proporton) is 96 (see <a href="http://fharrell.com/doc/bbr.pdf#nameddest=sec:htest-p-n">BBR Section 5.6.3</a>) So it is impossible with binary Y to accurately estimate P(Y=1 | X) when there are <em>any</em> candidate predictors if n &lt; 96 (and n=96 only achives a margin of error of ±0.1 in estimating risk).</li>
+<li>Also remember that when Y is binary, the minimum sample size necessary just to estimate the intercept in a logistic regression model (equivalent to estimating a single proporton) is 96 (see <a href="http://fharrell.com/doc/bbr.pdf#nameddest=sec:htest-p-n">BBR Section 5.6.3</a>)
+So it is impossible with binary Y to accurately estimate P(Y=1 | X) when there are <em>any</em> candidate predictors if n &lt; 96 (and n=96 only achives a margin of error of ±0.1 in estimating risk).</li>
 <li>When the number of candidate features is huge and the sample size is not, expect the list of “selected” features to be volatile, predictive discrimination to be overstated, and absolute predictive accuracy (calibration curve) to be very problematic</li>
 <li>In general, know how many observations are required to allow you to reliably learn from the number of candidate features you have</li>
 </ul>

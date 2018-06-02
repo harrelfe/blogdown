@@ -2,7 +2,7 @@
 title = "Statistical Criticism is Easy; I Need to Remember That Real People are Involved"
 date = 2017-11-05T21:07:00Z
 updated = 2017-11-06T07:22:08Z
-tags = ["RCT"]
+tags = ["RCT", "2017"]
 +++
 I have been critical of a number of articles, authors, and journals in
 [this]({{< ref "post/errmed.md" >}})

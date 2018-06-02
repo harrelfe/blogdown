@@ -2,7 +2,7 @@
 title = "Bayesian vs. Frequentist Statements About Treatment Efficacy"
 date = 2017-10-04
 modified = 2018-05-21
-tags = ["reporting", "inference", "p-value", "RCT", "bayes", "drug-evaluation", "evidence", "hypothesis-testing"]
+tags = ["reporting", "inference", "p-value", "RCT", "bayes", "drug-evaluation", "evidence", "hypothesis-testing", "2017"]
 +++
 <p class="rquote">
 To avoid "false positives" do away with "positive".<br><br>

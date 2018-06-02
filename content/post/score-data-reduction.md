@@ -1,8 +1,8 @@
 +++
 title = "Scoring Multiple Variables, Too Many Variables and Too Few Observations: Data Reduction"
 date = 2017-11-21T15:40:00Z
-updated = 2017-11-26T07:27:29Z
-tags = ["variability", "data-reduction"]
+modified = 2017-11-26T07:27:29Z
+tags = ["variability", "data-reduction", "2017"]
 +++
 This post will grow to cover questions about data reduction methods, also known as *unsupervised learning* methods. These are intended primarily for two
 purposes:

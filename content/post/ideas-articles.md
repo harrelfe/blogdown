@@ -1,7 +1,8 @@
 +++
 title = "Ideas for Future Articles"
 date = 2017-01-16T10:52:00Z
-updated = 2017-01-24T07:28:15Z
+modified = 2017-01-24T07:28:15Z
+tags = ["2017"]
 +++
 Suggestions for future articles are welcomed as comments to this entry.
 Some topics I intend to write about are listed below.

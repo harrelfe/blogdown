@@ -7,14 +7,15 @@ tags:
   - bayes
   - sequential
   - RCT
+  - 2017
 ---
 
-<div align="center"><span style="font-size:80%;">
+<p class="rquote">
 (In a Bayesian analysis) It is entirely appropriate to collect data
 until a point has been<br>proven or disproven, or until the data collector
 runs out of time, money, or patience.<br>[Edwards, Lindman,
 Savage](http://psycnet.apa.org/doi/10.1037/h0044139) (1963)
-</span></div><br>
+</p>
 
 # Introduction
 Bayesian inference, which follows the *likelihood principle*, is not
@@ -364,9 +365,9 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 
 # Computing Environment
 <!--html_preserve--><pre>
- R version 3.4.2 (2017-09-28)
+ R version 3.4.4 (2018-03-15)
  Platform: x86_64-pc-linux-gnu (64-bit)
- Running under: Ubuntu 17.10
+ Running under: Ubuntu 18.04 LTS
  
  Matrix products: default
  BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
@@ -377,10 +378,10 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
  
  other attached packages:
  [1] rms_5.1-3       SparseM_1.77    Hmisc_4.1-2     ggplot2_2.2.1  
- [5] Formula_1.2-2   survival_2.41-3 lattice_0.20-35
+ [5] Formula_1.2-3   survival_2.42-3 lattice_0.20-35
  </pre>
  To cite R in publication use:
- <p>R Core Team (2017).
+ <p>R Core Team (2018).
  <em>R: A Language and Environment for Statistical Computing</em>.
  R Foundation for Statistical Computing, Vienna, Austria.
  <a href="https://www.R-project.org/">https://www.R-project.org/</a>. 

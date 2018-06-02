@@ -9,6 +9,7 @@ tags:
   - data-science
   - machine-learning
   - prediction
+  - 2018
 summary: This article elaborates on Frank Harrell's post providing guidance in choosing between machine learning and statistical modeling for a prediction project.
 header:
   caption: ''

@@ -2,7 +2,7 @@
 title = "Classification vs. Prediction"
 date = 2017-01-15
 modified = 2018-05-19
-tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science"]
+tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science", "2017"]
 +++
 <p class="rquote">
 It is important to distinguish prediction and classification.  In many decisionmaking contexts, classification represents a premature decision, because classification combines prediction and decision making and usurps the decision maker in specifying costs of wrong decisions. The classification rule must be reformulated if costs/utilities or sampling criteria change.  Predictions are separate from decisions and can be used by any decision maker.

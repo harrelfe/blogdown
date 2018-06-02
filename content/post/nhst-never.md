@@ -1,8 +1,8 @@
 +++
 title = "Null Hypothesis Significance Testing Never Worked"
 date = 2017-01-14T07:15:00Z
-updated = 2017-01-15T20:25:45Z
-tags = ["logic", "inference", "bayes", "p-value", "hypothesis-testing", "inductive-reasoning"]
+mosidiws = 2017-01-15T20:25:45Z
+tags = ["logic", "inference", "bayes", "p-value", "hypothesis-testing", "inductive-reasoning", "2017"]
 +++
 Much has been written about problems with our most-used statistical
 paradigm: frequentist null hypothesis significance testing (NHST),

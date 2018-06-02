@@ -2,7 +2,7 @@
 title = "Damage Caused by Classification Accuracy and Other Discontinuous Improper Accuracy Scoring Rules"
 date = 2017-03-01T07:30:00Z
 updated = 2017-12-25T08:10:49Z
-tags = ["prediction", "machine-learning", "accuracy-score", "dichotomization", "probability", "bioinformatics", "validation", "classification", "data-science"]
+tags = ["prediction", "machine-learning", "accuracy-score", "dichotomization", "probability", "bioinformatics", "validation", "classification", "data-science", "2017"]
 +++
 I discussed the many advantages or probability estimation over
 classification.  Here I discuss a particular problem related to

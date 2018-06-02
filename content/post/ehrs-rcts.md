@@ -2,7 +2,7 @@
 title = "EHRs and RCTs:  Outcome Prediction vs. Optimal Treatment Selection"
 date = 2017-06-01
 modified = 2018-05-14
-tags = ["prediction", "generalizability", "drug-evaluation", "evidence", "subgroup", "EHR", "design", "medicine", "inference", "big-data", "RCT", "personalized-medicine"]
+tags = ["prediction", "generalizability", "drug-evaluation", "evidence", "subgroup", "EHR", "design", "medicine", "inference", "big-data", "RCT", "personalized-medicine", "2017"]
 +++
 
 

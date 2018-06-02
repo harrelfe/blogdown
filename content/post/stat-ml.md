@@ -10,6 +10,7 @@ tags:
   - data-science
   - machine-learning
   - prediction
+  - 2018
 summary: 'This article provides general guidance to help researchers choose between machine learning and statistical modeling for a prediction project.'
 header:
   caption: ''

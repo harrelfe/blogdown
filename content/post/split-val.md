@@ -1,8 +1,8 @@
 +++
 title = "Split-Sample Model Validation"
 date = 2017-01-23
-updated = 2018-04-13
-tags = ["prediction", "bootstrap", "validation"]
+modified = 2018-04-13
+tags = ["prediction", "bootstrap", "validation", "2017"]
 +++
 Methods used
 to obtain unbiased estimates of future performance of statistical

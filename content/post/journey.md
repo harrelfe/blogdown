@@ -2,7 +2,7 @@
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
 modified = 2018-05-17
-tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing"]
+tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
 |               |                |

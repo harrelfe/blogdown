@@ -2,7 +2,7 @@
 title: Musings on Multiple Endpoints in RCTs
 author: Frank Harrell
 date: '2018-03-26'
-updated: '2018-04-04'
+modified: '2018-04-04'
 slug: ymult
 categories: []
 tags:
@@ -17,6 +17,7 @@ tags:
   - p-value
   - posterior
   - endpoints
+  - 2018
 summary: 'This article discusses issues related to alpha spending, effect sizes used in power calculations, multiple endpoints in RCTs, and endpoint labeling.  Changes in endpoint priority is addressed.  Included in the the discussion is how Bayesian probabilities more naturally allow one to answer multiple questions without all-too-arbitrary designations of endpoints as "primary" and "secondary".  And we should not quit trying to learn.'
 header:
   caption: ''

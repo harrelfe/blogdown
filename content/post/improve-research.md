@@ -2,11 +2,11 @@
 title: 'Improving Research Through Safer Learning from Data'
 author: Frank Harrell
 date: '2018-03-08'
-updated: '2018-03-19'
+modified: '2018-03-19'
 draft: false
 slug: improve-research
 categories: []
-tags: ["design", "evidence", "generalizability", "inference", "judgment", "measurement", "prior", "bayes"]
+tags: ["design", "evidence", "generalizability", "inference", "judgment", "measurement", "prior", "bayes", "2018"]
 summary: "What are the major elements of learning from data that should inform the research process?  How can we prevent having false confidence from statistical analysis?  Does a Bayesian approach result in more honest answers to research questions? Is learning inherently subjective anyway, so we need to stop criticizing Bayesians' subjectivity?  How important and possible is pre-specification?  When should replication be required?  These and other questions are discussed."
 header:
   caption: ''

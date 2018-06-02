@@ -1,7 +1,8 @@
 +++
 title = "Introduction"
 date = 2017-01-13T07:49:00Z
-updated = 2017-09-10T09:51:18Z
+modified = 2017-09-10T09:51:18Z
+tags = ["2017"]
 +++
 Statistics is a field that is a science unto itself and that benefits all other fields
 and everyday life.  What is unique about statistics is its proven tools

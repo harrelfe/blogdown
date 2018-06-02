@@ -1,20 +1,25 @@
 ---
-title: How Can Machine Learning be Reliable When the Sample is Adequate for Only One Feature?
-author: Frank Harrell
+title: How Can Machine Learning be Reliable When the Sample is Adequate for Only One
+  Feature?
+author: "Frank Harrell"
 date: '2018-01-11'
+categories: []
+link-citations: yes
 modified: '2018-05-13'
 slug: ml-sample-size
-summary: 'It is easy to compute the sample size N<sub>1</sub> needed to reliably estimate how one predictor relates to an outcome.  It is next to impossible for a machine learning algorithm entertaining hundreds of features to yield reliable answers when the sample size < N<sub>1</sub>.'
-categories: []
+summary: It is easy to compute the sample size N<sub>1</sub> needed to reliably estimate
+  how one predictor relates to an outcome.  It is next to impossible for a machine
+  learning algorithm entertaining hundreds of features to yield reliable answers when
+  the sample size < N<sub>1</sub>.
 tags:
-  - prediction
-  - machine-learning
-  - sample-size
-  - validation
-  - precision
-  - accuracy-score
-bibliography: [harrelfe.bib]
-link-citations: true
+- prediction
+- machine-learning
+- sample-size
+- validation
+- precision
+- accuracy-score
+- 2018
+bibliography: harrelfe.bib
 ---
 The ability to estimate how one continuous variable relates to another continuous variable is basic to the ability to create good predictions.  Correlation coefficients are unitless, but estimating them requires similar sample sizes to estimating parameters we directly use in prediction such as slopes (regression coefficients).  When the shape of the relationship between X and Y is not known to be linear, a little more sample size is needed than if we knew that linearity held so that all we had to estimate was a slope and an intercept.  This will be addressed later.
 

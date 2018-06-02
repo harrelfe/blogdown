@@ -1,17 +1,20 @@
 ---
-title: Information Gain From Using Ordinal Instead of Binary Outcomes
+title: "Information Gain From Using Ordinal Instead of Binary Outcomes"
 date: '2018-01-28'
-summary: 'This article gives examples of information gained by using ordinal over binary response variables.  This is done by showing that for the same sample size and power, smaller effects can be detected'
-draft: false
-categories: []
+draft: no
+summary: This article gives examples of information gained by using ordinal over binary
+  response variables.  This is done by showing that for the same sample size and power,
+  smaller effects can be detected
 tags:
-  - RCT
-  - design
-  - dichotomization
-  - inference
-  - precision
-  - responder-analysis
-  - sample-size
+- RCT
+- design
+- dichotomization
+- inference
+- precision
+- responder-analysis
+- sample-size
+- 2018
+categories: []
 ---
 As discussed in `r latexSec('sec:overview-ychoice', 'bbr', 'BBR')`, a binary dependent variable Y has minimum statistical information, giving rise to minimal statistical power and precision.  This can easily be demonstrated by power or sample size calculations.  Consider a pain outcome as an example.  Instead of having as an outcome the presence or absence of pain, one can significantly increase power by having several levels of pain severity with the lowest level representing "none"; the more levels the better.
 

@@ -1,7 +1,8 @@
 +++
 title = "Subjective Ranking of Quality of Research by Subject Matter Area"
 date = 2017-03-16T11:53:00Z
-updated = 2017-03-27T07:32:40Z
+modified = 2017-03-27T07:32:40Z
+tags = ["2017"]
 +++
 While being engaged in biomedical research for a few decades and watching
 reproducibility of research as a whole, I've developed my own ranking of
