@@ -77,5 +77,6 @@ See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twi
 *  [Big Data and Machine Learning in Health Care](https://jamanetwork.com/journals/jama/article-abstract/2675024) by AL Beam and IS Kohane
 *  Harvard Business Review article [Why You're Not Getting Value From Your Data Science](https://hbr.org/2016/12/why-youre-not-getting-value-from-your-data-science), about regression vs. machine learning in business applications
 *  [What's the Difference Between Machine Learning, Statistics, and Data Mining?](http://www.sharpsightlabs.com/blog/difference-machine-learning-statistics-data-mining)
+*  [Big Data and Predictive Analytics: Recalibrating Expectations](https://jamanetwork.com/journals/jama/fullarticle/2683125) by Shah, Steyerberg, Kent
 
 #### Footnotes
