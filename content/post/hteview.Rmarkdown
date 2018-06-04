@@ -134,7 +134,7 @@ The beauty of the conference concentrating on risk magnification is that RM alwa
 * I heard someone mention at one point that subgroup analysis "breaks the randomization."  I don't think that's strictly true.  It's just that subgroup analysis is not competitive statistically, and is usually misleading because of noise,  arbitrariness, and co-linearities.
 * Someone mentioned tree methods but single trees require 100,000 patients to work adequately and even then are not competitive with regression.
 * There needs to be more discussion about the choice of outcome measures in trials.  DTE/HTE analysis requires high-information outcomes to have much hope; binary outcomes have low information content.
-* I heard about a paper showing that variance of active arm continuous responses was not greater than the variance of control arm, in a meta analysis of lots of studies.  I'd like the reference for that.
+* I heard about a paper showing that variance of active arm continuous responses was not greater than the variance of control arm, in a meta analysis of lots of studies.  Thanks to Kristoffer Magnusson for providing the reference.  It's [Does evidence support the high expectations placed in precision medicine? A bibliographic review](https://f1000research.com/articles/7-30) by Cortés et al.
 * It may have been Fan Li and Michael Pencina who mentioned the use of penalized maximum likelihood estimation for estimating DTE (e.g., lasso, elastic net).  These do not provided any statistical inference capabilities (as opposed to Bayesian penalization through skeptical priors).
 
 
