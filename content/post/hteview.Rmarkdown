@@ -23,7 +23,7 @@ header:
   image: ''
 ---
 <p class="rquote">
-To translate the results of clinical trials into practice may require a lot of work involving modelling and further background information.  'Additive at the point of analysis but relevant at the point of application' should be the motto.<br>
+To translate the results of clinical trials into practice may require a lot of work involving modelling and further background information.  'Additive at the point of analysis but relevant at the point of application' should be the motto. <br>
 — Stephen Senn, <a href="http://errorstatistics.com/2013/04/19/stephen-senn-when-relevance-is-irrelevant">When Relevance is Irrelevant</a>
 <br><br>
 The simple idea of risk magnification has more potential to improve medical decision making and cut costs than "omics" precision medicine approaches.  Risk magnification uses standard statistical tools and standard clinical variables.  Maybe it's not sexy enough or expensive enough to catch on.
