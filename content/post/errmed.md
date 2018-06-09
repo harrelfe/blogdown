@@ -83,7 +83,7 @@ among the paper's authors.  I'll be commenting on papers in which I
 encounter statistical modeling, validation, or interpretation problems.
 
 
-<a name="pval"></a>
+<a class="anchor" id="pval"></a>
 ### Misinterpretation of P-values and of Main Study Results
 
 One of the most problematic examples I've seen is in the March 2017
@@ -163,8 +163,9 @@ hazard ratio could well have been more impressive had covariate
 adjustment been used to account for outcome heterogeneity within each
 treatment arm.
 
-An <a name="pcisham"></a> incredibly high-profile
-paper published online 2017-11-02 in *The Lancet* demonstrates a lack of
+
+<a class="anchor" id="pcisham"></a>
+An incredibly high-profile paper published online 2017-11-02 in *The Lancet* demonstrates a lack of
 understanding of some statistical issues. In [Percutaneous coronary
 intervention in stable angina (ORBITA): a double-blind, randomised
 controlled
@@ -205,7 +206,7 @@ from an "insignificant" p-value. Other thoughts concerning the ORBITA
 trial may be found
 [here](http://www.fharrell.com/2017/11/statistical-criticism-is-easy-i-need-to.html).
 
-<a name="catg"></a>
+<a class="anchor" id="catg"></a>
 ### Dichotomania
 
 Dichotomania, as discussed by [Stephen
@@ -243,7 +244,8 @@ like the integer score we just went to the trouble to develop." I now
 have serious doubts about the thoroughness of reviews at *BMJ Quality
 and Safety*.
 
-A very high-profile paper <a name="alcohol"></a> was
+<a class="anchor" id="alcohol"></a>
+A very high-profile paper was
 published in BMJ on 2017-06-06: [Moderate alcohol consumption as risk
 factor for adverse brain outcomes and cognitive decline: longitudinal
 cohort study](http://www.bmj.com/content/357/bmj.j2353) by Anya Topiwala
@@ -258,9 +260,8 @@ statistically powerful) it would have been to fit a quadratic or a
 restricted cubic spline function to consumption to estimate the
 continuous dose-response curve.
 
-The NEJM <a name="dbpcut"></a> keeps giving us great
-teaching examples with its 2017-08-03 edition. In [Angiotensin II for
-the treatment of vasodilatory
+<a class="anchor" id="dbpcut"></a>
+The NEJM keeps giving us great teaching examples with its 2017-08-03 edition. In [Angiotensin II for the treatment of vasodilatory
 shock](http://www.nejm.org/doi/full/10.1056/NEJMoa1704154) by Ashish
 Khanna et al, the authors constructed a bizarre response variable: "The
 primary end point was a response with respect to mean arterial pressure
@@ -279,10 +280,10 @@ When a clinical trial's response variable is one that is arbitrary,
 loses information and power, is difficult to interpret, and means
 different things for different patients, expect trouble.
 
-<a name="pvcs"></a>
+<a class="anchor" id="pvcs"></a>
 In [Right ventricular dysfunction and long-term risk of sudden cardiac death in patients with and without severe left ventricular dysfunction](http://circep.ahajournals.org/content/11/6/e006091.full), Niyada Naksuk et al. took dichotomania to a high level by completely repeating the analytical mistakes that led to the ventricular arrhythmia suppression hypothesis and the Cardiac Arrhythmia Suppression Trial (CAST).  As detailed [here](http://fharrell.com/doc/bbr.pdf#nameddest=sec:pvcs), there is residual confounding when the analysis merely stratifies on intervals of LVEF and doesn't adjust for continuous LVEF.  Even among patients with LVEF < 0.4, the mean LVEF for those with a high premature ventricular contraction (PVC) frequency is much different than the mean LVEF for patients without this risk factor.  Arrhythmias tended to occur when the myocardium was damaged, and reducing PVCs can't address this irreversible damage.  Naksuk et al. also used an invalid stepwise variable selection algorithm to select their final statistical model.
 
-<a name="change"></a>
+<a class="anchor" id="change"></a>
 ### Change from Baseline 
 
 Many authors and pharmaceutical clinical trialists make the mistake of
@@ -363,8 +364,9 @@ may average a two point improvement for patients for whom any
 improvement is possible. Stating mean changes out of context of the
 baseline state can be meaningless.
 
+<a class="anchor" id="endom"></a>
 The NEJM paper [Treatment of Endometriosis-Associated Pain with
-Elagolix, an Oral GnRH Antagonist](http://www.nejm.org/doi/full/10.1056/NEJMoa1700089) <a name="endom"></a>
+Elagolix, an Oral GnRH Antagonist](http://www.nejm.org/doi/full/10.1056/NEJMoa1700089) 
 by Hugh Taylor et al is based on a disastrous set of analyses, combining
 all the problems above. The authors computed change from baseline on
 variables that do not have the correct properties for subtraction,
@@ -379,9 +381,10 @@ Besides the ethical issue of randomizing an unnecessarily large number
 of women to inferior treatment, the approach used by the investigators
 maximized the cost of these positive trials.
 
+<a class="anchor" id="glucpct"></a>
 The NEJM paper [Oral Glucocorticoid–Sparing Effect of Benralizumab in
 Severe
-Asthma](http://www.nejm.org/doi/full/10.1056/NEJMoa1703501) <a name="glucpct"></a> by 
+Asthma](http://www.nejm.org/doi/full/10.1056/NEJMoa1703501) by 
 Parameswaran Nair et al not only takes the problematic approach of using
 change scores from baseline in a parallel group design but they used
 percent change from baseline as the raw data in the analysis. This is an
@@ -397,8 +400,9 @@ an appropriate transformation of dose, or using a more robust
 transformation-invariant ordinal semi-parametric model on the raw
 follow-up doses (e.g., proportional odds model).
 
+<a class="anchor" id="dravet"></a>
 In [Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet
-Syndrome](http://www.nejm.org/doi/full/10.1056/NEJMoa1611618) <a name="dravet"></a> 
+Syndrome](http://www.nejm.org/doi/full/10.1056/NEJMoa1611618)  
 in NEJM 2017-05-25, Orrin Devinsky et al take seizure frequency, which
 might have a nice distribution such as the Poisson, and compute its
 change from baseline, which is likely to have a hard-to-model
@@ -413,7 +417,8 @@ went on to analyze the change in a discrete ordinal scale, where change
 (subtraction) cannot have a meaning independent of the starting point at
 baseline.
 
-Troponins <a name="trop"></a> (T) are myocardial
+<a class="anchor" id="trop"></a>
+Troponins (T) are myocardial
 proteins that are released when the heart is damaged. A high-sensitivity
 T assay is a high-information cardiac biomarker used to diagnose
 myocardial infarction and to assess prognosis. I have been hoping to
@@ -514,7 +519,7 @@ the original markers. They will also continue to be surprised that other
 researchers find different "cutpoints", not realizing that when things
 don't exist, people will forever argue about their manifestations.
 
-<a name="subgroup"></a>
+<a class="anchor" id="subgroup"></a>
 ### Improper Subgrouping 
 
 The JAMA Internal Medicine Paper [Effect of Statin Treatment vs Usual
@@ -544,7 +549,7 @@ to have a linearly increasing (in age) enrollment function that reaches
 a probability of 1.0 at 65y. Assuming that something magic happens at
 age 65 with regard to cholesterol reduction is undoubtedly a mistake.
 
-<a name="serial"></a>
+<a class="anchor" id="serial"></a>
 ### Serial Data and Response Trajectories 
 
 Serial data (aka longitudinal data) with multiple follow-up assessments
@@ -630,7 +635,8 @@ restricted cubic spline function). But in the Dhruva article the
 measurements were made at a small number of discrete times, so time
 could be considered a categorical variable with 3 levels.
 
-I have had misgivings <a name="dietqual"></a> for
+<a class="anchor" id="dietqual"></a>
+I have had misgivings for
 many years about the quality of statistical methods used by the Channing
 Lab at Harvard, as well as misgivings about the quality of nutritional
 epidemiology research in general.  My misgivings were again confirmed in
@@ -682,7 +688,7 @@ methods appeared to not even be considered. And for heaven's sake
 **analyze the raw diet scales and do not percentile them**.
 
 
-<a name="cluster"><br></a>
+<a class="anchor" id="cluster"></a>
 ### Cluster Analysis
 
 Emma Ahlqvist et al in [Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables](http://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30051-2) did a cluster analysis of glutamate decarboxylase antibodies, age at diagnosis, BMI, HbA1c, and homoeostatic model assessment 2 estimates of β-cell function and insulin resistance.  They claimed to find five distinct clusters having varying levels of clinical outcomes associated with them.  Such cluster analysis is in fact a statistically forced result that is caused by the clustering algorithms, and the resulting clusters are far less clinically relevant than it appears.  To understand why, consider the following points.  Start by envisioning the clusters as non-overlapping regions such as rectangles, ellipses, or circles.
