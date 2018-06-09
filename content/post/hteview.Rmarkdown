@@ -22,6 +22,12 @@ header:
   caption: ''
   image: ''
 ---
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
 <p class="rquote">
 To translate the results of clinical trials into practice may require a lot of work involving modelling and further background information.  'Additive at the point of analysis but relevant at the point of application' should be the motto. <br>
 — Stephen Senn, <a href="http://errorstatistics.com/2013/04/19/stephen-senn-when-relevance-is-irrelevant">When Relevance is Irrelevant</a>
@@ -141,7 +147,7 @@ The beauty of the conference concentrating on risk magnification is that RM alwa
 * There needs to be more discussion about the choice of outcome measures in trials.  DTE/HTE analysis requires high-information outcomes to have much hope; binary outcomes have low information content.
 * It may have been Fan Li and Michael Pencina who mentioned the use of penalized maximum likelihood estimation for estimating DTE (e.g., lasso, elastic net).  These do not provided any statistical inference capabilities (as opposed to Bayesian penalization through skeptical priors).
 
-<a name="evidence"></a><br>
+<a class="anchor" id="evidence"></a>
 
 ## Evidence for **Homo**geneity of Treatment Effects
 
