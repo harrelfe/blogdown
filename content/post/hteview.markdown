@@ -99,7 +99,7 @@ for(h in or) {
 }
 ```
 
-<img src="hteview_files/figure-html/setup-1.png" width="672" />
+<img src="/post/hteview_files/figure-html/setup-1.png" width="672" />
 
 For an example analysis where the relative treatment effect varies with patient characteristics, see [BBR Section 13.6.2](http://fharrell.com/doc/bbr.pdf).
 
