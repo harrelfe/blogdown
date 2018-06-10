@@ -22,12 +22,6 @@ header:
   caption: ''
   image: ''
 ---
-a.anchor {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
-}
 <p class="rquote">
 To translate the results of clinical trials into practice may require a lot of work involving modelling and further background information.  'Additive at the point of analysis but relevant at the point of application' should be the motto. <br>
 — Stephen Senn, <a href="http://errorstatistics.com/2013/04/19/stephen-senn-when-relevance-is-irrelevant">When Relevance is Irrelevant</a>
@@ -105,7 +99,7 @@ for(h in or) {
 }
 ```
 
-<img src="/post/hteview_files/figure-html/setup-1.png" width="672" />
+<img src="hteview_files/figure-html/setup-1.png" width="672" />
 
 For an example analysis where the relative treatment effect varies with patient characteristics, see [BBR Section 13.6.2](http://fharrell.com/doc/bbr.pdf).
 
