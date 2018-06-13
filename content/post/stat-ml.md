@@ -17,7 +17,7 @@ header:
   image: ''
 ---
 <p class="rquote">
-Machine learning may be distinguished from statistical models using any of three considerations:<br>(1) General: Statistical models explicitly take uncertainty into account by specifying a probabilistic model for the data.<br>(2) Structural: Statistical models typically start by using additivity of predictor effects to make a first approximation of the model.<br>(3) Parameters: Machine learning is more empirical including allowing for high-order interactions that are not pre-specified, whereas statistical models have identified parameters of special interest.  Both statistical models and ML can handle high-dimensional situations.
+Machine learning may be distinguished from statistical models using any of three considerations:<br>(1) Uncertainty: Statistical models explicitly take uncertainty into account by specifying a probabilistic model for the data.<br>(2) Structural: Statistical models typically start by assuming additivity of predictor effects when specifying the model.<br>(3) Empirical: Machine learning is more empirical including allowance for high-order interactions that are not pre-specified, whereas statistical models have identified parameters of special interest.  Both statistical models and ML can handle high-dimensional situations.
 <br><br>
 It is often good to let the data speak.  But you must be comfortable in assuming that the data are speaking rationally.  Data can fool you.<br><br>Whether using statistical modeling or machine learning, work with a methodologist who knows what she is doing, and don't begin an analysis without ample subject matter input.
 </p>
