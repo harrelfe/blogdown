@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2018-05-14'
+modified: '2018-06-13'
 updated: ''
 slug: stat-ml
 categories: []
@@ -17,6 +17,13 @@ header:
   image: ''
 ---
 <p class="rquote">
+Machine learning may be distinguished from statistical models using either a general consideration or a practical consideration:
+<ul>
+<li>Statistical models explicitly take uncertainty into account by specifying a probabilistic model for the data.</li>
+<li>Statistical models typically start by assuming that additivity of predictor effects is what dominates predictions of the outcome.</li>
+</ul>
+Machine learning is more empirical including allowing for high-order interactions that are not pre-specified, whereas statistical models have identified parameters of special interest.  Both can handle high-dimensional situations.
+<br><br>
 It is often good to let the data speak.  But you must be comfortable in assuming that the data are speaking rationally.  Data can fool you.<br><br>Whether using statistical modeling or machine learning, work with a methodologist who knows what she is doing, and don't begin an analysis without ample subject matter input.
 </p>
 
