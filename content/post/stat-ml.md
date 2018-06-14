@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2018-06-13'
+modified: '2018-06-14'
 updated: ''
 slug: stat-ml
 categories: []
@@ -17,7 +17,7 @@ header:
   image: ''
 ---
 <p class="rquote">
-Machine learning (ML) may be distinguished from statistical models (SM) using any of three considerations:<br>(1) Uncertainty: SMs explicitly take uncertainty into account by specifying a probabilistic model for the data.<br>(2) Structural: SMs typically start by assuming additivity of predictor effects when specifying the model.<br>(3) Empirical: ML is more empirical including allowance for high-order interactions that are not pre-specified, whereas SMs have identified parameters of special interest.  There is a growing number of hybrid methods combining characteristics of traditional SMs and ML, especially in the Bayesian world.  Both SMs and ML can handle high-dimensional situations.
+Machine learning (ML) may be distinguished from statistical models (SM) using any of three considerations:<br>(1) Uncertainty: SMs explicitly take uncertainty into account by specifying a probabilistic model for the data.<br>(2) Structural: SMs typically start by assuming additivity of predictor effects when specifying the model.<br>(3) Empirical: ML is more empirical including allowance for high-order interactions that are not pre-specified, whereas SMs have identified parameters of special interest.<br><br>There is a growing number of hybrid methods combining characteristics of traditional SMs and ML, especially in the Bayesian world.  Both SMs and ML can handle high-dimensional situations.
 <br><br>
 It is often good to let the data speak.  But you must be comfortable in assuming that the data are speaking rationally.  Data can fool you.<br><br>Whether using SM or ML, work with a methodologist who knows what she is doing, and don't begin an analysis without ample subject matter input.
 </p>
