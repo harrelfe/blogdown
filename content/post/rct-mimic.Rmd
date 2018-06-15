@@ -2,6 +2,7 @@
 title: "Randomized Clinical Trials Do Not Mimic Clinical Practice, Thank Goodness"
 author: "Frank Harrell"
 date: '2017-01-27'
+slug: rct-mimic
 tags:
 - generalizability
 - design
@@ -11,8 +12,14 @@ tags:
 - personalized-medicine
 - evidence
 - 2017
-slug: rct-mimic
+modified: '2018-06-15'
 ---
+<p class='rquote'>
+What clinicians learn from clinical practice, unless they routinely do n-of-one studies, is based on comparisons of unlikes.  Then they criticize like-vs-like comparisons from randomized trials for not being generalizable.  This is made worse by not understanding that clinical trials are designed to estimate relative efficacy, and relative efficacy is surprisingly transportable.
+<br><br>
+Many clinicians do not even track what happens to their patients to be able to inform their future patients.  At the least, randomized trials track everyone.
+</p>
+
 Randomized clinical trials (RCT) have long been held as the gold standard for
 generating evidence about the effectiveness of medical and surgical
 treatments, and for good reason.  But I commonly hear clinicians lament
