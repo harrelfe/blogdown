@@ -16,7 +16,7 @@ header:
 ---
 I have learned more from Twitter than I ever thought possible, from those I follow and from my followers.  Quick pointers to useful resources has been invaluable.  I have also gotten involved in longer discussions.  Some of those, particularly those related to design and interpretation of newly published studies (especially randomized clinical trials --- RCTs), have gotten very involved and controversial.  Twitter is not designed for in-depth discourse, and I soon lose track of the discussion and others' previous points.  This is particularly true if I'm away from a discussion for more than 24 hours.  Also, some Twitter discussions would have been more civil had there been a moderator.
 
-There are excellent discussion boards related to statistics, e.g. [stats.stackexchange.com](http://stats.stackexchange.com), [medstats](https://groups.google.com/forum/#!forum/medstats), and [talkstats](http://talkstats.com), and a variety of sites related to medical research (including clinical trials), epidemiology, and machine learning.  An informal [Twitter poll](https://twitter.com/f2harrell/status/989486563947098112) was conducted on 2018-04-26 - 2018-04-27, resulting in 242 responses from those in my Twitter sphere.  Of those, 0.71 were in favor of creating a new site vs. 0.29 who wanted to solely use Twitter for discussions on the intended topics.
+There are excellent discussion boards related to statistics, e.g. [stats.stackexchange.com](http://stats.stackexchange.com), [medstats](https://groups.google.com/forum/#!forum/medstats), and [talkstats](http://talkstats.com), and a variety of sites related to medical research (including clinical trials), epidemiology,  and machine learning.  An informal [Twitter poll](https://twitter.com/f2harrell/status/989486563947098112) was conducted on 2018-04-26 - 2018-04-27, resulting in 242 responses from those in my Twitter sphere.  Of those, 0.71 were in favor of creating a new site vs. 0.29 who wanted to solely use Twitter for discussions on the intended topics.
 
 After much research, I've chosen [discourse.org](http://discourse.org) for the platform for a new discussion board.  This will require putting up a server to host the site.  Fortunately all the software needed (linux, ruby, discourse, etc.) is free.  After the site is up and running, more moderators will be required.  The site name will be `datamethods.org`.  We hope to have it running in July 2018.
 
@@ -48,6 +48,8 @@ The site will be organized into the following major categories, with lots of tag
 * study interpretation
 * design and interpretaton of particular RCTs
 * epidemiology
+* health policy
+* psychology
 * graphics
 * causal inference
 * education
