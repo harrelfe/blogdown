@@ -2,7 +2,7 @@
 title: Viewpoints on Heterogeneity of Treatment Effect and Precision Medicine
 author: Frank Harrell
 date: '2018-06-04'
-modified: '2018-06-09'
+modified: '2018-06-19'
 slug: hteview
 categories: []
 tags:
@@ -129,6 +129,8 @@ Advocates of precision medicine are required to show that customized treatment s
 </p>
 
 An unspoken issue occurred to me during the meeting.  We need to be talking much more about mean squared error (MSE) of estimates of individualized treatment effects.  MSE equals the variance of an estimate plus the square of the estimate's bias.  Variance is reduced by increasing the sample size or by being able to explain more outcome variation (having a higher signal:noise ratio).  Bias can come from a problematic study design that misestimated the average treatment effect, or by assuming that the effect for the patient at hand is the same as the average relative treatment effect when in fact the treatment effect interacted with one or more patient characteristics.  But when one allows for interactions, the variance of estimates increases substantially (especially for patient types that are not well represented in the sample).  So interaction effects must be fairly large for it to be worthwhile to include these effects in the model, i.e., for MSE to be reduced (i.e., for the square of bias to decrease more than the variance increases).
+
+To really understand HTE, one must understand how a patient disagrees with herself over time, even when the treatment doesn't change.  Stephen Senn has written extensively about this, and a new paper entitled [Lack of group-to-individual generalizability is a threat to human subjects research](http://www.pnas.org/content/early/2018/06/15/1711978115) by Fisher, Medaglia, and Jeronimus is a worthwhile read.
 
 In the absence of knowledge about patient-specific treatment effects, the best estimate of the relative treatment effect for an individual patient is the average relative treatment effect^[This can be easily translated into a customized absolute risk reduction estimate as discussed earlier.].  Selecting the treatment that provides the best average relative effect will be the best decision for an individual unless DTEs are large.  To better personalize the decision, other than accounting for absolute risk (which is a different issue and may objectively deal with cost issues), requires abundant data on DTE.
 
