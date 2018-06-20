@@ -2,7 +2,7 @@
 title: Data Methods Discussion Site
 author: Frank Harrell
 date: '2018-06-19'
-updated: ''
+updated: '2018-06-20'
 slug: disc
 categories: []
 tags:
@@ -56,6 +56,7 @@ The site will be organized into the following major categories, with lots of tag
 * news (courses, webcasts, meetings, etc.)
 * cardiology
 * cancer
+* nutrition
 
 More major categories can be added as needed.
 
