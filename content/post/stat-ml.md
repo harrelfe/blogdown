@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2018-06-14'
+modified: '2018-06-21'
 updated: ''
 slug: stat-ml
 categories: []
@@ -80,5 +80,6 @@ See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twi
 *  Harvard Business Review article [Why You're Not Getting Value From Your Data Science](https://hbr.org/2016/12/why-youre-not-getting-value-from-your-data-science), about regression vs. machine learning in business applications
 *  [What's the Difference Between Machine Learning, Statistics, and Data Mining?](http://www.sharpsightlabs.com/blog/difference-machine-learning-statistics-data-mining)
 *  [Big Data and Predictive Analytics: Recalibrating Expectations](https://jamanetwork.com/journals/jama/fullarticle/2683125) by Shah, Steyerberg, Kent
+*  [Neural Networks are Essentially Polynomial Regression](https://matloff.wordpress.com/2018/06/20/neural-networks-are-essentially-polynomial-regression) by Norman Matloff
 
 #### Footnotes

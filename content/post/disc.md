@@ -57,6 +57,7 @@ The site will be organized into the following major categories, with lots of tag
 * cardiology
 * cancer
 * nutrition
+* meta (discussion, pointers, etiquette about the site)
 
 More major categories can be added as needed.
 
