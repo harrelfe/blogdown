@@ -37,12 +37,20 @@ The areas that will be emphasized in the new discussion site follow.  Global emp
 
 The site will be organized into the following major and minor categories, with lots of tags available to further distinguish and cross-reference topics.  <b>Your input about these categories is needed.</b>
 
-* statistics and data analysis (general)
+* statistics and data analysis
+   + descriptive and exploratory
+   + formal analysis
+   + uncertainty
+   + missing data and measurement error
    + models
-   + modeling strategies (including model specification, nonlinearities and interactions, avoiding categorization, imputation, data reduction)
+   + modeling strategies (including model specification, nonlinearities and interactions, avoiding categorization)
+   + variable selection
+   + data reduction, clustering, unsupervised learning
+   + accuracy and information measures
    + model validation and interpretation
    + bayes
    + machine learning
+   + comparative methods performance
    + causal inference
    + probability
 * math and numeracy
@@ -50,6 +58,7 @@ The site will be organized into the following major and minor categories, with l
    + measurement
    + study and experimental design
    + study interpretation
+   + meta-analysis
 * RCTs
    + general issues and ethics
    + design issues for a specific trial
@@ -70,6 +79,8 @@ The site will be organized into the following major and minor categories, with l
    + statistical
    + scientific method & design
 * topical areas
+   + diagnosis
+   + biomarker research
    + cardiology
    + cancer
    + psychology
