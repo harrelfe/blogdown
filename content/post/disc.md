@@ -35,7 +35,7 @@ The areas that will be emphasized in the new discussion site follow.  Global emp
 * choosing optimal statistical graphics for presenting study results
 * discussing statistical models and machine learning for biomedical and epidemiologic problems
 
-The site will be organized into the following major and minor categories, with lots of tags available to further distinguish and cross-reference topics.
+The site will be organized into the following major and minor categories, with lots of tags available to further distinguish and cross-reference topics.  <b>Your input about these categories is needed.</b>
 
 * statistics and data analysis (general)
    + models
