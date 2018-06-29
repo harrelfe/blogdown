@@ -2,7 +2,7 @@
 title: Data Methods Discussion Site
 author: Frank Harrell
 date: '2018-06-19'
-updated: '2018-06-29'
+modified: '2018-06-29'
 slug: disc
 categories: []
 tags:
