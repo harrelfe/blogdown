@@ -2,7 +2,7 @@
 title: Data Methods Discussion Site
 author: Frank Harrell
 date: '2018-06-19'
-updated: '2018-06-20'
+updated: '2018-06-29'
 slug: disc
 categories: []
 tags:
@@ -35,28 +35,52 @@ The areas that will be emphasized in the new discussion site follow.  Global emp
 * choosing optimal statistical graphics for presenting study results
 * discussing statistical models and machine learning for biomedical and epidemiologic problems
 
-The site will be organized into the following major categories, with lots of tags available to further distinguish and cross-reference topics (e.g., cardiology, cancer)
+The site will be organized into the following major and minor categories, with lots of tags available to further distinguish and cross-reference topics.
 
-* measurement
-* non-statistical quantitative methods & numeracy
 * statistics and data analysis (general)
-* statistical models
-* machine learning and when to use it vs. statistical models
-* regression modeling strategies
-* probability
-* study design
-* study interpretation
-* design and interpretaton of particular RCTs
-* epidemiology
-* health policy
-* psychology
+   + models
+   + modeling strategies (including model specification, nonlinearities and interactions, avoiding categorization, imputation, data reduction)
+   + model validation and interpretation
+   + bayes
+   + machine learning
+   + causal inference
+   + probability
+* math and numeracy
+* research methods
+   + measurement
+   + study and experimental design
+   + study interpretation
+* RCTs
+   + general issues and ethics
+   + design issues for a specific trial
+   + statistical interpretation of specific trials
+* computing
+   + systems
+   + tools
+   + languages
+   + web applications
+   + databases
+   + big data
 * graphics
-* causal inference
+   + static
+   + dynamic
+   + programming
 * education
+   + teaching and learning methods
+   + statistical
+   + scientific method & design
+* topical areas
+   + cardiology
+   + cancer
+   + psychology
+   + nutrition
+   + epidemiology
+   + health policy
+   + drug development
+* journal articles
+   + journal club
+   + post publication review
 * news (courses, webcasts, meetings, etc.)
-* cardiology
-* cancer
-* nutrition
 * meta (discussion, pointers, etiquette about the site)
 
 More major categories can be added as needed.
