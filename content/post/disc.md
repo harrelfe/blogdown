@@ -2,7 +2,7 @@
 title: Data Methods Discussion Site
 author: Frank Harrell
 date: '2018-06-19'
-modified: '2018-06-29'
+modified: '2018-06-30'
 slug: disc
 categories: []
 tags:
@@ -43,7 +43,7 @@ The site will be organized into the following major and minor categories, with l
    + uncertainty
    + missing data and measurement error
    + models
-   + modeling strategies (including model specification, nonlinearities and interactions, avoiding categorization)
+   + modeling strategies (including model specification, nonlinearities, interactions and heterogeneity of treatment effect, avoiding categorization)
    + variable selection
    + data reduction, clustering, unsupervised learning
    + accuracy and information measures
@@ -52,11 +52,14 @@ The site will be organized into the following major and minor categories, with l
    + machine learning
    + comparative methods performance
    + causal inference
+   + comparison of nonrandomized treatments
    + probability
+   + inference and generalizability
 * math and numeracy
 * research methods
    + measurement
    + study and experimental design
+   + sample survey design
    + study interpretation
    + meta-analysis
 * RCTs
@@ -90,7 +93,7 @@ The site will be organized into the following major and minor categories, with l
    + drug development
 * journal articles
    + journal club
-   + post publication review
+   + reviews
 * news (courses, webcasts, meetings, etc.)
 * meta (discussion, pointers, etiquette about the site)
 
