@@ -15,7 +15,7 @@ weight = 90
 -   **RMS** : [Regression Modeling Strategies](http://fharrell.com/doc/rms.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
 -   Frank's [publications](http://citeulike.org/user/harrelfe/author/Harrell)
--   Frank's [presentations](http://biostat.mc.vanderbilt.edu/FHHandouts)
+-   Frank's [presentations](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
 -   Frank's Youtube videos on [Regression Modeling
     Strategies](https://www.youtube.com/channel/UC2qvW5vuAZm91-KIV4Y83MQ)
 -   Frank's [bibliographic database](http://www.citeulike.org/user/harrelfe)
