@@ -6,7 +6,7 @@ time_start = 2018-07-02
 time_end   = 2018-07-02
 abstract = "This talk covers a variety of topics in clinical prediction modeling, with emphasis on quantifying the added value of new predictors."
 abstract_short = ""
-event = "MEMTAB18: Methods of Evaluation of Medical Prediction Models, Tests and Biomarkers"
+event = "MEMTAB18: Methods of Evaluation of Medical Prediction Models, Tests and Biomarkers<br>Also Presented to Department of Biomedical Data Science, Section of Medical Statistics, Leiden University Medical Center 2018-07-04"
 event_url = "http://www.memtab2018.eu"
 location = "Utrecht, NL"
 
