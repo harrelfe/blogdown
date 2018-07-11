@@ -2,7 +2,7 @@
 title: Data Methods Discussion Site
 author: Frank Harrell
 date: '2018-06-19'
-modified: '2018-06-30'
+modified: '2018-07-11'
 slug: disc
 categories: []
 tags:
@@ -81,6 +81,9 @@ The site will be organized into the following major and minor categories, with l
    + teaching and learning methods
    + statistical
    + scientific method & design
+   + collaboration
+   + knowledge dissemination
+   + career development
 * topical areas
    + diagnosis
    + biomarker research
