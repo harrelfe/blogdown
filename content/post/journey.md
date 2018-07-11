@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2018-06-29
+modified = 2018-07-11
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -242,3 +242,4 @@ Go [here](https://news.ycombinator.com/item?id=13684429) for discussions about t
 * Michael Clark's [R and Stan](http://m-clark.github.io/documents) example code
 * Stephen Martin's [A foray into Bayesian handling of missing data](http://srmart.in/a-foray-into-bayesian-handling-of-missing-data) with Stan
 * [Thomas Bayes and the crisis in science](https://www.the-tls.co.uk/articles/public/thomas-bayes-science-crisis) by David Papineau
+* [Bayesian theorists were little better than cranks](http://wmbriggs.com/post/24848) by William Briggs.
