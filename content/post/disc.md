@@ -2,7 +2,7 @@
 title: Data Methods Discussion Site
 author: Frank Harrell
 date: '2018-06-19'
-modified: '2018-07-11'
+modified: '2018-07-13'
 slug: disc
 categories: []
 tags:
@@ -35,37 +35,36 @@ The areas that will be emphasized in the new discussion site follow.  Global emp
 * choosing optimal statistical graphics for presenting study results
 * discussing statistical models and machine learning for biomedical and epidemiologic problems
 
-The site will be organized into the following major and minor categories, with lots of tags available to further distinguish and cross-reference topics.  <b>Your input about these categories is needed.</b>
+The site will be organized into the following major and minor categories, with lots of tags available to further distinguish and cross-reference topics.  <b>Your input about these categories is needed.</b>  Words in brackets are the topic names used within the web site, if different from the description.
 
-* statistics and data analysis
-   + descriptive and exploratory
-   + formal analysis
+* statistics and data analysis [data analysis]
+   + descriptive and exploratory [descriptive]
+   + formal analysis [formal]
    + uncertainty
-   + missing data and measurement error
+   + missing data and measurement error [data problems]
    + models
-   + modeling strategies (including model specification, nonlinearities, interactions and heterogeneity of treatment effect, avoiding categorization)
+   + modeling strategies (including model specification, nonlinearities, interactions and heterogeneity of treatment effect, avoiding categorization) [model strategy]
    + variable selection
-   + data reduction, clustering, unsupervised learning
-   + accuracy and information measures
-   + model validation and interpretation
+   + data reduction, clustering, unsupervised learning [data reduction]
+   + accuracy and information measures [accuracy]
+   + model validation and interpretation [validation]
    + bayes
    + machine learning
-   + comparative methods performance
+   + comparative methods performance [comparative methods]
    + causal inference
-   + comparison of nonrandomized treatments
+   + comparison of nonrandomized treatments [observational comparisons]
    + probability
-   + inference and generalizability
-* math and numeracy
+   + inference and generalizability [generalization]
 * research methods
    + measurement
-   + study and experimental design
-   + sample survey design
+   + study and experimental design [design]
+   + sample survey design [sample survey]
    + study interpretation
    + meta-analysis
 * RCTs
-   + general issues and ethics
-   + design issues for a specific trial
-   + statistical interpretation of specific trials
+   + general issues and ethics [general]
+   + design issues for a specific trial [design trial]
+   + statistical interpretation of specific trials [interpret trial]
 * computing
    + systems
    + tools
@@ -78,11 +77,12 @@ The site will be organized into the following major and minor categories, with l
    + dynamic
    + programming
 * education
-   + teaching and learning methods
+   + teaching and learning methods [teaching learning]
    + statistical
-   + scientific method & design
+   + math and numeracy [math numeracy]
+   + scientific method & design [scientific method]
    + collaboration
-   + knowledge dissemination
+   + knowledge dissemination [dissemination]
    + career development
 * topical areas
    + diagnosis
