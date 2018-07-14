@@ -14,6 +14,8 @@ header:
   caption: ''
   image: ''
 ---
+.TableOfContents
+
 # Background
 I have learned more from Twitter than I ever thought possible, from those I follow and from my followers.  Quick pointers to useful resources has been invaluable.  I have also gotten involved in longer discussions.  Some of those, particularly those related to design and interpretation of newly published studies (especially randomized clinical trials --- RCTs), have gotten very involved and controversial.  Twitter is not designed for in-depth discourse, and I soon lose track of the discussion and others' previous points.  This is particularly true if I'm away from a discussion for more than 24 hours.  Also, some Twitter discussions would have been more civil had there been a moderator.
 
