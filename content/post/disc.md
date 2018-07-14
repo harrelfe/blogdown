@@ -5,6 +5,7 @@ date: '2018-06-19'
 modified: '2018-07-14'
 slug: disc
 categories: []
+toc: true
 tags:
   - collaboration
   - teaching
