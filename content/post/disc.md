@@ -5,7 +5,6 @@ date: '2018-06-19'
 modified: '2018-07-14'
 slug: disc
 categories: []
-toc: true
 tags:
   - collaboration
   - teaching
@@ -15,7 +14,8 @@ header:
   caption: ''
   image: ''
 ---
-.TableOfContents
+
+{{% toc %}}
 
 # Background
 I have learned more from Twitter than I ever thought possible, from those I follow and from my followers.  Quick pointers to useful resources has been invaluable.  I have also gotten involved in longer discussions.  Some of those, particularly those related to design and interpretation of newly published studies (especially randomized clinical trials --- RCTs), have gotten very involved and controversial.  Twitter is not designed for in-depth discourse, and I soon lose track of the discussion and others' previous points.  This is particularly true if I'm away from a discussion for more than 24 hours.  Also, some Twitter discussions would have been more civil had there been a moderator.
@@ -45,11 +45,11 @@ The site will be organized into the following major and minor categories, with l
 
 * statistics and data analysis [data analysis]
    + descriptive and exploratory [descriptive]
-   + formal analysis [formal]
+   + formal analysis [formal], including inference, confidence limits, statistical tests
    + uncertainty
    + missing data and measurement error [data problems]
    + models
-   + modeling strategies (including model specification, nonlinearities, interactions and heterogeneity of treatment effect, avoiding categorization) [model strategy]
+   + modeling strategies (including model specification, nonlinearities, interactions and heterogeneity of treatment effect, avoiding categorization, how to sequence multiple steps) [modeling strategy]
    + variable selection
    + data reduction, clustering, unsupervised learning [data reduction]
    + accuracy and information measures [accuracy]
@@ -58,7 +58,6 @@ The site will be organized into the following major and minor categories, with l
    + machine learning
    + comparative methods performance [comparative methods]
    + causal inference
-   + comparison of nonrandomized treatments [observational comparisons]
    + probability
    + inference and generalizability [generalization]
 * research methods
@@ -67,10 +66,12 @@ The site will be organized into the following major and minor categories, with l
    + sample survey design [sample survey]
    + study interpretation
    + meta-analysis
-* RCTs
+   + research data management [data management]
+* treatment comparison
    + general issues and ethics [general]
-   + design issues for a specific trial [design trial]
-   + statistical interpretation of specific trials [interpret trial]
+   + design issues for a specific trial [design]
+   + statistical interpretation of specific studies [interpret]
+   + methods for comparison of nonrandomized treatments [observational] including propensity scores and instrumental variables approaches
 * computing
    + systems
    + tools
@@ -84,7 +85,7 @@ The site will be organized into the following major and minor categories, with l
    + programming
 * education
    + teaching and learning methods [teaching learning]
-   + statistical
+   + statistical [stat]
    + math and numeracy [math numeracy]
    + scientific method & design [scientific method]
    + collaboration
@@ -129,6 +130,6 @@ Twitter is time-oriented, but discussion boards are topic-oriented (then time-or
 * [Using Discourse effectively with group chat](https://blog.discourse.org/2018/04/effectively-using-discourse-together-with-group-chat)
 
 # Discourse Information
-### Ways to Create an Account
+## Ways to Create an Account
 * Link to your Google, Facebook, Twitter, Yahoo, or Github account
 * Specify your email address and password
