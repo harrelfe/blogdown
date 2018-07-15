@@ -107,12 +107,12 @@ The site will be organized into the following major and minor categories, with l
 * news (courses, webcasts, meetings, etc.)
 * meta (discussion, pointers, etiquette about the site)
 
-More major categories can be added as needed.
+More major categories can be added as needed.  As alluded to above, a number (by default limited to 5) of tags can be added to any post to allow easy search and cross-referencing beyond just using categories and subcategories.  Once a user gains a certain "trust level" she can define new tags in the system for everyone.  Initially defined tags are `propensity` and `data-reduction`.  `discourse` makes it easy to construct URLs that anyone can share, that can bring up all posts in a certain category or containing a certain tag.
 
 To discuss this proposal, post a tweet mentioning @f2harrell, or use the commenting facility at the end of this post.
 
 # Role of Twitter
-My opinion is that `twitter` is good at the following things:
+Informed by [this](https://blog.discourse.org/2018/04/effectively-using-discourse-together-with-group-chat), my opinion is that `twitter` is good at the following things:
 
 * short-term discussions that are not emotional
     + Short messages
