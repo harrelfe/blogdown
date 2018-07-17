@@ -8,7 +8,7 @@ abstract = ""
 abstract_short = ""
 event = "Regression Modeling Strategies Short Course, JSM Biometrics Section Continuing Education"
 event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
-location = "Vancouver, BC"
+location = "Vancouver, BC<br>Also presented for the University of Calgary Biostatistics Centre in the O'Brien Institute for Public Health, Calgary, Alberta CA 2018-08-02-2018-08-03"
 
 # Is this a selected talk? (true/false)
 selected = true
