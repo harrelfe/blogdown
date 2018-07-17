@@ -19,7 +19,7 @@ selected = true
 # projects = [""]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://hbiostat.org/doc/rms1.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""
