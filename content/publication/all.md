@@ -47,7 +47,7 @@ selected = true
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "citeulike.org", url = "http://citeulike.org/user/harrelfe/author/Harrell"}]
+url_custom = [{name = "zotero.org", url = "https://www.zotero.org/groups/feh/items/q/Harrell"}]
 
 # Does the content use math formatting?
 math = false
