@@ -2,13 +2,13 @@
 date = 2018-04-29  # Schedule page publish date.
 
 title = "Regression Modeling Strategies"
-time_start = 2018-07-29T08:30:00
-time_end = 2018-07-29T17:00:00
+time_start = 2018-08-02T12:00:00
+time_end = 2018-08-03T16:30:00
 abstract = ""
 abstract_short = ""
-event = "Regression Modeling Strategies Short Course, JSM Biometrics Section Continuing Education"
+event = "Regression Modeling Strategies Short Course, University of Calgary Biostatistics Centre in the O'Brien Institute for Public Health"
 event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
-location = "Vancouver, BC"
+location = "Calgary, Alberta CA"
 
 # Is this a selected talk? (true/false)
 selected = true
