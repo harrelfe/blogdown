@@ -12,7 +12,7 @@ weight = 90
 -   [Checklist of statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist)
 -   [Measuring change](http://biostat.mc.vanderbilt.edu/MeasureChange) (see also BBR Chapter 14)
 -   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms) web site
--   **RMS** : [Regression Modeling Strategies](http://fharrell.com/doc/rms.pdf) course notes          
+-   **RMS** : [Regression Modeling Strategies](http://hbiostat.org/doc/rms.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
 -   Frank's [publications](https://www.zotero.org/groups/feh/items/q/Harrell); see also [here](http://citeulike.org/user/harrelfe/author/Harrell)
 -   Frank's [presentations](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
