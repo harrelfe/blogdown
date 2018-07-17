@@ -7,7 +7,7 @@ time_end = 2018-08-03T16:30:00
 abstract = ""
 abstract_short = ""
 event = "Regression Modeling Strategies Short Course, University of Calgary Biostatistics Centre in the O'Brien Institute for Public Health"
-event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
+event_url = "https://eventbrite.ca/e/regression-modeling-strategies-with-prof-frank-e-harrell-jr-tickets-47487606710"
 location = "Calgary, Alberta CA"
 
 # Is this a selected talk? (true/false)
