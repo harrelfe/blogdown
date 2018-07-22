@@ -1,14 +1,14 @@
 +++
 title = "Fundamental Principles of Statistics"
-date = 2017-01-18T18:33:00Z
-modified = 2018-03-08
+date = 2017-01-18
+modified = 2018-07-022
 tags = ["design", "measurement", "principles", "2017"]
 +++
 There are many principles involved in the theory and practice of statistics, but
 here are the ones that guide my practice the most.
 
 1.  Use methods grounded in theory or extensive simulation
-2.  Understand uncertainty
+2.  Understand uncertainty, and realize that the most honest approach to inference is a Bayesian model that takes into account what you don't know (e.g., Are variances equal?  Is the distribution normal? Should an interaction term be in the model?)
 3.  Design experiments to maximize information
 4.  Understand the measurements you are analyzing and don't hesitate to
     question how the underlying information was captured

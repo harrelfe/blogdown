@@ -1,7 +1,7 @@
 +++
 title = "Introduction"
 date = 2017-01-13T07:49:00Z
-modified = 2017-09-10T09:51:18Z
+modified = 2018-07-22
 tags = ["2017"]
 +++
 Statistics is a field that is a science unto itself and that benefits all other fields
@@ -29,7 +29,7 @@ list below:
 -   Don't assume that anything operates linearly
 -   Account for model uncertainty and avoid it when possible by using
     subject matter knowledge
--   Use the bootstrap routinely
+-   Use the bootstrap routinely, when not using Bayesian methods
 -   Make the sample size a [random variable](https://stats.stackexchange.com/questions/256623) when possible
 -   Use Bayesian methods whenever possible
 -   Use excellent graphics, liberally
@@ -67,7 +67,7 @@ item 1 above and items 2 and 4 below.  Complacency in the field of statistics an
 
 1.  reliance on large-sample theory so that inaccurate normal
     distribution-based tools can be used, as opposed to tailoring the
-    analyses to data characteristics using the bootstrap and
+    analyses to data characteristics using Bayesian methods, the bootstrap, and
     semiparametric models
 2.  belief that null hypothesis significance testing ever answered the
     scientific question and the p-values are useful
