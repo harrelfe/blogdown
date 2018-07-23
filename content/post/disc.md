@@ -2,7 +2,7 @@
 title: Data Methods Discussion Site
 author: Frank Harrell
 date: '2018-06-19'
-modified: '2018-07-14'
+modified: '2018-07-23'
 slug: disc
 categories: []
 tags:
@@ -131,5 +131,6 @@ Twitter is time-oriented, but discussion boards are topic-oriented (then time-or
 
 # Discourse Information
 ## Ways to Create an Account
-* Link to your Google, Facebook, Twitter, Yahoo, or Github account
-* Specify your email address and password
+* Link to your Google, Twitter, or Github account
+* Soon to be added: authentication by Facebook and Yahoo
+
