@@ -121,4 +121,4 @@ cat(w)
 
 ## Further Reading
 
-* [The added value of ordinal analysis in clinical trials: an example in traumatic brain injury]{https://ccforum.biomedcentral.com/track/pdf/10.1186/cc10240} by B Roozenbeek et al.
+* [The added value of ordinal analysis in clinical trials: an example in traumatic brain injury](https://ccforum.biomedcentral.com/track/pdf/10.1186/cc10240) by B Roozenbeek et al.
