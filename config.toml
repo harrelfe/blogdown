@@ -61,7 +61,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "info@fharrell.com"
+  email = "harrelfe@gmail.com"
   address = "Nashville TN USA"
   office_hours = ""
   phone = ""
