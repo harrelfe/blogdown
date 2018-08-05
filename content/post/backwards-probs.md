@@ -1,9 +1,13 @@
 +++
 title = "Clinicians' Misunderstanding of Probabilities Makes Them Like Backwards Probabilities Such As Sensitivity, Specificity, and Type I Error"
-date = 2017-01-25T06:16:00Z
-updated = 2017-01-25T06:16:46Z
+date = 2017-01-25
+modified = 2018-08-05
 tags = ["specificity", "probability", "backward-probability", "forward-probability", "p-value", "bayes", "conditioning", "diagnosis", "decision-making", "dichotomization", "medicine", "bioinformatics", "biomarker", "sensitivity", "posterior", "2017"]
 +++
+<p class="rquote">
+Optimum decision making in the presence of uncertainty comes from probabilistic thinking.  The relevant probabilities are of a predictive nature: P(the unknown given the known).  Thresholds are not helpful and are completely dependent on the utility/cost/loss function.<br>
+Corollary: Since p-values are P(someone else's data are more extreme than mine if H<sub>0</sub> is true) and we don't know whether H<sub>0</sub> is true, it is a non-predictive probability that is not useful for decision making.
+</p>
 Imagine watching a baseball game, seeing the batter get a hit, and hearing the
 announcer say "The chance that the batter is left handed is now 0.2!"  
 No one would care.  Baseball fans are interested in the chance that a

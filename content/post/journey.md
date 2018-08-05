@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2018-07-11
+modified = 2018-08-05
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -243,3 +243,9 @@ Go [here](https://news.ycombinator.com/item?id=13684429) for discussions about t
 * Stephen Martin's [A foray into Bayesian handling of missing data](http://srmart.in/a-foray-into-bayesian-handling-of-missing-data) with Stan
 * [Thomas Bayes and the crisis in science](https://www.the-tls.co.uk/articles/public/thomas-bayes-science-crisis) by David Papineau
 * [Bayesian theorists were little better than cranks](http://wmbriggs.com/post/24848) by William Briggs.
+
+----------------------------------------
+## More Quotes
+* Bayes: Distributional + prior assumption<br>Freq: Distributional + sampling dist assumption<br>You don't need a prior to be 'true', you need it to be defendable. "Given this prior uncertainty, what do the data suggest?"<br>Can you defend the existence of a sampling distribution? - [Stephen Martin](https://twitter.com/smartin2018/status/1025974302607388672)
+* The thing is-Both frameworks can operate w/in counterfactual reasoning. "Assuming I am an extreme skeptic, this is what the data suggest", for example.
+The nice thing about Bayes is that the counterfactual reasoning is immediate, rather than dependent on samples you'll never see. - [Stephen Martin](https://twitter.com/smartin2018/status/1025975277040623616)
