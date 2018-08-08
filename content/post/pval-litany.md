@@ -6,7 +6,7 @@ tags = ["decision-making", "bayes", "multiplicity", "p-value", "hypothesis-testi
 +++
 <p class="rquote">
 With the many problems that p-values have, and the temptation to "bless" research when the p-value falls below an arbitrary threshold such as 0.05 or 0.005, researchers using p-values should at least be fully aware of what they are getting.  They need to know exactly what a p-value means and what are the assumptions required for it to have that meaning.
-<br><br>
+<br>
 A p-value is the probability of getting. in another study, a test statistic that is <b>more</b> extreme than the one obtained in your study if a series of assumptions hold.  It is strictly a probability about data, not a probability about a hypothesis or about the <em>effect</em> of a variable.
 <br><br>
 The study must be capable of being repeated infinitely often, or one must play a mind game in which this is so.
