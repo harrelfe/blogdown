@@ -13,7 +13,7 @@ With the many problems that p-values have, and the temptation to "bless" researc
 <li>You must know the exact design and sampling plan that was in effect for your study.</li>
 <li>You must know all the investigators' intensions for testing, including intended timing and frequency of looks at the data.</li>
 <li>You must know the exact stopping rule for the study, or to pretend that the actual final sample size was magical and would be chosen again and again.  <b>Note</b>: all of these design features must be the ones actually used in conducting the study, not those in the original study plan.  If calculations are based on the original study plan, no deviations from that plan during the study are allowed.</li>
-<li>The study repetitions used to compute the p-value must be executed using eactly this sampling plan, stopping rule, data look schedule, and investigator intentions.</li>
+<li>The study repetitions used to compute the p-value must be executed using eactly this sampling plan, stopping rule, data look schedule, and investigator intentions.</li></ul>
 </p>
 
 In my opinion, null hypothesis testing and p-values have done significant harm
