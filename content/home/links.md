@@ -4,11 +4,12 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-07-07"
+modified = "2018-08-11"
 weight = 90
 +++
 # Links to Resources
 
--   **BBR** : [Biostatistics for Biomedical Research](http://fharrell.com/doc/bbr.pdf)             
+-   **BBR** : [Biostatistics for Biomedical Research](http://hbiostat.org/doc/bbr.pdf)             
 -   [Checklist of statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist)
 -   [Measuring change](http://biostat.mc.vanderbilt.edu/MeasureChange) (see also BBR Chapter 14)
 -   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms) web site
