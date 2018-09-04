@@ -1,7 +1,8 @@
 ---
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
-date: '2017-10-09'
+date: 2017-10-09
+modified: 2018-09-04
 slug: bayes-seq
 tags:
   - bayes
@@ -270,6 +271,9 @@ It is always the case that estimated a single fixed sample size is problematic, 
 # Useful References
 Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 -->
+
+# Other Resources
+* ["We continuously increased the number of animals until statistical significance was reached to support our conclusions"](https://andrewgelman.com/2018/09/04/continuously-increased-number-animals-statistical-significance-reached-support-conclusions-think-not-bad-actually-2) by Andrew Gelman
 
 # Computing Environment
 `r markupSpecs$html$session()`

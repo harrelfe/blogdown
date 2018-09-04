@@ -1,7 +1,8 @@
 ---
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
-date: '2017-10-09'
+date: 2017-10-09
+modified: 2018-09-04
 slug: bayes-seq
 tags:
   - bayes
@@ -362,22 +363,25 @@ It is always the case that estimated a single fixed sample size is problematic, 
 Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 -->
 
+# Other Resources
+* ["We continuously increased the number of animals until statistical significance was reached to support our conclusions"](https://andrewgelman.com/2018/09/04/continuously-increased-number-animals-statistical-significance-reached-support-conclusions-think-not-bad-actually-2) by Andrew Gelman
+
 # Computing Environment
 <!--html_preserve--><pre>
- R version 3.4.4 (2018-03-15)
+ R version 3.5.1 (2018-07-02)
  Platform: x86_64-pc-linux-gnu (64-bit)
- Running under: Ubuntu 18.04 LTS
+ Running under: Ubuntu 18.04.1 LTS
  
  Matrix products: default
  BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
  LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
  
  attached base packages:
- [1] methods   stats     graphics  grDevices utils     datasets  base     
+ [1] stats     graphics  grDevices utils     datasets  methods   base     
  
  other attached packages:
- [1] rms_5.1-3       SparseM_1.77    Hmisc_4.1-2     ggplot2_2.2.1  
- [5] Formula_1.2-3   survival_2.42-3 lattice_0.20-35
+ [1] rms_5.1-3       SparseM_1.77    Hmisc_4.1-2     ggplot2_3.0.0  
+ [5] Formula_1.2-3   survival_2.42-6 lattice_0.20-35
  </pre>
  To cite R in publication use:
  <p>R Core Team (2018).
