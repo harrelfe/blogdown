@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2018-06-21'
+modified: '2018-09-11'
 updated: ''
 slug: stat-ml
 categories: []
@@ -72,6 +72,9 @@ Some definitions of ML and discussions about the definitions may be found [here]
 The two fields may also be defined by how their practitioners spend their time. Someone engaged in ML will mainly spend her time choosing algorithms, writing code, specifying tuning parameters, waiting for the algorithm to run on a computer or cluster, and analyzing the accuracy of the resulting predictions.  Someone engaged mainly in SMs will tend to spend time choosing a statistical model family, specifying the model, checking goodness of fit, analyzing accuracy of predictions, and interpreting estimated effects.
 
 See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twitter discussions.
+
+{{< figure src="/img/keith-mageeTweet.png" width="60%" >}}
+
 
 ## Further Reading
 *  Follow-up Article by Drew Levy: [Navigating Statistical Modeling and Machine Learning](/post/stat-ml2)
