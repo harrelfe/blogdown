@@ -2,7 +2,7 @@
 title: "Information Gain From Using Ordinal Instead of Binary Outcomes"
 date: '2018-01-28'
 draft: no
-modified: '2018-07-24'
+modified: '2018-09-26'
 summary: This article gives examples of information gained by using ordinal over binary
   response variables.  This is done by showing that for the same sample size and power,
   smaller effects can be detected
@@ -20,7 +20,7 @@ categories: []
 
 
 
-<p>As discussed in <a href="http://fharrell.com/doc/bbr.pdf#nameddest=sec:overview-ychoice">BBR Section 3.5</a>, a binary dependent variable Y has minimum statistical information, giving rise to minimal statistical power and precision. This can easily be demonstrated by power or sample size calculations. Consider a pain outcome as an example. Instead of having as an outcome the presence or absence of pain, one can significantly increase power by having several levels of pain severity with the lowest level representing “none”; the more levels the better.</p>
+<p>As discussed in <a href="http://hbiostat.org/doc/bbr.pdf#nameddest=sec:overview-ychoice">BBR Section 3.5</a>, a binary dependent variable Y has minimum statistical information, giving rise to minimal statistical power and precision. This can easily be demonstrated by power or sample size calculations. Consider a pain outcome as an example. Instead of having as an outcome the presence or absence of pain, one can significantly increase power by having several levels of pain severity with the lowest level representing “none”; the more levels the better.</p>
 <p>The point about the increase in power can also be made by, instead of varying the effect size, varying the effect that can be detected with a fixed power of 0.9 when the degree of granularity in Y is increased. This is all about breaking ties in Y. The more ties there are, the less statistical information is present. Why is this important in study planning? Here’s an all–too–commmon example. A study is designed to compare the fraction of “clinical responders” between two treatments. The investigator knows that the power of a binary endpoint is limited, and has a fixed budget. So she chooses a more impressive effect size for the power calculation—one that is more than clinically relevant. After the data are in, she finds an apparent clinically relevant improvement due to one of the treatments, but because the study was sized only to detect a super-clinical improvement, the p-value is large and the confidence interval for the effect is wide. Little new knowledge is gained from the study except for how to spend money.</p>
 <p>Consider a two-group comparison, with an equal sample size per group. Suppose we want to detect an odds ratio of 0.5 (OR=1.0 means no group effect) for binary Y. Suppose that the probability that Y=1 in the control group is 0.2. The required sample size is computed below.</p>
 <pre class="r"><code>require(Hmisc)</code></pre>

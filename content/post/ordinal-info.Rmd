@@ -2,7 +2,7 @@
 title: "Information Gain From Using Ordinal Instead of Binary Outcomes"
 date: '2018-01-28'
 draft: no
-modified: '2018-07-24'
+modified: '2018-09-26'
 summary: This article gives examples of information gained by using ordinal over binary
   response variables.  This is done by showing that for the same sample size and power,
   smaller effects can be detected
