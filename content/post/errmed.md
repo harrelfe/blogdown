@@ -1,7 +1,7 @@
 +++
 title = "Statistical Errors in the Medical Literature"
 date = 2017-04-08
-modified = 2018-05-20
+modified = 2018-09-26
 tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change-scores", "RCT", "personalized-medicine", "responder-analysis", "hypothesis-testing", "medical-literature", "2017"]
 [author]
 +++
@@ -27,7 +27,7 @@ the literature.
 
 One of the most pervasive problems in the medical literature (and in
 other subject areas) is misuse and misinterpretation of p-values as
-detailed [here](http://www.fharrell.com/2017/02/a-litany-of-problems-with-p-values.html),
+detailed [here](/post/pval-litany),
 and chief among these issues is perhaps the *[absence of evidence is not
 evidence of absence](http://www.bmj.com/content/311/7003/485) error*
 written about so clearly by Altman and Bland.  The following thought
@@ -42,8 +42,7 @@ interpretation in the conclusion.  One example of proper wording would
 be "This study rules out, with 0.95 confidence, a reduction in the odds
 of death that is more than by a factor of 2." Ronald Fisher, when asked
 how to interpret a large p-value, said "Get more data." Adoption of
-Bayesian methods would [solve many
-problems](http://www.fharrell.com/2017/02/my-journey-from-frequentist-to-bayesian.html)
+Bayesian methods would [solve many problems](/post/journey)
 including this one.  Whether a p-value is small or large a Bayesian can
 compute the posterior probability of similarity of outcomes of two
 treatments (e.g., Prob(0.85 < odds ratio < 1/0.85)), and the
@@ -203,8 +202,7 @@ with 2-tailed p-values comes into play here. A Bayesian posterior
 probability of *any* improvement might be around 0.88, far more
 "positive" than what someone who misunderstands p-values would conclude
 from an "insignificant" p-value. Other thoughts concerning the ORBITA
-trial may be found
-[here](http://www.fharrell.com/2017/11/statistical-criticism-is-easy-i-need-to.html).
+trial may be found [here](/post/criticism-easy).
 
 <a class="anchor" id="catg"></a>
 ### Dichotomania
@@ -281,7 +279,7 @@ loses information and power, is difficult to interpret, and means
 different things for different patients, expect trouble.
 
 <a class="anchor" id="pvcs"></a>
-In [Right ventricular dysfunction and long-term risk of sudden cardiac death in patients with and without severe left ventricular dysfunction](http://circep.ahajournals.org/content/11/6/e006091.full), Niyada Naksuk et al. took dichotomania to a high level by completely repeating the analytical mistakes that led to the ventricular arrhythmia suppression hypothesis and the Cardiac Arrhythmia Suppression Trial (CAST).  As detailed [here](http://fharrell.com/doc/bbr.pdf#nameddest=sec:pvcs), there is residual confounding when the analysis merely stratifies on intervals of LVEF and doesn't adjust for continuous LVEF.  Even among patients with LVEF < 0.4, the mean LVEF for those with a high premature ventricular contraction (PVC) frequency is much different than the mean LVEF for patients without this risk factor.  Arrhythmias tended to occur when the myocardium was damaged, and reducing PVCs can't address this irreversible damage.  Naksuk et al. also used an invalid stepwise variable selection algorithm to select their final statistical model.
+In [Right ventricular dysfunction and long-term risk of sudden cardiac death in patients with and without severe left ventricular dysfunction](http://circep.ahajournals.org/content/11/6/e006091.full), Niyada Naksuk et al. took dichotomania to a high level by completely repeating the analytical mistakes that led to the ventricular arrhythmia suppression hypothesis and the Cardiac Arrhythmia Suppression Trial (CAST).  As detailed [here](http://hbiostat.org/doc/bbr.pdf#nameddest=sec:pvcs), there is residual confounding when the analysis merely stratifies on intervals of LVEF and doesn't adjust for continuous LVEF.  Even among patients with LVEF < 0.4, the mean LVEF for those with a high premature ventricular contraction (PVC) frequency is much different than the mean LVEF for patients without this risk factor.  Arrhythmias tended to occur when the myocardium was damaged, and reducing PVCs can't address this irreversible damage.  Naksuk et al. also used an invalid stepwise variable selection algorithm to select their final statistical model.
 
 <a class="anchor" id="change"></a>
 ### Change from Baseline 
@@ -306,7 +304,7 @@ compute change scores requires many assumptions to hold, e.g.:
     same transformation on both)
 
 Details about problems with analyzing change may be found in
-[BBR](http://fharrell.com/links) Section 14.4
+[BBR](http://hbiostat.org/doc/bbr.pdf) Section 14.4
 and [here](http://biostat.mc.vanderbilt.edu/MeasureChange), and
 references may be found
 [here](http://www.citeulike.org/user/harrelfe/tag/change). See also
@@ -487,7 +485,7 @@ An analysis that would have answered my questions would have been to
     i.e., a smooth 3-D relationship between baseline T, 6m T, and log
     hazard, allowing for interaction, and restricting the 3-D surface to
     be smooth. See for example [BBR Figure
-    4.23](http://www.fharrell.com/links). One can do this by
+    4.23](http://hbiostat.org/doc/bbr.pdf). One can do this by
     using restricted cubic splines in both T's and by computing
     cross-products of these terms for the interactions. By fitting a
     flexible smooth surface, the data would be able to speak for
