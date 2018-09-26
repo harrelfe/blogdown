@@ -1,7 +1,7 @@
 +++
 title = "Split-Sample Model Validation"
 date = 2017-01-23
-modified = 2018-04-13
+modified = 2018-09-26
 tags = ["prediction", "bootstrap", "validation", "2017"]
 +++
 Methods used
@@ -12,7 +12,7 @@ bootstrapping.  To be as good as the bootstrap, about 100 repeats of
 10-fold cross-validation are required.
 
 As discussed in more detail in Section 5.3 of [Regression Modeling
-Strategies Course Notes](http://fharrell.com/doc/rms.pdf) and the
+Strategies Course Notes](http://hbiostat.org/doc/rms.pdf) and the
 same section of the RMS book, data splitting is an unstable method for
 validating models or classifiers, especially when the number of subjects
 is less than about 20,000 (fewer if signal:noise ratio is high).  This
@@ -20,7 +20,7 @@ is because were you to split the data again, develop a new model on the
 training sample, and test it on the holdout sample, the results are
 likely to vary significantly.   Data splitting requires a significantly
 larger sample size than resampling to work acceptably well.  See also
-Section 10.11 of [BBR](http://fharrell.com/links).
+Section 10.11 of [BBR](http://hbiostat.org/doc/bbr.pdf).
 
 There are also very subtle problems:
 
