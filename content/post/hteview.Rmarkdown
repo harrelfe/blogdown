@@ -95,7 +95,7 @@ for(h in or) {
 }
 ```
 
-For an example analysis where the relative treatment effect varies with patient characteristics, see [BBR Section 13.6.2](http://fharrell.com/doc/bbr.pdf).
+For an example analysis where the relative treatment effect varies with patient characteristics, see [BBR Section 13.6.2](http://hbiostat.org/doc/bbr.pdf).
 
 ## Heterogeneity of Treatment Effects
 
@@ -112,9 +112,9 @@ On the first point, I submit that the situations having the most promise for fin
 
 On the second point, about quantification of non-constancy of relative treatment effect, a very fruitful area of research could involve developing strategies for "proof of concept" studies of DTE that parallels how principal component analysis has been used in gene microarray and GWAS research to show that a possible predictive signal exists in the genome.  This same approach could be used to quantify the signal strength for differential treatment effects by patient characteristics.  This would address a common problem: factors that potentially interact with treatment can be correlated, diminishing statistical power of individual interaction tests.  By reducing a large number of potential interaction factors to several principal components (or other summary scores) and getting a "chunk test" for the joint interaction influence of those variables with treatment, one could show that something is there without spending statistical power "naming names."
 
-This relates to what I perceive is a major need in HTE research: to quantify the amount of patient outcome variation that is explained by treatment interactions in comparison to the variation explained by just using an additive model that includes treatment and a long list of covariates.  A powerful index for quantifying such things is the "adequacy index" described in the maximum likelihood estimation chapter in _[Regression Modeling Strategies](/links)_.  This index answers the question "what proportion of the explainable outcome variation as measured by the model likelihood ratio chi-square statistic is explainable by ignoring all the interaction effects?"  One minus this is the fraction of predictive information provided by DTE.   In my experience, the outcome variable explained by main effects swamps that explained by adding interaction effects to models.  I predict that clinical researchers will be surprised how little differential treatment effects matter when compared to outcomes associated with patient risk factors, and when compared to RM.
+This relates to what I perceive is a major need in HTE research: to quantify the amount of patient outcome variation that is explained by treatment interactions in comparison to the variation explained by just using an additive model that includes treatment and a long list of covariates.  A powerful index for quantifying such things is the "adequacy index" described in the maximum likelihood estimation chapter in _[Regression Modeling Strategies](/links)_.  This index answers the question "what proportion of the explainable outcome variation as measured by the model likelihood ratio chi-square statistic is explainable by ignoring all the intefraction effects?"  One minus this is the fraction of predictive information provided by DTE.   In my experience, the outcome variable explained by main effects swamps that explained by adding interaction effects to models.  I predict that clinical researchers will be surprised how little differential treatment effects matter when compared to outcomes associated with patient risk factors, and when compared to RM.
 
-My suggestions for developing statistical analysis plans for testing and estimating DTE/HTE are in [BBR Section 13.6](/doc/bbr.pdf).
+My suggestions for developing statistical analysis plans for testing and estimating DTE/HTE are in [BBR Section 13.6](http://hbiostat.org/doc/bbr.pdf).
 
 ## Averages vs. Customized Estimates
 
