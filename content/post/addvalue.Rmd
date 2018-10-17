@@ -1,5 +1,5 @@
 ---
-title: "Statistically Efficient Ways to Quantify Added Predictive Value of New Measurements"
+title: Statistically Efficient Ways to Quantify Added Predictive Value of New Measurements
 author: "Frank Harrell"
 date: '2018-10-17'
 categories: []
