@@ -12,7 +12,9 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  | <small>Frequentism is about the data generating process.  Bayes is about the θ generating process, and about the data generated.</small> |
 |  |  |
 |  |  <small>Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design, sampling scheme, and data generating process that were **actually used** and would be infinitely replicated to allow p-values and confidence limits to be computed.</small> |
-|  |  <small>When was the last time you observed a sampling distribution, empirically and objectively? When was the last time you saw someone justify their choice of a sampling distribution, or tested it? -- [Stephen Martin](https://twitter.com/weatherbuzzword/status/1057498959613251584)</small> |
+|  |  |
+|  |  <small>When was the last time you observed a sampling distribution, empirically and objectively? When was the last time you saw someone justify their choice of a sampling distribution, or tested it? -- [Stephen Martin](https://twitter.com/smartin2018/status/1057500260782800898)</small> |
+|  |  |
 |  | <small>Null hypothesis testing is simple because it kicks down the road the gymnastics needed to subjectively convert observations about data to evidence about parameters.</small> |
 |  |  |
 |  | <small>Type I error for smoke detector: probability of alarm given no fire=0.05</small><br><small>Bayesian: probability of fire given current air characteristics</small><br><small>Frequentist smoke alarm designed as most research is done: Set the alarm trigger so as to have a 0.8 chance of detecting an inferno</small><br><small>**Advantage of actionable evidence quantification**:</small><br><small>Set the alarm to trigger when the posterior probability of a fire exceeds 0.02 while at home and at 0.01 while away</small> |
