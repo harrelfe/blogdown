@@ -44,12 +44,12 @@ weight = 5
 * PhD in Biostatistics from U. North Carolina
 * Extensive work in biomedical and pharmaceutical research
 * ASA Fellow and winner of the ASA WJ Dixon Award for Excellence in Statistical Consulting in 2014
-* [Publications](http://www.citeulike.org/user/harrelfe/author/Harrell)
+* [Publications](https://zotero.org/groups/feh/items/q/harrell)
 * Active on [stats.stackexchange.com](http://stats.stackexchange.com) - see my posts [here](http://stats.stackexchange.com/users/4253)
 * Written several R packages including [Hmisc](http://biostat.mc.vanderbilt.edu/Hmisc) and [rms](http://biostat.mc.vanderbilt.edu/Rrms)
 * Used R intensively since 1999 and am a member of the [R Foundation](https://www.r-project.org/foundation)
 * Author of [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms), 2nd Edition</a>
 * Statistical knowledge outside the areas of regression modeling strategies and Bayes is in [BBR](#links)
-* Also work in Office of Biostatistics, Center for Drug Evaluation and Research, FDA
+* Expert Statistical Advisor to the Office of Biostatistics, Center for Drug Evaluation and Research, FDA
 
 **Views expressed here are neither those of Vanderbilt University nor the US FDA**
