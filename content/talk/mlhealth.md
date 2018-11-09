@@ -1,5 +1,5 @@
 +++
-date = "2018-09-18"  # Schedule page publish date.
+date = "2018-09-18T12:00:00Z"  # Schedule page publish date.
 
 title = "Musings on Statistical Models vs. Machine Learning in Health Research"
 time_start = ""
