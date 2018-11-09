@@ -1,5 +1,4 @@
 +++
-date = ""  # Schedule page publish date.
 
 title = "Musings on Statistical Models vs. Machine Learning in Health Research"
 time_start = ""
