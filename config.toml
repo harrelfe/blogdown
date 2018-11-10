@@ -261,6 +261,11 @@ defaultContentLanguageInSubdir = false
   url = "#posts"
   weight = 3
 
+[[main.menu]]
+  name = "Talks"
+  url = "#talks"
+  weight = 4
+
 [[menu.main]]
   name = "Projects"
   url = "#projects"
