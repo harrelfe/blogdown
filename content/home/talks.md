@@ -1,6 +1,6 @@
 +++
 # Recent and Upcoming Talks widget.
-widget = "custom"
+widget = "talks"
 active = true
 date = "2016-04-20T00:00:00"
 
@@ -17,6 +17,9 @@ count = 30
 #   0 = Simple
 #   1 = Detailed
 list_format = 0
+
+folder = "talk"
+view = 1
 
 +++
 
