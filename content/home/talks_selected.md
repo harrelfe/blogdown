@@ -1,6 +1,10 @@
 +++
+# Selected Talks widget.
+# This widget displays talks from `content/talk/` which have
+# `selected = true` in their `+++` front matter.
+widget = "talks_selected"
+
 # Recent and Upcoming Talks widget.
-widget = "talks"
 active = true
 date = "2016-04-20T00:00:00"
 
@@ -18,11 +22,7 @@ count = 30
 #   1 = Detailed
 list_format = 0
 
-# Exclude talks that are shown in the Selected Talks widget?
-
-exclude_selected = false
-
-folder = "talk"
+# folder = "talk"
 
 +++
 

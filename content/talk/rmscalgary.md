@@ -11,7 +11,7 @@ event_url = "https://eventbrite.ca/e/regression-modeling-strategies-with-prof-fr
 location = "Calgary, Alberta CA"
 
 # Is this a selected talk? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.

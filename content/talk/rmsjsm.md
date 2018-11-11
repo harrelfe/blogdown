@@ -11,7 +11,7 @@ event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
 location = "Vancouver, BC"
 
 # Is this a selected talk? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
