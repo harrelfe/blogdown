@@ -4,7 +4,7 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-07-07"
-modified = "2018-11-11"
+modified = "2018-11-14"
 weight = 90
 +++
 # Links to Resources
@@ -16,8 +16,7 @@ weight = 90
 -   **RMS** : [Regression Modeling Strategies](http://hbiostat.org/doc/rms.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
 -   Frank's [publications](https://www.zotero.org/groups/feh/items/q/Harrell); see also [here](http://citeulike.org/user/harrelfe/author/Harrell)
--   Frank's [presentations](http://fharrell.com/#talks)
-and [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
+-   Frank's [presentations](http://fharrell.com/#talks), also [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
 -   Frank's Youtube videos on [Regression Modeling
     Strategies](https://www.youtube.com/channel/UC2qvW5vuAZm91-KIV4Y83MQ)
 -   Frank's [bibliographic database](https://www.zotero.org/groups/feh/items); see also [here](http://www.citeulike.org/user/harrelfe)
@@ -26,6 +25,11 @@ and [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt
     `stackexchange`
 -   Frank's [recommended computing/editing tools](http://biostat.mc.vanderbilt.edu/FHTools)
 -   Andrew Gelman's [blog](http://andrewgelman.com/)
+
+## R Packages
+-   [Hmisc](http://biostat.mc.vanderbilt.edu/Hmisc)
+-   [rms](http://biostat.mc.vanderbilt.edu/Rrms)
+-   [Graphical reporting for clinical trials](http://biostat.mc.vanderbilt.edu/RCTGraphics)
 
 ## Discussion Boards
 
