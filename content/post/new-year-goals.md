@@ -62,7 +62,7 @@ Some wishes expressed by others on Twitter:
     insignificant'
 
 # Updates for 2019
-<a name="u2019">
+<a name="u2019"></a>
 My goals for 2018 were lofty so it's not surprising that I'm disappointed overall with how little progress has been made on many of the fronts.  But I am heartened by seven things:
 
 *   Clinicians are getting noticeably more dubious about personalized/precision medicine
@@ -74,6 +74,7 @@ My goals for 2018 were lofty so it's not surprising that I'm disappointed overal
 *   More high-profile Bayesian analysis of clinical trials are being published
 
 Areas that remain particularly frustrating are:
+
 *   Too many clinicians still believe that randomized clinical trials do not provide valuable efficacy data outside of the types of patients enrolled in the trials
 *   Clinical researchers are still computing change from baseline
 *   Sequential clinical trials are not being done (trials in which the sample size is not pretended to be known)
