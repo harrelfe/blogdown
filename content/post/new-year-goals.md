@@ -62,7 +62,7 @@ Some wishes expressed by others on Twitter:
     insignificant'
 
 # Updates for 2019
-<a name="u2019"></a>
+<a class="anchor" id="u2019"></a>
 My goals for 2018 were lofty so it's not surprising that I'm disappointed overall with how little progress has been made on many of the fronts.  But I am heartened by seven things:
 
 *   Clinicians are getting noticeably more dubious about personalized/precision medicine
