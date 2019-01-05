@@ -6,8 +6,8 @@ time_start = 2019-02-14T08:00:00
 time_end   = 2019-02-14T17:30:00
 abstract = ""
 abstract_short = ""
-event = "Regression Modeling Strategies Short Course, ASA Conference on Statistical Practice"
-event_url = "https://eventbrite.ca/e/regression-modeling-strategies-with-prof-frank-e-harrell-jr-tickets-47487606710"
+event = "Regression Modeling Strategies One-Day Short Course, ASA Conference on Statistical Practice"
+event_url = "https://ww2.amstat.org/meetings/csp/2019/onlineprogram/Program.cfm"
 location = "New Orleans LA USA"
 
 # Is this a selected talk? (true/false)
