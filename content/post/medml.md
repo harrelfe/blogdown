@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2018-11-24
+modified = 2019-01-05
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -62,3 +62,4 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 * [Biases in electronic health record data due to processes within the healthcare system: retrospective observational study](https://www.bmj.com/content/361/bmj.k1479) by Denis Agniel et al.
      + Data about timing of medical test ordering was more predictive of survival than the actual test results
 * [Special issue on probability estimation and machine learning](https://onlinelibrary.wiley.com/toc/15214036/2014/56/4) of Biometrical Journal, including discussion articles comparing ML and SM
+* [Questions for artificial intelligence in health care](https://jamanetwork.com/journals/jama/fullarticle/2718456?guestAccessKey=353313c0-67cc-4b8f-9df7-f516a12eacc7&utm_source=silverchair&utm_medium=email&utm_campaign=article_alert-jama&utm_content=olf&utm_term=121018) by Maddox et al
