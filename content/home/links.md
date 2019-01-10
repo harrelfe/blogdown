@@ -4,7 +4,7 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-07-07"
-modified = "2018-11-14"
+modified = "2019-01-10"
 weight = 90
 +++
 # Links to Resources
@@ -20,7 +20,7 @@ weight = 90
 -   Frank's Youtube videos on [Regression Modeling
     Strategies](https://www.youtube.com/channel/UC2qvW5vuAZm91-KIV4Y83MQ)
 -   Frank's [bibliographic database](https://www.zotero.org/groups/feh/items); see also [here](http://www.citeulike.org/user/harrelfe)
--   [Glossary](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/ClinStat/glossary.pdf) of statistical terms
+-   [Glossary](http://hbiostat.org/doc/glossary.pdf) of statistical terms
 -   Frank's [postings](http://stats.stackexchange.com/users/4253) on
     `stackexchange`
 -   Frank's [recommended computing/editing tools](http://biostat.mc.vanderbilt.edu/FHTools)
