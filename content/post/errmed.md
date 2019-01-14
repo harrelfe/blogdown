@@ -1,7 +1,7 @@
 +++
 title = "Statistical Errors in the Medical Literature"
 date = 2017-04-08
-modified = 2018-09-26
+modified = 2019-01-13
 tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change-scores", "RCT", "personalized-medicine", "responder-analysis", "hypothesis-testing", "medical-literature", "2017"]
 [author]
 +++
@@ -27,7 +27,7 @@ the literature.
 
 One of the most pervasive problems in the medical literature (and in
 other subject areas) is misuse and misinterpretation of p-values as
-detailed [here](/post/pval-litany),
+detailed [here](/post/pval-litany) and [here](https://datamethods.org/t/language-for-communicating-frequentist-results-about-treatment-effects),
 and chief among these issues is perhaps the *[absence of evidence is not
 evidence of absence](http://www.bmj.com/content/311/7003/485) error*
 written about so clearly by Altman and Bland.  The following thought
@@ -203,6 +203,8 @@ probability of *any* improvement might be around 0.88, far more
 "positive" than what someone who misunderstands p-values would conclude
 from an "insignificant" p-value. Other thoughts concerning the ORBITA
 trial may be found [here](/post/criticism-easy).
+
+Miguel Hernan has compiled an excellent set of examples on [Twitter](https://twitter.com/Research_Tim/status/962078800954699776).
 
 <a class="anchor" id="catg"></a>
 ### Dichotomania
