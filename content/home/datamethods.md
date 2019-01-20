@@ -4,7 +4,7 @@ date = 2019-01-20
 updated = 2019-01-20
 tags = ["RCT", "bayes", "decision-making", "dichotomization",
 "measurement", "reporting", "responder-analysis", "sample-size",
-"sensitivity", "specificity", "2019"]]
+"sensitivity", "specificity", "2019"]
 +++
 [datamethods.org](https://discourse.datamethods.org) is a discussion site where
 data methodologists meet each other and subject matter experts
