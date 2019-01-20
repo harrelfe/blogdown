@@ -7,7 +7,8 @@ tags = []
 [datamethods.org](https://discourse.datamethods.org) is a discussion site where
 data methodologists meet each other and subject matter experts
 including clinical trialists and clinical researchers.  It's
-development is documented [here](/post/disc).
+development is documented [here](/post/disc).  Datamethods is provided
+by the Department of Biostatistics, Vanderbilt University School of Medicine.
 
 I have written some short articles on the site, listed below.
 
