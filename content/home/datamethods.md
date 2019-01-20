@@ -4,9 +4,7 @@ date = 2019-01-20
 updated = 2019-01-20
 tags = []
 +++
-+ datamethods.org
-
-[datamethods.org](http://datamethods.org) is a discussion site where
+[datamethods.org](https://datamethods.org) is a discussion site where
 data methodologists meet each other and subject matter experts
 including clinical trialists and clinical researchers.  It's
 development is documented [here](/post/disc).
