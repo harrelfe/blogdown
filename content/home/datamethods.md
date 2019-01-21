@@ -8,7 +8,7 @@ tags = ["RCT", "bayes", "decision-making", "dichotomization",
 +++
 [datamethods.org](https://discourse.datamethods.org) is a discussion site where
 data methodologists meet each other and subject matter experts
-including clinical trialists and clinical researchers.  It's
+including clinical trialists and clinical researchers.  Its
 development is documented [here](/post/disc).  Datamethods is provided
 by the Department of Biostatistics, Vanderbilt University School of Medicine.
 
