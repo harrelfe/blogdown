@@ -244,7 +244,7 @@ where
 * subjectivity<sub>1</sub> = choice of the data model
 * subjectivity<sub>2</sub> = sample space and how repetitions of the
   experiment are envisioned, choice of the stopping rule, 1-tailed
-  vs. 2-tailed tests ...
+  vs. 2-tailed tests, multiplicity adjustments, ...
 * subjectivity<sub>3</sub> = prior distribution
 
 ------------------------------------------------------------------------
