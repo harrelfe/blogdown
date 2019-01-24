@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2018-11-01
+modified = 2019-01-24
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -231,6 +231,21 @@ its methods are misused, especially with regard to dichotomization.  But
 an approach that is so easy to misuse and which sacrifices direct
 inference in a [futile attempt at objectivity](/post/improve-research)  still has fundamental
 problems.
+
+I use the following slightly oversimplified equations to contrast
+frequentist and Bayesian inference.
+
+* Frequentist = subjectivity<sub>1</sub> + subjectivity<sub>2</sub> + objectivity + data + endless arguments about everything
+* Bayesian = subjectivity<sub>1</sub> + subjectivity<sub>3</sub> + objectivity + data +
+  endless arguments about one thing (the prior)
+
+where
+
+* subjectivity<sub>1</sub> = choice of the data model
+* subjectivity<sub>2</sub> = sample space and how repetitions of the
+  experiment are envisioned, choice of the stopping rule, 1-tailed
+  vs. 2-tailed tests ...
+* subjectivity<sub>3</sub> = prior distribution
 
 ------------------------------------------------------------------------
 
