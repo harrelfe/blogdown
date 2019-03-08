@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2019-02-01
+modified = 2019-03-08
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -65,4 +65,8 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 * [Questions for artificial intelligence in health care](https://jamanetwork.com/journals/jama/fullarticle/2718456?guestAccessKey=353313c0-67cc-4b8f-9df7-f516a12eacc7&utm_source=silverchair&utm_medium=email&utm_campaign=article_alert-jama&utm_content=olf&utm_term=121018) by Maddox et al
 * [High-performance medicine: the convergence of human and artificial intelligence](https://www.nature.com/articles/s41591-018-0300-7) by Eric Topol
 * [The exaggerated promise of so-called unbiased data mining](https://www.wired.com/story/the-exaggerated-promise-of-data-mining/?mbid=social_twitter_onsiteshare)
-
+* [A systematic review shows no performance benefit of machine
+  learning over logistic regression for clinical prediction
+  models](https://doi.org/10.1016/j.jclinepi.2019.02.004) by Evangelia
+  Christodoulou et al.
+* [Criminal machine learning](https://callingbullshit.org/case_studies/case_study_criminal_machine_learning.html) by by Carl Bergstrom and Jevin West
