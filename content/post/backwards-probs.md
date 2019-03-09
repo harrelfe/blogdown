@@ -1,7 +1,7 @@
 +++
 title = "Clinicians' Misunderstanding of Probabilities Makes Them Like Backwards Probabilities Such As Sensitivity, Specificity, and Type I Error"
 date = 2017-01-25
-modified = 2018-08-05
+modified = 2010-03-08
 tags = ["specificity", "probability", "backward-probability", "forward-probability", "p-value", "bayes", "conditioning", "diagnosis", "decision-making", "dichotomization", "medicine", "bioinformatics", "biomarker", "sensitivity", "posterior", "2017"]
 +++
 <p class="rquote">
@@ -26,7 +26,7 @@ this can limit their research skills.  Many excellent clinicians even
 let their limitations in understanding probability make them believe
 that their clinical decision making is worse than it actually is.  I
 have taught many clinicians who say "I need a hard and fast rule so I
-know how to diagnosis or treat patients.  I need a hard cutoff on blood
+know how to diagnose or treat patients.  I need a hard cutoff on blood
 pressure, HbA1c, etc. so that I know what to do, and the fact that I
 either treat or not treat the patient means that I don't want to
 consider a probability of disease but desire a simple classification
