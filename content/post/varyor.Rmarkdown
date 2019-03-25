@@ -194,9 +194,11 @@ d$tx <- 'SK'
 psk  <- predict(h, d, type='fitted')
 d$tx <- 'tPA'
 ptpa <- predict(h, d, type='fitted')
-k <- c(5,10,15,20,50,100,200,400,800,1600,3200,20000)
-plim <- c(0, quantile(psk, 0.99))
-ggfreqScatter(psk, ptpa, cuts=k) + xlim(plim) + ylim(plim)
+k  <- c(5,10,15,20,50,100,200,400,800,1600,3200,20000)
+pl <- c(0, quantile(psk, 0.99))
+j  <- pmax(psk, ptpa) <= pl
+ggfreqScatter(psk[j], ptpa[j], cuts=k,
+              xlab='P(death|SK)', ylab='P(death|t-PA)')
 ```
 
 Here is the distribution of estimated ARR across all patient types.
@@ -229,9 +231,10 @@ To see how the various measures depend on baseline risk, see the following graph
 
 ```{r vsbase}
 xl <- 'Risk Under Control Treatment (SK)'
-ggfreqScatter(psk, psk - ptpa, cuts=k, xlab=xl, ylab='ARR') + xlim(plim)
-ggfreqScatter(psk, ptpa / psk, cuts=k, xlab=xl, ylab='RR') + xlim(plim)
-ggfreqScatter(psk, or, cuts=k, xlab=xl, ylab='OR') + xlim(plim)
+j <- psk <= pl
+ggfreqScatter(psk[j], psk[j] - ptpa[j], cuts=k, xlab=xl, ylab='ARR')
+ggfreqScatter(psk[j], ptpa[j] / psk[j], cuts=k, xlab=xl, ylab='RR')
+ggfreqScatter(psk[j], or[j], cuts=k, xlab=xl, ylab='OR')
 ```
 ------
 
