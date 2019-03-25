@@ -233,6 +233,9 @@ ggfreqScatter(psk, psk - ptpa, cuts=k, xlab=xl, ylab='ARR') + xlim(plim)
 ggfreqScatter(psk, ptpa / psk, cuts=k, xlab=xl, ylab='RR') + xlim(plim)
 ggfreqScatter(psk, or, cuts=k, xlab=xl, ylab='OR') + xlim(plim)
 ```
------
+------
+
 ## Discussion
-Add your comments, suggestions, and criticisms on [datamethods.org](http://datamethods.org)
+Add your comments, suggestions, and criticisms on [datamethods.org](https://datamethods.org/t/discussion-of-assessing-heterogeneity-of-treatment-effect-estimating-patient-specific-efficacy-and-studying-variation-in-odds-ratios-risk-ratios-and-risk-differences)
+
+------
