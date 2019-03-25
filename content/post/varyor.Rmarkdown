@@ -107,8 +107,8 @@ The simpler model has a lower (better) AIC, indicating that treatment interactio
 We can also compare the two models by computing the relative explained variation on the risk scale as detailed [here](/post/addvalue).
 
 ```{r relev}
-rexv <- var(plogis(predict(f, type='fitted'))) /
-        var(plogis(predict(g, type='fitted')))
+rexv <- var(predict(f, type='fitted')) /
+        var(predict(g, type='fitted'))
 rexv
 ```
 
