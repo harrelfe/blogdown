@@ -2,7 +2,7 @@
 title: Assessing Heterogeneity of Treatment Effect, Estimating Patient-Specific Efficacy, and Studying Variation in Odds ratios, Risk Ratios, and Risk Differences
 author: Frank Harrell
 date: '2019-03-25'
-modified: ''
+modified: '2019-03-28'
 slug: varyor
 categories: []
 tags:
@@ -28,7 +28,7 @@ Heterogeneity of treatment effect (HTE), better called _differential treatment e
 * odds ratios, for binary or ordinal outcomes
 * hazard ratios, for time-to-event outcomes
 
-Even though the more complex hazard ratio seems to be well accepted as a summary measure of treatment effect in a time-to-event randomized clinical trial (RCT), there is still a good deal of resistence to odds ratios (OR) from some clinical researchers.  This resistence is difficult to understand, although it is clear that ORs are more difficult to understand than risk ratios (RR) or absolute risk reduction (ARR; risk difference).  The reasons for choosing ORs are:
+Even though the more  complex hazard ratio seems to be well accepted as a summary measure of treatment effect in a time-to-event randomized clinical trial (RCT), there is still a good deal of resistence to odds ratios (OR) from some clinical researchers.  This resistence is difficult to understand, although it is clear that ORs are more difficult to understand than risk ratios (RR) or absolute risk reduction (ARR; risk difference).  The reasons for choosing ORs are:
 
 * ORs come directly from logistic models, and logistic models are as likely as any model to fit patterns leading to binary responses.  This is primarily because the logistic model places no restrictions on the regression coefficients.
 * ORs are capable of being constant over a range of baseline risk all the way from 0 to 1.0.
@@ -90,7 +90,7 @@ g <- lrm(day30 ~ tx * (age + Killip + pmin(sysbp, 120) +
 print(g, coefs=FALSE)
 ```
 
-The likelihood ratio test is the gold-standard frequentist method for testing for added value of the treatment interactions, i.e., whether the treatment ORs are constant over covariate settings.
+The likelihood ratio test is the gold-standard frequentist method for testing for added value of the treatment interactions, i.e., whether the treatment ORs are constant over covariate settings.  By using a chunk test to test whether _any_ of the baseline variables interact with treatment, this method has a perfect multiplicity adjustment in the frequentist sense.
 
 ```{r lrtest}
 lrtest(f, g)

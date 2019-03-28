@@ -2,7 +2,7 @@
 title: Assessing Heterogeneity of Treatment Effect, Estimating Patient-Specific Efficacy, and Studying Variation in Odds ratios, Risk Ratios, and Risk Differences
 author: Frank Harrell
 date: '2019-03-25'
-modified: ''
+modified: '2019-03-28'
 slug: varyor
 categories: []
 tags:
@@ -28,7 +28,7 @@ Heterogeneity of treatment effect (HTE), better called _differential treatment e
 * odds ratios, for binary or ordinal outcomes
 * hazard ratios, for time-to-event outcomes
 
-Even though the more complex hazard ratio seems to be well accepted as a summary measure of treatment effect in a time-to-event randomized clinical trial (RCT), there is still a good deal of resistence to odds ratios (OR) from some clinical researchers.  This resistence is difficult to understand, although it is clear that ORs are more difficult to understand than risk ratios (RR) or absolute risk reduction (ARR; risk difference).  The reasons for choosing ORs are:
+Even though the more  complex hazard ratio seems to be well accepted as a summary measure of treatment effect in a time-to-event randomized clinical trial (RCT), there is still a good deal of resistence to odds ratios (OR) from some clinical researchers.  This resistence is difficult to understand, although it is clear that ORs are more difficult to understand than risk ratios (RR) or absolute risk reduction (ARR; risk difference).  The reasons for choosing ORs are:
 
 * ORs come directly from logistic models, and logistic models are as likely as any model to fit patterns leading to binary responses.  This is primarily because the logistic model places no restrictions on the regression coefficients.
 * ORs are capable of being constant over a range of baseline risk all the way from 0 to 1.0.
@@ -122,43 +122,43 @@ bottom: -1ex;
 }
 </style>
  <font color="MidnightBlue"><div align=center><span style="font-weight:bold">gusto <br><br> 8  Variables   40830  Observations</span></div></font> <hr class="thinhr"> <span style="font-weight:bold">day30</span> <style>
- .hmisctable466403 {
+ .hmisctable195785 {
  border: none;
  font-size: 85%;
  }
- .hmisctable466403 td {
+ .hmisctable195785 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable466403 th {
+ .hmisctable195785 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable466403">
+ <table class="hmisctable195785">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Sum</th><th>Mean</th><th>Gmd</th></tr>
  <tr><td>40830</td><td>0</td><td>2</td><td>0.195</td><td>2851</td><td>0.06983</td><td>0.1299</td></tr>
  </table>
  <hr class="thinhr"> <span style="font-weight:bold">Killip</span>: Killip Class<div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAANlBMVEUAAAAdHR02NjZnZ2eioqKxsbG+vr6/v7/KysrOzs7U1NTZ2dna2trm5ubr6+vs7Oz09PT///+Wd0knAAAAMElEQVQImWNg4OZDAAYGfkEEIJ/HwYMApJnCyyyAxGNl4ITzuPlYGNj4uBjZ+XiZAGjBCT7UcDeJAAAAAElFTkSuQmCC" alt="image" /></div> <style>
- .hmisctable223658 {
+ .hmisctable806954 {
  border: none;
  font-size: 85%;
  }
- .hmisctable223658 td {
+ .hmisctable806954 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable223658 th {
+ .hmisctable806954 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable223658">
+ <table class="hmisctable806954">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>40830</td><td>0</td><td>4</td></tr>
  </table>
@@ -169,85 +169,85 @@ iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAANlBMVEUAAAAdHR02NjZnZ2eioqKxsbG+
  </pre>
  <hr class="thinhr"> <span style="font-weight:bold">age</span><div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAJcAAAANCAMAAACTvAxuAAAB5lBMVEUAAAABAQECAgIDAwMEBAQFBQUGBgYHBwcICAgJCQkKCgoLCwsMDAwODg4PDw8QEBARERESEhITExMUFBQVFRUXFxcYGBgZGRkaGhobGxscHBwdHR0eHh4fHx8gICAhISEiIiIjIyMkJCQlJSUmJiYnJycpKSkqKiorKystLS0uLi4vLy8wMDAxMTEyMjIzMzM0NDQ1NTU2NjY3Nzc4ODg5OTk6Ojo7Ozs8PDw9PT0+Pj4/Pz9AQEBBQUFCQkJDQ0NERERFRUVGRkZHR0dISEhJSUlKSkpMTExNTU1OTk5PT09QUFBRUVFSUlJXV1dYWFhZWVlbW1tcXFxdXV1eXl5hYWFjY2NlZWVmZmZra2tsbGxubm5vb29ycnJzc3N0dHR4eHh5eXl6enp8fHx9fX1/f3+AgICCgoKGhoaHh4eLi4uNjY2Ojo6Pj4+QkJCSkpKUlJSZmZmdnZ2kpKSlpaWnp6eqqqqrq6usrKyurq6zs7O0tLS2tra6urq+vr6/v7/ExMTGxsbHx8fLy8vMzMzNzc3Pz8/S0tLT09PV1dXW1tbY2NjZ2dna2trd3d3e3t7f39/g4ODl5eXm5ubn5+fp6enq6urr6+vx8fHy8vL09PT19fX4+Pj5+fn7+/v8/Pz+/v7///+WEMMvAAAB7ElEQVQ4jb3V2VPTUBQG8A+jFChKCxQRS7GY0qatRkjXpCGtSWwFiwsIdYe6oFVAEVTcWRRwQUUkIIj2P/X64AzjjExomH4v98zcO+f+5rwcaMayqGl3hhpZFr3n3twuPXQcuRyujzycM9hWQ95A1le/7M121MhgOcQbTJ1oiCPAQq7ddXngl5HG+bwB19iD0rQXKv66cOKPiyOuGlKOzxTbtfyuekC9lHP4wxCd/3GpOHy2eK757/mJsX3Jo1DKKhUwW7qcKc+9u0VxLU2ZMxF3DLxbl0tE2F97JVSo66POfBjpsVICmji0NoM3VURBswjYIcASgceHUB0p68LweRC1gIc9ANaFaIU9O6H3i83RO6/F11AtlApa2Ma8GCiVZcmSrz8LmJeeR+8njykc5MJcCqJ9jzZ23jX78rRLRtBfuMst4PH8wvaGtrVrLTPavyeFRsmYi4fE7M74ZjSDrh8rr97eH3129UwKif3kD+MugYZK2c6nx5+/+Lagy0V2UXeu4+IN9eaF2ODJdNab6io/xZTIsInwH0HMhjgO8mhlIFZREpwhBGlIJnM7WjhEHOTWKsLHQqgnZb0A1gvRSkpHBFwL2s0mCa4gQs2QqCoRTBsS9IFrie5byU+fk9Na19N/9uJwv/akh5y/AWZYWbtLTEmOAAAAAElFTkSuQmCC" alt="image" /></div> <style>
- .hmisctable457461 {
+ .hmisctable662464 {
  border: none;
  font-size: 85%;
  }
- .hmisctable457461 td {
+ .hmisctable662464 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable457461 th {
+ .hmisctable662464 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable457461">
+ <table class="hmisctable662464">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Mean</th><th>Gmd</th><th>.05</th><th>.10</th><th>.25</th><th>.50</th><th>.75</th><th>.90</th><th>.95</th></tr>
  <tr><td>40830</td><td>0</td><td>5575</td><td>1</td><td>60.9</td><td>13.62</td><td>40.89</td><td>44.69</td><td>52.09</td><td>61.52</td><td>69.86</td><td>76.25</td><td>79.45</td></tr>
  </table>
  <span style="font-size: 85%;"><font color="MidnightBlue">lowest</font> :  19.027  19.031  20.289  20.781  20.969 ,  <font color="MidnightBlue">highest</font>:  92.953  95.000  96.547 108.000 110.000</span> <hr class="thinhr"> <span style="font-weight:bold">pulse</span>: Heart Rate <span style='font-family:Verdana;font-size:75%;'>beats/min</span><div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAJcAAAANCAMAAACTvAxuAAABjFBMVEUAAAABAQECAgIDAwMEBAQGBgYMDAwODg4QEBASEhITExMUFBQVFRUWFhYXFxcYGBgZGRkaGhobGxscHBwdHR0fHx8gICAiIiIlJSUmJiYnJycoKCgpKSkqKiosLCwwMDAyMjI0NDQ1NTU4ODg5OTk8PDw9PT0+Pj4/Pz9AQEBBQUFERERGRkZHR0dISEhKSkpLS0tMTExNTU1OTk5PT09QUFBRUVFSUlJUVFRWVlZXV1dYWFhZWVlaWlpbW1tcXFxdXV1eXl5fX19hYWFra2tsbGxtbW1ubm5wcHBxcXFzc3N4eHh7e3t9fX1+fn5/f3+AgICMjIyRkZGTk5OUlJSVlZWWlpaXl5ehoaGjo6Ompqapqamrq6usrKytra2urq6xsbGzs7O0tLS1tbW2tra3t7e7u7vExMTFxcXIyMjMzMzOzs7Pz8/R0dHS0tLT09PX19fa2trb29vc3Nzd3d3f39/h4eHo6Ojp6enq6urr6+vs7Ozw8PDy8vL29vb39/f4+Pj9/f3+/v7///98ZAbpAAABjUlEQVQ4jc3VV1PCQBQF4JtgpxmDoGIBGzaiQRRIRLFi712JErE3sKDGApI/7m5wnJEXMoOo5yFnH7KTb24eLkiqopn+Om7Csbo7OQVkVdHMLXqVw+VRCK7U3ckpql289f1c7hT8df/OFYEYLuRK5teEo8aViiouATyfLmr9X7gO4SbtAjLtIufz74plzyqENWM9llXkQrUCIjk+wai4l0uyz+v5XoDLzHlxdONUIiFHT/I2r6xvjDZgV5PNuoNcwX5Ts+LSAVwb1/z1f+V6clbXCODVGGhjCXJRlVqAIDntwS5igav9E1fqVi4tN1E0AhloBAJSb8JF0Gbk2iYm+2ov6qW3x9dfdZ2JEWKrIC3JcOlpHS7KbBmAfb25felhJtkrvr3IcuKnXGgXBXalAxd7h9fSOXsXCG34OhxddqbBUIwkuopSDNJRZbi0ShGZhf5xEdjtVbaSwjqns7XV2NLm9bEOB9PNcx43w7i4Ib+bjXMDw4NuV5wPS9IpG+dFaW8Yf3R59ttqFEbQ4wPTLlJvb1ep/AAAAABJRU5ErkJggg==" alt="image" /></div> <style>
- .hmisctable920215 {
+ .hmisctable916702 {
  border: none;
  font-size: 85%;
  }
- .hmisctable920215 td {
+ .hmisctable916702 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable920215 th {
+ .hmisctable916702 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable920215">
+ <table class="hmisctable916702">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Mean</th><th>Gmd</th><th>.05</th><th>.10</th><th>.25</th><th>.50</th><th>.75</th><th>.90</th><th>.95</th></tr>
  <tr><td>40830</td><td>0</td><td>166</td><td>0.999</td><td>75.41</td><td>19.55</td><td> 50</td><td> 55</td><td> 62</td><td> 73</td><td> 86</td><td> 98</td><td>107</td></tr>
  </table>
  <span style="font-size: 85%;"><font color="MidnightBlue">lowest</font> :   0   1   6   8   9 ,  <font color="MidnightBlue">highest</font>: 200 205 210 220 246</span> <hr class="thinhr"> <span style="font-weight:bold">sysbp</span>: Systolic Blood Pressure <span style='font-family:Verdana;font-size:75%;'>mmHg</span><div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAJcAAAANCAMAAACTvAxuAAABtlBMVEUAAAACAgIDAwMEBAQFBQUGBgYICAgJCQkKCgoLCwsMDAwNDQ0ODg4PDw8QEBARERESEhITExMVFRUWFhYXFxcYGBgZGRkaGhobGxscHBwdHR0eHh4fHx8gICAhISEiIiIjIyMkJCQmJiYnJycoKCgqKiouLi4wMDAxMTEyMjIzMzM0NDQ1NTU2NjY4ODg5OTk6Ojo8PDw9PT0+Pj4/Pz9AQEBBQUFCQkJDQ0NERERFRUVGRkZISEhKSkpLS0tMTExNTU1OTk5PT09RUVFSUlJTU1NVVVVXV1dZWVlbW1tcXFxdXV1fX19hYWFkZGRmZmZpaWltbW1ubm5vb29zc3N0dHR2dnZ4eHh5eXmAgICDg4OIiIiJiYmMjIyNjY2QkJCRkZGUlJSXl5eYmJiZmZmcnJydnZ2fn5+goKCjo6OlpaWqqqqrq6utra2urq6wsLCysrKzs7O0tLS7u7u9vb2/v7/FxcXGxsbJycnLy8vQ0NDR0dHS0tLW1tbY2NjZ2dna2trc3Nzd3d3f39/g4ODm5ubq6urr6+vt7e3u7u7y8vLz8/P29vb6+vr7+/v9/f3+/v7///9+57g8AAABq0lEQVQ4jWNopxCEMbTBmGWUmoUEGCZSCCIZJkycWKHbDSQYKig1DAGo4650huaJE0sZSqnhIgigxF2djRMHpbsCVCYOSnf5ykzEcFdvaDN13NVAFoiPAxKu4kAikKE6vyGaobShIZMhs6GhlCEGKOiSSZ6xCEBmeJkbQ8IrWS+SIZGpJ4WhucWlEBRezQzpEydOYIikOLzIdVeET6ebgHMoVyRDLEMmC4NsFkMKQ45U1YC7y1HTj59bFOKuBAYGhiSgu1IYcv2A7mrvB7urqZOu7rKLmugXDnKXBw+3sDubEoM8gzvQXUEMmgweQNcxcOazpzJE1nVPVAkAqm5soq27OkCEVV5aTYmUQrCagpyEtJAoDzcnBysTAzKQBmJLBmsGb8GQYCHb+spaS5u+3oldraS7C1gXeWWjVE3p9gE5vgVuxRbmJtomRkaGwppqOsrM4hq8iowS7CJ83Dx8YMDLw83FzsaC6i4YYGbh4eTikRSRFJNSUVSXEdUxUNURN9M3N9YyNjEyMTK2KLcxMTW3sLQs8s0JsLN3cHR0io4BkqEZdv7ZnkBHAABhT7qWPpX1uQAAAABJRU5ErkJggg==" alt="image" /></div> <style>
- .hmisctable206738 {
+ .hmisctable583370 {
  border: none;
  font-size: 85%;
  }
- .hmisctable206738 td {
+ .hmisctable583370 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable206738 th {
+ .hmisctable583370 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable206738">
+ <table class="hmisctable583370">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Mean</th><th>Gmd</th><th>.05</th><th>.10</th><th>.25</th><th>.50</th><th>.75</th><th>.90</th><th>.95</th></tr>
  <tr><td>40830</td><td>0</td><td>209</td><td>0.999</td><td>129</td><td>26.56</td><td> 92</td><td>100</td><td>112</td><td>130</td><td>144</td><td>160</td><td>170</td></tr>
  </table>
  <span style="font-size: 85%;"><font color="MidnightBlue">lowest</font> :   0  30  32  36  40 ,  <font color="MidnightBlue">highest</font>: 270 274 275 276 280</span> <hr class="thinhr"> <span style="font-weight:bold">miloc</span>: MI Location<div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAAAGFBMVEUAAAABAQE8PDyWlpa4uLja2trr6+v///9eu+iWAAAALUlEQVQImWNgYIMBBgZ2GMDKZEYwGRFMBgYGVihgQBElhsnCAmECbWdiAjkBAM1mAsMRV8USAAAAAElFTkSuQmCC" alt="image" /></div> <style>
- .hmisctable758175 {
+ .hmisctable158398 {
  border: none;
  font-size: 85%;
  }
- .hmisctable758175 td {
+ .hmisctable158398 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable758175 th {
+ .hmisctable158398 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable758175">
+ <table class="hmisctable158398">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>40830</td><td>0</td><td>3</td></tr>
  </table>
@@ -257,22 +257,22 @@ iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAAAGFBMVEUAAAABAQE8PDyWlpa4uLja2trr
  Proportion    0.575    0.035    0.389
  </pre>
  <hr class="thinhr"> <span style="font-weight:bold">pmi</span>: Previous MI <style>
- .hmisctable437039 {
+ .hmisctable460371 {
  border: none;
  font-size: 85%;
  }
- .hmisctable437039 td {
+ .hmisctable460371 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable437039 th {
+ .hmisctable460371 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable437039">
+ <table class="hmisctable460371">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>40830</td><td>0</td><td>2</td></tr>
  </table>
@@ -283,22 +283,22 @@ iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAAAGFBMVEUAAAABAQE8PDyWlpa4uLja2trr
  </pre>
  <hr class="thinhr"> <span style="font-weight:bold">tx</span>: Tx in 3 groups<div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAAAHlBMVEUAAAADAwM3Nzc7OztAQEC0tLS3t7fa2trr6+v///8hI0s8AAAAMElEQVQImWPgAAJmZhDJwAkELCwgkjCTDcZkZWBkZ2dnYgISjAwMMFEG0pgwNzAAAARyA2zJ9UAOAAAAAElFTkSuQmCC" alt="image" /></div> <style>
- .hmisctable153018 {
+ .hmisctable178360 {
  border: none;
  font-size: 85%;
  }
- .hmisctable153018 td {
+ .hmisctable178360 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable153018 th {
+ .hmisctable178360 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable153018">
+ <table class="hmisctable178360">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>40830</td><td>0</td><td>3</td></tr>
  </table>
@@ -549,7 +549,7 @@ print(g, coefs=FALSE)
 
 <!--/html_preserve-->
 
-The likelihood ratio test is the gold-standard frequentist method for testing for added value of the treatment interactions, i.e., whether the treatment ORs are constant over covariate settings.
+The likelihood ratio test is the gold-standard frequentist method for testing for added value of the treatment interactions, i.e., whether the treatment ORs are constant over covariate settings.  By using a chunk test to test whether _any_ of the baseline variables interact with treatment, this method has a perfect multiplicity adjustment in the frequentist sense.
 
 
 ```r
