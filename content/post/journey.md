@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2019-01-24
+modified = 2019-04-03
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -261,6 +261,10 @@ Go [here](https://news.ycombinator.com/item?id=13684429) for discussions about t
 * Stephen Martin's [A foray into Bayesian handling of missing data](http://srmart.in/a-foray-into-bayesian-handling-of-missing-data) with Stan
 * [Thomas Bayes and the crisis in science](https://www.the-tls.co.uk/articles/public/thomas-bayes-science-crisis) by David Papineau
 * [Bayesian theorists were little better than cranks](http://wmbriggs.com/post/24848) by William Briggs.
+* [A student's guide to Bayesian statistics](https://youtu.be/P_og8H-VkIY) by Ben Lambert
+* [Book for Lambert's _A Student's Guide to Bayesian Statistics_](http://ben-lambert.com/a-students-guide-to-bayesian-statistics)
+* [Data analysis: A Bayesian tutorial](https://www.amazon.com/gp/product/0198568320/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1) by Devinderjit Sivia and John Skilling
+
 
 ----------------------------------------
 ## More Quotes
