@@ -1,14 +1,14 @@
 +++
-date = 2018-04-29  # Schedule page publish date.
+date = 2019-04-09  # Schedule page publish date.
 
 title = "Regression Modeling Strategies"
-time_start = 2018-07-29T08:30:00
-time_end = 2018-07-29T17:00:00
+time_start = 2019-07-28T08:30:00
+time_end = 2019-07-28T17:00:00
 abstract = ""
 abstract_short = ""
 event = "Regression Modeling Strategies Short Course, JSM Biometrics Section Continuing Education"
-event_url = "http://biostat.mc.vanderbilt.edu/RMSShortCourse2018"
-location = "Vancouver, BC"
+event_url = "http://hbiostat.org/doc/rms/rmsDescription.pdf"
+location = "Denver, CO"
 
 # Is this a selected talk? (true/false)
 selected = false
