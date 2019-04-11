@@ -11,7 +11,7 @@ event_url = "http://www.memtab2018.eu"
 location = "Utrecht, NL"
 
 # Is this a selected talk? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
