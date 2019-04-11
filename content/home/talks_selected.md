@@ -8,11 +8,11 @@ widget = "talks_selected"
 active = true
 date = "2016-04-20T00:00:00"
 
-title = "Talks"
+title = "Selected Talks"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 20
+weight = 8
 
 # Number of talks to list.
 count = 30
