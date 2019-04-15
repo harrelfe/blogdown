@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2019-04-03
+modified = 2019-04-15
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -10,6 +10,8 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  | <small>**The difference between Bayesian and frequentist inference in a nutshell**:<br>With Bayes you start with a prior distribution for θ and given your data make an inference about the θ-driven process generating your data (whatever that process happened to be), to quantify evidence for every possible value of θ.  With frequentism, you make assumptions about the process that generated your data and infinitely many replications of them, and try to build evidence for what θ is not.</small> |
 |  |  |
 |  | <small>Frequentism is about the data generating process.  Bayes is about the θ generating process, and about the data generated.</small> |
+|  |  |
+|  | <small>Far better an <b>approximate</b> answer to the <b>right question</b>, which is often vague, than the exact answer to the <b>wrong question</b>, which can always be made precise -- [John Tukey](https://projecteuclid.org/euclid.aoms/1177704711)</small><br><small><b>Approximate</b>: My prior distribution disagrees with yours, so my posterior probability that the treatment works is 0.02 less than yours</small></br><small><b>Right question</b>: Does the treament work more than a trivial amount?</small><br><small><b>Wrong question</b>: How surprising is our result if the treatment has no effect at all?</small>
 |  |  |
 |  |  <small>Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design, sampling scheme, and data generating process that were **actually used** and would be infinitely replicated to allow p-values and confidence limits to be computed.</small> |
 |  |  |
