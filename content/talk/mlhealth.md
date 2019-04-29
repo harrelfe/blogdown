@@ -46,3 +46,4 @@ Topics
 * [What is radiologic deep learning actually learning?](https://medium.com/@jrzech/what-are-radiological-deep-learning-models-actually-learning-f97a546c5b98)
 * [Test ordering vs. test results](https://www.bmj.com/content/361/bmj.k1479)
 * [What if accuracy of ML is the same if fed random data?](https://blogs.sciencemag.org/pipeline/archives/2018/11/20/machine-learning-be-careful-what-you-ask-for)
+* [Neural networks are essentially polynomial regression](https://matloff.wordpress.com/2018/06/20/neural-networks-are-essentially-polynomial-regression)
