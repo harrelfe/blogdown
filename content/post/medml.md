@@ -70,4 +70,4 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
   models](https://doi.org/10.1016/j.jclinepi.2019.02.004) by Evangelia
   Christodoulou et al.
 * [Criminal machine learning](https://callingbullshit.org/case_studies/case_study_criminal_machine_learning.html) by Carl Bergstrom and Jevin West
-* [Machine learning, practically speaking](https://www.nature.com/articles/s41592-019-0432-9)
+* [Machine learning, practically speaking](https://www.nature.com/articles/s41592-019-0432-9) by Vivien Marx
