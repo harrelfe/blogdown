@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2019-03-08
+modified = 2019-05-18
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -70,3 +70,4 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
   models](https://doi.org/10.1016/j.jclinepi.2019.02.004) by Evangelia
   Christodoulou et al.
 * [Criminal machine learning](https://callingbullshit.org/case_studies/case_study_criminal_machine_learning.html) by Carl Bergstrom and Jevin West
+* [Machine learning, practically speaking](https://www.nature.com/articles/s41592-019-0432-9)
