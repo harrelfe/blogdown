@@ -20,7 +20,7 @@ selected = true
 
 # Links (optional).
 url_pdf = ""
-url_slides = "http://fharrell.com/tags/machine-learning"
+url_slides = "https://fharrell.com/tags/machine-learning"
 url_video = ""
 url_code = ""
 

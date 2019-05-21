@@ -4,7 +4,7 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-07-07"
-modified = "2019-01-10"
+modified = "2019-05-20"
 weight = 90
 +++
 # Links to Resources
@@ -16,7 +16,7 @@ weight = 90
 -   **RMS** : [Regression Modeling Strategies](http://hbiostat.org/doc/rms.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
 -   Frank's [publications](https://www.zotero.org/groups/feh/items/q/Harrell); see also [here](http://citeulike.org/user/harrelfe/author/Harrell)
--   Frank's [presentations](http://fharrell.com/#talks), also [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
+-   Frank's [presentations](https://fharrell.com/#talks), also [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
 -   Frank's Youtube videos on [Regression Modeling
     Strategies](https://www.youtube.com/channel/UC2qvW5vuAZm91-KIV4Y83MQ)
 -   Frank's [bibliographic database](https://www.zotero.org/groups/feh/items); see also [here](http://www.citeulike.org/user/harrelfe)
@@ -44,5 +44,5 @@ weight = 90
 
 ## Information About This Blog
 
--   URL for RSS feed: http://fharrell.com/post/index.xml
+-   URL for RSS feed: https://fharrell.com/post/index.xml
 -   Blog content [source](https://github.com/harrelfe/blogdown)

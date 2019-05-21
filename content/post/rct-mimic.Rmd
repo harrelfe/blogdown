@@ -54,7 +54,7 @@ that the absolute treatment benefit will change, and it is easy to
 estimate the absolute benefit (e.g., risk difference) for a patient
 given the relative benefit and the absolute baseline risk for the
 subject.   This is covered in detail in [Biostatistics for Biomedical
-Research](http://fharrell.com/links), Section 13.6.  See also Stephen Senn's excellent [presentation](https://www.slideshare.net/StephenSenn1/real-world-modified).
+Research](https://hbiostat.org/doc/bbr.pdf), Section 13.6.  See also Stephen Senn's excellent [presentation](https://www.slideshare.net/StephenSenn1/real-world-modified).
 
 Clinical practice provides anecdotal evidence that biases clinicians.
  What a clinician sees in her practice is patient i on treatment A and

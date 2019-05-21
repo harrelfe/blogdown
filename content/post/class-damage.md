@@ -41,7 +41,7 @@ thresholds results in a full accuracy change of 1/N.  Classification
 accuracy is also an improper scoring rule.  It can be optimized by
 choosing the wrong predictive features and giving them the wrong
 weights.  This is best shown by a simple example that appears
-in [Biostatistics for Biomedical Research](http://fharrell.com/links) Chapter 18 in which 
+in [Biostatistics for Biomedical Research](https://hbiostat.org/doc/bbr.pdf) Chapter 18 in which 
 400 simulated subjects have an overall fraction of Y=1 of 0.57. Consider
 the use of  binary logistic regression to predict the probability that
 Y=1 given a certain set of covariates, and classify a subject as having

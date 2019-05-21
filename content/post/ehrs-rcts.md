@@ -225,7 +225,7 @@ the following steps:
     characteristics (i.e., whether heterogeneity of treatment effect
     exists on the relative scale). One possible strategy, using fully
     specified interaction tests adjusted for all main effects, is in
-    *[Biostatistics for Biomedical Research](http://fharrell.com/links)*
+    *[Biostatistics for Biomedical Research](https://hbiostat.org/doc/bbr.pdf)*
 		in the  Analysis of Covariance chapter.
 -   Develop a predictive model from complete, accurate observational
     data, and perform strong interval validation using the bootstrap to
@@ -241,7 +241,7 @@ the following steps:
     benefit for an individual patient. See the second figure below whose
     bottom axis is the difference between two logistic regression
     models. (Both figures are from
-    [BBR](http://fharrell.com/links) Chapter 13)
+    [BBR](https://hbiostat.org/doc/bbr.pdf) Chapter 13)
 -   For more about such strategies, see Stephen Senn's
     [presentation](https://www.slideshare.net/StephenSenn1/real-world-modified).
 

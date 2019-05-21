@@ -27,7 +27,7 @@ re-executed by `knitr` in `R`.
 
 An example of a page of `pdf` notes with icons that link to audio or
 video content is in Section 10.5 of
-[BBR](http://fharrell.com/links). I add red letters
+[BBR](https://hbiostat.org/doc/bbr.pdf). I add red letters
 in the right margin for each subsection in the text, and occasionally
 call out these letters in the audio so that the student will know where
 I am.
@@ -56,7 +56,7 @@ channel. The problem is that `slack` doesn't have a formal URL
 construction that guarantees that a hyperlink to a URL with that
 expression will cause the correct discussions to pop up in the user's
 browser. This is a work in progress, and other ideas are welcomed. See
-Section 10.5.1 of [BBR](http://fharrell.com/links)
+Section 10.5.1 of [BBR](https://hbiostat.org/doc/bbr.pdf)
 for an example where an icon links to slack (see the mnemonic
 `reg-simple`).
 
