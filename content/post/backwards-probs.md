@@ -1,7 +1,7 @@
 +++
 title = "Clinicians' Misunderstanding of Probabilities Makes Them Like Backwards Probabilities Such As Sensitivity, Specificity, and Type I Error"
 date = 2017-01-25
-modified = 2010-03-08
+modified = 2019-05-28
 tags = ["specificity", "probability", "backward-probability", "forward-probability", "p-value", "bayes", "conditioning", "diagnosis", "decision-making", "dichotomization", "medicine", "bioinformatics", "biomarker", "sensitivity", "posterior", "2017"]
 +++
 <p class="rquote">
