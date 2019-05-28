@@ -121,4 +121,8 @@ compute the probability that a patient is on treatment B given a
 continuous distribution of the response given the assigned treatment.
 Again this represents forward probabilities.
 
+------------------------
+## Some Useful Resources
+* [Properties of diagnostic data distributions](https://www.jstor.org/stable/pdf/2529753.pdf) by AP Dawid
+* [The (in)validity of sensitivity and specificity](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0258%2820000715%2919%3A13%3C1783%3A%3AAID-SIM497%3E3.0.CO%3B2-B) by Irene Guggenmoos‐Holzmann and Hans C. van Houwelingen
 
