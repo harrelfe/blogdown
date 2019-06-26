@@ -2,7 +2,7 @@
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
 date: 2017-10-09
-modified: 2018-09-04
+modified: 2019-06-26
 slug: bayes-seq
 tags:
   - bayes
@@ -59,7 +59,7 @@ initial assessment when the target is distant is a probability of 0.3 of
 being an enemy vehicle. Upon coming closer the probability rises to 0.8.
 Finally the target is close enough (or the air clears) so that the
 pattern analyzer estimates a probability of 0.98. The fact that the
-probabilty was <0.98 earlier is of no consequence as the gunner
+probability was <0.98 earlier is of no consequence as the gunner
 prepares to fire a canon. Even though the probability may actually
 decrease while the shell is in the air due to new information, the
 probability at the time of firing was completely valid based on then

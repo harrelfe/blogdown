@@ -2,7 +2,7 @@
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
 date: 2017-10-09
-modified: 2018-09-04
+modified: 2019-06-26
 slug: bayes-seq
 tags:
   - bayes
@@ -59,7 +59,7 @@ initial assessment when the target is distant is a probability of 0.3 of
 being an enemy vehicle. Upon coming closer the probability rises to 0.8.
 Finally the target is close enough (or the air clears) so that the
 pattern analyzer estimates a probability of 0.98. The fact that the
-probabilty was <0.98 earlier is of no consequence as the gunner
+probability was <0.98 earlier is of no consequence as the gunner
 prepares to fire a canon. Even though the probability may actually
 decrease while the shell is in the air due to new information, the
 probability at the time of firing was completely valid based on then
@@ -368,23 +368,28 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 
 # Computing Environment
 <!--html_preserve--><pre>
- R version 3.5.1 (2018-07-02)
+ R version 3.6.0 (2019-04-26)
  Platform: x86_64-pc-linux-gnu (64-bit)
- Running under: Ubuntu 18.04.1 LTS
+ Running under: Ubuntu 19.04
  
  Matrix products: default
- BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
- LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+ BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.8.0
+ LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.8.0
  
+ Random number generation:
+  RNG:     Mersenne-Twister 
+  Normal:  Inversion 
+  Sample:  Rounding 
+  
  attached base packages:
  [1] stats     graphics  grDevices utils     datasets  methods   base     
  
  other attached packages:
- [1] rms_5.1-3       SparseM_1.77    Hmisc_4.1-2     ggplot2_3.0.0  
- [5] Formula_1.2-3   survival_2.42-6 lattice_0.20-35
+ [1] rms_5.1-4         SparseM_1.77      Hmisc_4.2-1       ggplot2_3.1.0    
+ [5] Formula_1.2-3     survival_2.44-1.1 lattice_0.20-38  
  </pre>
  To cite R in publication use:
- <p>R Core Team (2018).
+ <p>R Core Team (2019).
  <em>R: A Language and Environment for Statistical Computing</em>.
  R Foundation for Statistical Computing, Vienna, Austria.
  <a href="https://www.R-project.org/">https://www.R-project.org/</a>. 
