@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2019-06-17
+modified = 2019-06-18
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -78,3 +78,6 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 * [Artificial intelligence could revolutionize medical care.  But
   don't trust it to read your x-ray just yet](https://www.sciencemag.org/news/2019/06/artificial-intelligence-could-revolutionize-medical-care-don-t-trust-it-read-your-x-ray)
   by Jennifer Couzin-Frankel
+* [Subject matter knowledge in the age of big data and machine
+  learning](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2698627)
+  by Ben Goldstein et al.
