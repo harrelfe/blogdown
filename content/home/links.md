@@ -4,7 +4,7 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-07-07"
-modified = "2019-05-20"
+modified = "2019-07-13"
 weight = 90
 +++
 # Links to Resources
@@ -15,11 +15,11 @@ weight = 90
 -   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms) web site
 -   **RMS** : [Regression Modeling Strategies](http://hbiostat.org/doc/rms.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
--   Frank's [publications](https://www.zotero.org/groups/feh/items/q/Harrell); see also [here](http://citeulike.org/user/harrelfe/author/Harrell)
+-   Frank's [publications](https://www.zotero.org/groups/feh/items/q/Harrell)
 -   Frank's [presentations](https://fharrell.com/#talks), also [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
 -   Frank's Youtube videos on [Regression Modeling
     Strategies](https://www.youtube.com/channel/UC2qvW5vuAZm91-KIV4Y83MQ)
--   Frank's [bibliographic database](https://www.zotero.org/groups/feh/items); see also [here](http://www.citeulike.org/user/harrelfe)
+-   Frank's [bibliographic database](https://www.zotero.org/groups/feh/items)
 -   [Glossary](http://hbiostat.org/doc/glossary.pdf) of statistical terms
 -   Frank's [postings](http://stats.stackexchange.com/users/4253) on
     `stackexchange`
