@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2018-01-05"
+date = "2019-07-13"
 
 # Order that this section will appear in.
 weight = 5
@@ -22,6 +22,7 @@ weight = 5
 		"Medical Diagnostic Research",
 		"Medical Decision Making",
 		"Learning Health System and Health Services Research",
+    "Medical Quality Outcomes and Provider Profiling",
 		"Teaching"
   ]
 
@@ -44,7 +45,7 @@ weight = 5
 * PhD in Biostatistics from U. North Carolina
 * Extensive work in biomedical and pharmaceutical research
 * ASA Fellow and winner of the ASA WJ Dixon Award for Excellence in Statistical Consulting in 2014
-* [Publications](https://zotero.org/groups/feh/items/q/harrell)
+* [Publications](https://zotero.org/groups/feh/items/q/harrell) and [full biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
 * Active on [stats.stackexchange.com](http://stats.stackexchange.com) - see my posts [here](http://stats.stackexchange.com/users/4253)
 * Written several R packages including [Hmisc](http://biostat.mc.vanderbilt.edu/Hmisc) and [rms](http://biostat.mc.vanderbilt.edu/Rrms)
 * Used R intensively since 1999 and am a member of the [R Foundation](https://www.r-project.org/foundation)
