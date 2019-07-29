@@ -1,7 +1,7 @@
 +++
 title = "Clinicians' Misunderstanding of Probabilities Makes Them Like Backwards Probabilities Such As Sensitivity, Specificity, and Type I Error"
 date = 2017-01-25
-modified = 2019-05-28
+modified = 2019-07-29
 tags = ["specificity", "probability", "backward-probability", "forward-probability", "p-value", "bayes", "conditioning", "diagnosis", "decision-making", "dichotomization", "medicine", "bioinformatics", "biomarker", "sensitivity", "posterior", "2017"]
 +++
 <p class="rquote">
@@ -84,7 +84,7 @@ quantities cancel out.  The result is the following: the proportion of
 patients with a positive test who have disease, and the proportion with
 a negative test who have disease.  These are trivially calculated from
 the cohort data without knowing anything about sens, spec, and Bayes.
- This way of thinking harms the student's understanding for years to
+ Instead of computing the obvious, the previous backwards way of thinking harms the student's understanding for years to
 come and influences those who later engage in clinical and
 pharmaceutical research to believe that type I error and p-values are
 directly useful.
