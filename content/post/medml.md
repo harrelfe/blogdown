@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2019-06-18
+modified = 2019-07-30
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -81,3 +81,4 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 * [Subject matter knowledge in the age of big data and machine
   learning](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2698627)
   by Ben Goldstein et al.
+* [Three pitfalls to avoid in machine learning](https://www.nature.com/articles/d41586-019-02307-y) by Patrick Riley
