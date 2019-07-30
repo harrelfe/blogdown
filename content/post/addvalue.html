@@ -4,7 +4,7 @@ author: "Frank Harrell"
 date: '2018-10-17'
 categories: []
 link-citations: yes
-modified: ''
+modified: '2019-07-30'
 slug: addvalue
 summary: Researchers have used contorted, inefficient, and arbitrary analyses to demonstrated
   added value in biomarkers, genes, and new lab measurements.  Traditional statistical
@@ -36,7 +36,7 @@ pre code {
     }
 </style>
 <p class="rquote">
-When the outcomme variable Y is continuous, there are only three measures of added value that are commonly used: increase in <span class="math inline">\(R^2\)</span>, decrease in mean squared prediction error, and decrease in mean absolute prediction error. Why have so many measures been invented when Y is binary or censored?
+When the outcome variable Y is continuous, there are only three measures of added value that are commonly used: increase in <span class="math inline">\(R^2\)</span>, decrease in mean squared prediction error, and decrease in mean absolute prediction error. Why have so many measures been invented when Y is binary or censored?
 </p>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
@@ -46,7 +46,7 @@ When the outcomme variable Y is continuous, there are only three measures of add
 <div id="how-did-we-get-here" class="section level1">
 <h1>How Did We Get Here</h1>
 <p>Statisticians have no better sense of history than other scientists. In the quest for publishing new ideas, measures of added value are constantly being invented by statisticians, without asking whether older methods already solve the problem at hand. Some of the examples of measures that are commonly used but are not needed in this setting are the <span class="math inline">\(c\)</span>-index (<span class="citation">Harrell et al. (<a href="#ref-har82">1982</a>)</span>; area under the ROC curve if the outcome is binary), and <a href="https://onlinelibrary.wiley.com/toc/10970258/27/2">IDI and NRI</a>. They are not needed because measures based on standard regression methods are not only adequate to the task, but are more powerful and <strong>more flexible and insightful</strong>, especially when interactions are involved. Especially problematic are measures such as the categorical version of NRI (net reclassification improvement) which not only requires arbitrary categorization of risk estimates but then goes on to use inefficient binary summaries from them. Pencina (personal communication) has regretted including statistical tests for these measures in his highly-cited paper, as these tests have nowhere near the power of the gold-standard likelihood ratio test.</p>
-<p>Comparing two c-indexes (one from the base model and one from the larger model containing the new biomarkers) is a low-power procedure. This is because the c-index is a rank measure (the concordance probability from the Wilcoxon test or Somers’ <span class="math inline">\(D_{xy}\)</span> rank correlation) that does not sufficiently reward extreme predictions that are correct<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. And taking the difference between two c-indexes corresponds to taking the difference in two Wilcoxon statistics, which is never done. Instead, a head-to-head comparison is demanded. This can be done by using a different U-statistic based on all possible pairs of observations and counting the fraction of pairs for which one model is “more concordant” with the outcome than the other model. This respects pairings of pairings, and is implemented in the R <code>Hmisc</code> package <code>rcorrp.cens</code> function. Still, this is not as powerful as the likelihood ratio <span class="math inline">\(\chi^2\)</span> test.</p>
+<p>Comparing two c-indexes (one from the base model and one from the larger model containing the new biomarkers) is a low-power procedure. This is because the c-index is a rank measure (the concordance probability from the Wilcoxon test or Somers’ <span class="math inline">\(D_{xy}\)</span> rank correlation) that does not sufficiently reward extreme predictions that are correct<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. And taking the difference between two c-indexes corresponds to taking the difference in two Wilcoxon statistics, which is never done. Instead, a head-to-head comparison is demanded. This can be done by using a different U-statistic based on all possible pairs of observations and counting the fraction of pairs for which one model is “more concordant” with the outcome than the other model. This respects pairings of pairings, and is implemented in the R <code>Hmisc</code> package <code>rcorrp.cens</code> function. Still, this is not as powerful as the likelihood ratio <span class="math inline">\(\chi^2\)</span> test.</p>
 <p>Worse than any of these problems is the continued use of <a href="/post/class-damage">discontinuous improper accuracy scoring rules</a> such as sensitivity, specificity, precision, and recall.</p>
 </div>
 <div id="key-measures" class="section level1">
@@ -61,8 +61,7 @@ When the outcomme variable Y is continuous, there are only three measures of add
 <p>In the binary outcome (Y) case, there are two commonly used proper accuracy scores: the logarithmic accuracy score (a per-observation log-likelihood), and the quadratic accracy score (Brier score; mean squared error). The log-likelihood can be turned into a 0-1 pseudo <span class="math inline">\(R^2\)</span> measure: <span class="math inline">\(1 - \exp(-\text{LR} / n)\)</span>. The only thing going against pseudo <span class="math inline">\(R^2\)</span> is the difficulty in interpreting its absolute value. But it is excellent for comparing two or more models, even though examining increases in LR is better.</p>
 <p>Explained outcome variation is another key type of measure. In the linear model, the traditional <span class="math inline">\(R^2\)</span> is often used. This is SSR / SST where SSR is the sum of squares due to regression (the sum of squares of differences between predicted values and the mean predicted value), and SST is the sum of squares total, which is n-1 times the variance of Y. <span class="math inline">\(R^2\)</span> may also be written as SSR / (SSR + SSE) where SSE is the sum of squared residuals. In the linear model, <span class="math inline">\(R^2\)</span> and the log-likelihood are measuring the same thing since LR = <span class="math inline">\(-n \log(1 - R^{2})\)</span>.</p>
 <p>We can re-express <span class="math inline">\(R^2\)</span> as <span class="math inline">\(\frac{\text{var}(\hat{Y})}{\text{var}(Y)}\)</span> where <span class="math inline">\(\hat{Y} = X \hat{\beta}\)</span> is the linear predictor (predicted mean, for the linear model).</p>
-<p><span class="math inline">\(R^2\)</span> can equivalently be written as the ratio of the explained variance to the sum of explained and unexplained variance. The unexplained variance is the variance of the residuals in the linear model. For a probability model, the natural way to express the proportion of explained variance is through the predicted probabilities that Y=1, denoted by <span class="math inline">\(\hat{P}\)</span>. The <span class="math inline">\(R^2\)</span> measure for a binary Y model is then <span class="math display">\[\frac{\text{var}(\hat{P})}{\text{var}(\hat{P}) + \sum_{i}^{n} \hat{P}_{i} (1 - \hat{P}_{i}) / n}\]</span>
-where <span class="math inline">\(\text{var}(\hat{P})\)</span> is the sample variance of the <span class="math inline">\(n\)</span> <span class="math inline">\(\hat{P}_{i}\)</span>.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p><span class="math inline">\(R^2\)</span> can equivalently be written as the ratio of the explained variance to the sum of explained and unexplained variance. The unexplained variance is the variance of the residuals in the linear model. For a probability model, the natural way to express the proportion of explained variance is through the predicted probabilities that Y=1, denoted by <span class="math inline">\(\hat{P}\)</span>. The <span class="math inline">\(R^2\)</span> measure for a binary Y model is then <span class="math display">\[\frac{\text{var}(\hat{P})}{\text{var}(\hat{P}) + \sum_{i}^{n} \hat{P}_{i} (1 - \hat{P}_{i}) / n}\]</span> where <span class="math inline">\(\text{var}(\hat{P})\)</span> is the sample variance of the <span class="math inline">\(n\)</span> <span class="math inline">\(\hat{P}_{i}\)</span>.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
 <p><span class="citation">Kent and O’Quigley (<a href="#ref-ken88mea">1988</a>)</span> have extended the idea of the fraction of explained variation in the outcome to various nonlinear models including those used in survival analysis. The SST or var(Y) is distribution-specific. The beauty of this approach is its focus on the variance of <span class="math inline">\(\hat{Y}\)</span>, which is independent of the prevalence of Y=1 in the binary case and of the amount of censoring in time-to-event analysis. See also <span class="citation">B. Choodari-Oskooei, Royston, and Parmar (<a href="#ref-cho12simII">2012</a>)</span> and <span class="citation">Babak Choodari-Oskooei, Royston, and Parmar (<a href="#ref-cho12simI">2012</a>)</span>.</p>
 <p>A different type of key measure will also be exemplified in the case study: differences in predicted values between the base model and the expanded model.</p>
 <div id="relative-explained-variation" class="section level2">
@@ -78,7 +77,7 @@ where <span class="math inline">\(\text{var}(\hat{P})\)</span> is the sample var
 <p>The dataset is available from the Vanderbilt Department of Biostatistics wiki, and includes 2258 patients with all variables measured. It may be automatically downloaded using the R <code>Hmisc getHdata</code> function. The dataset is also analyzed in the <a href="http://hbiostat.org/doc/bbr.pdf">BBR diagnosis chapter</a> and <a href="http://hbiostat.org/talks/memtab18.pdf">here</a>. The latter link contains more analyses that compare pre- and post-test probabilities.</p>
 <div id="development-of-binary-logistic-model" class="section level2">
 <h2>Development of Binary Logistic Model</h2>
-<p>We first fit a binary logistic regression model with interactions, modeling age and cholesterol in a smooth nonlinear fashion using restricted cubic splines with default knot<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> locations. The nonlinear interaction between age and cholesterol is a restricted one such that terms that are nonlinear in both predictors are excluded. This is to save degrees of freedom. The code below also fits the base model containing only age and sex.</p>
+<p>We first fit a binary logistic regression model with interactions, modeling age and cholesterol in a smooth nonlinear fashion using restricted cubic splines with default knot<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> locations. The nonlinear interaction between age and cholesterol is a restricted one such that terms that are nonlinear in both predictors are excluded. This is to save degrees of freedom. The code below also fits the base model containing only age and sex.</p>
 <p>Estimated log odds of the risk of significant CAD is plotted against cholesterol for ages 40 and 70 years for males. One can readily see that the diagnostic value of cholesterol is greater for younger patients, and there is some evidence that very low total cholesterol is risky at age 70.</p>
 <pre class="r"><code>require(rms)</code></pre>
 <pre class="r"><code>options(prType=&#39;html&#39;)
@@ -771,7 +770,7 @@ with(subset(d, sex == &#39;male&#39;),
 </div>
 <div id="statistical-indexes-for-added-value-of-cholesterol" class="section level2">
 <h2>Statistical Indexes for Added Value of Cholesterol</h2>
-<p>The gold standard LR test for added value of cholesterol is obtained by comparing log likelihoods of the pre and post-test models. Cholesterol has a total of 8 parammeters; 5 for interacting with the spline function of age and 3 for its main effect<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Before getting the 8 d.f. LR test, let’s also get the LR test for interaction between cholesterol and age.</p>
+<p>The gold standard LR test for added value of cholesterol is obtained by comparing log likelihoods of the pre and post-test models. Cholesterol has a total of 8 parammeters; 5 for interacting with the spline function of age and 3 for its main effect<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>. Before getting the 8 d.f. LR test, let’s also get the LR test for interaction between cholesterol and age.</p>
 <pre class="r"><code>h &lt;- lrm(sigdz ~ rcs(age,4)*sex + rcs(choleste,4), data=acath)
 lrtest(h, g)   # test interaction</code></pre>
 <pre><code>
@@ -789,8 +788,7 @@ Model 2: sigdz ~ rcs(age, 4) * sex + rcs(choleste, 4) + rcs(age, 4) %ia%
 
 L.R. Chisq       d.f.          P 
   107.4788     8.0000     0.0000 </code></pre>
-<p>From the last test there is very strong evidence that cholesterol adds diagnostic value. The question is to what extent. So we turn to the various indexes discussed earlier—indexes that are sample-size independent, unlike the LR <span class="math inline">\(\chi^2\)</span> statistic that doubles when the sample size doubles, all else being equal.
-As with the graphical summaries above, our indexes require no binning of data and fully allow for cholesterol to have varying importance as a function of age.</p>
+<p>From the last test there is very strong evidence that cholesterol adds diagnostic value. The question is to what extent. So we turn to the various indexes discussed earlier—indexes that are sample-size independent, unlike the LR <span class="math inline">\(\chi^2\)</span> statistic that doubles when the sample size doubles, all else being equal. As with the graphical summaries above, our indexes require no binning of data and fully allow for cholesterol to have varying importance as a function of age.</p>
 <p>The detailed statistics that were listed for the pre- and post-test models above provide the LR <span class="math inline">\(\chi^2\)</span>, Nagelkerke pseudo <span class="math inline">\(R^2\)</span>, three <span class="math inline">\(g\)</span> indexes (log odds ratio scale, odds ratio scale, and risk scale), Brier score, <span class="math inline">\(c\)</span>-index, Somers’ <span class="math inline">\(D_{xy}\)</span>, Goodman-Kruskal <span class="math inline">\(\gamma\)</span>, and Kendall’s <span class="math inline">\(\tau_a\)</span>, the latter three being rank correlations between predicted disease risk and actual disease presence. <span class="math inline">\(D_{xy}\)</span> is connected to <span class="math inline">\(c\)</span> by <span class="math inline">\(D_{xy} = 2 (c - \frac{1}{2})\)</span>.</p>
 <div id="new-old-measures" class="section level3">
 <h3>New Old Measures</h3>
@@ -914,17 +912,17 @@ br2 &lt;- function(p) var(p) / (var(p) + sum(p * (1 - p)) / length(p))</code></p
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
 <div id="refs" class="references">
-<div id="ref-cho12simI">
-<p>Choodari-Oskooei, Babak, Patrick Royston, and Mahesh K. B. Parmar. 2012. “A Simulation Study of Predictive Ability Measures in a Survival Model I: Explained Variation Measures.” <em>Stat Med</em> 31 (23): 2627–43. <a href="https://doi.org/10.1002/sim.4242">https://doi.org/10.1002/sim.4242</a>.</p>
-</div>
 <div id="ref-cho12simII">
-<p>Choodari-Oskooei, B., P. Royston, and Mahesh K. B. Parmar. 2012. “A Simulation Study of Predictive Ability Measures in a Survival Model II: Explained Randomness and Predictive Accuracy.” <em>Stat Med</em> 31 (23): 2644–59. <a href="https://doi.org/10.1002/sim.5460">https://doi.org/10.1002/sim.5460</a>.</p>
+<p>Choodari-Oskooei, B., P. Royston, and Mahesh K. B. Parmar. 2012. “A Simulation Study of Predictive Ability Measures in a Survival Model II: Explained Randomness and Predictive Accuracy.” <em>Stat Med</em> 31 (23): 2644–59. doi:<a href="https://doi.org/10.1002/sim.5460">10.1002/sim.5460</a>.</p>
+</div>
+<div id="ref-cho12simI">
+<p>Choodari-Oskooei, Babak, Patrick Royston, and Mahesh K. B. Parmar. 2012. “A Simulation Study of Predictive Ability Measures in a Survival Model I: Explained Variation Measures.” <em>Stat Med</em> 31 (23): 2627–43. doi:<a href="https://doi.org/10.1002/sim.4242">10.1002/sim.4242</a>.</p>
 </div>
 <div id="ref-har82">
 <p>Harrell, F. E., R. M. Califf, D. B. Pryor, K. L. Lee, and R. A. Rosati. 1982. “Evaluating the Yield of Medical Tests.” <em>JAMA</em> 247: 2543–6.</p>
 </div>
 <div id="ref-rms2">
-<p>Harrell, Frank E. 2015. <em>Regression Modeling Strategies, with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis</em>. Second edition. New York: Springer. <a href="https://doi.org/10.1007/978-3-319-19425-7\%0020">https://doi.org/10.1007/978-3-319-19425-7\%0020</a>.</p>
+<p>Harrell, Frank E. 2015. <em>Regression Modeling Strategies, with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis</em>. Second edition. New York: Springer. doi:<a href="https://doi.org/10.1007/978-3-319-19425-7">10.1007/978-3-319-19425-7</a>.</p>
 </div>
 <div id="ref-ken88mea">
 <p>Kent, John T., and John O’Quigley. 1988. “Measures of Dependence for Censored Survival Data.” <em>Biometrika</em> 75: 525–34.</p>
@@ -937,9 +935,9 @@ br2 &lt;- function(p) var(p) / (var(p) + sum(p * (1 - p)) / length(p))</code></p
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>The Wilcoxon, Spearman, and other rank tests are very powerful for testing for existence of an association, but not for assessing <em>differences</em> in the strength of association.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p><span class="citation">Schemper (<a href="#ref-sch03pre">2003</a>)</span> is an excellent paper advocating for measures based on absolute rather than squared differences.<a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>Knots are locations of curvature changes, i.e., locations in the covariate space where cubic polynomials are joined together.<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>The LR test could have easily tested multiple new biomarkers simultaneously.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>The Wilcoxon, Spearman, and other rank tests are very powerful for testing for existence of an association, but not for assessing <em>differences</em> in the strength of association.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><span class="citation">Schemper (<a href="#ref-sch03pre">2003</a>)</span> is an excellent paper advocating for measures based on absolute rather than squared differences.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Knots are locations of curvature changes, i.e., locations in the covariate space where cubic polynomials are joined together.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>The LR test could have easily tested multiple new biomarkers simultaneously.<a href="#fnref4">↩</a></p></li>
 </ol>
 </div>

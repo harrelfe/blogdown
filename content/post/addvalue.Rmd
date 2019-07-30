@@ -4,7 +4,7 @@ author: "Frank Harrell"
 date: '2018-10-17'
 categories: []
 link-citations: yes
-modified: ''
+modified: '2019-07-30'
 slug: addvalue
 summary: Researchers have used contorted, inefficient, and arbitrary analyses to demonstrated
   added value in biomarkers, genes, and new lab measurements.  Traditional statistical
@@ -39,7 +39,7 @@ require(Hmisc)
 knitrSet(lang='blogdown')
 ```
 <p class='rquote'>
-When the outcomme variable Y is continuous, there are only three measures of added value that are commonly used: increase in $R^2$, decrease in mean squared prediction error, and decrease in mean absolute prediction error.  Why have so many measures been invented when Y is binary or censored?
+When the outcome variable Y is continuous, there are only three measures of added value that are commonly used: increase in $R^2$, decrease in mean squared prediction error, and decrease in mean absolute prediction error.  Why have so many measures been invented when Y is binary or censored?
 </p>
 
 # Introduction
