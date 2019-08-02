@@ -1,7 +1,7 @@
 +++
 title = "Clinicians' Misunderstanding of Probabilities Makes Them Like Backwards Probabilities Such As Sensitivity, Specificity, and Type I Error"
 date = 2017-01-25
-modified = 2019-07-29
+modified = 2019-08-02
 tags = ["specificity", "probability", "backward-probability", "forward-probability", "p-value", "bayes", "conditioning", "diagnosis", "decision-making", "dichotomization", "medicine", "bioinformatics", "biomarker", "sensitivity", "posterior", "2017"]
 +++
 <p class="rquote">
@@ -125,4 +125,5 @@ Again this represents forward probabilities.
 ## Some Useful Resources
 * [Properties of diagnostic data distributions](https://www.jstor.org/stable/pdf/2529753.pdf) by AP Dawid
 * [The (in)validity of sensitivity and specificity](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0258%2820000715%2919%3A13%3C1783%3A%3AAID-SIM497%3E3.0.CO%3B2-B) by Irene Guggenmoos‐Holzmann and Hans C. van Houwelingen
+* [The Flawed Reasoning Behind the Replication Crisis](http://nautil.us/issue/74/networks/the-flawed-reasoning-behind-the-replication-crisis) by Aubrey Clayton
 

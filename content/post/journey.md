@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2019-06-21
+modified = 2019-08-02
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -29,7 +29,7 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 If I had been taught Bayesian modeling before being taught the
 frequentist paradigm, I'm sure I would have always been a Bayesian.  I
 started becoming a Bayesian about 1994 because of an [influential
-paper](http://www.citeulike.org/user/harrelfe/article/13264891) by David
+paper](https://www.zotero.org/groups/2199991/feh/items/itemKey/D9Y5R5JK/q/Spiegelhalter) by David
 Spiegelhalter and because I worked in the same building at Duke
 University as Don Berry.  Two other things strongly contributed to my
 thinking: difficulties explaining p-values and confidence intervals
@@ -185,9 +185,9 @@ encounter most frequently are:
 
 With new tools such as [Stan](http://mc-stan.org/) and well written
 accessible books such
-as [Kruschke's](http://www.citeulike.org/user/harrelfe/article/14172337) and [McElreath's](http://www.citeulike.org/user/harrelfe/article/14255283)
+as [Kruschke's](https://www.zotero.org/groups/2199991/feh/items/itemKey/RBW62KMN/q/kruschke) and [McElreath's](https://www.zotero.org/groups/2199991/feh/items/q/mcelreath)
 it's
-getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://www.citeulike.org/search/username?q=tag%3Abayes*+%26%26+tag%3Ateaching*&search=Search+library&username=harrelfe).  See also Richard McElreath's [online lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc) and [trialdesign.org](http://trialdesign.org).  The R
+getting to be easier to be Bayesian each day.  For a longer list of suggested articles and books recommended for those without advanced statistics background see [this](http://hbiostat.org/bib/bayesteach.html).  See also Richard McElreath's [online lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc) and [trialdesign.org](http://trialdesign.org).  The R
 [brms](https://cran.r-project.org/web/packages/brms) package, which uses
 Stan, makes a large class of regression models even more accessible.  A large number of R scripts illustrating Bayesian analysis are [here](https://github.com/avehtari/BDA_R_demos).
 
