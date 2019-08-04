@@ -1,7 +1,7 @@
 +++
 title = "p-values and Type I Errors are Not the Probabilities We Need"
 date = 2017-01-14T08:14:00Z
-modified = 2017-11-28T08:18:44Z
+modified = 2019-08-04
 tags = ["judgment", "inference", "likelihood", "bayes", "multiplicity", "p-value", "prior", "hypothesis-testing", "2017"]
 +++
 In trying to guard against false conclusions, researchers often attempt to minimize
@@ -51,7 +51,7 @@ probability of efficacy.
 
 In reality, there is unlikely to exist a treatment that has exactly zero
 effect.  As [Tukey argued in
-1991](http://www.citeulike.org/user/harrelfe/article/10529649), the
+1991](http://dx.doi.org/10.1037/0003-066x.49.12.997), the
 effects of treatments A and B are always different, to some decimal
 place.  So the null hypothesis is always false and the type I error
 could be said to be always zero.
@@ -59,7 +59,7 @@ could be said to be always zero.
 The best paper I've read about the many ways in which p-values are
 misinterpreted is [Statistical tests, P values, confidence intervals,
 and power: a guide to
-misinterpretations](http://www.citeulike.org/user/harrelfe/article/14042559) written by a group of renowned statisticians.  One of my favorite quotes from
+misinterpretations](http://dx.doi.org/10.1007/s10654-016-0149-3) written by a group of renowned statisticians.  One of my favorite quotes from
 this paper is
 
 <small>
@@ -102,7 +102,7 @@ there is a subtle problem that leads researchers to believe that by
 controlling type I "error" they think they have quantified the
 probability of misleading evidence.  As discussed at length by my
 colleague [Jeffrey
-Blume](http://www.citeulike.org/user/harrelfe/author/Blume), once an
+Blume](https://www.zotero.org/groups/2199991/feh/items/q/Blume), once an
 experiment is done the probability that positive evidence is misleading
 is **not** type I error.  And what exactly does "error" mean in "type I
 error?"  It is the probability of rejecting H<sub>0</sub> when H<sub>0</sub> is exactly

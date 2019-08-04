@@ -1,7 +1,7 @@
 +++
 title = "Null Hypothesis Significance Testing Never Worked"
 date = 2017-01-14T07:15:00Z
-mosidiws = 2017-01-15T20:25:45Z
+modified = 2019-08-04
 tags = ["logic", "inference", "bayes", "p-value", "hypothesis-testing", "inductive-reasoning", "2017"]
 +++
 Much has been written about problems with our most-used statistical
@@ -17,14 +17,14 @@ data.
 
 NHST is based on something akin to proof by contradiction.  The best
 non-mathematical definition of the p-value I've ever seen is due
-to [Nicholas Maxwell](http://www.citeulike.org/user/harrelfe/article/14166520): "the
+to [Nicholas Maxwell](https://books.google.com/books?id=KH5GAAAAYAAJ): "the
 degree to which the data are embarrassed by the null hypothesis."
  p-values provide evidence against something, never in favor of
 something, and are the basis for NHST.  But proof by contradiction is
 only fully valid in the context of rules of logic where assertions are
 true or false without any uncertainty.  The classic paper [The Earth is
 Round
-(p<.05)](http://www.citeulike.org/user/harrelfe/article/10529649) by
+(p<.05)](http://dx.doi.org/10.1037/0003-066x.49.12.997) by
 Jacob Cohen has a beautiful example pointing out the fallacy of
 combining probabilistic ideas with proof by contradiction in an attempt
 to make decisions about an effect.

@@ -1,7 +1,7 @@
 +++
 title = "Statistical Errors in the Medical Literature"
 date = 2017-04-08
-modified = 2019-01-13
+modified = 2019-08-04
 tags = ["prediction", "logic", "p-value", "validation", "bayes", "evidence", "subgroup", "dichotomization", "medicine", "inference", "change-scores", "RCT", "personalized-medicine", "responder-analysis", "hypothesis-testing", "medical-literature", "2017"]
 [author]
 +++
@@ -269,7 +269,7 @@ at hour 3 after the start of infusion, with response defined as an
 increase from baseline of at least 10 mm Hg or an increase to at least
 75 mm Hg, without an increase in the dose of background vasopressors."
 This form of dichotomania has been discredited by [Stephen
-Senn](http://www.citeulike.org/user/harrelfe/article/13265588) who
+Senn](http://hbiostat.org/papers/Senn/dichotomania.pdf) who
 provided a similar example in which he decoded the response function to
 show that the lucky patient is one (in the NEJM case) who has a starting
 blood pressure of 74mmHg. His example is below:
@@ -309,7 +309,7 @@ Details about problems with analyzing change may be found in
 [BBR](http://hbiostat.org/doc/bbr.pdf) Section 14.4
 and [here](http://biostat.mc.vanderbilt.edu/MeasureChange), and
 references may be found
-[here](http://www.citeulike.org/user/harrelfe/tag/change). See also
+[here](https://www.zotero.org/groups/2199991/feh/items/tag/change). See also
 [this](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3286439). A general
 problem with the approach is that when Y is ordinal but not
 interval-scaled, differences in Y may no longer be ordinal.  So analysis

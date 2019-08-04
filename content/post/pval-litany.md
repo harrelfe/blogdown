@@ -1,7 +1,7 @@
 +++
 title = "A Litany of Problems With p-values"
 date = 2017-02-05
-modified = 2018-08-08
+modified = 2019-08-04
 tags = ["decision-making", "bayes", "multiplicity", "p-value", "hypothesis-testing", "2017"]
 +++
 <p class="rquote">
@@ -61,7 +61,7 @@ also a compound assertion such as "A lowers blood pressure by at least
 4.  Because of A, p-values are difficult to interpret and very few
     non-statisticians get it right.  The best article on
     misinterpretations I've found
-    is [here](http://www.citeulike.org/user/harrelfe/article/14042559).
+    is [here](http://dx.doi.org/10.1007/s10654-016-0149-3).
 
 ### C. Problem Defining the Event Whose Probability is Computed
 

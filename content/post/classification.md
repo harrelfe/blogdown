@@ -1,7 +1,7 @@
 +++
 title = "Classification vs. Prediction"
 date = 2017-01-15
-modified = 2018-05-19
+modified = 2019-08-04
 tags = ["prediction", "decision-making", "machine-learning", "accuracy-score", "classification", "data-science", "2017"]
 +++
 <p class="rquote">
@@ -19,7 +19,7 @@ the way, one of the best books about probabilistic thinking is Nate
 Silver's *The Signal and The Noise: Why So Many Predictions Fail But
 Some Don't*.  In the medical field, a classic paper is David
 Spiegelhalter's [Probabilistic Prediction in Patient Management and
-Clinical Trials](http://www.citeulike.org/user/harrelfe/article/13264888).
+Clinical Trials](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.4780050506).
 
 By not thinking probabilistically, machine learning advocates frequently
 utilize classifiers instead of using risk prediction models.  The
@@ -100,7 +100,7 @@ models should be used in most other situations.
 This is related to a subtle point that has been lost on many analysts.
  Complex machine learning algorithms, which allow for complexities such
 as high-order interactions, require an [enormous amount of
-data](http://www.citeulike.org/user/harrelfe/article/13467382) unless
+data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-14-137) unless
 the signal:noise ratio is high, another reason for reserving some
 machine learning techniques for such situations.  Regression models
 which capitalize on additivity assumptions (when they are true, and this
