@@ -4,9 +4,7 @@ date = 2019-08-07  # Schedule page publish date.
 title = "Bayesian Thinking"
 time_start = ""
 time_end   = ""
-abstract = "This interview by Vanay Prasad for his <i>Plenary
-Session</i> podcast discusses Bayesian thinking, especially about
-clinical trials."
+abstract = "This interview by Vanay Prasad for his <i>Plenary Session</i> podcast discusses Bayesian thinking, especially about clinical trials."
 abstract_short = ""
 event = "Plenary Session Podcast"
 event_url = "https://soundcloud.com/plenarysession/206-heart-failure-choosing-a-specialty-the-bayesian-approach-with-dr-frank-harrell"
