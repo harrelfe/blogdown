@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2019-08-02
+modified = 2019-08-07
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -253,6 +253,7 @@ where
 * subjectivity<sub>3</sub> = prior distribution
 
 ------------------------------------------------------------------------
+Frank's [Plenary Session Podcast](https://soundcloud.com/plenarysession/206-heart-failure-choosing-a-specialty-the-bayesian-approach-with-dr-frank-harrell) on Bayesian thinking.
 
 Go [here](https://news.ycombinator.com/item?id=13684429) for discussions about this article that are not on this blog.
 
