@@ -19,6 +19,7 @@ weight = 90
 -   Frank's [presentations](https://fharrell.com/#talks), also [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
 -   Frank's Youtube videos on [Regression Modeling
     Strategies](https://www.youtube.com/channel/UC2qvW5vuAZm91-KIV4Y83MQ)
+-   Frank's _Plenary Session_ Podcast on [Bayesian Statistical Thinking](https://soundcloud.com/plenarysession/206-heart-failure-choosing-a-specialty-the-bayesian-approach-with-dr-frank-harrell)
 -   Frank's [bibliographic database](https://www.zotero.org/groups/feh/items)
 -   [Glossary](http://hbiostat.org/doc/glossary.pdf) of statistical terms
 -   Frank's [postings](http://stats.stackexchange.com/users/4253) on
