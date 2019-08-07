@@ -1,9 +1,9 @@
 +++
 date = 2019-08-07  # Schedule page publish date.
 
-title = "Bayesian Thinking"
-time_start = ""
-time_end   = ""
+title = "Bayesian Thinking Podcast"
+time_start = "2019-08-07"
+time_end   = "2019-08-07"
 abstract = "This interview by Vanay Prasad for his <i>Plenary Session</i> podcast discusses Bayesian thinking, especially about clinical trials."
 abstract_short = ""
 event = "Plenary Session Podcast"
