@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2019-08-07
+modified = 2019-08-08
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -23,6 +23,8 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  | <small>Reject a _specific_ null, and then argue for an _arbitrary_ alternative.  It's pretty remarkable that so few people see how absurd this procedure is. -- [JP de Ruiter](https://twitter.com/JPdeRuiter/status/963481008417988609)</small> |
 |  |  |
 |  | <small>If you tossed a coin 100 times resulting in 60 heads, would you rather know the probability of getting > 59 heads out of 100 tosses if the coin happened to be fair, or the probability it is fair given exactly 60 heads?  The frequentist approach is alluring because of the minimal work in carrying out a test of the null hypothesis θ=½.  But the Bayesian approach provides a direct answer to the second question, and requires you to think.  What is an "unfair" coin?  Is it θ outside of [0.49, 0.51]?  What is the world view of coins, e.g., is someone likely to provide a coin that is easily detectable as unfair because its θ=0.6? Was the coin chosen at random or handed to us?</small> |
+|  |  |
+|  | <small>The null-hypothesis significance test treats `acceptance' or `rejection' of a hypothesis as though these were decisions one makes. But a hypothesis is not something, like a piece of pie offered for dessert, which can be accepted or rejected by a voluntary physical action. Acceptance or rejection of a hypothesis is a cognitive process, a degree of believing or disbelieving which, if rational, is not a matter of choice but determined solely by how likely it is, given the evidence, that the hypothesis is true. -- WW Rozeboom, 1960, pp. 422-423 in [EJ Wagenmakers and Q Gronau](https://www.bayesianspectacles.org/redefine-statistical-significance-xvii-william-rozeboom-destroys-the-justify-your-own-alpha-argument-back-in-1960)</small>.
 |  |  |
 |  | <small>The only way to make frequentist methods comprehensible is to lie about them, and the only way to be fully accurate is to make them incomprehensible.</small> |
 
@@ -269,7 +271,12 @@ Go [here](https://news.ycombinator.com/item?id=13684429) for discussions about t
 * [Bayesian theorists were little better than cranks](http://wmbriggs.com/post/24848) by William Briggs.
 * [A student's guide to Bayesian statistics](https://youtu.be/P_og8H-VkIY) by Ben Lambert
 * [Book for Lambert's _A Student's Guide to Bayesian Statistics_](http://ben-lambert.com/a-students-guide-to-bayesian-statistics)
-* [Data analysis: A Bayesian tutorial](https://www.amazon.com/gp/product/0198568320/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1) by Devinderjit Sivia and John Skilling
+* [Data analysis: A Bayesian
+  tutorial](https://www.amazon.com/gp/product/0198568320/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
+  by Devinderjit Sivia and John Skilling
+* [Redefine Statistical Significance
+  XVII](https://www.bayesianspectacles.org/redefine-statistical-significance-xvii-william-rozeboom-destroys-the-justify-your-own-alpha-argument-back-in-1960)
+  by EJ Wagenmakers and Q Gronau
 
 
 ----------------------------------------
