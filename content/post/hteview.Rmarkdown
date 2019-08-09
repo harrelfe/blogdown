@@ -2,7 +2,7 @@
 title: Viewpoints on Heterogeneity of Treatment Effect and Precision Medicine
 author: Frank Harrell
 date: '2018-06-04'
-modified: '2018-06-21'
+modified: '2019-08-09'
 slug: hteview
 categories: []
 tags:
@@ -150,6 +150,7 @@ The beauty of the conference concentrating on risk magnification is that RM alwa
 For continuous outcome variables Y where the variance of measurements can be disconnected from the mean, one way to estimate the magnitude of HTE is to compare the variance in Y in the active treatment group and that in the control group.  If HTE exists, it cannot affect a pure control group but should increase the variance of Y in the treatment group due to heterogeneity of treatment effect across types of subjects.  Two studies have examined this issue in meta-analyses.  The first, related to weight loss treatments, found "evidence is limited for the notion that there are clinically important differences in exercise-mediated weight change."  The second paper reviewed 208 studies and found evidence in the opposite direction from HTE: the average ratio of variances of Y for treated:control was 0.89.
 
 * [Inter‐individual differences in weight change following exercise interventions: a systematic review and meta‐analysis of randomized controlled trials](https://doi.org/10.1111/obr.12682) by Williamson, Atkinson, Batterham
+* [Evaluation of differences in individual treatment response in schizophrenia spectrum disorders: A meta-analysis](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2735440) by Winkelbeiner, Leucht, Kane et al.
 * [Does evidence support the high expectations placed in precision medicine? A bibliographic review](https://f1000research.com/articles/7-30) by Cortés et al.
 
 # Other Useful Links
