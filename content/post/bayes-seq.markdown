@@ -2,7 +2,7 @@
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
 date: 2017-10-09
-modified: 2019-06-26
+modified: 2019-08-09
 slug: bayes-seq
 tags:
   - bayes
@@ -364,11 +364,12 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 -->
 
 # Other Resources
+* [Five Bayesian intuitions for the stopping rule principle](https://www.bayesianspectacles.org/preprint-five-bayesian-intuitions-for-the-stopping-rule-principle) by EJ Wagenmakers, Q Gronau, J Vandekerckhove
 * ["We continuously increased the number of animals until statistical significance was reached to support our conclusions"](https://andrewgelman.com/2018/09/04/continuously-increased-number-animals-statistical-significance-reached-support-conclusions-think-not-bad-actually-2) by Andrew Gelman
 
 # Computing Environment
 <!--html_preserve--><pre>
- R version 3.6.0 (2019-04-26)
+ R version 3.6.1 (2019-07-05)
  Platform: x86_64-pc-linux-gnu (64-bit)
  Running under: Ubuntu 19.04
  
@@ -385,7 +386,7 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
  [1] stats     graphics  grDevices utils     datasets  methods   base     
  
  other attached packages:
- [1] rms_5.1-4         SparseM_1.77      Hmisc_4.2-1       ggplot2_3.1.0    
+ [1] rms_5.1-4         SparseM_1.77      Hmisc_4.2-1       ggplot2_3.2.0    
  [5] Formula_1.2-3     survival_2.44-1.1 lattice_0.20-38  
  </pre>
  To cite R in publication use:
