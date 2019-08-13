@@ -4,12 +4,9 @@ author: "Frank Harrell"
 date: '2018-10-17'
 categories: []
 link-citations: yes
-modified: '2019-07-30'
+modified: '2019-08-13'
 slug: addvalue
-summary: Researchers have used contorted, inefficient, and arbitrary analyses to demonstrated
-  added value in biomarkers, genes, and new lab measurements.  Traditional statistical
-  measures have always been up to the task, and are more powerful and more flexible.  It's
-  time to revisit them, and to add a few slight twists to make them more helpful.
+summary: Researchers have used contorted, inefficient, and arbitrary analyses to demonstrated added value in biomarkers, genes, and new lab measurements.  Traditional statistical measures have always been up to the task, and are more powerful and more flexible.  It's time to revisit them, and to add a few slight twists to make them more helpful.
 tags:
 - prediction
 - sample-size
@@ -95,7 +92,7 @@ The dataset is available from the Vanderbilt Department of Biostatistics wiki, a
 
 ## Development of Binary Logistic Model
 
-We first fit a binary logistic regression model with interactions, modeling age and cholesterol in a smooth nonlinear fashion using restricted cubic splines with default knot ^[Knots are locations of curvature changes, i.e., locations in the covariate space where cubic polynomials are joined together.] locations.  The nonlinear interaction between age and cholesterol is a restricted one such that terms that are nonlinear in both predictors are excluded.  This is to save degrees of freedom.  The code below also fits the base model containing only age and sex.
+We first fit a binary logistic regression model with interactions, modeling age and cholesterol in a smooth nonlinear fashion using restricted cubic splines with default knot ^[Knots are locations of shape changes, or more specifically, unique places where the third derivative (jolt) changes.  The function and first two derivatives are allowed to change at all points.  Knots are locations in the covariate space where cubic polynomials are joined together.] locations.  The nonlinear interaction between age and cholesterol is a restricted one such that terms that are nonlinear in both predictors are excluded.  This is to save degrees of freedom.  The code below also fits the base model containing only age and sex.
 
 Estimated log odds of the risk of significant CAD is plotted against cholesterol for ages 40 and 70 years for males.  One can readily see that the diagnostic value of cholesterol is greater for younger patients, and there is some evidence that very low total cholesterol is risky at age 70.
 
@@ -163,7 +160,7 @@ with(subset(d, sex == 'male'),
 
 ## Statistical Indexes for Added Value of Cholesterol
 
-The gold standard LR test for added value of cholesterol is obtained by comparing log likelihoods of the pre and post-test models.  Cholesterol has a total of 8 parammeters; 5 for interacting with the spline function of age and 3 for its main effect^[The LR test could have easily tested multiple new biomarkers simultaneously.].  Before getting the 8 d.f. LR test, let's also get the LR test for interaction between cholesterol and age.
+The gold standard LR test for added value of cholesterol is obtained by comparing log likelihoods of the pre and post-test models.  Cholesterol has a total of 8 parameters; 5 for interacting with the spline function of age and 3 for its main effect^[The LR test could have easily tested multiple new biomarkers simultaneously.].  Before getting the 8 d.f. LR test, let's also get the LR test for interaction between cholesterol and age.
 
 ```{r lr}
 h <- lrm(sigdz ~ rcs(age,4)*sex + rcs(choleste,4), data=acath)
