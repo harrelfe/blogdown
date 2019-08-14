@@ -1,7 +1,7 @@
 +++
 title = "Fundamental Principles of Statistics"
 date = 2017-01-18
-modified = 2018-07-22
+modified = 2019-08-14
 tags = ["design", "measurement", "principles", "2017"]
 +++
 There are many principles involved in the theory and practice of statistics, but
@@ -32,7 +32,12 @@ here are the ones that guide my practice the most.
 <br><br>
 In considering the refinements and modifications of the scientific method which particularly apply to the work of the statistician, the first point to be emphasized is that the statistician is always dealing with probabilities and degrees of uncertainty.  He is, in effect, a Sherlock Holmes of figures, who must work mainly, or wholly, from circumstantial evidence.
 <br><br>
-Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10, 1931
+Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10,
+1931
+<br><br>
+The statistical method is more than an array of techniques. The statistical method is a mode of thought; it is sharpened thinking; it is power.
+<br><br>
+William Edwards Deming, International Statistical Institute Meeting, Sept 1953
 </p>
 
 -----
