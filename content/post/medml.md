@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2019-08-15
+modified = 2019-08-16
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -87,3 +87,7 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
   network for melanoma
   recognition](https://jamanetwork.com/journals/jamadermatology/article-abstract/2740808)
   by Julia Winkler et al
+* [The "inconvenient truth" about AI in
+  healthcare](https://www.nature.com/articles/s41746-019-0155-4) by T
+  Panch, H Mattie, L Celi
+  
