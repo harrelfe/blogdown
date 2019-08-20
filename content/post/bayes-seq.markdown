@@ -2,7 +2,7 @@
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
 date: 2017-10-09
-modified: 2019-08-09
+modified: 2019-08-20
 slug: bayes-seq
 tags:
   - bayes
@@ -366,6 +366,7 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 # Other Resources
 * [Five Bayesian intuitions for the stopping rule principle](https://www.bayesianspectacles.org/preprint-five-bayesian-intuitions-for-the-stopping-rule-principle) by EJ Wagenmakers, Q Gronau, J Vandekerckhove
 * ["We continuously increased the number of animals until statistical significance was reached to support our conclusions"](https://andrewgelman.com/2018/09/04/continuously-increased-number-animals-statistical-significance-reached-support-conclusions-think-not-bad-actually-2) by Andrew Gelman
+* [Is Bayesian A/B testing immune to peeking? Not eactly](http://varianceexplained.org/r/bayesian-ab-testing) by David Robinson
 
 # Computing Environment
 <!--html_preserve--><pre>
@@ -386,7 +387,7 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
  [1] stats     graphics  grDevices utils     datasets  methods   base     
  
  other attached packages:
- [1] rms_5.1-4         SparseM_1.77      Hmisc_4.2-1       ggplot2_3.2.0    
+ [1] rms_5.1-4         SparseM_1.77      Hmisc_4.2-1       ggplot2_3.2.1    
  [5] Formula_1.2-3     survival_2.44-1.1 lattice_0.20-38  
  </pre>
  To cite R in publication use:
