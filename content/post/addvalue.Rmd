@@ -4,7 +4,7 @@ author: "Frank Harrell"
 date: '2018-10-17'
 categories: []
 link-citations: yes
-modified: '2019-08-13'
+modified: '2019-08-22'
 slug: addvalue
 summary: Researchers have used contorted, inefficient, and arbitrary analyses to demonstrated added value in biomarkers, genes, and new lab measurements.  Traditional statistical measures have always been up to the task, and are more powerful and more flexible.  It's time to revisit them, and to add a few slight twists to make them more helpful.
 tags:
@@ -215,5 +215,8 @@ The diagnostic yield of cholesterol is age- and sex-dependent.  Measuring choles
 # Areas of Application
 
 The methods described here have wide applicability to diagnostic and prognostic research.  One area in particular is ripe for applying the methods: genetics.  Genetic markers have been touted as being valuable for diagnosis and prognosis.  It would be worthwhile to quantify the added value of genetic markers using one of the above indexes, along with the graphics displaying diagnostic or prognostic yield for individual subjects.
+
+# Discussion
+Go [here](https://discourse.datamethods.org/t/statistically-efficient-ways-to-quantify-added-predictive-value-of-new-measurements) to comment, critique, discuss, or put questions about this article
 
 # References
