@@ -1,7 +1,7 @@
 +++
 title = "Damage Caused by Classification Accuracy and Other Discontinuous Improper Accuracy Scoring Rules"
 date = 2017-03-01T07:30:00Z
-updated = 2017-12-25T08:10:49Z
+updated = 2019-08-24
 tags = ["prediction", "machine-learning", "accuracy-score", "dichotomization", "probability", "bioinformatics", "validation", "classification", "data-science", "2017"]
 +++
 I discussed the many advantages or probability estimation over
@@ -94,3 +94,6 @@ An excellent discussion with more information may be found
 [here](https://stats.stackexchange.com/questions/312780).
 
 The video of a lecture on medical diagnosis and problems with sensitivity and specificity may be found [here](https://www.youtube.com/watch?v=uULhuuSjBww).
+
+## Other Resources
+* [Evaluating probabilistic forecasts with `scoringRules`](https://www.jstatsoft.org/article/view/v090i12) by Alexander Jordan, Fabian Krüger, and Sebastian Lerch
