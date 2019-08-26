@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2019-07-13'
+modified: '2019-08-26'
 updated: ''
 slug: stat-ml
 categories: []
@@ -22,7 +22,30 @@ Machine learning (ML) may be distinguished from statistical models (SM) using an
 It is often good to let the data speak.  But you must be comfortable in assuming that the data are speaking rationally.  Data can fool you.<br><br>Whether using SM or ML, work with a methodologist who knows what she is doing, and don't begin an analysis without ample subject matter input.
 </p>
 
-Data analysis methods may be described by their areas of applications, but for this article I'm using definitions that are strictly methods-oriented.  A statistical model (SM) is a data model that incorporates probabilities for the data generating mechanism and has identified unknown parameters that are usually interpretable and of special interest, e.g., effects of predictor variables and distributional parameters about the outcome variable.  The most commonly used SMs are regression models, which potentially allow for a separation of the effects of competing predictor variables.  SMs include ordinary regression, Bayesian regression, semiparametric models, generalized additive models, longitudinal models, time-to-event models, penalized regression, and others.  Penalized regression includes ridge regression, lasso, and elastic net.  Contrary to what some machine learning (ML) researchers believe, SMs easily allow for complexity (nonlinearity and second-order interactions) and an unlimited number of candidate features (if penalized maximum likelihood estimation or Bayesian models with sharp skeptical priors are used).  It is especially easy, using regression splines, to allow every continuous predictor to have a smooth nonlinear effect.
+Data analysis methods may be described by their areas of applications,
+but for this article I'm using definitions that are strictly
+methods-oriented.  A statistical model (SM) is a data model that
+incorporates probabilities for the data generating mechanism and has
+identified unknown parameters that are usually interpretable and of
+special interest, e.g., effects of predictor variables and
+distributional parameters about the outcome variable.  The most
+commonly used SMs are regression models, which potentially allow for a
+separation of the effects of competing predictor variables.  SMs
+include ordinary regression, Bayesian regression, semiparametric
+models, generalized additive models, longitudinal models,
+time-to-event models, penalized regression, and others.  Penalized
+regression includes ridge regression, lasso, and elastic net.
+Contrary to what some machine learning (ML) researchers believe, SMs
+easily allow for complexity (nonlinearity and second-order
+interactions) and an unlimited number of candidate features (if
+penalized maximum likelihood estimation or Bayesian models with sharp
+skeptical priors are used).  It is especially easy, using regression
+splines, to allow every continuous predictor to have a smooth
+nonlinear effect.
+
+Note that the usual lasso is highly parametric.  It assumes that all
+predictors have a linear effect on the outcome, and that the model is
+fully additive.  This is a SM as one can get.
 
 ML is taken to mean an algorithmic approach that does not use traditional identified statistical parameters, and for which a preconceived structure is not imposed on the relationships between predictors and outcomes.  ML usually does not attempt to isolate the effect of any single variable.  ML includes random forests, recursive partitioning (CART), bagging, boosting, support vector machines, neural networks, and deep learning.  ML does not model the data generating process but rather attempts to learn from the dataset at hand.  ML is more a part of computer science than it is part of statistics.  Perhaps the simplest way to distinguish ML form SMs is that SMs (at least in the regression subset of SM) favor additivity of predictor effects while ML usually does not give additivity of effects any special emphasis.
 
@@ -77,7 +100,9 @@ See [this](https://twitter.com/f2harrell/status/990991631900921857) for more twi
 
 
 ## Further Reading
-*  Follow-up Article by Drew Levy: [Navigating Statistical Modeling and Machine Learning](/post/stat-ml2)
+*  Follow-up Article by Drew Levy: [Navigating Statistical Modeling
+   and Machine Learning](/post/stat-ml2)
+*  [Is Medicine Mesmerized by Machine Learning?](/post/medml)
 *  [Statistical Modeling: The Two Cultures](http://www2.math.uu.se/~thulin/mm/breiman.pdf) by Leo Breiman <br><small>Note: I very much disagree with Breiman's view that data models are not important.  How would he handle truncated/censored data for example?  I do believe that data models need to be flexible.  This is facilitated by Bayesian modeling.</small>
 *  [Big Data and Machine Learning in Health Care](https://jamanetwork.com/journals/jama/article-abstract/2675024) by AL Beam and IS Kohane
 *  Harvard Business Review article [Why You're Not Getting Value From Your Data Science](https://hbr.org/2016/12/why-youre-not-getting-value-from-your-data-science), about regression vs. machine learning in business applications
