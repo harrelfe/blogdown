@@ -20,11 +20,13 @@ A free web course in introductory and intermediate biostatistics
 starts in September, 2019.  This course is offered about three Fridays
 per month from 10am-11am US Eastern Time.  The course is live streamed
 on YouTube, and recorded for watching offline on YouTube channel
-`BBRcourse`.  The course is intended for biomedical researchers, and
+[BBRcourse](https://www.youtube.com/channel/UC-o_ZZ0tuFUYn8e8rf-QURA).
+The course is intended for biomedical researchers, and 
 statisticians may also enjoy the course and entering into the live
 discussion on YouTube.  The course is sponsored by the [Vanderbilt
 Institute for Clinical and Translational
-Research](https://victr.vumc.org) Research Methods Program.  More
+Research](https://victr.vumc.org) Research Methods Program and is done
+in coordination with [Edge for Scholars](https://edgeforscholars.org).  More
 details and a place to suggest future topics may be found
 [here](https://discourse.datamethods.org/t/bbr-video-course).  The
 main course notes are [BBR](http://hbiostat.org/doc/bbr.pdf).
@@ -40,7 +42,7 @@ information for the short course may be found
 
 ## Master of Science in Clinical Investigation Biostatistics II
 I co-teach [this
-course](http://biostat.mc.vanderbilt.edu/wiki/Main/MsciBiostatII) at
+course](http://biostat.mc.vanderbilt.edu/MsciBiostatII) at
 Vanderbilt each February for postdoctoral medical and surgical fellows
 and junior faculty in the MSCI program.
 
