@@ -18,8 +18,29 @@ weight = 60
 ## Biostatistics in Biomedical Research
 A free web course in introductory and intermediate biostatistics
 starts in September, 2019.  This course is offered about three Fridays
-per month from 10am-11am US Eastern Time.
+per month from 10am-11am US Eastern Time.  The course is live streamed
+on YouTube, and recorded for watching offline on YouTube channel
+`BBRcourse`.  The course is intended for biomedical researchers, and
+statisticians may also enjoy the course and entering into the live
+discussion on YouTube.  The course is sponsored by the [Vanderbilt
+Institute for Clinical and Translational
+Research](https://victr.vumc.org) Research Methods Program.  More
+details and a place to suggest future topics may be found
+[here](https://discourse.datamethods.org/t/bbr-video-course).  The
+main course notes are [BBR](http://hbiostat.org/doc/bbr.pdf).
 
 ## Regression Modeling Strategies
-I teach the BIOS7330 _Regression Modeling Strategies_ course in the Biostatistics Graduate Program at Vanderbilt University in the spring semester.  The course web page is [here](http://biostat.mc.vanderbilt.edu/CourseBios330).  I teach a 4-day version of this course each May at Vanderbilt.  Registration information for the short course may be found [here](http://biostat.mc.vanderbilt.edu/RmS).
+I teach the BIOS7330 _Regression Modeling Strategies_ course in the
+Biostatistics Graduate Program at Vanderbilt University in the spring
+semester.  The course web page is
+[here](http://biostat.mc.vanderbilt.edu/CourseBios330).  I teach a
+4-day version of this course each May at Vanderbilt.  Registration
+information for the short course may be found
+[here](http://biostat.mc.vanderbilt.edu/RmS).
+
+## Master of Science in Clinical Investigation Biostatistics II
+I co-teach [this
+course](http://biostat.mc.vanderbilt.edu/wiki/Main/MsciBiostatII) at
+Vanderbilt each February for postdoctoral medical and surgical fellows
+and junior faculty in the MSCI program.
 
