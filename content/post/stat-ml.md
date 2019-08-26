@@ -45,7 +45,7 @@ nonlinear effect.
 
 Note that the usual lasso is highly parametric.  It assumes that all
 predictors have a linear effect on the outcome, and that the model is
-fully additive.  This is a SM as one can get.
+fully additive.  This is as SM as one can get.
 
 ML is taken to mean an algorithmic approach that does not use traditional identified statistical parameters, and for which a preconceived structure is not imposed on the relationships between predictors and outcomes.  ML usually does not attempt to isolate the effect of any single variable.  ML includes random forests, recursive partitioning (CART), bagging, boosting, support vector machines, neural networks, and deep learning.  ML does not model the data generating process but rather attempts to learn from the dataset at hand.  ML is more a part of computer science than it is part of statistics.  Perhaps the simplest way to distinguish ML form SMs is that SMs (at least in the regression subset of SM) favor additivity of predictor effects while ML usually does not give additivity of effects any special emphasis.
 
