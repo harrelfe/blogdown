@@ -16,7 +16,7 @@ weight = 60
 +++
 
 ## Biostatistics in Biomedical Research
-![](headers/bbrlogo.png)
+![](/img/headers/bbrlogo.png)
 
 A free web course in introductory and intermediate biostatistics
 starts on September 27, 2019.  This course is offered about three Fridays
