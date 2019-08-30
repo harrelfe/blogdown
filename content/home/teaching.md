@@ -40,7 +40,7 @@ Participants are required to register for the course and in so doing
 must provide basic information that allows us to report aggregate
 participant characteristics to our funding agencies.  A valid email
 address is required for registration.  To register for the course, go
-[here]() once you see the announcement on Twitter `@f2harrell` that
+[here](to-be-determined) once you see the announcement on Twitter `@f2harrell` that
 registration is open. 
 
 ## Regression Modeling Strategies
