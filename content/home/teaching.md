@@ -19,7 +19,7 @@ weight = 60
 ![](/img/headers/bbrlogo.png)
 
 A free web course in introductory and intermediate biostatistics
-starts on September 27, 2019.  This course is offered about three Fridays
+starts on October 4, 2019.  This course is offered about three Fridays
 per month probably from 10am-11am US Eastern Time.  The course is live streamed
 on YouTube, and recorded for watching offline on YouTube channel
 [BBRcourse](https://www.youtube.com/channel/UC-o_ZZ0tuFUYn8e8rf-QURA).
