@@ -2,7 +2,7 @@
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
 date: 2017-10-09
-modified: 2019-08-20
+modified: 2019-09-01
 slug: bayes-seq
 tags:
   - bayes
@@ -15,6 +15,8 @@ tags:
 (In a Bayesian analysis) It is entirely appropriate to collect data
 until a point has been proven or disproven, or until the data collector
 runs out of time, money, or patience.<br>— <a href="http://psycnet.apa.org/doi/10.1037/h0044139">Edwards, Lindman, Savage (1963)</a>
+<br><br>
+Imagine that the military has developed a pattern recognition algorithm to determine whether a distant object is a tank.  Initially an image results in an 0.8 probability of the object being a tank.  The object moves closer and some fog clears.  The probability is now 0.9, and the 0.8 has become completely irrelevant.  Contrast with a frequentist way of thinking: Of all the times a tested object wasn't a tank, the probability of acquiring tank-like image characteristics at some point grows with the number of images acquired.  Analogously, with multiple data looks in a clinical trial where there is no treatment effect, the probability of having extreme data at some point grows with the number of looks.  This affects type I error but not the true chance that the treatment works.
 </p>
 
 # Introduction
