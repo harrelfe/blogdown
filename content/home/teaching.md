@@ -15,7 +15,6 @@ weight = 60
 
 +++
 
-## Biostatistics in Biomedical Research
 ![](/img/headers/bbrlogo.png)
 
 This is a free almost-weekly web course in introductory and
