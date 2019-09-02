@@ -17,31 +17,9 @@ weight = 60
 
 ## Biostatistics in Biomedical Research
 ![](/img/headers/bbrlogo.png)
-
-A free web course in introductory and intermediate biostatistics
-starts on October 4, 2019.  This course is offered about three Fridays
-per month probably from 10am-11am US Eastern Time.  The course is live streamed
-on YouTube, and recorded for watching offline on YouTube channel
-[BBRcourse](https://www.youtube.com/channel/UC-o_ZZ0tuFUYn8e8rf-QURA).
-The course is intended for biomedical researchers, and 
-statisticians may also enjoy the course and entering into the live
-discussion on YouTube.  The course is sponsored by the [Vanderbilt
-Institute for Clinical and Translational
-Research](https://victr.vumc.org) (VICTR) **Research Methods Program**
-in the Department of Biostatistics  of the School of Medicine, and is done
-in coordination with [Edge for Scholars](https://edgeforscholars.org).
-VICTR is funded by the [National Center for Advancing Translational
-Sciences](https://ncats.nih.gov) of NIH.  More
-details and a place to suggest future topics may be found
-[here](https://discourse.datamethods.org/t/bbr-video-course).  The
-main course notes are [BBR](http://hbiostat.org/doc/bbr.pdf).
-
-Participants are required to register for the course and in so doing
-must provide basic information that allows us to report aggregate
-participant characteristics to our funding agencies.  A valid email
-address is required for registration.  To register for the course, go
-[here](to-be-determined) once you see the announcement on Twitter `@f2harrell` that
-registration is open. 
+This is a free almost-weekly web course in introductory and
+intermediate biostatistics.  Details on on the
+[course web page](http://hbiostat.org/bbr). 
 
 ## Regression Modeling Strategies
 I teach the BIOS7330 _Regression Modeling Strategies_ course in the
