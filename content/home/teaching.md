@@ -17,8 +17,9 @@ weight = 60
 
 ## Biostatistics in Biomedical Research
 ![](/img/headers/bbrlogo.png)
+
 This is a free almost-weekly web course in introductory and
-intermediate biostatistics.  Details on on the
+intermediate biostatistics.  Details are on the
 [course web page](http://hbiostat.org/bbr). 
 
 ## Regression Modeling Strategies
