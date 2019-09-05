@@ -40,7 +40,7 @@ ties in the data, and I very much like rug plots.
 -   `rms survplotp` [video](https://youtu.be/EoIB_Obddrk): plotting
     survival curves
 -   `Hmisc histboxp` [interactive html
-    example](http://biostatdata.app.vumc.org/fh/R/Hmisc/examples.html#better_demonstration_of_boxplot_replacement):
+    example](http://hbiostat.org/R/Hmisc/examples.html#better_demonstration_of_boxplot_replacement):
     spike histograms plus selected quantiles, mean, and Gini's mean
     difference - replacement for boxplots - show all the data!  Note
     bimodal distributions and zero blood pressure values for patients
