@@ -1,5 +1,5 @@
 +++
-date = 2019-09-08  # Schedule page publish date.
+date = 2019-09-13  # Schedule page publish date.
 title = "R for Clinical Trial Reporting"
 time_start = 2019-09-13
 time_end   = 2019-09-13
@@ -19,9 +19,9 @@ selected = true
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "http://hbiostat.org/talks/rmedicine19.html"
 url_video = ""
-url_code = ""
+url_code = "http://hbiostat.org/talks/rmedicine19.Rmd"
 
 # Does the content use math formatting?
 math = true
