@@ -2,7 +2,7 @@
 title: Road Map for Choosing Between Statistical Modeling and Machine Learning
 author: Frank Harrell
 date: '2018-04-30'
-modified: '2019-08-30'
+modified: '2019-09-15'
 updated: ''
 slug: stat-ml
 categories: []
@@ -19,7 +19,22 @@ header:
 <p class="rquote">
 Machine learning (ML) may be distinguished from statistical models (SM) using any of three considerations:<br><b>Uncertainty</b>: SMs explicitly take uncertainty into account by specifying a probabilistic model for the data.<br><b>Structural</b>: SMs typically start by assuming additivity of predictor effects when specifying the model.<br><b>Empirical</b>: ML is more empirical including allowance for high-order interactions that are not pre-specified, whereas SMs have identified parameters of special interest.<br><br>There is a growing number of hybrid methods combining characteristics of traditional SMs and ML, especially in the Bayesian world.  Both SMs and ML can handle high-dimensional situations.
 <br><br>
-It is often good to let the data speak.  But you must be comfortable in assuming that the data are speaking rationally.  Data can fool you.<br><br>Whether using SM or ML, work with a methodologist who knows what she is doing, and don't begin an analysis without ample subject matter input.
+It is often good to let the data speak.  But you must be comfortable
+in assuming that the data are speaking rationally.  Data can fool
+you.<br><br>Whether using SM or ML, work with a methodologist who
+knows what she is doing, and don't begin an analysis without ample
+subject matter input.
+<br><br>
+Patient response Y = S + E<sub>1</sub> + E<sub>2</sub> where<br>
+S = signal as summarized by already-modeled patient characteristics<br>
+E<sub>1</sub> = error component that seems to be noise but could be
+explained by a better model</br>
+E<sub>2</sub> = irreducible error component that is impossible to
+predict (getting different responses if the patient is tested twice;
+different responses for identical twins, etc.)<br>
+Unlike game playing and image recognition where E<sub>2</sub> is
+small, human variation in disease occurrence and prognosis makes
+E<sub>2</sub> very large, and prevents any method from making perfect predictions.
 </p>
 
 Data analysis methods may be described by their areas of applications,
