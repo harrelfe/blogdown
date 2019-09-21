@@ -1,5 +1,5 @@
 +++
-date = "2019-01-09T13:30:00Z"  # Schedule page publish date.
+date = "2019-09-21T13:30:00Z"  # Schedule page publish date.
 
 title = "Why Bayes for Clinical Trials?"
 time_start = "2019-09-20"
@@ -7,7 +7,7 @@ time_end   = "2019-09-20"
 abstract = "Health researchers and practicing clinicians are with increasing frequency hearing about machine learning (ML) and artificial intelligence applications.  They, along with many statisticians, are unsure of when to use traditional statistical models (SM) as opposed to ML to solve analytical problems related to diagnosis, prognosis, treatment selection, and health outcomes.  And many advocates of ML do not know enough about SM to be able to appropriately compare performance of SM and ML.  ML experts are particularly prone to not grasp the impact of the choice of measures of predictive performance.  In this talk I attempt to define what makes ML distinct from SM, and to define the characteristics of applications for which ML is likely to offer advantages over SM, and vice-versa.  The talk will also touch on the vast difference between prediction and classification and how this leads to many misunderstandings in the ML world.  Other topics to be convered include the minimum sample size needed for ML, and problems ML algorithms have with absolute predictive accuracy (calibration)."
 abstract_short = ""
 event = "Drug Information Association Bayesian Scientific Working Group KOL Series, 2019-09-20"
-event_url = ""
+event_url = "http://www.bayesianscientific.org/kol-lecture-series"
 location = ""
 
 # Is this a selected talk? (true/false)
@@ -25,10 +25,10 @@ url_video = ""
 url_code = ""
 
 # Does the content use math formatting?
-math = true
+math = false
 
 # Does the content use source code highlighting?
-highlight = true
+highlight = false
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
