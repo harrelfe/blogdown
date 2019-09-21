@@ -1,5 +1,5 @@
 +++
-date = "2019-09-21T13:30:00Z"  # Schedule page publish date.
+date = "2019-09-21T00:30:00Z"  # Schedule page publish date.
 
 title = "Why Bayes for Clinical Trials?"
 time_start = "2019-09-20"
