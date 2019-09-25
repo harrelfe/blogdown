@@ -95,4 +95,7 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 * [Comments on Rebooting
   AI](https://twitter.com/EricTopol/status/1165753310730579969) by
   Eric Topol
+* [AI equal with human experts in medical diagnosis, study finds](https://amp.theguardian.com/technology/2019/sep/24/ai-equal-with-human-experts-in-medical-diagnosis-study-finds) by Nicola Davis
+
+
   
