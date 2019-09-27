@@ -17,6 +17,10 @@ header:
   image: ''
 ---
 <p class="rquote">
+When we raise money it’s AI, when we hire it's machine learning, and
+when we do the work it's logistic regression.  (Juan Miguel Lavista
+\verb|@BDataScientist|).
+<br><br>
 Machine learning (ML) may be distinguished from statistical models (SM) using any of three considerations:<br><b>Uncertainty</b>: SMs explicitly take uncertainty into account by specifying a probabilistic model for the data.<br><b>Structural</b>: SMs typically start by assuming additivity of predictor effects when specifying the model.<br><b>Empirical</b>: ML is more empirical including allowance for high-order interactions that are not pre-specified, whereas SMs have identified parameters of special interest.<br><br>There is a growing number of hybrid methods combining characteristics of traditional SMs and ML, especially in the Bayesian world.  Both SMs and ML can handle high-dimensional situations.
 <br><br>
 It is often good to let the data speak.  But you must be comfortable
