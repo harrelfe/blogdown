@@ -1,7 +1,7 @@
 +++
 title = "Fundamental Principles of Statistics"
 date = 2017-01-18
-modified = 2019-08-14
+modified = 2019-10-21
 tags = ["design", "measurement", "principles", "2017"]
 +++
 There are many principles involved in the theory and practice of statistics, but
@@ -38,6 +38,10 @@ Malcolm C Rorty: Statistics and the Scientific Method<br>JASA 26:1-10,
 The statistical method is more than an array of techniques. The statistical method is a mode of thought; it is sharpened thinking; it is power.
 <br><br>
 William Edwards Deming, International Statistical Institute Meeting, Sept 1953
+<br><br>
+Science is not about falsifying hypotheses. Science is about determining what component of a set of observations are reproducible, and then trying to determine the mechanism or rule to explain those observations... again, reasoning from data, not by starting with an axiom.
+<br><br>
+<a href="https://twitter.com/davidjglassMD/status/1186074984701145088">David J Glass</a>
 </p>
 
 -----
