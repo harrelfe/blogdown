@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2019-08-31
+modified = 2019-10-21
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -96,6 +96,4 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
   AI](https://twitter.com/EricTopol/status/1165753310730579969) by
   Eric Topol
 * [AI equal with human experts in medical diagnosis, study finds](https://amp.theguardian.com/technology/2019/sep/24/ai-equal-with-human-experts-in-medical-diagnosis-study-finds) by Nicola Davis
-
-
-  
+* [Why deep-learning AIs are so easy to fool](https://www.nature.com/articles/d41586-019-03013-5) by Douglas Heaven
