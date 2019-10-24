@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2019-10-22
+modified = 2019-10-24
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -98,3 +98,4 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 * [AI equal with human experts in medical diagnosis, study finds](https://amp.theguardian.com/technology/2019/sep/24/ai-equal-with-human-experts-in-medical-diagnosis-study-finds) by Nicola Davis
 * [Why deep-learning AIs are so easy to fool](https://www.nature.com/articles/d41586-019-03013-5) by Douglas Heaven
 * [Hidden stratification causes clinically meaningful failures in machine learning for medical imaging](https://deepai.org/publication/hidden-stratification-causes-clinically-meaningful-failures-in-machine-learning-for-medical-imaging) by Luke Oakden-Rayner et al.
+* [Machine learning for prediction in electronic health data](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2695072) by Sherri Rose
