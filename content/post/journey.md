@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2019-09-27
+modified = 2019-11-06
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -29,6 +29,8 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  | <small>The only way to make frequentist methods comprehensible is to lie about them, and the only way to be fully accurate is to make them incomprehensible.</small> |
 |  |  |
 |  | <small>The frequentist type I error is the probability of asserting an effect when there is <b>no effect</b>, and is independent of data.  One minus the Bayesian conditional probability of an effect given the data is the probability the treatment doesn't work <b>whether or not</b> you assert that it does.</small> |
+|  |  |
+|  | <small>Someone demanding that a Bayesian procedure preserve type I error, e.g. that P(posterior probability of positive effect > 0.95 | no effect) ≤ α, should be demanded to show their frequentist procedure yields decisons as good as those driven by the Bayesian P(effect > 0 | data, prior).</small> |
 
 If I had been taught Bayesian modeling before being taught the
 frequentist paradigm, I'm sure I would have always been a Bayesian.  I
