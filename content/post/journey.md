@@ -30,7 +30,7 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  |  |
 |  | <small>The frequentist type I error is the probability of asserting an effect when there is <b>no effect</b>, and is independent of data.  One minus the Bayesian conditional probability of an effect given the data is the probability the treatment doesn't work <b>whether or not</b> you assert that it does.</small> |
 |  |  |
-|  | <small>Someone demanding that a Bayesian procedure preserve type I error, e.g. that P(posterior probability of positive effect > 0.95 | no effect) ≤ α, should be demanded to show their frequentist procedure yields decisons as good as those driven by the Bayesian P(effect > 0 | data, prior).</small> |
+|  | <small>Someone demanding that a Bayesian procedure preserve type I error, e.g. that P(posterior probability of positive effect > 0.95 given no effect) ≤ α, should be demanded to show their frequentist procedure yields decisons as good as those driven by the Bayesian P(effect > 0 given data, prior).</small> |
 
 If I had been taught Bayesian modeling before being taught the
 frequentist paradigm, I'm sure I would have always been a Bayesian.  I
