@@ -220,7 +220,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:harrelfe@gmail.com"
+    link = "mailto:fh@fharrell.com"
 
   [[params.social]]
     icon = "twitter"
@@ -235,7 +235,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "http://github.com/harrelfe/blogdown"
+    link = "http://github.com/harrelfe"
 
 
 # Navigation Links

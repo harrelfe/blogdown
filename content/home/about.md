@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2019-07-13"
+date = "2019-11-25"
 
 # Order that this section will appear in.
 weight = 5
@@ -50,7 +50,7 @@ weight = 5
 * Written several R packages including [Hmisc](http://biostat.mc.vanderbilt.edu/Hmisc) and [rms](http://biostat.mc.vanderbilt.edu/Rrms)
 * Used R intensively since 1999 and am a member of the [R Foundation](https://www.r-project.org/foundation)
 * Author of [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms), 2nd Edition</a>
-* Statistical knowledge outside the areas of regression modeling strategies and Bayes is in [BBR](#links)
+* Statistical knowledge outside the areas of regression modeling strategies and Bayes is in [BBR](http://hbiostat.org/bbr)
 * Expert Statistical Advisor to the Office of Biostatistics, Center for Drug Evaluation and Research, FDA
 
 **Views expressed here are neither those of Vanderbilt University nor the US FDA**
