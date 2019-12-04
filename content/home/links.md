@@ -4,21 +4,24 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-07-07"
-modified = "2019-07-13"
+modified = "2019-12-03"
 weight = 90
 +++
 # Links to Resources
 
--   **BBR** : [Biostatistics for Biomedical Research](http://hbiostat.org/doc/bbr.pdf)             
+-   **BBR** : [Biostatistics for Biomedical Research](http://hbiostat.org/bbr)
 -   [Checklist of statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist)
 -   [Measuring change](http://biostat.mc.vanderbilt.edu/MeasureChange) (see also BBR Chapter 14)
--   **RMS** : [Regression Modeling Strategies](http://biostat.mc.vanderbilt.edu/rms) web site
+-   **RMS** : [Regression Modeling
+    Strategies](http://biostat.mc.vanderbilt.edu/rms) web site and
+    text book
 -   **RMS** : [Regression Modeling Strategies](http://hbiostat.org/doc/rms.pdf) course notes          
 -   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
 -   Frank's [publications](https://www.zotero.org/groups/feh/items/q/Harrell)
 -   Frank's [presentations](https://fharrell.com/#talks), also [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
--   Frank's Youtube videos on [Regression Modeling
+-   Frank's YouTube videos on [Regression Modeling
     Strategies](https://www.youtube.com/channel/UC2qvW5vuAZm91-KIV4Y83MQ)
+-   Frank's [BBR YouTube channel](https://www.youtube.com/channel/UC-o_ZZ0tuFUYn8e8rf-QURA)
 -   Frank's _Plenary Session_ Podcast on [Bayesian Statistical Thinking](https://soundcloud.com/plenarysession/206-heart-failure-choosing-a-specialty-the-bayesian-approach-with-dr-frank-harrell)
 -   Frank's [bibliographic database](https://www.zotero.org/groups/feh/items)
 -   [Glossary](http://hbiostat.org/doc/glossary.pdf) of statistical terms
@@ -37,11 +40,7 @@ weight = 90
 -   [datamethods.org](http://datamethods.org)
 -   [stats.stackexchange.com](http://stats.stackexchange.com/)
 -   [R](http://stackoverflow.com/questions/tagged/r)
--   [slack](http://vbiostatcourse.slack.com/) site for discussions about
-    Frank's Regression Modeling Strategies and Master of Science in
-    Clinical Investigation Biostatistics II courses (you can join
-    automatically if your email ends in `vanderbilt.edu`,
-    otherwise you can make a request to join)
+-   [datamethods.org rms topics](https://discourse.datamethods.org/search?q=tags%3Arms)
 
 ## Information About This Blog
 
