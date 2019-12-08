@@ -1,7 +1,7 @@
 +++
 title = "My Journey From Frequentist to Bayesian Statistics"
 date = 2017-02-19
-modified = 2019-11-06
+modified = 2019-12-08
 tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "posterior", "drug-evaluation", "principles", "evidence", "hypothesis-testing", "2017"]
 +++
 
@@ -14,6 +14,8 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  | <small>Far better an <b>approximate</b> answer to the <b>right question</b>, which is often vague, than the <b>exact answer</b> to the <b>wrong question</b>, which can always be made precise -- [John Tukey](https://projecteuclid.org/euclid.aoms/1177704711)</small><br><small><b>Approximate</b>: My prior distribution disagrees with yours, so my posterior probability that the treatment works is 0.02 less than yours (and BTW the p-value from the frequentist analysis is only accurate to ±0.015 in this non-normal case)</small></br><small><b>Right question</b>: Does the treament work more than a trivial amount?</small><br><small><b>Exact answer</b>: Under the simplifying assumption that H<sub>0</sub> is true we can actually compute exact p-values in <sup>1</sup>/<sub>10</sub> of the models we use</small><br><small><b>Wrong question</b>: How surprising is our result if the treatment has no effect at all?</small>
 |  |  |
 |  |  <small>Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design, sampling scheme, and data generating process that were **actually used** and would be infinitely replicated to allow p-values and confidence limits to be computed.</small> |
+|  |  |
+|  |  <small>Those who criticize Bayes for having to choose a prior must remember that the frequentist approach leads to different p-values on the same data depending on how intentions are handled (e.g., observing 6 heads out of 10 tosses vs. having to toss 10 times to observe 6 heads; accounting for earlier inconsequential data looks in sequential testing).</small> |
 |  |  |
 |  |  <small>When was the last time you observed a sampling distribution, empirically and objectively? When was the last time you saw someone justify their choice of a sampling distribution, or tested it? -- [Stephen Martin](https://twitter.com/smartin2018/status/1057500260782800898)</small> |
 |  |  |
