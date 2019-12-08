@@ -15,7 +15,7 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  |  |
 |  |  <small>Any frequentist criticizing the Bayesian paradigm for requiring one to choose a prior distribution must recognize that she has a possibly more daunting task: to completely specify the experimental design, sampling scheme, and data generating process that were **actually used** and would be infinitely replicated to allow p-values and confidence limits to be computed.</small> |
 |  |  |
-|  |  <small>Those who criticize Bayes for having to choose a prior must remember that the frequentist approach leads to different p-values on the same data depending on how intentions are handled (e.g., observing 6 heads out of 10 tosses vs. having to toss 10 times to observe 6 heads; accounting for earlier inconsequential data looks in sequential testing).</small> |
+|  |  <small>Those who criticize Bayes for having to choose a prior must remember that the frequentist approach leads to different p-values on the <b>same data</b> depending on how intentions are handled (e.g., observing 6 heads out of 10 tosses vs. having to toss 10 times to observe 6 heads; accounting for earlier inconsequential data looks in sequential testing).</small> |
 |  |  |
 |  |  <small>When was the last time you observed a sampling distribution, empirically and objectively? When was the last time you saw someone justify their choice of a sampling distribution, or tested it? -- [Stephen Martin](https://twitter.com/smartin2018/status/1057500260782800898)</small> |
 |  |  |
