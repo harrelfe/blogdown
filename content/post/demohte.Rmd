@@ -2,7 +2,7 @@
 title: The Burden of Demonstrating HTE
 author: Frank Harrell
 date: '2019-04-08'
-modified: '2019-05-13'
+modified: '2019-12-25'
 slug: demohte
 categories: []
 tags:
@@ -20,7 +20,7 @@ header:
 ---
 
 ## Background
-Heterogeneity of treatment effect (HTE) is demonstrated by either
+Heterogeneity of treatment effect (HTE) is demonstrated by either 
 
 * showing that there is variation in individuals' responses to treatment using a [multi-period crossover study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5054923), or
 * in a more restricted sense demonstrating an interaction between treatment and patient characteristics on a scale for which it is possible that such interaction may be absent even if the main effect for treatment is nonzero.
@@ -52,6 +52,7 @@ Bayesian models allow for the most clinically sensible as well as practical solu
 
 ## Other Resources
 
+* [Responder despondency: myths of personalized medicine](https://errorstatistics.com/2014/07/26/s-senn-responder-despondency-myths-of-personalized-medicine-guest-post/amp) by Stephen Senn
 * Chapter 9 of [Statistics Issues in Drug Development](https://www.wiley.com/en-us/Statistical+Issues+in+Drug+Development,+2nd+Edition-p-9780470018774) 2nd Edition by Stephen Senn
 
 ------
