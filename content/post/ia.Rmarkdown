@@ -116,6 +116,8 @@ Situations addressed below come from the following 2 × 2 × 2 × 3 combinations
 * overlap in ages between RCT sample and target population (or between treatments in an observational study) is completely absent vs. partial overlap in the age distribution
 * fitted model is linear with no interaction, has a linear interaction, or has a spline function of age interacting with treatment
 
+I'll explore what happens when interaction should be included in a model but is omitted, when an interaction is not needed but is included in the model, and when the interaction is simple but is allowed to be complex.
+
 ```{r setup, echo=FALSE}
 require(rms)
 knitrSet(lang='blogdown')
