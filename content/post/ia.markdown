@@ -4684,10 +4684,10 @@ In a similar vein, observational treatment comparisons can be appropriate if fac
 ----
 # Questions and Discussion
 
-Go [here](http://datamethods.org/t/implications-of-interaction-with-treatment).
+Go [here](http://datamethods.org/t/rct-generalizability-and-interactions-with-treatment).
 
 ----
-# R Code
+# R Code | [Complete Script](https://github.com/harrelfe/blogdown/blob/master/content/post/ia.Rmarkdown)
 
 <details><summary>Code ⮩</summary>
 
