@@ -2,7 +2,7 @@
 title: Implications of Interactions in Treatment Comparisons
 author: Frank Harrell
 date: '2020-03-03'
-modified: ''
+modified: '2020-03-05'
 slug: ia
 categories: []
 tags:
@@ -90,6 +90,8 @@ div.tocify {
 <p class="rquote">
 Transportability of treatment effect estimates depends on the nature of interactions.  In the absence of interactions, an effect estimated on a highly selected sample will apply to a much different population.  In an observational study, the corresponding condition is that there need be no overlap in the baseline distribution of non-interacting factors.  When there is an interaction, one can live with only a small to moderate amount of overlap in characteristics (between randomized vs. population target or between characteristics of treated vs. non-treated patients in an observational study) <b>if</b> the interaction is of a simple form.  With more overlap, interactions can be complex (if modeled) and results from analysis of the sample will allow estimation of treatment effect in a different population.  In the absence of significant overlap, confidence bands allowing for interaction properly inform the researcher about uncertainties in treatment effects.<br><br>Randomized clinical trials do not require representative patients; they require representative treatment effects.  Generalizability of randomized trial findings for relative efficacy comes from one of three things: (1) true absence of interactions, (2) interacting factors have a similar distribution in the RCT as in the target population, or (3) the RCT sample has enough representation of the distribution of interacting factors to allow them to be modeled and used to estimate treatment effects in target patients, and the researcher knows to include these interactions in her model.
 </p>
+
+<b>Note</b>: For shaded boxes marked with ⮩ click on the box to include the associated text.
 
 <details><summary>Table of Contents ⮩</summary>
 <div id="boxes"><div id="leftbox">
