@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2020-02-26
+modified = 2020-03-11
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -102,3 +102,5 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
 * [Your evidence? Machine learning algorithms for medical diagnosis and prediction](https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.24886) by Bert Heinrichs and Simon Eickhoff
 * [Andreessen-Horowitz on AI startups](https://scottlocklin.wordpress.com/2020/02/21/andreessen-horowitz-craps-on-ai-startups-from-a-great-height)
 * [Fair warning](https://reallifemag.com/fair-warning) by Adeba Birhane
+* [Logistic regression was as good as machine learning for predicting
+  major chronic diseases](https://www.jclinepi.com/article/S0895-4356(19)31019-4/abstract) by Nusinovici et al
