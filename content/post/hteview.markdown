@@ -2,7 +2,7 @@
 title: Viewpoints on Heterogeneity of Treatment Effect and Precision Medicine
 author: Frank Harrell
 date: '2018-06-04'
-modified: '2019-12-08'
+modified: '2020-03-12'
 slug: hteview
 categories: []
 tags:
@@ -160,6 +160,7 @@ For continuous outcome variables Y where the variance of measurements can be dis
 * [The efficacy and heterogeneity of antipsychotic response in schizophrenia: A meta-analysis](https://www.nature.com/articles/s41380-019-0502-5) by McCutcheon et al.
 * [What are the chances for personalized treatment with depression?](https://osf.io/2cqmf) by Plöderl and Hengartner
 * [Does evidence support the high expectations placed in precision medicine? A bibliographic review](https://f1000research.com/articles/7-30) by Cortés et al.
+* [Detecting heterogeneity of intervention effects using analysis and meta-analysis of differences in variance between arms of a trial](https://www.medrxiv.org/content/10.1101/2020.03.07.20032516v1) by Mills et al
 
 # Other Useful Links
 *  [Statistical pitfalls of personalized medicine](https://www.nature.com/articles/d41586-018-07535-2) by Stephen Senn
