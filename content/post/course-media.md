@@ -1,7 +1,7 @@
 +++
 title = "Integrating Audio, Video, and Discussion Boards with Course Notes"
 date = 2017-08-01T10:12:00Z
-updated = 2017-08-02T06:06:57Z
+updated = 2020-03-16
 tags = ["collaboration", "teaching", "r", "reproducible", "2017"]
 +++
 As a biostatistics teacher I've spent a lot of time thinking about inverting
@@ -11,12 +11,12 @@ This typically entails recording the computer screen while going through
 slides, adding a voiceover. I realized that the maintenance of such
 videos is difficult, and this also creates a barrier to adding new
 content. In addition, the quality of the video image is lower than just
-having the student use a pdf viewer on the original notes. For those
+having the student use a pdf viewer on the original notes (**Plea for help**: does anyone know of a way to create html files with audio where slides are "self-advancing" and synchronization with audio is maintained?). For those
 reasons I decided to create audio narration for the sections in the
 notes to largely capture what I would say during a live lecture. The
 audio `mp3` files are stored on a local server and are streamed on
 demand when a study clicks on the audio icon in a section of the notes.
-The audio recordings can also be downloaded one-at-a-time or in a batch.
+The audio recordings can also be downloaded one-at-a-time or in a batch. (**Note**: I have given in to mostly producing traditional YouTube videos but would still like to find a better approach).
 
 The notes themselves are created using `LaTeX, R`, and `knitr` using a
 `LaTeX` style I created that is a compromise format between projecting
