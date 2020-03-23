@@ -1,7 +1,7 @@
 +++
 title = "EHRs and RCTs:  Outcome Prediction vs. Optimal Treatment Selection"
 date = 2017-06-01
-modified = 2018-05-14
+modified = 2020-03-23
 tags = ["prediction", "generalizability", "drug-evaluation", "evidence", "subgroup", "EHR", "design", "medicine", "inference", "big-data", "RCT", "personalized-medicine", "2017"]
 +++
 
@@ -253,3 +253,4 @@ the following steps:
 ## Further Reading
 * [Large-scale comparison](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf) of causal inference from observational data vs. randomized trials
   * Found that estimates from observational data do not accurately capture true effect sizes for advertising interventions
+* [The magic of randomization versus the myth of real-world evidence](https://www.nejm.org/doi/full/10.1056/NEJMsb1901642) by Collins et al

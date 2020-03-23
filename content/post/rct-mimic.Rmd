@@ -12,7 +12,7 @@ tags:
 - personalized-medicine
 - evidence
 - 2017
-modified: '2018-06-15'
+modified: '2020-03-23'
 ---
 <p class='rquote'>
 What clinicians learn from clinical practice, unless they routinely do n-of-one studies, is based on comparisons of unlikes.  Then they criticize like-vs-like comparisons from randomized trials for not being generalizable.  This is made worse by not understanding that clinical trials are designed to estimate relative efficacy, and relative efficacy is surprisingly transportable.
@@ -116,3 +116,7 @@ but it is not a stretch to say that the chief advantage of pragmatic
 trials is not that they provide results that are more relevant to
 clinical practice but that they are cheaper and faster than traditional
 randomized trials.
+
+## Further Reading
+
+* [The magic of randomization versus the myth of real-world evidence](https://www.nejm.org/doi/full/10.1056/NEJMsb1901642) by Collins et al
