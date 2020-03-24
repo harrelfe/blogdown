@@ -2,7 +2,7 @@
 title: 'Continuous Learning from Data: No Multiplicities from Computing and Using Bayesian Posterior Probabilities as Often as Desired'
 author: 'Frank Harrell'
 date: 2017-10-09
-modified: 2019-09-01
+modified: 2020-03-24
 slug: bayes-seq
 tags:
   - bayes
@@ -16,7 +16,7 @@ tags:
 until a point has been proven or disproven, or until the data collector
 runs out of time, money, or patience.<br>— <a href="http://psycnet.apa.org/doi/10.1037/h0044139">Edwards, Lindman, Savage (1963)</a>
 <br><br>
-Imagine that the military has developed a pattern recognition algorithm to determine whether a distant object is a tank.  Initially an image results in an 0.8 probability of the object being a tank.  The object moves closer and some fog clears.  The probability is now 0.9, and the 0.8 has become completely irrelevant.  Contrast with a frequentist way of thinking: Of all the times a tested object wasn't a tank, the probability of acquiring tank-like image characteristics at some point grows with the number of images acquired.  Analogously, with multiple data looks in a clinical trial where there is no treatment effect, the probability of having extreme data at some point grows with the number of looks.  This affects type I error but not the true chance that the treatment works.
+Imagine that the military has developed a pattern recognition algorithm to determine whether a distant object is a tank. Initially an image results in an 0.8 probability of the object being a tank. The object moves closer and some fog clears. The probability is now 0.9, and the 0.8 has become completely irrelevant. Contrast with a frequentist way of thinking: Of all the times a tested object wasn't a tank, the probability of acquiring tank-like image characteristics at some point grows with the number of images acquired.   The frequency of image acquisition (data looks) and the image sampling design alter the probability of finding a tank-like image, but that way of looking at the problem is divorced from the real-time decision to be made based on current cumulative data.  An earlier tank image is of no interest once a later, clearer image has been acquired.  Analogously, with multiple data looks in a clinical trial where there is no treatment effect, the probability of having extreme data at some point grows with the number of looks. This affects type I error but not the true chance that the treatment works.  Traditional statistics has multiplicity issues arising from giving more than one chance for data to be extreme (by taking more than one look at the data).
 </p>
 
 # Introduction
@@ -372,9 +372,9 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
 
 # Computing Environment
 <!--html_preserve--><pre>
- R version 3.6.1 (2019-07-05)
+ R version 3.6.3 (2020-02-29)
  Platform: x86_64-pc-linux-gnu (64-bit)
- Running under: Ubuntu 19.04
+ Running under: Pop!_OS 19.10
  
  Matrix products: default
  BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.8.0
@@ -389,11 +389,11 @@ Berry[@ber87int], Edwards, Lindman and Savage[@edw63bay]
  [1] stats     graphics  grDevices utils     datasets  methods   base     
  
  other attached packages:
- [1] rms_5.1-4         SparseM_1.77      Hmisc_4.2-1       ggplot2_3.2.1    
- [5] Formula_1.2-3     survival_2.44-1.1 lattice_0.20-38  
+ [1] rms_5.1-5       SparseM_1.78    Hmisc_4.4-0     ggplot2_3.3.0  
+ [5] Formula_1.2-3   survival_3.1-11 lattice_0.20-40
  </pre>
  To cite R in publication use:
- <p>R Core Team (2019).
+ <p>R Core Team (2020).
  <em>R: A Language and Environment for Statistical Computing</em>.
  R Foundation for Statistical Computing, Vienna, Austria.
  <a href="https://www.R-project.org/">https://www.R-project.org/</a>. 
