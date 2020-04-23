@@ -4,8 +4,7 @@ date = 2020-04-23  # Schedule page publish date.
 title = "Casual Inference Podcast"
 time_start = "2020-02-26"
 time_end   = "2020-02-26"
-abstract = "This interview by Ellie Murray and Lucy D'Agostino McGowan
-for their <i>Causual Inference</i> podcast is titled <i>Getting Bayesian</i>"
+abstract = "This interview by Ellie Murray and Lucy D'Agostino McGowan for their <i>Causual Inference</i> podcast is titled <i>Getting Bayesian</i>"
 abstract_short = ""
 event = "Casual Inference Podcast"
 event_url = "http://casualinfer.libsyn.com/frank-harrell?tdest_id=1654928"
