@@ -34,7 +34,7 @@ tags = ["inference", "p-value", "likelihood", "RCT", "bayes", "multiplicity", "p
 |  |  |
 |  | <small>Someone demanding that a Bayesian procedure preserve type I error, e.g. that P(posterior probability of positive effect > 0.95 given no effect) ≤ α, should be demanded to show their frequentist procedure yields decisons as good as those driven by the Bayesian P(effect > 0 given data, prior).</small> |
 |  |  | 
-|  |  <small>A paradigm that cannot <b>compute</b> the probability that a treatment works cannot <b>control</b> the probability of making a decision error, e.g., the probability that a treatment actually doesn't work given that act as though it does.</small> |
+|  |  <small>A paradigm that cannot <b>compute</b> the probability that a treatment works cannot <b>control</b> the probability of making a decision error, e.g., the probability that a treatment actually doesn't work when you act as though it does.</small> |
 
 If I had been taught Bayesian modeling before being taught the
 frequentist paradigm, I'm sure I would have always been a Bayesian.  I
