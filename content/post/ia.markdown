@@ -2,7 +2,7 @@
 title: Implications of Interactions in Treatment Comparisons
 author: Frank Harrell
 date: '2020-03-03'
-modified: '2020-03-05'
+modified: '2020-05-11'
 slug: ia
 categories: []
 tags:
@@ -791,7 +791,7 @@ Age distributions in the target population as compared to the RCT sample are sho
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>γ 0.394</td>
 </tr>
 <tr>
-<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 2×10<sup>-11</sup></td>
+<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 4×10<sup>-12</sup></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'><i>g</i><sub>p</sub> 0.148</td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>τ<sub>a</sub> 0.149</td>
@@ -942,7 +942,7 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>γ 0.394</td>
 </tr>
 <tr>
-<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 7×10<sup>-12</sup></td>
+<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 6×10<sup>-12</sup></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'><i>g</i><sub>p</sub> 0.147</td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>τ<sub>a</sub> 0.149</td>
@@ -1695,7 +1695,7 @@ Because of the more limited age range in the trial there was insufficient power 
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>γ 0.404</td>
 </tr>
 <tr>
-<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 6×10<sup>-13</sup></td>
+<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 4×10<sup>-13</sup></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'><i>g</i><sub>p</sub> 0.161</td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>τ<sub>a</sub> 0.161</td>
@@ -2856,7 +2856,7 @@ With no age overlap, the treatment by age interaction is estimated very ineffici
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>γ 0.234</td>
 </tr>
 <tr>
-<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 5×10<sup>-12</sup></td>
+<td style='min-width: 9em; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'>max |∂log <i>L</i>/∂β| 4×10<sup>-12</sup></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'></td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'><i>g</i><sub>p</sub> 0.072</td>
 <td style='min-width: 9em; border-right: 1px solid black; text-align: center;'>τ<sub>a</sub> 0.072</td>
@@ -4684,6 +4684,11 @@ Extrapolated treatment effect estimates are so-so.
 With respect to relative efficacy (or both relative and absolute efficacy for continuous repsonse variables), clinical trials do not require having a representative sample of the target clinical population if there are no interactions with treatment.  If there are interactions, let M denote the levels of interacting factors that are well represented in the target population.  In our examples, M represents younger patients.  Even with interaction present, the randomized trial still does not need to be on a representative patient sample if either (1) the trial sample <em>is</em> representative with respect to M (in which case omitting interactions from the model is not fatal), or (2) there is just enough representation in the sample with respect to M,  and those interacting factors are appropriately modeled in the randomized trial.  Unless M is richly represented in the trial, using statistical testing to decide on which interactions to include in the model is not advised, due to low power of such interaction tests.  Suspected interactions, even statistically weak ones, should be included in the model when some degree of extrapolation is sought.  When M is very poorly represented in the trial, extrapolation to the target population makes strong model assumptions.  Thankfully confidence intervals for extrapolated efficacy estimates will be properly wide to reflect the weak basis for such extrapolation.
 
 In a similar vein, observational treatment comparisons can be appropriate if factors that do not overlap between treatment groups do not interact with treatment.  So a key to understanding both overlap and clinical trial generalizability is interactions.
+
+----
+# Further Reading
+
+* [Treatment effects may remain the same even when trial participants differed from the target population](https://www.jclinepi.com/article/S0895-4356(19)30818-2/pdf) by MJ Bradburn et al.
 
 ----
 # Questions and Discussion

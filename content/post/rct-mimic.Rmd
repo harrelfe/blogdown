@@ -12,7 +12,7 @@ tags:
 - personalized-medicine
 - evidence
 - 2017
-modified: '2020-03-23'
+modified: '2020-05-11'
 ---
 <p class='rquote'>
 What clinicians learn from clinical practice, unless they routinely do n-of-one studies, is based on comparisons of unlikes.  Then they criticize like-vs-like comparisons from randomized trials for not being generalizable.  This is made worse by not understanding that clinical trials are designed to estimate relative efficacy, and relative efficacy is surprisingly transportable.
@@ -120,3 +120,4 @@ randomized trials.
 ## Further Reading
 
 * [The magic of randomization versus the myth of real-world evidence](https://www.nejm.org/doi/full/10.1056/NEJMsb1901642) by Collins et al
+* [Treatment effects may remain the same even when trial participants differed from the target population](https://www.jclinepi.com/article/S0895-4356(19)30818-2/pdf) by MJ Bradburn et al.
