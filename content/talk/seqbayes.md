@@ -21,7 +21,7 @@ selected = true
 url_pdf = ""
 url_slides = "https://hbiostat.org/proj/covid19"
 url_video = "https://youtu.be/V-XTT8HPEpw"
-url_code = "https:hbiostat.org/R/rms/blrm.html"
+url_code = "https://hbiostat.org/R/rms/blrm.html"
 
 # Does the content use math formatting?
 math = true
