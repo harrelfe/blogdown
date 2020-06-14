@@ -4,19 +4,18 @@ active = true
 title = "Links"
 subtitle = ""
 date = "2018-07-07"
-modified = "2019-12-03"
+modified = "2020-06-14"
 weight = 90
 +++
 # Links to Resources
 
 -   **BBR** : [Biostatistics for Biomedical Research](http://hbiostat.org/bbr)
--   [Checklist of statistical problems to avoid](http://biostat.mc.vanderbilt.edu/ManuscriptChecklist)
--   [Measuring change](http://biostat.mc.vanderbilt.edu/MeasureChange) (see also BBR Chapter 14)
--   **RMS** : [Regression Modeling
-    Strategies](http://biostat.mc.vanderbilt.edu/rms) web site and
+-   [Checklist of statistical problems to avoid](https://discourse.datamethods.org/t/author-checklist)
+-   [Measuring change](https://hbiostat.org/bbr/md/change.html)
+-   **RMS** : [Regression Modeling Strategies](https://hbiostat.org/doc/rms) web site and
     text book
 -   **RMS** : [Regression Modeling Strategies](http://hbiostat.org/doc/rms.pdf) course notes          
--   Frank Harrell's [complete biography](http://biostat.mc.vanderbilt.edu/FrankHarrell)
+-   Frank Harrell's [complete biography](https://hbiostat.org/fh)
 -   Frank's [publications](https://www.zotero.org/groups/feh/items/q/Harrell)
 -   Frank's [presentations](https://fharrell.com/#talks), also [here](http://hbiostat.org/talks) and [archive](http://biostat.mc.vanderbilt.edu/FHHandouts)
 -   Frank's YouTube videos on [Regression Modeling
@@ -27,12 +26,12 @@ weight = 90
 -   [Glossary](http://hbiostat.org/doc/glossary.pdf) of statistical terms
 -   Frank's [postings](http://stats.stackexchange.com/users/4253) on
     `stackexchange`
--   Frank's [recommended computing/editing tools](http://biostat.mc.vanderbilt.edu/FHTools)
+-   Frank's [recommended computing/editing tools](https://hbiostat.org/fh/tools.html)
 -   Andrew Gelman's [blog](http://andrewgelman.com/)
 
 ## R Packages
--   [Hmisc](http://biostat.mc.vanderbilt.edu/Hmisc)
--   [rms](http://biostat.mc.vanderbilt.edu/Rrms)
+-   [Hmisc](https://hbiostat.org/R/Hmisc)
+-   [rms](https://hbiostat.org/R/rms)
 -   [Graphical reporting for clinical trials](http://biostat.mc.vanderbilt.edu/RCTGraphics)
 
 ## Discussion Boards
