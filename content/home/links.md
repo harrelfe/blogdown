@@ -9,6 +9,9 @@ weight = 90
 +++
 # Links to Resources
 
+See [hbiostat.org](https://hbiostat.org) for more up to date
+information.
+
 -   **BBR** : [Biostatistics for Biomedical Research](http://hbiostat.org/bbr)
 -   [Checklist of statistical problems to avoid](https://discourse.datamethods.org/t/author-checklist)
 -   [Measuring change](https://hbiostat.org/bbr/md/change.html)
