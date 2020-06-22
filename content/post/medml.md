@@ -1,7 +1,7 @@
 +++
 title = "Is Medicine Mesmerized by Machine Learning?"
 date = 2018-02-01
-modified = 2020-03-11
+modified = 2020-06-22
 tags = ["machine-learning", "accuracy-score", "classification", "data-science", "decision-making", "medicine", "prediction", "validation", "2018"]
 summary = "Deep learning and other forms of machine learning are getting a lot of press in medicine.  The reality doesn't match the hype, and interpretable statistical models still have a lot to offer."
 +++
@@ -75,6 +75,10 @@ In the rush to use ML and large EHR databases to accelerate learning from data, 
   decisions and use interpretable models
   instead](https://www.nature.com/articles/s42256-019-0048-x) by
   Cynthia Rudin
+* [Why are we using black box models in AI when we don't need to?  A
+  lesson from an explainable AI
+  competition](https://hdsr.mitpress.mit.edu/pub/f9kuryi8/release/5)
+  by Cynthia Rudin and Joanna Radin
 * [Artificial intelligence could revolutionize medical care.  But
   don't trust it to read your x-ray just yet](https://www.sciencemag.org/news/2019/06/artificial-intelligence-could-revolutionize-medical-care-don-t-trust-it-read-your-x-ray)
   by Jennifer Couzin-Frankel
