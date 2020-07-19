@@ -2,7 +2,7 @@
 title: Implications of Interactions in Treatment Comparisons
 author: Frank Harrell
 date: '2020-03-03'
-modified: '2020-05-11'
+modified: '2020-07-19'
 slug: ia
 categories: []
 tags:
@@ -443,6 +443,7 @@ In a similar vein, observational treatment comparisons can be appropriate if fac
 ----
 # Further Reading
 
+* [Why representativeness should be avoided](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3888189) by Rothman, Gallacher, and Hatch
 * [Treatment effects may remain the same even when trial participants differed from the target population](https://www.jclinepi.com/article/S0895-4356(19)30818-2/pdf) by MJ Bradburn et al.
 
 ----

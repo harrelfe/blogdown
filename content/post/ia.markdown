@@ -2,7 +2,7 @@
 title: Implications of Interactions in Treatment Comparisons
 author: Frank Harrell
 date: '2020-03-03'
-modified: '2020-05-11'
+modified: '2020-07-19'
 slug: ia
 categories: []
 tags:
@@ -172,10 +172,10 @@ Age distributions in the target population as compared to the RCT sample are sho
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -216,30 +216,30 @@ Age distributions in the target population as compared to the RCT sample are sho
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.3508</td>
 <td style='min-width: 7em; text-align: right;'> 0.4387</td>
 <td style='min-width: 7em; text-align: right;'> -9.92</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.0992</td>
 <td style='min-width: 7em; text-align: right;'> 0.0959</td>
 <td style='min-width: 7em; text-align: right;'>-11.46</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0674</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0074</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  9.05</td>
@@ -256,10 +256,10 @@ Age distributions in the target population as compared to the RCT sample are sho
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -327,10 +327,10 @@ Extrapolation to the younger population is fine even with no younger patients in
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -371,37 +371,37 @@ Extrapolation to the younger population is fine even with no younger patients in
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.2193</td>
 <td style='min-width: 7em; text-align: right;'> 0.5852</td>
 <td style='min-width: 7em; text-align: right;'>-7.21</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.3998</td>
 <td style='min-width: 7em; text-align: right;'> 0.8939</td>
 <td style='min-width: 7em; text-align: right;'>-1.57</td>
 <td style='min-width: 7em; text-align: right;'>0.1174</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0652</td>
 <td style='min-width: 7em; text-align: right;'> 0.0100</td>
 <td style='min-width: 7em; text-align: right;'> 6.53</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0051</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0150</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.34</td>
@@ -418,10 +418,10 @@ Extrapolation to the younger population is fine even with no younger patients in
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -509,10 +509,10 @@ Now see what happens when age is unnecessarily allowed to have a nonlinear non-a
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -553,65 +553,65 @@ Now see what happens when age is unnecessarily allowed to have a nonlinear non-a
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -3.0988</td>
 <td style='min-width: 7em; text-align: right;'> 1.2779</td>
 <td style='min-width: 7em; text-align: right;'>-2.42</td>
 <td style='min-width: 7em; text-align: right;'>0.0153</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.3609</td>
 <td style='min-width: 7em; text-align: right;'> 2.0910</td>
 <td style='min-width: 7em; text-align: right;'>-0.65</td>
 <td style='min-width: 7em; text-align: right;'>0.5151</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0445</td>
 <td style='min-width: 7em; text-align: right;'> 0.0231</td>
 <td style='min-width: 7em; text-align: right;'> 1.93</td>
 <td style='min-width: 7em; text-align: right;'>0.0542</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'>  0.2124</td>
 <td style='min-width: 7em; text-align: right;'> 0.2213</td>
 <td style='min-width: 7em; text-align: right;'> 0.96</td>
 <td style='min-width: 7em; text-align: right;'>0.3372</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age''</td>
+<td style='min-width: 7em; text-align: left;'>age''</td>
 <td style='min-width: 7em; text-align: right;'> -0.4384</td>
 <td style='min-width: 7em; text-align: right;'> 0.4906</td>
 <td style='min-width: 7em; text-align: right;'>-0.89</td>
 <td style='min-width: 7em; text-align: right;'>0.3716</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0043</td>
 <td style='min-width: 7em; text-align: right;'> 0.0376</td>
 <td style='min-width: 7em; text-align: right;'> 0.11</td>
 <td style='min-width: 7em; text-align: right;'>0.9087</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; text-align: right;'>  0.0067</td>
 <td style='min-width: 7em; text-align: right;'> 0.3136</td>
 <td style='min-width: 7em; text-align: right;'> 0.02</td>
 <td style='min-width: 7em; text-align: right;'>0.9829</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.0141</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.6574</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>-0.02</td>
@@ -628,10 +628,10 @@ Now see what happens when age is unnecessarily allowed to have a nonlinear non-a
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -765,10 +765,10 @@ Age distributions in the target population as compared to the RCT sample are sho
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -809,30 +809,30 @@ Age distributions in the target population as compared to the RCT sample are sho
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.4121</td>
 <td style='min-width: 7em; text-align: right;'> 0.2941</td>
 <td style='min-width: 7em; text-align: right;'>-15.00</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.0470</td>
 <td style='min-width: 7em; text-align: right;'> 0.0846</td>
 <td style='min-width: 7em; text-align: right;'>-12.38</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0682</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0052</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 13.04</td>
@@ -849,10 +849,10 @@ Age distributions in the target population as compared to the RCT sample are sho
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -960,37 +960,37 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.6606</td>
 <td style='min-width: 7em; text-align: right;'> 0.3849</td>
 <td style='min-width: 7em; text-align: right;'>-12.11</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -0.4360</td>
 <td style='min-width: 7em; text-align: right;'> 0.6056</td>
 <td style='min-width: 7em; text-align: right;'> -0.72</td>
 <td style='min-width: 7em; text-align: right;'>0.4715</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0726</td>
 <td style='min-width: 7em; text-align: right;'> 0.0069</td>
 <td style='min-width: 7em; text-align: right;'> 10.56</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.0108</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0106</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -1.02</td>
@@ -1007,10 +1007,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -1092,10 +1092,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -1136,65 +1136,65 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.7933</td>
 <td style='min-width: 7em; text-align: right;'> 0.5949</td>
 <td style='min-width: 7em; text-align: right;'>-8.06</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  0.6350</td>
 <td style='min-width: 7em; text-align: right;'> 0.9700</td>
 <td style='min-width: 7em; text-align: right;'> 0.65</td>
 <td style='min-width: 7em; text-align: right;'>0.5127</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0752</td>
 <td style='min-width: 7em; text-align: right;'> 0.0113</td>
 <td style='min-width: 7em; text-align: right;'> 6.67</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'> -0.0274</td>
 <td style='min-width: 7em; text-align: right;'> 0.1673</td>
 <td style='min-width: 7em; text-align: right;'>-0.16</td>
 <td style='min-width: 7em; text-align: right;'>0.8699</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age''</td>
+<td style='min-width: 7em; text-align: left;'>age''</td>
 <td style='min-width: 7em; text-align: right;'>  0.0392</td>
 <td style='min-width: 7em; text-align: right;'> 0.4011</td>
 <td style='min-width: 7em; text-align: right;'> 0.10</td>
 <td style='min-width: 7em; text-align: right;'>0.9221</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'> -0.0319</td>
 <td style='min-width: 7em; text-align: right;'> 0.0183</td>
 <td style='min-width: 7em; text-align: right;'>-1.74</td>
 <td style='min-width: 7em; text-align: right;'>0.0820</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; text-align: right;'>  0.2854</td>
 <td style='min-width: 7em; text-align: right;'> 0.2321</td>
 <td style='min-width: 7em; text-align: right;'> 1.23</td>
 <td style='min-width: 7em; text-align: right;'>0.2188</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.5634</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.5254</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>-1.07</td>
@@ -1211,10 +1211,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -1338,10 +1338,10 @@ Next turn to the case where the true data generating model has a linear treatmen
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -1382,30 +1382,30 @@ Next turn to the case where the true data generating model has a linear treatmen
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -3.8181</td>
 <td style='min-width: 7em; text-align: right;'> 0.4509</td>
 <td style='min-width: 7em; text-align: right;'> -8.47</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.4027</td>
 <td style='min-width: 7em; text-align: right;'> 0.1020</td>
 <td style='min-width: 7em; text-align: right;'>-13.76</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0583</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0077</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  7.61</td>
@@ -1422,10 +1422,10 @@ Next turn to the case where the true data generating model has a linear treatmen
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -1489,10 +1489,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -1533,37 +1533,37 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.2193</td>
 <td style='min-width: 7em; text-align: right;'> 0.5852</td>
 <td style='min-width: 7em; text-align: right;'>-7.21</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -0.3879</td>
 <td style='min-width: 7em; text-align: right;'> 0.9367</td>
 <td style='min-width: 7em; text-align: right;'>-0.41</td>
 <td style='min-width: 7em; text-align: right;'>0.6788</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0652</td>
 <td style='min-width: 7em; text-align: right;'> 0.0100</td>
 <td style='min-width: 7em; text-align: right;'> 6.53</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.0171</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0157</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>-1.09</td>
@@ -1580,10 +1580,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -1669,10 +1669,10 @@ Because of the more limited age range in the trial there was insufficient power 
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -1713,65 +1713,65 @@ Because of the more limited age range in the trial there was insufficient power 
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -3.0988</td>
 <td style='min-width: 7em; text-align: right;'> 1.2779</td>
 <td style='min-width: 7em; text-align: right;'>-2.42</td>
 <td style='min-width: 7em; text-align: right;'>0.0153</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  0.1305</td>
 <td style='min-width: 7em; text-align: right;'> 2.1946</td>
 <td style='min-width: 7em; text-align: right;'> 0.06</td>
 <td style='min-width: 7em; text-align: right;'>0.9526</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0445</td>
 <td style='min-width: 7em; text-align: right;'> 0.0231</td>
 <td style='min-width: 7em; text-align: right;'> 1.93</td>
 <td style='min-width: 7em; text-align: right;'>0.0542</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'>  0.2124</td>
 <td style='min-width: 7em; text-align: right;'> 0.2213</td>
 <td style='min-width: 7em; text-align: right;'> 0.96</td>
 <td style='min-width: 7em; text-align: right;'>0.3372</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age''</td>
+<td style='min-width: 7em; text-align: left;'>age''</td>
 <td style='min-width: 7em; text-align: right;'> -0.4384</td>
 <td style='min-width: 7em; text-align: right;'> 0.4906</td>
 <td style='min-width: 7em; text-align: right;'>-0.89</td>
 <td style='min-width: 7em; text-align: right;'>0.3716</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'> -0.0267</td>
 <td style='min-width: 7em; text-align: right;'> 0.0396</td>
 <td style='min-width: 7em; text-align: right;'>-0.68</td>
 <td style='min-width: 7em; text-align: right;'>0.4996</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; text-align: right;'>  0.0955</td>
 <td style='min-width: 7em; text-align: right;'> 0.3313</td>
 <td style='min-width: 7em; text-align: right;'> 0.29</td>
 <td style='min-width: 7em; text-align: right;'>0.7731</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.1934</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.6939</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>-0.28</td>
@@ -1788,10 +1788,10 @@ Because of the more limited age range in the trial there was insufficient power 
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -1911,10 +1911,10 @@ Sticking with the true treatment effect interacting with age, we generate data w
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -1955,30 +1955,30 @@ Sticking with the true treatment effect interacting with age, we generate data w
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -3.7735</td>
 <td style='min-width: 7em; text-align: right;'> 0.2939</td>
 <td style='min-width: 7em; text-align: right;'>-12.84</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.2305</td>
 <td style='min-width: 7em; text-align: right;'> 0.0876</td>
 <td style='min-width: 7em; text-align: right;'>-14.04</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0566</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0052</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 10.80</td>
@@ -1995,10 +1995,10 @@ Sticking with the true treatment effect interacting with age, we generate data w
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -2062,10 +2062,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -2106,37 +2106,37 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.6606</td>
 <td style='min-width: 7em; text-align: right;'> 0.3849</td>
 <td style='min-width: 7em; text-align: right;'>-12.11</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  1.0820</td>
 <td style='min-width: 7em; text-align: right;'> 0.6129</td>
 <td style='min-width: 7em; text-align: right;'>  1.77</td>
 <td style='min-width: 7em; text-align: right;'>0.0775</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0726</td>
 <td style='min-width: 7em; text-align: right;'> 0.0069</td>
 <td style='min-width: 7em; text-align: right;'> 10.56</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.0412</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0109</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -3.79</td>
@@ -2153,10 +2153,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -2242,10 +2242,10 @@ The amount of interaction estimated from the larger older sample extrapolated we
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -2286,65 +2286,65 @@ The amount of interaction estimated from the larger older sample extrapolated we
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.7933</td>
 <td style='min-width: 7em; text-align: right;'> 0.5949</td>
 <td style='min-width: 7em; text-align: right;'>-8.06</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  2.5181</td>
 <td style='min-width: 7em; text-align: right;'> 0.9368</td>
 <td style='min-width: 7em; text-align: right;'> 2.69</td>
 <td style='min-width: 7em; text-align: right;'>0.0072</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0752</td>
 <td style='min-width: 7em; text-align: right;'> 0.0113</td>
 <td style='min-width: 7em; text-align: right;'> 6.67</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'> -0.0274</td>
 <td style='min-width: 7em; text-align: right;'> 0.1673</td>
 <td style='min-width: 7em; text-align: right;'>-0.16</td>
 <td style='min-width: 7em; text-align: right;'>0.8699</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age''</td>
+<td style='min-width: 7em; text-align: left;'>age''</td>
 <td style='min-width: 7em; text-align: right;'>  0.0392</td>
 <td style='min-width: 7em; text-align: right;'> 0.4011</td>
 <td style='min-width: 7em; text-align: right;'> 0.10</td>
 <td style='min-width: 7em; text-align: right;'>0.9221</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'> -0.0698</td>
 <td style='min-width: 7em; text-align: right;'> 0.0179</td>
 <td style='min-width: 7em; text-align: right;'>-3.91</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; text-align: right;'>  0.4148</td>
 <td style='min-width: 7em; text-align: right;'> 0.2398</td>
 <td style='min-width: 7em; text-align: right;'> 1.73</td>
 <td style='min-width: 7em; text-align: right;'>0.0836</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age''</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.8163</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.5469</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>-1.49</td>
@@ -2361,10 +2361,10 @@ The amount of interaction estimated from the larger older sample extrapolated we
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -2507,10 +2507,10 @@ Age distributions in the observed treatment groups are shown below.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -2551,30 +2551,30 @@ Age distributions in the observed treatment groups are shown below.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.5743</td>
 <td style='min-width: 7em; text-align: right;'> 0.3532</td>
 <td style='min-width: 7em; text-align: right;'>-12.95</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.0283</td>
 <td style='min-width: 7em; text-align: right;'> 0.1608</td>
 <td style='min-width: 7em; text-align: right;'> -6.40</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0714</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0080</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  8.96</td>
@@ -2591,10 +2591,10 @@ Age distributions in the observed treatment groups are shown below.
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -2656,10 +2656,10 @@ The model-based covariate adjustment provided the correct estimate of the treatm
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -2700,37 +2700,37 @@ The model-based covariate adjustment provided the correct estimate of the treatm
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.2550</td>
 <td style='min-width: 7em; text-align: right;'> 0.5399</td>
 <td style='min-width: 7em; text-align: right;'>-7.88</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.6471</td>
 <td style='min-width: 7em; text-align: right;'> 0.8237</td>
 <td style='min-width: 7em; text-align: right;'>-2.00</td>
 <td style='min-width: 7em; text-align: right;'>0.0455</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0641</td>
 <td style='min-width: 7em; text-align: right;'> 0.0124</td>
 <td style='min-width: 7em; text-align: right;'> 5.19</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0124</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0161</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.77</td>
@@ -2747,10 +2747,10 @@ The model-based covariate adjustment provided the correct estimate of the treatm
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -2830,10 +2830,10 @@ With no age overlap, the treatment by age interaction is estimated very ineffici
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -2874,51 +2874,51 @@ With no age overlap, the treatment by age interaction is estimated very ineffici
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -5.0833</td>
 <td style='min-width: 7em; text-align: right;'> 0.9349</td>
 <td style='min-width: 7em; text-align: right;'>-5.44</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  0.4348</td>
 <td style='min-width: 7em; text-align: right;'> 7.1719</td>
 <td style='min-width: 7em; text-align: right;'> 0.06</td>
 <td style='min-width: 7em; text-align: right;'>0.9517</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0868</td>
 <td style='min-width: 7em; text-align: right;'> 0.0241</td>
 <td style='min-width: 7em; text-align: right;'> 3.60</td>
 <td style='min-width: 7em; text-align: right;'>0.0003</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'> -0.1233</td>
 <td style='min-width: 7em; text-align: right;'> 0.1090</td>
 <td style='min-width: 7em; text-align: right;'>-1.13</td>
 <td style='min-width: 7em; text-align: right;'>0.2580</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'> -0.0361</td>
 <td style='min-width: 7em; text-align: right;'> 0.1482</td>
 <td style='min-width: 7em; text-align: right;'>-0.24</td>
 <td style='min-width: 7em; text-align: right;'>0.8073</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.1420</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.1520</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.93</td>
@@ -2935,10 +2935,10 @@ With no age overlap, the treatment by age interaction is estimated very ineffici
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -3066,10 +3066,10 @@ Age distributions in the observed treatment groups are shown below.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -3110,30 +3110,30 @@ Age distributions in the observed treatment groups are shown below.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.8959</td>
 <td style='min-width: 7em; text-align: right;'> 0.3443</td>
 <td style='min-width: 7em; text-align: right;'>-14.22</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.0104</td>
 <td style='min-width: 7em; text-align: right;'> 0.1787</td>
 <td style='min-width: 7em; text-align: right;'> -5.65</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0769</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0061</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 12.53</td>
@@ -3150,10 +3150,10 @@ Age distributions in the observed treatment groups are shown below.
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -3211,10 +3211,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -3255,37 +3255,37 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.8638</td>
 <td style='min-width: 7em; text-align: right;'> 0.3512</td>
 <td style='min-width: 7em; text-align: right;'>-13.85</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -1.6044</td>
 <td style='min-width: 7em; text-align: right;'> 1.3432</td>
 <td style='min-width: 7em; text-align: right;'> -1.19</td>
 <td style='min-width: 7em; text-align: right;'>0.2323</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0763</td>
 <td style='min-width: 7em; text-align: right;'> 0.0063</td>
 <td style='min-width: 7em; text-align: right;'> 12.18</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0141</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0314</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.45</td>
@@ -3302,10 +3302,10 @@ Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -3385,10 +3385,10 @@ The confidence bands are correctly registering that there is little information 
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -3429,51 +3429,51 @@ The confidence bands are correctly registering that there is little information 
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -6.2165</td>
 <td style='min-width: 7em; text-align: right;'> 1.3037</td>
 <td style='min-width: 7em; text-align: right;'>-4.77</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  0.2424</td>
 <td style='min-width: 7em; text-align: right;'> 2.3347</td>
 <td style='min-width: 7em; text-align: right;'> 0.10</td>
 <td style='min-width: 7em; text-align: right;'>0.9173</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.1058</td>
 <td style='min-width: 7em; text-align: right;'> 0.0280</td>
 <td style='min-width: 7em; text-align: right;'> 3.78</td>
 <td style='min-width: 7em; text-align: right;'>0.0002</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'> -0.0262</td>
 <td style='min-width: 7em; text-align: right;'> 0.0240</td>
 <td style='min-width: 7em; text-align: right;'>-1.09</td>
 <td style='min-width: 7em; text-align: right;'>0.2761</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'> -0.0291</td>
 <td style='min-width: 7em; text-align: right;'> 0.0579</td>
 <td style='min-width: 7em; text-align: right;'>-0.50</td>
 <td style='min-width: 7em; text-align: right;'>0.6155</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.1247</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.2974</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.42</td>
@@ -3490,10 +3490,10 @@ The confidence bands are correctly registering that there is little information 
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -3611,10 +3611,10 @@ Return to the data generating model used in the RCT simulation, for which there 
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -3655,30 +3655,30 @@ Return to the data generating model used in the RCT simulation, for which there 
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -3.5659</td>
 <td style='min-width: 7em; text-align: right;'> 0.3538</td>
 <td style='min-width: 7em; text-align: right;'>-10.08</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -0.9499</td>
 <td style='min-width: 7em; text-align: right;'> 0.1661</td>
 <td style='min-width: 7em; text-align: right;'> -5.72</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0481</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0081</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  5.96</td>
@@ -3695,10 +3695,10 @@ Return to the data generating model used in the RCT simulation, for which there 
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -3760,10 +3760,10 @@ The treatment effect is incorrect example at age=50.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -3804,37 +3804,37 @@ The treatment effect is incorrect example at age=50.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.2550</td>
 <td style='min-width: 7em; text-align: right;'> 0.5399</td>
 <td style='min-width: 7em; text-align: right;'>-7.88</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  0.5441</td>
 <td style='min-width: 7em; text-align: right;'> 0.8578</td>
 <td style='min-width: 7em; text-align: right;'> 0.63</td>
 <td style='min-width: 7em; text-align: right;'>0.5259</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0641</td>
 <td style='min-width: 7em; text-align: right;'> 0.0124</td>
 <td style='min-width: 7em; text-align: right;'> 5.19</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.0295</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0167</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>-1.77</td>
@@ -3851,10 +3851,10 @@ The treatment effect is incorrect example at age=50.
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -3934,10 +3934,10 @@ The extrapolation is excellent.  Now try the overkill model.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -3978,51 +3978,51 @@ The extrapolation is excellent.  Now try the overkill model.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -5.0833</td>
 <td style='min-width: 7em; text-align: right;'> 0.9349</td>
 <td style='min-width: 7em; text-align: right;'>-5.44</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -3.5002</td>
 <td style='min-width: 7em; text-align: right;'> 7.5833</td>
 <td style='min-width: 7em; text-align: right;'>-0.46</td>
 <td style='min-width: 7em; text-align: right;'>0.6444</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0868</td>
 <td style='min-width: 7em; text-align: right;'> 0.0241</td>
 <td style='min-width: 7em; text-align: right;'> 3.60</td>
 <td style='min-width: 7em; text-align: right;'>0.0003</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'> -0.1233</td>
 <td style='min-width: 7em; text-align: right;'> 0.1090</td>
 <td style='min-width: 7em; text-align: right;'>-1.13</td>
 <td style='min-width: 7em; text-align: right;'>0.2580</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0483</td>
 <td style='min-width: 7em; text-align: right;'> 0.1568</td>
 <td style='min-width: 7em; text-align: right;'> 0.31</td>
 <td style='min-width: 7em; text-align: right;'>0.7581</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0498</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.1569</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.32</td>
@@ -4039,10 +4039,10 @@ The extrapolation is excellent.  Now try the overkill model.
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -4156,10 +4156,10 @@ Extrapolation failed, and the failure was thankfully signaled by very wide confi
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -4200,30 +4200,30 @@ Extrapolation failed, and the failure was thankfully signaled by very wide confi
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.7976</td>
 <td style='min-width: 7em; text-align: right;'> 0.3406</td>
 <td style='min-width: 7em; text-align: right;'>-14.09</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'> -0.7412</td>
 <td style='min-width: 7em; text-align: right;'> 0.1640</td>
 <td style='min-width: 7em; text-align: right;'> -4.52</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.0751</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0061</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 12.37</td>
@@ -4240,10 +4240,10 @@ Extrapolation failed, and the failure was thankfully signaled by very wide confi
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -4305,10 +4305,10 @@ The no-interaction model missed the boat.  Now fit the correct linear interactio
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -4349,37 +4349,37 @@ The no-interaction model missed the boat.  Now fit the correct linear interactio
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -4.8638</td>
 <td style='min-width: 7em; text-align: right;'> 0.3512</td>
 <td style='min-width: 7em; text-align: right;'>-13.85</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  0.1333</td>
 <td style='min-width: 7em; text-align: right;'> 1.0813</td>
 <td style='min-width: 7em; text-align: right;'>  0.12</td>
 <td style='min-width: 7em; text-align: right;'>0.9019</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.0763</td>
 <td style='min-width: 7em; text-align: right;'> 0.0063</td>
 <td style='min-width: 7em; text-align: right;'> 12.18</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.0208</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.0255</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> -0.81</td>
@@ -4396,10 +4396,10 @@ The no-interaction model missed the boat.  Now fit the correct linear interactio
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -4479,10 +4479,10 @@ There is reasonable extrapolation.  Now for the overkill model.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-left: 1px solid black; border-right: 1px solid black; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Model Likelihood<br>Ratio Test</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Discrimination<br>Indexes</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; border-right: 1px solid black; text-align: center;'>Rank Discrim.<br>Indexes</th>
 </tr>
 </thead>
 <tbody>
@@ -4523,51 +4523,51 @@ There is reasonable extrapolation.  Now for the overkill model.
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; min-width: 7em; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>β</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>S.E.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Wald <i>Z</i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>Pr(>|<i>Z</i>|)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style='text-align: left;'>Intercept</td>
+<td style='min-width: 7em; text-align: left;'>Intercept</td>
 <td style='min-width: 7em; text-align: right;'> -6.2165</td>
 <td style='min-width: 7em; text-align: right;'> 1.3037</td>
 <td style='min-width: 7em; text-align: right;'>-4.77</td>
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b</td>
+<td style='min-width: 7em; text-align: left;'>tx=b</td>
 <td style='min-width: 7em; text-align: right;'>  1.8369</td>
 <td style='min-width: 7em; text-align: right;'> 1.9527</td>
 <td style='min-width: 7em; text-align: right;'> 0.94</td>
 <td style='min-width: 7em; text-align: right;'>0.3468</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age</td>
+<td style='min-width: 7em; text-align: left;'>age</td>
 <td style='min-width: 7em; text-align: right;'>  0.1058</td>
 <td style='min-width: 7em; text-align: right;'> 0.0280</td>
 <td style='min-width: 7em; text-align: right;'> 3.78</td>
 <td style='min-width: 7em; text-align: right;'>0.0002</td>
 </tr>
 <tr>
-<td style='text-align: left;'>age'</td>
+<td style='min-width: 7em; text-align: left;'>age'</td>
 <td style='min-width: 7em; text-align: right;'> -0.0262</td>
 <td style='min-width: 7em; text-align: right;'> 0.0240</td>
 <td style='min-width: 7em; text-align: right;'>-1.09</td>
 <td style='min-width: 7em; text-align: right;'>0.2761</td>
 </tr>
 <tr>
-<td style='text-align: left;'>tx=b × age</td>
+<td style='min-width: 7em; text-align: left;'>tx=b × age</td>
 <td style='min-width: 7em; text-align: right;'> -0.0602</td>
 <td style='min-width: 7em; text-align: right;'> 0.0477</td>
 <td style='min-width: 7em; text-align: right;'>-1.26</td>
 <td style='min-width: 7em; text-align: right;'>0.2067</td>
 </tr>
 <tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
+<td style='min-width: 7em; border-bottom: 2px solid grey; text-align: left;'>tx=b × age'</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'>  0.1114</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.2592</td>
 <td style='min-width: 7em; border-bottom: 2px solid grey; text-align: right;'> 0.43</td>
@@ -4584,10 +4584,10 @@ There is reasonable extrapolation.  Now for the overkill model.
 <tr><td colspan='4' style='text-align: left;'>
 Wald Statistics for <code style="font-size:0.8em">y</code></td></tr>
 <tr>
-<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
+<th style='border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;'></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>χ<sup>2</sup></i></th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'>d.f.</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: right;'><i>P</i></th>
 </tr>
 </thead>
 <tbody>
@@ -4688,6 +4688,7 @@ In a similar vein, observational treatment comparisons can be appropriate if fac
 ----
 # Further Reading
 
+* [Why representativeness should be avoided](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3888189) by Rothman, Gallacher, and Hatch
 * [Treatment effects may remain the same even when trial participants differed from the target population](https://www.jclinepi.com/article/S0895-4356(19)30818-2/pdf) by MJ Bradburn et al.
 
 ----
