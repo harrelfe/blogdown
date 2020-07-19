@@ -1,23 +1,19 @@
 ---
-title: "RCT Analyses With Covariate Adjustment"
-author: "Ewout Steyerberg"
+title: RCT Analyses With Covariate Adjustment
+author: Ewout Steyerberg
 date: '2020-07-19'
-categories: []
-link-citations: yes
 slug: covadj
-summary: This article summarizes arguments for the claim that the primary analysis
-  of treatment effect in a RCT should be with adjustment for baseline covariates.
-  It reiterates some findings and statements from classic papers, with illustration
-  in the GUSTO-I trial.
 tags:
-- RCT
-- drug-evaluation
-- generalizability
-- medicine
-- personalized-medicine
-- prediction
-- regression
-- 2020
+  - 2020
+  - drug-evaluation
+  - generalizability
+  - medicine
+  - personalized-medicine
+  - prediction
+  - RCT
+  - regression
+link-citations: yes
+summary: 'This article summarizes arguments for the claim that the primary analysis of treatment effect in a RCT should be with adjustment for baseline covariates.  It reiterates some findings and statements from classic papers, with illustration in the GUSTO-I trial.'
 header:
   caption: ''
   image: ''
