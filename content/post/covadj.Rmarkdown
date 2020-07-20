@@ -68,7 +68,7 @@ The simplest analysis of treatment effect is by performing an intention-to-treat
 table1(~ as.factor(day30) | tx, data=gusto, digits=2)  
 
 # 'tpa' as 0/1 variable for tPA vs SK treatment
-gusto$tpa <- as.numeric(gusto$tx) - 2 # 0/1 coding for tPA treatment
+gusto$tpa <- 1 * (gusto$tx == 'tPA') # 0/1 coding for tPA treatment
 label(gusto$tpa) <- "tPA"
 levels(gusto$tpa) <- c("SK", "tPA")
 tab2 <- table(gusto$day30, gusto$tpa)
