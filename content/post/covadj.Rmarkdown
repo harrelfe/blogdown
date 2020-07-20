@@ -67,11 +67,7 @@ The simplest analysis of treatment effect is by performing an intention-to-treat
 # simple cross-table
 table1(~ as.factor(day30) | tx, data=gusto, digits=2)  
 
-# 'tpa' as 0/1 variable for tPA vs SK treatment
-gusto$tpa <- 1 * (gusto$tx == 'tPA') # 0/1 coding for tPA treatment
-label(gusto$tpa) <- "tPA"
-levels(gusto$tpa) <- c("SK", "tPA")
-tab2 <- table(gusto$day30, gusto$tpa)
+tab2 <- table(gusto$day30, gusto$tx)
 result <- OddsRatio(tab2, conf.level = 0.95)
 names(result) <- c("Odds Ratio", "Lower CI", "Upper CI")
 
@@ -143,19 +139,19 @@ A simple illustration is to examine the impact of age (which is a strong prognos
 # Analyses
 options(prType='html')
 f0 <- lrm(day30 ~ tx, data=gusto)
-print(f0) # coef tPA: -0.1586
+print(f0) # coef tpa: -0.1586
 ```
-So, we note that the **unadjusted** regression coefficient for tPA was `r round(f0$coef[2],4)`. 
+So, we note that the **unadjusted** regression coefficient for tpa was `r round(f0$coef[2],4)`. 
 
-Let's continue with age adjustment for the tPA effect.  
+Let's continue with age adjustment for the tpa effect.  
 1. How different was the mean age between randomized groups?  
 2. How much of the difference between adjusted and unadjusted effect estimate can be attributed to this imbalance?
 
 ```{r adjusted.tx.1}
 # Examine impact of age
-table1(~ age | tx, data=gusto, digits=4) # age 61.03 in tPA vs 60.86 in SK group, delta: 0.17 years
+table1(~ age | tx, data=gusto, digits=4) # age 61.03 in tpa vs 60.86 in SK group, delta: 0.17 years
 
-f.age <- lrm(day30 ~ tpa + age, data=gusto)
+f.age <- lrm(day30 ~ tx + age, data=gusto)
 print(f.age)
 ```
 So, we note that the **adjusted** regression coefficient for tPA was `r round(f.age$coef[2],4)`.  
@@ -165,7 +161,7 @@ So, we note that the **adjusted** regression coefficient for tPA was `r round(f.
 # Difference in tx effect by adjustment
 d.tx.age <- f.age$coefficients[2] - f0$coefficients[2] 
 # Impact of age difference on tx effect
-d.age <- (mean(gusto$age[gusto$tpa==0]) - mean(gusto$age[gusto$tpa==1])) 
+d.age <- with(gusto, mean(age[tx=='SK']) - mean(age[tx=='tPA']))
 d.tx.ageimpact <- f.age$coefficients[3] * d.age
 
 # Impact of stratification on age

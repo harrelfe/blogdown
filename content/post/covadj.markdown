@@ -102,42 +102,42 @@ bottom: -1ex;
 }
 </style>
  <font color="MidnightBlue"><div align=center><span style="font-weight:bold">gusto <br><br> 9  Variables   30510  Observations</span></div></font> <hr class="thinhr"> <span style="font-weight:bold">day30</span> <style>
- .hmisctable508078 {
+ .hmisctable772184 {
  border: none;
  font-size: 85%;
  }
- .hmisctable508078 td {
+ .hmisctable772184 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable508078 th {
+ .hmisctable772184 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable508078">
+ <table class="hmisctable772184">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Sum</th><th>Mean</th><th>Gmd</th></tr>
  <tr><td>30510</td><td>0</td><td>2</td><td>0.195</td><td>2128</td><td>0.06975</td><td>0.1298</td></tr>
  </table>
  <hr class="thinhr"> <span style="font-weight:bold">sex</span>: Sex <style>
- .hmisctable169295 {
+ .hmisctable325066 {
  border: none;
  font-size: 85%;
  }
- .hmisctable169295 td {
+ .hmisctable325066 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable169295 th {
+ .hmisctable325066 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable169295">
+ <table class="hmisctable325066">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>30510</td><td>0</td><td>2</td></tr>
  </table>
@@ -148,22 +148,22 @@ bottom: -1ex;
  </pre>
  <hr class="thinhr"> <span style="font-weight:bold">Killip</span>: Killip Class<div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAAOVBMVEUAAAAdHR02NjZlZWWioqKwsLC+vr6/v7/KysrOzs7U1NTZ2dna2trl5eXm5ubr6+vs7Ozz8/P///+qr/yoAAAAMElEQVQImWNg4OZHAAYGASEEIJ/HwYMApJnCyyyIxGNl4ITzuPlZGNj4uRjZ+fmYAJouCcAuq6zZAAAAAElFTkSuQmCC" alt="image" /></div> <style>
- .hmisctable312722 {
+ .hmisctable170338 {
  border: none;
  font-size: 85%;
  }
- .hmisctable312722 td {
+ .hmisctable170338 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable312722 th {
+ .hmisctable170338 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable312722">
+ <table class="hmisctable170338">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>30510</td><td>0</td><td>4</td></tr>
  </table>
@@ -174,85 +174,85 @@ iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAAOVBMVEUAAAAdHR02NjZlZWWioqKwsLC+
  </pre>
  <hr class="thinhr"> <span style="font-weight:bold">age</span><div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAJcAAAANCAMAAACTvAxuAAAB2lBMVEUAAAABAQEDAwMEBAQFBQUGBgYHBwcICAgKCgoLCwsMDAwODg4QEBARERESEhIUFBQWFhYXFxcYGBgaGhobGxscHBwdHR0eHh4fHx8gICAhISEiIiIjIyMkJCQmJiYnJycpKSkqKiorKystLS0uLi4vLy8wMDAxMTEzMzM0NDQ1NTU2NjY3Nzc4ODg5OTk6Ojo7Ozs8PDw9PT0+Pj4/Pz9AQEBBQUFCQkJDQ0NERERFRUVGRkZHR0dISEhJSUlKSkpLS0tMTExNTU1PT09QUFBRUVFSUlJUVFRWVlZXV1dYWFhZWVlbW1teXl5gYGBhYWFkZGRlZWVnZ2doaGhqampra2ttbW1vb29wcHBycnJzc3N1dXV3d3d4eHh6enp7e3t8fHx/f3+BgYGGhoaHh4eIiIiJiYmKioqLi4uMjIyPj4+RkZGWlpaXl5eZmZmdnZ2enp6hoaGioqKjo6OkpKSlpaWmpqanp6erq6usrKywsLCysrKzs7O4uLi8vLy9vb3AwMDCwsLGxsbJycnKysrPz8/S0tLV1dXY2NjZ2dna2tre3t7j4+Pk5OTl5eXp6enq6urr6+vt7e3u7u7v7+/x8fHy8vL29vb4+Pj5+fn7+/v8/Pz+/v7///80JPtyAAAB6klEQVQ4jb3V2VPTUBQG8K9BWlooW62lpbSFUAyQdEuapDVpEURQy+KGC4IoVXBXXKAosqiAoEIQVMD+r17HF8fRMdNov5d7Zu6dc39zXg404/mQ41px7a6WPdB1wTE3Z53IPn9rtCfyhvLFc+9OMINWFknXwQycCUQ5KFUlo1PG+uYNuHY2Rx5fR9pUpYBhkXAi/d3FMsSFDqx+Krrrc+jhjZnFq3EFkhcp/M6VAn26eC5tL7/5xj12FqqlPA06AvHPLm/vzfX1orj2t+2j2XYVfCNx2dS/uSRI3MlHY4W61vRmachJCfCwaGsAby6LwceAc0GAPYqmIMK1pKyNINiEmB08XBwYP2Jll3OvdH/xU/TOa/8d1WmnUvAJeuclIkJDtVmOlW4XMi89j5aXz2SSUApzqRiYXPkPLm1t0q8g1FK4q1HE7MrG13/o+shPP7AdR51szMVDbi4dir/eMOja3VlYffb05aXhQSQd5A/jLsGHFFV9bvzJ7PzWe10usov6ctrFCe3WeXG85+hIffcpSzdtUkw1IloOI16DBA7xaKMhVlAyvGGEfJDNVgkBFlE3ua0UEWQgOEjpEMA0Q6wkpTsKNgDJapbhDyHcAJmqkEC344jfM5zsv/9jDZ548ctevH1Fy/WR8xvGqUTi2QsCnAAAAABJRU5ErkJggg==" alt="image" /></div> <style>
- .hmisctable543942 {
+ .hmisctable852423 {
  border: none;
  font-size: 85%;
  }
- .hmisctable543942 td {
+ .hmisctable852423 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable543942 th {
+ .hmisctable852423 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable543942">
+ <table class="hmisctable852423">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Mean</th><th>Gmd</th><th>.05</th><th>.10</th><th>.25</th><th>.50</th><th>.75</th><th>.90</th><th>.95</th></tr>
  <tr><td>30510</td><td>0</td><td>5342</td><td>1</td><td>60.91</td><td>13.58</td><td>40.92</td><td>44.73</td><td>52.11</td><td>61.58</td><td>69.84</td><td>76.19</td><td>79.42</td></tr>
  </table>
  <span style="font-size: 85%;"><font color="MidnightBlue">lowest</font> :  19.0  20.8  21.0  21.0  21.4 ,  <font color="MidnightBlue">highest</font>:  91.9  92.3  96.5 108.0 110.0</span> <hr class="thinhr"> <span style="font-weight:bold">pulse</span>: Heart Rate <span style='font-family:Verdana;font-size:75%;'>beats/min</span><div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAJcAAAANCAMAAACTvAxuAAAB2lBMVEUAAAABAQECAgIDAwMEBAQGBgYHBwcICAgJCQkKCgoLCwsMDAwQEBARERESEhIUFBQVFRUWFhYXFxcYGBgZGRkaGhobGxscHBwdHR0eHh4fHx8gICAhISEiIiIjIyMkJCQlJSUmJiYnJycoKCgpKSkqKiorKyssLCwtLS0wMDAyMjIzMzM0NDQ2NjY4ODg5OTk6Ojo7Ozs+Pj4/Pz9BQUFCQkJERERFRUVISEhLS0tMTExNTU1OTk5PT09QUFBRUVFTU1NVVVVWVlZXV1dZWVlaWlpbW1tcXFxdXV1eXl5fX19gYGBiYmJjY2NkZGRlZWVmZmZnZ2doaGhpaWlqampsbGxtbW1zc3N1dXV6enp8fHx9fX1/f3+BgYGDg4OEhISGhoaHh4eIiIiJiYmKioqLi4uRkZGSkpKTk5OUlJSYmJiZmZmcnJyenp6ioqKlpaWmpqaqqqqtra2urq6xsbGysrKzs7O4uLi5ubm9vb3BwcHCwsLIyMjLy8vMzMzOzs7Pz8/R0dHS0tLU1NTY2Nja2trb29ve3t7g4ODj4+Pl5eXm5ubn5+fo6Ojp6enq6urr6+vs7Ozu7u7w8PDy8vL19fX29vb39/f4+Pj5+fn6+vr9/f3+/v7///9/ur6QAAABy0lEQVQ4jc3V61cSQRgG8AeyDIoUS2xdL7u6qOQFyCVkJRUrNSowFG+oSJamVoB3NCw1i66sFZmX/V8dxNMX+7DeeT7MmTkz75nfeT/MQJSdoiZx9d+iwia/8CiBJDvsg/eI7s1+TUuGBvmFR8mhXAuIfFjYrpkex890cz1i/2JoDPF0cW2spFxtVOO+K3ZlKQ1coxmbKVcO9l1RzJ6ma01eerBM1wfxpiEL6O7HW+7OFCZ6TTKrDx95/Vr6M4zEwX55si2BVSkhxT6ffL/kHPqtGE+6KmnMJ12+Z6CK91waXPDNXFq3COfh2o7cxMgwGmnuMqhbxFVWAlB8J0acGih9rxEzW8/e9VHylgNV1cAN4lJzxMUUEFepEtpy4uoaxKzR+k29KG1+PTNX6F0EU/Y8oJD5j+uanrj0NBRFxg6MDtDwLH7xb/n7pO875GE5pov8Ra1h8UdTZyD1MbWHorZPz10Wm8tZZdYaaGSW5AJ0IZDDZkLFZhNkPqBjlNCwV6FkdEA+2dVxKqgMDK7rOXOG1Z53sbr5Llcn3OZrH7t40z1PC3/f3R53dDy1C+6Xa8Lyq4eCw9snigMvyKVBt/gkLMYdc0nBpJMMuyhT82Twv+sbAAAAAElFTkSuQmCC" alt="image" /></div> <style>
- .hmisctable121111 {
+ .hmisctable996509 {
  border: none;
  font-size: 85%;
  }
- .hmisctable121111 td {
+ .hmisctable996509 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable121111 th {
+ .hmisctable996509 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable121111">
+ <table class="hmisctable996509">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Mean</th><th>Gmd</th><th>.05</th><th>.10</th><th>.25</th><th>.50</th><th>.75</th><th>.90</th><th>.95</th></tr>
  <tr><td>30510</td><td>0</td><td>157</td><td>0.999</td><td>75.38</td><td>19.5</td><td> 50</td><td> 55</td><td> 62</td><td> 73</td><td> 86</td><td> 98</td><td>107</td></tr>
  </table>
  <span style="font-size: 85%;"><font color="MidnightBlue">lowest</font> :   0   1   6   9  20 ,  <font color="MidnightBlue">highest</font>: 191 200 205 210 220</span> <hr class="thinhr"> <span style="font-weight:bold">sysbp</span>: Systolic Blood Pressure <span style='font-family:Verdana;font-size:75%;'>mmHg</span><div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAJcAAAANCAMAAACTvAxuAAABxVBMVEUAAAACAgIDAwMEBAQFBQUGBgYICAgJCQkLCwsMDAwNDQ0ODg4PDw8QEBARERESEhIVFRUWFhYXFxcYGBgZGRkaGhobGxsdHR0eHh4fHx8gICAhISEiIiIjIyMkJCQlJSUmJiYnJycoKCgpKSkrKysvLy8wMDAxMTEyMjI0NDQ3Nzc5OTk7Ozs8PDw9PT0+Pj4/Pz9AQEBBQUFCQkJDQ0NERERGRkZHR0dISEhKSkpLS0tNTU1OTk5PT09RUVFSUlJTU1NUVFRVVVVYWFhZWVlbW1tcXFxeXl5hYWFiYmJjY2NmZmZoaGhpaWltbW1ubm5wcHBxcXFzc3N0dHR2dnZ5eXl8fHyAgICBgYGHh4eIiIiJiYmKioqMjIyOjo6RkZGWlpaXl5eZmZmampqbm5ucnJydnZ2fn5+goKChoaGjo6Ompqapqamqqqqrq6usrKyvr6+xsbGysrKzs7O0tLS6urq7u7u+vr6/v7/BwcHFxcXGxsbKysrLy8vQ0NDU1NTW1tbX19fZ2dna2trb29vf39/h4eHo6Ojp6enq6urr6+vs7Ozu7u7w8PD09PT29vb4+Pj5+fn6+vr7+/v9/f3+/v7///8kMR30AAABrklEQVQ4jc3VV1PCQBQF4KugQKIoIvaKBaQYEOzYG9h77AULiopdUVHUiCX2wv5eV9GxPUmwnJ3sZHaSO9+clwWWY7rh7PV1h+usdwHEMTR4EToZfkDIBS6uw94SGNcsHCPkBGcgRL5wcXlv0YvLBp5/5OpRoX/pMsejLy7v9EVgXIxfcczjrVKGt1ZwrzMD4GQYO9gZZguG8GGRzb+xb/Gzr3y9r68JNQ1jvGsreA61S099ecCGSwOac1/+/Wagei2nlRHlXSIahsHOB/kcWGFJefDnLpPSIiakPtcoAIxjlxUWq7CLfXh2HZ3/qqusH7X1PblqSULSIFBAEtRgVxsYoRHrQLQsmALafYnSW/DXp2c/68Ljb1DF6uTeZmxcc1ZGWnRMpJQkhMKQYHifFPwU4NUg7myPLD7c3S8sub9DVyffd+G7qH7h8+3kMK9UbxgNOhWVS2kliiyNnJeoIFKDYgSSMIIMf04YSYgEofyPrtfw+KRQRMqi4mSx8uTsBGmOJlMty1PrVUpKl6vTUsbtIp3eYFivWTM7WuwdplLTCDtY2suyMyVN83VY8AjUEtiNCUnkQwAAAABJRU5ErkJggg==" alt="image" /></div> <style>
- .hmisctable110768 {
+ .hmisctable633226 {
  border: none;
  font-size: 74%;
  }
- .hmisctable110768 td {
+ .hmisctable633226 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable110768 th {
+ .hmisctable633226 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable110768">
+ <table class="hmisctable633226">
  <tr><th>n</th><th>missing</th><th>distinct</th><th>Info</th><th>Mean</th><th>Gmd</th><th>.05</th><th>.10</th><th>.25</th><th>.50</th><th>.75</th><th>.90</th><th>.95</th></tr>
  <tr><td>30510</td><td>0</td><td>196</td><td>0.999</td><td>129</td><td>26.58</td><td> 92.0</td><td>100.0</td><td>112.0</td><td>129.5</td><td>144.0</td><td>160.0</td><td>170.0</td></tr>
  </table>
  <span style="font-size: 85%;"><font color="MidnightBlue">lowest</font> :   0  36  40  43  46 ,  <font color="MidnightBlue">highest</font>: 266 274 275 276 280</span> <hr class="thinhr"> <span style="font-weight:bold">miloc</span>: MI Location<div style='float: right; text-align: right;'><img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAAAGFBMVEUAAAABAQE8PDyampq5ubna2trr6+v///8e6JE1AAAALUlEQVQImWNgYIMBBgZ2GMDKZEYwGRFMBgYGVihgQBElhsnCAmECbWdiAjkBAM1mAsMRV8USAAAAAElFTkSuQmCC" alt="image" /></div> <style>
- .hmisctable253147 {
+ .hmisctable476458 {
  border: none;
  font-size: 85%;
  }
- .hmisctable253147 td {
+ .hmisctable476458 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable253147 th {
+ .hmisctable476458 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable253147">
+ <table class="hmisctable476458">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>30510</td><td>0</td><td>3</td></tr>
  </table>
@@ -262,22 +262,22 @@ iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAAAGFBMVEUAAAABAQE8PDyampq5ubna2trr
  Proportion    0.576    0.035    0.389
  </pre>
  <hr class="thinhr"> <span style="font-weight:bold">pmi</span>: Previous MI <style>
- .hmisctable318661 {
+ .hmisctable693582 {
  border: none;
  font-size: 85%;
  }
- .hmisctable318661 td {
+ .hmisctable693582 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable318661 th {
+ .hmisctable693582 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable318661">
+ <table class="hmisctable693582">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>30510</td><td>0</td><td>2</td></tr>
  </table>
@@ -287,22 +287,22 @@ iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAAAGFBMVEUAAAABAQE8PDyampq5ubna2trr
  Proportion 0.834 0.166
  </pre>
  <hr class="thinhr"> <span style="font-weight:bold">tx</span> <style>
- .hmisctable494098 {
+ .hmisctable150529 {
  border: none;
  font-size: 85%;
  }
- .hmisctable494098 td {
+ .hmisctable150529 td {
  text-align: center;
  padding: 0 1ex 0 1ex;
  }
- .hmisctable494098 th {
+ .hmisctable150529 th {
  color: MidnightBlue;
  text-align: center;
  padding: 0 1ex 0 1ex;
  font-weight: normal;
  }
  </style>
- <table class="hmisctable494098">
+ <table class="hmisctable150529">
  <tr><th>n</th><th>missing</th><th>distinct</th></tr>
  <tr><td>30510</td><td>0</td><td>2</td></tr>
  </table>
@@ -355,11 +355,7 @@ table1(~ as.factor(day30) | tx, data=gusto, digits=2)
 </div><!--/html_preserve-->
 
 ```r
-# 'tpa' as 0/1 variable for tPA vs SK treatment
-gusto$tpa <- 1 * (gusto$tx == 'tPA') # 0/1 coding for tPA treatment
-label(gusto$tpa) <- "tPA"
-levels(gusto$tpa) <- c("SK", "tPA")
-tab2 <- table(gusto$day30, gusto$tpa)
+tab2 <- table(gusto$day30, gusto$tx)
 result <- OddsRatio(tab2, conf.level = 0.95)
 names(result) <- c("Odds Ratio", "Lower CI", "Upper CI")
 
@@ -467,7 +463,7 @@ A simple illustration is to examine the impact of age (which is a strong prognos
 # Analyses
 options(prType='html')
 f0 <- lrm(day30 ~ tx, data=gusto)
-print(f0) # coef tPA: -0.1586
+print(f0) # coef tpa: -0.1586
 ```
 
 <!--html_preserve-->
@@ -549,16 +545,16 @@ print(f0) # coef tPA: -0.1586
 </tbody>
 </table>
 <!--/html_preserve-->
-So, we note that the **unadjusted** regression coefficient for tPA was -0.1586. 
+So, we note that the **unadjusted** regression coefficient for tpa was -0.1586. 
 
-Let's continue with age adjustment for the tPA effect.  
+Let's continue with age adjustment for the tpa effect.  
 1. How different was the mean age between randomized groups?  
 2. How much of the difference between adjusted and unadjusted effect estimate can be attributed to this imbalance?
 
 
 ```r
 # Examine impact of age
-table1(~ age | tx, data=gusto, digits=4) # age 61.03 in tPA vs 60.86 in SK group, delta: 0.17 years
+table1(~ age | tx, data=gusto, digits=4) # age 61.03 in tpa vs 60.86 in SK group, delta: 0.17 years
 ```
 
 <!--html_preserve--><div class="Rtable1"><table class="Rtable1">
@@ -594,7 +590,7 @@ table1(~ age | tx, data=gusto, digits=4) # age 61.03 in tPA vs 60.86 in SK group
 </div><!--/html_preserve-->
 
 ```r
-f.age <- lrm(day30 ~ tpa + age, data=gusto)
+f.age <- lrm(day30 ~ tx + age, data=gusto)
 print(f.age)
 ```
 
@@ -602,7 +598,7 @@ print(f.age)
  <strong>Logistic Regression Model</strong>
  
  <pre>
- lrm(formula = day30 ~ tpa + age, data = gusto)
+ lrm(formula = day30 ~ tx + age, data = gusto)
  </pre>
  
  <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
@@ -668,7 +664,7 @@ print(f.age)
 <td style='min-width: 7em; text-align: right;'><0.0001</td>
 </tr>
 <tr>
-<td style='min-width: 7em; text-align: left;'>tpa</td>
+<td style='min-width: 7em; text-align: left;'>tx=tPA</td>
 <td style='min-width: 7em; text-align: right;'> -0.1878</td>
 <td style='min-width: 7em; text-align: right;'> 0.0500</td>
 <td style='min-width: 7em; text-align: right;'> -3.75</td>
@@ -692,7 +688,7 @@ So, we note that the **adjusted** regression coefficient for tPA was -0.1878.
 # Difference in tx effect by adjustment
 d.tx.age <- f.age$coefficients[2] - f0$coefficients[2] 
 # Impact of age difference on tx effect
-d.age <- (mean(gusto$age[gusto$tpa==0]) - mean(gusto$age[gusto$tpa==1])) 
+d.age <- with(gusto, mean(age[tx=='SK']) - mean(age[tx=='tPA']))
 d.tx.ageimpact <- f.age$coefficients[3] * d.age
 
 # Impact of stratification on age
