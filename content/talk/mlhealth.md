@@ -21,11 +21,11 @@ selected = true
 # Links (optional).
 url_pdf = ""
 url_slides = "https://hbiostat.org/talks/iscb20.html"
-url_video = ""
+url_video = "https://hbiostat.org/talks/iscb20.mkv"
 url_code = ""
 
 # Does the content use math formatting?
-math = true
+math = false
 
 # Does the content use source code highlighting?
 highlight = true
