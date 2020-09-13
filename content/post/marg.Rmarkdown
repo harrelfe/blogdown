@@ -15,6 +15,11 @@ header:
   image: ''
 ---
 
+<style>
+.table {
+        width: 65%;
+}
+</style>
 
 ```{r setup, include=FALSE}
 require(rms)
