@@ -13,7 +13,7 @@ tags:
   - RCT
   - regression
 link-citations: yes
-summary: 'This article summarizes arguments for the claim that the primary analysis of treatment effect in a RCT should be with adjustment for baseline covariates.  It reiterates some findings and statements from classic papers, with illustration in the GUSTO-I trial.'
+summary: 'This article summarizes arguments for the claim that the primary analysis of treatment effect in a RCT should be with adjustment for baseline covariates.  It reiterates some findings and statements from classic papers, with illustration on the GUSTO-I trial.'
 header:
   caption: ''
   image: ''
@@ -50,7 +50,7 @@ For illustration we may analyze 30,510 patients with an acute myocardial infarct
 **_[examining HTE](https://www.fharrell.com/post/varyor/)_**.
 
 
-```{r IDA.gusto}
+```{r IDA.gusto,results='asis'}
 load(url('http://hbiostat.org/data/gusto.rda'))
 # keep only SK and tPA arms; and selected set of covariates
 gusto <- upData(gusto, subset=tx %in% c('SK', 'tPA'),
@@ -63,7 +63,7 @@ html(describe(gusto), scroll=TRUE)
 #### Overall treatment effect
 The simplest analysis of treatment effect is by performing an intention-to-treat analysis of the randomized patients for the primary outcome (30-day mortality). In GUSTO-I, 10,348 patients were randomized to receive tPA; 20,162 to SK and had 30-day mortality status known. The 30-day mortality was 653/10,348 = 6.3% vs 1475/20,162 = 7.3%; an absolute difference of 1.0%, or an odds ratio of 0.85 [0.78-0.94].
 
-```{r overall.tx}
+```{r overall.tx,results='asis'}
 # simple cross-table
 table1(~ as.factor(day30) | tx, data=gusto, digits=2)  
 
@@ -135,7 +135,7 @@ Importantly, *[EMA guidance](https://www.ema.europa.eu/en/documents/scientific-g
 ## Illustration in GUSTO-I: adjust for age
 A simple illustration is to examine the impact of age (which is a strong prognostic factor in many diseases) for [adjustment of the primary treatment effect in GUSTO-I](https://www.ncbi.nlm.nih.gov/pubmed/10783203).
 
-```{r unadjusted.tx}
+```{r unadjusted.tx,results='asis'}
 # Analyses
 options(prType='html')
 f0 <- lrm(day30 ~ tx, data=gusto)
@@ -147,7 +147,7 @@ Let's continue with age adjustment for the tpa effect.
 1. How different was the mean age between randomized groups?  
 2. How much of the difference between adjusted and unadjusted effect estimate can be attributed to this imbalance?
 
-```{r adjusted.tx.1}
+```{r adjusted.tx.1,results='asis'}
 # Examine impact of age
 table1(~ age | tx, data=gusto, digits=4) # age 61.03 in tpa vs 60.86 in SK group, delta: 0.17 years
 
@@ -157,7 +157,7 @@ print(f.age)
 So, we note that the **adjusted** regression coefficient for tPA was `r round(f.age$coef[2],4)`.  
    
 
-```{r adjusted.tx.2}
+```{r adjusted.tx.2,results='asis'}
 # Difference in tx effect by adjustment
 d.tx.age <- f.age$coefficients[2] - f0$coefficients[2] 
 # Impact of age difference on tx effect
