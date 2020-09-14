@@ -9,7 +9,7 @@ tags:
   - RCT
   - regression
 link-citations: yes
-summary: 'This article discusses issues with unadjusted effect ratios such as odds ratios and hazard ratios, showing a simple example of non-generalizability of unadjusted odds ratios.'
+summary: 'This  article discusses issues with unadjusted effect ratios such as odds ratios and hazard ratios, showing a simple example of non-generalizability of unadjusted odds ratios.'
 header:
   caption: ''
   image: ''
