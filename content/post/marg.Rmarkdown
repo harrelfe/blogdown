@@ -80,7 +80,7 @@ kable(d, align='r')
 ```{r lrm,results='asis'}
 f <- lrm(y ~ tx * sex, weights=freq, data=d)
 f
-# exp(coef(f)['tx=A']) = 9
+exp(coef(f)['tx=A'])
 ```
 
 The A:B odds ratio not conditioning on patient sex is 5.44.  Note that this is not a weighted average of 9 and 9.  The unadjusted OR applies neither to males nor females.  

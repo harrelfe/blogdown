@@ -197,8 +197,11 @@ f
 </table>
 
 ```r
-# exp(coef(f)['tx=A']) = 9
+exp(coef(f)['tx=A'])
 ```
+
+tx=A 
+   9 
 
 The A:B odds ratio not conditioning on patient sex is 5.44.  Note that this is not a weighted average of 9 and 9.  The unadjusted OR applies neither to males nor females.  
 
