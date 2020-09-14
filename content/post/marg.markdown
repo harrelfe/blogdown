@@ -70,21 +70,21 @@ d <- expand.grid(y=0:1, tx=c('A','B'),sex=c('male', 'female'))
 # Order treatment levels to get OR > 1
 d$tx <- factor(d$tx, c('B','A'))
 d$freq <- c(500, 500, 900, 100, 100, 900, 500, 500)
-kable(d)
+kable(d, align='r')
 ```
 
 
 
-|  y|tx |sex    | freq|
-|--:|:--|:------|----:|
-|  0|A  |male   |  500|
-|  1|A  |male   |  500|
-|  0|B  |male   |  900|
-|  1|B  |male   |  100|
-|  0|A  |female |  100|
-|  1|A  |female |  900|
-|  0|B  |female |  500|
-|  1|B  |female |  500|
+|  y| tx|    sex| freq|
+|--:|--:|------:|----:|
+|  0|  A|   male|  500|
+|  1|  A|   male|  500|
+|  0|  B|   male|  900|
+|  1|  B|   male|  100|
+|  0|  A| female|  100|
+|  1|  A| female|  900|
+|  0|  B| female|  500|
+|  1|  B| female|  500|
 
 
 ```r
@@ -222,19 +222,21 @@ for(frac in fraction.females) {
 
 
 ```r
-cbind(fraction.females, OR)
+kable(cbind(fraction.females, OR), row.names=FALSE, align='r',
+      col.names=c('Fraction of females retained', 'OR'))
 ```
 
-```
-     fraction.females   OR
-[1,]             1.00 5.44
-[2,]             0.80 5.47
-[3,]             0.60 5.57
-[4,]             0.40 5.84
-[5,]             0.20 6.54
-[6,]             0.10 7.33
-[7,]             0.05 7.99
-```
+
+
+| Fraction of females retained|   OR|
+|----------------------------:|----:|
+|                         1.00| 5.44|
+|                         0.80| 5.47|
+|                         0.60| 5.57|
+|                         0.40| 5.84|
+|                         0.20| 6.54|
+|                         0.10| 7.33|
+|                         0.05| 7.99|
 
 The marginal OR depends on the distribution of the sex variable in the sample, and does not transport to populations with a different sex ratio than the trial enrollment achieved.  It is conditional (adjusted) ORs that generalize to other populations.  These calculations illustrate that the sex-conditional OR equals the marginal OR only if the distribution is altered so that the conditioning doesn't matter (e.g., all the males or all the females are excluded).  But what is the exact interpretation of the original marginal OR of 5.44 since it involves hidden conditioning on a 1:1 sex ratio in our example?  A definition for this example is that 5.44 is the unconditional OR _only when there are equal numbers of males and females_ because that's how the sample was constituted.  But what is the interpretation when one wants to apply the RCT results to individual patients?  It would seem to apply only to those rare situations where the patient is being counseled but for some reason we don't know the patient's sex^[Note that the example is oversimplified because we are using an out-of-date binary conceptualization of sex.].  The marginal estimate needs the physician to conceptualize the clinical population (or at least the sex ratio) from which the patient came since it does not want to take into account the patient's actual sex.
 
