@@ -97,7 +97,7 @@ Transportability of treatment effect estimates depends on the nature of interact
 <div id="boxes"><div id="leftbox">
 Hyperlinking to a section from the table of contents will not work unless that section is currently expanded.
 </div><div id="rightbox">
-
+{{% toc %}}
 </div></div><div class="clear"></div>
 </details>
   
