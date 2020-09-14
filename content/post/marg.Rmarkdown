@@ -102,7 +102,7 @@ for(frac in fraction.females) {
 }
 ```
 
-```{r printmatrix}
+```{r printmatrix} 
 kable(cbind(fraction.females, OR), row.names=FALSE, align='r',
       col.names=c('Fraction of females retained', 'OR'))
 ```
