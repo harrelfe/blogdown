@@ -12,7 +12,7 @@ title = "Statistical Thinking"
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2018-2020"
 
-theme = "wowchemy-hugo-modules"
+theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
