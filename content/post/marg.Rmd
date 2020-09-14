@@ -1,5 +1,5 @@
 ---
-title: "Unadjused Odds Ratios are Conditional"
+title: "Unadjusted Odds Ratios are Conditional"
 author: "Frank Harrell"
 date: "`r Sys.Date()`"
 output:
@@ -11,10 +11,8 @@ output:
     use_bookdown: true
     toc_depth: 3
     fig_caption: true
-    code_folding: hide
-    pandoc_args: ["--number-offset=21,0"]
+    code_folding: show
 link-citations: yes
-css: readthedown.css
 description: "This article discusses issues with unadjusted effect ratios such as odds ratios and hazard ratios, showing a simple example of non-generalizability of unadjusted odds ratios."
 ---
 
