@@ -1,4 +1,4 @@
-# Configuration of Academic
+# Configuration of Academic Theme
 # Documentation: https://sourcethemes.com/academic/
 
 # The URL of your website.
@@ -19,7 +19,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
 
-# Enable comments by entering your Disqus shortname
+# Enable comments by entering your Disqus short name
 # disqusShortname = ""
 disqusShortname = "fharrell"
 
