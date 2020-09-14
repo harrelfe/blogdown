@@ -10,9 +10,9 @@ title = "Statistical Thinking"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018-2019"
+copyright = "&copy; 2018-2020"
 
-theme = "hugo-academic"
+theme = "wowchemy-hugo-modules"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
